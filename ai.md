@@ -1,5 +1,23 @@
 # AI:
 
+## Post KO Switch in
+    if (aiMonSpeed >= playerMonSpeed && aiMonSpecies == SPECIES_PALAFIN_ZERO)
+        switchInScores[battler] = 7;
+    else if (aiMonSpeed >= playerMonSpeed && hitsToFaintPlayer == 1)
+        switchInScores[battler] = 6;
+    else if (hitsToFaintPlayer == 1 && hitsToFaintAI > 1)
+        switchInScores[battler] = 5;
+    else if (aiMonSpeed >= playerMonSpeed && hitsToFaintAI >= hitsToFaintPlayer)
+        switchInScores[battler] = 4;
+    else if (aiMonSpeed < playerMonSpeed && hitsToFaintAI > hitsToFaintPlayer)
+        switchInScores[battler] = 3;
+    else if (aiMonSpeed >= playerMonSpeed)
+        switchInScores[battler] = 2;
+    else
+        switchInScores[battler] = 1;
+
+* Will translate later but it should be understanable
+
 ## Targetting in double battles if one mon sees kill
     Ai side:        Battler 1 Battler 3
     Player side:    Battler 0 Battler 2
