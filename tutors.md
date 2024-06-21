@@ -2,18 +2,18 @@
 
 * One set of tutors is available throuhg the menu based on badges. The move tutors in the other set are taught in the overworld.
 
-## Stone Badge:
+## Stone Badge
 * Fire Fang
 * Ice Fang
 * Thunder Fang
 
-## Knuckle Badge:
+## Knuckle Badge
 * Fire Punch
 * Ice Punch
 * Thunder Punch
 * Brick Break
 
-## Dynamo Badge:
+## Dynamo Badge
 * Ice Spinner
 * Waterfall
 * Seed Bomb
@@ -23,7 +23,7 @@
 * Iron Head
 * Crunch
 
-## Rain Badge:
+## Rain Badge
 * Rock Tomb
 * Bulldoze
 * Icy Wind
@@ -31,20 +31,25 @@
 * Low Sweep
 * Mud Shot
 
-## Balance Badge:
+## Balance Badge
 * Shock Wave
 * Aerial Ace
 * Magical Leaf
 * Aura Sphere
 * Smart Strike
 
-## Mind Badge:
+## Feather Badge
+* Dual Wingbeat
+* Grassy Glide
+* Flip Turn
+
+## Mind Badge
 * Expanding Force
 * Risising Voltage
 * Supercell Slam
 * Upper Hand
 
-## Heat Badge:
+## Heat Badge
 * Leaf Storm
 * Draco Meteor
 * Overheat

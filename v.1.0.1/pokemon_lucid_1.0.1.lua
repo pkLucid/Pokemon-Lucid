@@ -1699,7 +1699,7 @@ mons = {
 "Arrokuda",
 "Barraskewda",
 "Toxel",
-"Toxtricity-Amped",
+"Toxtricity",
 "Sizzlipede",
 "Centiskorch",
 "Clobbopus",

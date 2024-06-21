@@ -1,30 +1,26 @@
 # AI:
 
 ## Post KO Switch in
-    if (aiMonSpeed >= playerMonSpeed && aiMonSpecies == SPECIES_PALAFIN_ZERO)
-        switchInScores[battler] = 7;
-    else if (aiMonSpeed >= playerMonSpeed && hitsToFaintPlayer == 1)
-        switchInScores[battler] = 6;
-    else if (hitsToFaintPlayer == 1 && hitsToFaintAI > 1)
-        switchInScores[battler] = 5;
-    else if (aiMonSpeed >= playerMonSpeed && hitsToFaintAI >= hitsToFaintPlayer)
-        switchInScores[battler] = 4;
-    else if (aiMonSpeed < playerMonSpeed && hitsToFaintAI > hitsToFaintPlayer)
-        switchInScores[battler] = 3;
-    else if (aiMonSpeed >= playerMonSpeed)
-        switchInScores[battler] = 2;
-    else
-        switchInScores[battler] = 1;
 
-* Will translate later but it should be understanable
+* Palafin outspeeds current player mon: + 7
+* AI Mon faster (or speed tie) and can faint target: + 6
+* AI Mon faints target and is not dead to player: +5
+* AI Mon faster (or speed tie) and outdamages: + 4
+* AI Mon slower and outdamages: +3
+* AI Mon faster (or speed tie): +2
+* Party order
 
 ## Targetting in double battles if one mon sees kill
-    Ai side:        Battler 1 Battler 3
+    Ai side:        Battler 3 Battler 1
     Player side:    Battler 0 Battler 2
-* Battler 1 sees kill on Battler 2 -> Battler 3 will target battler 0
-* Battler 1 sees kill on Battler 0 -> Battler 3 will target battler 2
-* Battler 1 sees kill on battler both battlers -> Battler 1 targets Battler 2 and Battler 3 targets Battler 0
-* All the above apply to Battler 3
+
+* If Battler 1 sees kill on both player mons and battler 3 sees no kills, battler 1 targets battler 0 and battler 3 targets battler 2
+
+* If battler 1 sees kill on both player mons and battler 3 sees kill on battler 0, battler 3 targets battler 0 and battler 1 chooses battler 2
+
+* If both AI mons see kill on both targets, battler 3 will choose battler 2 and battler 1 will choose battler 0
+
+* If battler 3 sees kill on battler 0 and battler 1 sees kill on battler 2, battler 3 targets battler 0 and battler 1 targets battler 2
 
 ## kill on target
 * kill: +4
