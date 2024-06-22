@@ -36,7 +36,7 @@
   For exmaple when Overheat and Flamethrower have the same number of hits to faint AI
   Flamethrower gets a plus one score.
 * When AI sees a kill with several moves a move with a positive effect gets +1.
-  e.g. When Slash and Bulldoze both kill, Bullsdoze gets a +1.
+  e.g. When Slash and Bulldoze both kill, Bulldoze gets a +1.
   (see AI_IsMoveEffectInPlus and AI_IsMoveEffectInMinus)
 
 ## How damage is seen
