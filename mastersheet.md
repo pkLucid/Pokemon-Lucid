@@ -556,7 +556,7 @@ Porygon2 Lv.38 @Eviolite: Tri Attack, Ice Beam, Thunderbolt, Thunder Wave [Analy
 Espathra Lv.38 @Fairy Feather: Lumina Crash, Dazzling Gleam, Energy Ball, Hypnosis [Speed Boost|Modest]  
 Clefable Lv.40 @Leftovers: Moonblast, Psychic, Fire Blast, Calm Mind [Unaware|Bold]  
 
-### Teammates Tyra and Ivy
+### Teammates Tyra and Ivy [Double]
 Roserade Lv.42 @Focus Sash: Sludge Bomb, Energy Ball, Extrasensory, Dazzling Gleam [Poison Point|Modest]  
 Golem Lv.42 @Covert Cloak: Stone Edge, Stomping Tantrum, Hammer Arm, Fire Punch [Sturdy|Adamant]  
 
@@ -568,7 +568,7 @@ Braviary-Hisui Lv.39 @Covert Cloak: Esper Wing, Air Slash, Heat Wave, Roost [Tin
 ### Hiker Lenny [Double /w Lucas]
 Flygon Lv.40 @Focus Sash: Earthquake, Scale Shot, Crunch, Rock Slide [Levitate|Jolly]  
 
-### Picknicker Nancy [Should be a Double but is not currently]
+### Picknicker Nancy [Double]
 Electabuzz Lv.38 @Eviolite: Thunderbolt, Psychic, Charge Beam, Follow Me [Static|Bold]  
 Primarina Lv.38 @Lum Berry: Hyper Voice, Alluring Voice, Psychic Noise, Sing [Liquid Voice|Modest]  
 Magmar Lv.38 @Eviolite: Flamethrower, Psychic, Scorching Sands, Follow Me [Flame Body|Bold]  
