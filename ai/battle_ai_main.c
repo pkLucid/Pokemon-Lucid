@@ -368,7 +368,7 @@ void Ai_UpdateFaintData(u32 battler)
     aiMon->isFainted = TRUE;
 }
 
-static void SetBattlerAiData(u32 battler, struct AiLogicData *aiData)
+void SetBattlerAiData(u32 battler, struct AiLogicData *aiData)
 {
     u32 ability, holdEffect;
 
@@ -382,7 +382,7 @@ static void SetBattlerAiData(u32 battler, struct AiLogicData *aiData)
     aiData->speedStats[battler] = GetBattlerTotalSpeedStatArgs(battler, ability, holdEffect);
 }
 
-static void SetBattlerAiGimmickData(u32 battler, struct AiLogicData *aiData)
+void SetBattlerAiGimmickData(u32 battler, struct AiLogicData *aiData)
 {
     bool32 isSecondTrainer = (GetBattlerPosition(battler) == B_POSITION_OPPONENT_RIGHT) && (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS) && !BATTLE_TWO_VS_ONE_OPPONENT;
     u16 trainerId = isSecondTrainer ? gTrainerBattleOpponent_B : gTrainerBattleOpponent_A;
@@ -1591,7 +1591,7 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                 ADJUST_SCORE(FAILS_OR_BAD);
             break;
         case EFFECT_ENDURE:
-            if (GetBattlerSecondaryDamage(battlerAtk))
+            if (gMovesInfo[gBattleStruct->lastUsedMoveByBattler[battlerAtk]].effect == EFFECT_ENDURE || GetBattlerSecondaryDamage(battlerAtk))
                 ADJUST_SCORE(FAILS_OR_BAD);
             break;
         case EFFECT_MIRACLE_EYE:
@@ -2603,12 +2603,6 @@ static u32 AI_CalcEffectScore(u32 battlerAtk, u32 battlerDef, u32 move)
             break;
         else if (gBattleMons[battlerAtk].species == SPECIES_PALAFIN_ZERO)
             RETURN_SCORE(ALWAYS_CHOSEN);
-        else if (aiData->abilities[battlerAtk] == ABILITY_INTIMIDATE)
-            ADJUST_SCORE(BEST_EFFECT);
-        else if (IsBattlerFirstTurnOrRandom(battlerAtk)
-              && CanBattlerFaintTarget(battlerDef, battlerAtk)
-              && AI_IsFaster(battlerAtk, battlerDef, move))
-            RETURN_SCORE(BEST_EFFECT);
         break;
     case EFFECT_BATON_PASS:
         if (ShouldSwitch(battlerAtk, FALSE) && (gBattleMons[battlerAtk].status2 & STATUS2_SUBSTITUTE
@@ -2669,6 +2663,11 @@ static u32 AI_CalcEffectScore(u32 battlerAtk, u32 battlerDef, u32 move)
         }
         break;
     case EFFECT_PROTECT:
+        if (gMovesInfo[gBattleStruct->lastUsedMoveByBattler[battlerAtk]].effect == EFFECT_PROTECT)
+        {
+            ADJUST_SCORE(FAILS_OR_BAD);
+            break;
+        }
         switch (move)
         {
         case MOVE_QUICK_GUARD:
@@ -3183,7 +3182,7 @@ static u32 AI_CalcFaintScore(u32 battlerAtk, u32 battlerDef, u32 move)
         if (AI_IsFaster(battlerAtk, battlerDef, move))
             faintScore += GOOD_EFFECT;
 
-        if (gMovesInfo[move].effect == EFFECT_HIT_ESCAPE && CountUsablePartyMons(battlerAtk) > 0)
+        if (gMovesInfo[move].effect == EFFECT_HIT_ESCAPE && CountUsablePartyMons(battlerAtk) > 0 && RandomPercentage(RNG_NONE, 50))
             faintScore += GOOD_EFFECT;
 
         if (gMovesInfo[move].effect == EFFECT_PURSUIT)
