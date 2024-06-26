@@ -921,7 +921,7 @@ Greninja Lv.60 @Loaded Dice: Water Shuriken, Dark Pulse, Extrasensory, Mud Shot 
 
 ## Fortree City
 
-* Static Tapu Koko after Winona. All stats +1
+* Static Level 70 Tapu Koko after Winona. All stats +1
 
 ## Fortree Gym
 
