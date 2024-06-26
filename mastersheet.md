@@ -698,7 +698,7 @@ Zoroark Lv.53 @Black Glasses: Night Daze, Extrasensory, Burning Jealousy, U-Turn
 Armarouge Lv.55 @White Herb: Armor Cannon, Aura Sphere, Flash Cannon, Dark Pulse [Mega Launcher|Modest]  
 Samurott Lv.55 @Assault Vest: Liquidation, Sacred Sword, Knock Off, X-Scissor [Torrent|Adamant]  
 Urshifu Lv.53 @Focus Sash: Wicked Blow, Close Combat, Poison Jab, Bulk Up [Unseen Fist|Careful]  
-Hydreigon Lv.55 @Pecha Berry: Belch, Dragon Pulse, Dark Pulse, Tailwind [Levitate|Timid]  
+Hydreigon Lv.55 @Pecha Berry: Belch, Dragon Pulse, Dark Pulse, Tailwind [Levitate|Timid|Poison|Tera Poison]  
 
 ## Rotue 111 [Permanent Sandstorm]
 
