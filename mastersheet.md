@@ -919,6 +919,10 @@ Dusknoir Lv.62 @Punching Glove: Shadow Punch, Ice Punch, Thunder Punch, Destiny 
 Serperior Lv.60 @Focus Band: Leaf Storm, Dragon Pulse, Knock Off, Glare [Contrary|Timid]  
 Greninja Lv.60 @Loaded Dice: Water Shuriken, Dark Pulse, Extrasensory, Mud Shot [Torrent|Modest]  
 
+## Fortree City
+
+* Static Tapu Koko after Winona. All stats +1
+
 ## Fortree Gym
 
 
