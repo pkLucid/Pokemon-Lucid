@@ -111,13 +111,13 @@ Tinkatuff Lv.16 @Metal Coat: Play Rough, Metal Claw, Rock Tomb, Swords Dance [Pi
 * Items: Ability Capsule (Hidden), Moon Stone
 * Land: 20% Sandshrew-Alola, 15% Meowth-Galar, 15% Cufant, 10% Zigzagoon-Galar, 10% Hatenna, 10% Tinkatink, 10% Pawniard, 5% Houndour, 5% Stunky
 
-### Youngster Johnson [Double w/ School Kid Jerry]
-Rattata-Alola Lv.-2 @Silk Scarf: Hyper Fang, Feint Attack, Quick Attack [Hustle|Jolly]  
-Croagunk Lv.-2 @Black Belt: Vacuum Wave, Venoshock, Fake Out [Poison Touch|Modest]  
-
 ### School Kid Jerry [Double w/ Youngster Johnson]
 Skiddo Lv.-2 @Oran Berry: Seed Bomb, Stomping Tantrum, Milk Drink [Sap Sipper|Adamant]  
 Chatot Lv.-2 @Silk Scarf: Echoed Voice, Air Cutter, Roost [Keen Eye|Modest]  
+
+### Youngster Johnson [Double w/ School Kid Jerry]
+Rattata-Alola Lv.-2 @Silk Scarf: Hyper Fang, Feint Attack, Quick Attack [Hustle|Jolly]  
+Croagunk Lv.-2 @Black Belt: Vacuum Wave, Venoshock, Fake Out [Poison Touch|Modest]  
 
 ### Bug Catcher Jose [Double w/ Battle Girl Karen]
 Sizzlipede Lv.0 @Charcoal: Fire Lash, X-Scissor, Fire Spin [Flame Body|Adamant]  
