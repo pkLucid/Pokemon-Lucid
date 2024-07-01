@@ -22,12 +22,15 @@
 
 * If battler 3 sees kill on battler 0 and battler 1 sees kill on battler 2, battler 3 targets battler 0 and battler 1 targets battler 2
 
+## Deciding Roll
+* The AI always sees the 8th roll for everything when choosing a move or switching in Post KO. This applies to player damage. 
+
 ## kill on target
 * kill: +4
-* hit switch targer (dragon tail): + 2
+* hit switch target (dragon tail): + 2
 * in doubles double target moves: + 1
 * in singles ai is faster: + 2
-* in singles kill with hit escape move (u-turn): +2
+* in singles 50/50 on kill with hit escape move (u-turn): +2
 * in singles pursuit kill: + 1
 
 ## Damage moves scores
