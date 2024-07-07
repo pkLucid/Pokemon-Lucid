@@ -21,7 +21,6 @@
 * Pokabbie (battlespeed)
 * BSBob + RavePossum (map popups)
 * RavePossum (Pokedex in Party menu, battle backgrounds)
-* Grunt-Lucas (surfing overworlds)
 * Pierangeli (assets for charracters were taken from their branch) and Slawter666
 * merrp (Followers)
 * If I forgot to mention someone please bring it up
