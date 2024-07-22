@@ -13,6 +13,9 @@ Meteor Falls B1F1R:
 Stella Island:
 - Ogerpon (after Phoebe, Omniboosted +2)
 
+Game Corner:
+- Starter of your choice (after delivering mail in Evergrande City)
+
 Lake:
     Water:
     - 100% Shellos
@@ -30,7 +33,7 @@ Coast:
     Water:
     - 30% Fletchling
     - 30% Rowlet
-    - 20% Flamigo
+    - 20% Flamingo
     - 20% Emolga
     Rod:
     - 20% Azurill
@@ -425,9 +428,9 @@ Meteor Falls B1F1R:
     - 30% Tynamo
     - 30% Tympole
 
-Meteor Path [Double Encounter]:
+Meteor Path:
     Land:
-    - 20% Klawf
+    - 20% Kangaskhan
     - 15% Dracozolt
     - 15% Arctozolt
     - 10% Turtonator
@@ -437,17 +440,17 @@ Meteor Path [Double Encounter]:
     -  5% Iron Jugulis
     -  5% Iron Thorns
 
-Jagged Pass [Double Encounter]:
+Jagged Pass:
     Land:
     - 20% Tauros-Paldea-Combat
     - 15% Tauros-Paldea-Blaze
     - 15% Taruos-Paldea-Aqua
     - 10% Heracross
     - 10% Absol
-    - 10% Girafarig
-    - 10% Farfetch'd-Galar
-    -  5% Pinsir
-    -  5% Miltank
+    - 10% Kangaskhan
+    - 10% Klawf
+    -  5% Girafarig
+    -  5% Farfetch'd-Galar
 
 Sootopolis City:
     Land:
@@ -532,8 +535,11 @@ Mirage Tower 4F:
     - 10% Noibat
     -  5% Dwebble
     -  5% Archen
+    Rock Smash:
+    - 60% Anorith
+    - 40% Skorupi
 
-Mirage Tunnel [Double Encounter]:
+Mirage Tunnel:
     Land:
     - 20% Klawf
     - 15% Sigilyph
@@ -548,14 +554,14 @@ Mirage Tunnel [Double Encounter]:
 Mirage Town:
     Land:
     - 20% Maractus
-    - 15% Hippopotas
-    - 15% Mudbray
-    - 10% NidoranF
-    - 10% NidoranM
-    - 10% Starly
-    - 10% Fletchling
-    -  5% Roggenrola
-    -  5% Dwebble
+    - 15% Trapinch
+    - 15% Geodude
+    - 10% Anorith
+    - 10% Skorupi
+    - 10% Roggenrola
+    - 10% Aron
+    -  5% Sandshrew
+    -  5% Meowth-Galar
 
 Abandoned Ship:
     Surf:
@@ -632,7 +638,7 @@ Route 121:
     - 10% Murkrow
     -  5% Poipole
     -  5% Noibat
-    Land:
+    Water:
     - 30% Noibat
     - 30% Murkrow
     - 20% Bombirdier
@@ -787,7 +793,19 @@ New Mauville:
     - 10% Iron Bundle
     - 10% Iron Valiant
 
-EverGrande City:
+Desert Underpass:
+    Land:
+    - 20% Aerodactyl
+    - 15% Drilbur
+    - 15% Archen
+    - 10% Trapinch
+    - 10% Tinkatink
+    - 10% Anorith
+    - 10% Skorupi
+    -  5% Larvitar
+    -  5% Aron
+
+Evergrande City:
     Land:
     - 20% Gimmighoul
     - 15% Larvesta

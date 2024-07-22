@@ -1,14 +1,18 @@
 # AI:
 
 ## Post KO Switch in
-  * Palafin outspeeds current player mon: + 7
-  * AI Mon faster (or speed tie) and can faint target: + 6
-  * AI Mon faints target and is not dead to player: +5
-  * AI Mon faster (or speed tie) and outdamages: + 4
-  * AI Mon slower and outdamages: +3
-  * AI Mon faster (or speed tie): +2
-  * AI is slower and dies or is outdamaged +0
-  * Anthing else is +1
+  * Palafin outspeeds current player mon: + 8
+  * AI Mon faster and can faint target: + 7
+  * AI Mon faints target and is not dead to player: +6
+  * AI Mon faster and outdamages: + 5
+  * AI Mon slower and outdamages: +4
+  * AI Mon faster: +3
+  * AI is slower and dies in one hit +1
+  * Anthing else is +2
+
+## Speed
+  * AI sees a speed tie, Quick Claw and Quick Draw as faster
+  * Priority moves (includes effects that increase priority) are not seen by AI
 
 ## Targetting in double battles if one mon sees kill
     Ai side:        Battler 3 Battler 1
@@ -34,7 +38,7 @@
   Flamethrower gets a plus one score.
   * When AI sees a kill with several moves a move with a positive effect gets +1.
 
-## Positive move effects (100% chance get the effect)
+## Positive move effects (damage moves with 100% chance get the effect)
   * Double target moves in doubles
   * Sound moves if user is holding a Throat Spray
   * Crit moves that don't always crit
@@ -48,7 +52,7 @@
   * Speed Drop moves (e.g. Bulldoze)
   * Self boosting moves (e.g. power up punch, leaf storm with contrary)
 
-## Negative move effects
+## Negative move effects (damage moves with a negative side effect)
  * Recoil
  * Two turn moves (e.g. Bounce and Solar Beam)
  * Mind Blown, Steel Beam, Explosion type moves, Final Gambit
@@ -60,6 +64,15 @@
   * All calculations are done using the above mentioned roll
   * AI see only damage that it will actually deal. Something like Thunderbolt into Volt Absorb will be seen as 0 damage and receive a -20 score. Exceptions are Future Sight and Sucker Punch. Future Sight is always seen as 0 damage but doesn't get a decrease in score. Sucker Punch can get a decrease after the first time it has been used. (see IsDamageMoveUnusable)
   * Note: AI sees one roll lower for gems boost so the 7th (Might apply to type boosting items so just use the 7th roll to be save)
+  * The AI sees Tera Blast or stab increased damage as if it did Terastalize when it is possible for the mon to do it (including party)
+
+## Move effects:
+  * Moves with regular move effects generally get a +2/+3 if they apply. If I list some effects and don't specify a score you can assume that this is true
+  * Some effects get a +1 only in some rare instances. That makes them tied with best damage move
+  * Moves that target partner get a +10 if conditions apply
+  * Generally a move that faints the ai will have the highest score. Exceptions are TrickRoom and Protect.
+  * If a move would fail if used by AI it will get a -20
+  * For further information See AI_CalcMoveEffectScore
 
 ## Rocks / Screens
   * if AI outdamages and player has a way to remove field effect, no score increase
@@ -76,15 +89,14 @@
   * If player resists move, no score increase unless the move + best damage move kill next turn
   * In any other situation, increase score
 
-## Trap
-  * If player needs 4 or more hits to faint ai trapping move are preffered
-
 ## Set up
-  * AI will set up until it sees a kill unless it is faster and faints player in 2 hits after the initial(!) set up
+  * If player outspeeds and two taps, AI is not going to set up
+  * If AI is faster but you one tap it, it isn't going to set up
+  * If it set up the previous turn and is faster + can 2 tap it isn't going to set up
+  * If it can kill the player it isn't going to set up
+  * If it dies to secondary damage this turn AI does not set up
+  * If player has opportunist / unaware it is not going to set up
+  * In any other situation it sets up
 
-## Move effects:
-  * Moves with regular move effects generally get a +2/+3 if they apply, sometimes a +1 which makes them tied with best damage move
-  * Moves that target partner get a +10 if conditions apply
-  * Generally a move that faints the ai will have the highest score. Exceptions are TrickRoom and Protect.
-  * For further information See AI_CalcMoveEffectScore
-  * if
+## Trap
+  * If player needs 4 or more hits to faint ai trapping moves get an increase

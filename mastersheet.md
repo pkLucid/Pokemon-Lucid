@@ -12,14 +12,13 @@
 
 ### Coast
 * Rod: 20% Azurill, 20% Oshawott, 10% Croagunk, 10% Tirtouga, 10% Surskit, 10% Slowpoke, 5% Shellder, 5% Staryu, 4% Corphish, 4% Krabby, 2% Buizel
-* Water: 30% Rookidee, 30% Rowlet, 20% Fletchling, 20% Starly
+* Water: 30% Fletchling, 30% Rowlet, 20% Flamingo, 20% Emolga
 
 ### Ocean
 * Rod: 20% Magikarp, 20% Basculin, 10% Carvanha, 10% Feebas, 10% Chinchou, 10% Arrokuda, 5% Dratini, 5% Horsea, 4% Qwilfish-Hisui, 4% Skrelp, 2% Tapu Fini
-* Water: 40% Lapras, 30% Fletchling, 30% Starly
+* Water: 40% Lapras, 30% Fletchling, 30% Rowlet
 
 ## Route 102
-
 * Items: Muscle Band
 * Land: 20% Timburr, 15% Machop, 15% Pawmi, 10% Scraggy, 10% Pancham, 10% Makuhita, 10% Stuffel, 5% Mankey, 5% Ralts
 
@@ -36,7 +35,6 @@ Shroomish Lv.12 @Oran Berry: Spore, Bullet Seed [Effect Spore|Adamant]
 Torchic Lv.12 @Oran Berry: Flame Charge, Aerial Ace [Blaze|Adamant]  
 
 ## Petalburg Woods
-
 * Items: Berry Juice (Given)
 * Land: 20% Exeggcute, 15% Skiddo, 15% Deerling, 10% Oddish, 10% Budew, 10% Bounsweet, 10% Rowlet, 5% Poltchageist, 5% Foongus
 
@@ -49,7 +47,6 @@ Dewpider Lv.12 @Berry Juice: Bubble Beam, Silver Wind [Water Bubble|Modest]
 Dustox Lv.12 @Oran Berry: Bug Bite, Toxic, Moonlight [Shield Dust|Serious]  
 
 ## Route 104 (North)
-
 
 ### Rich Boy Windston
 Meowth Lv.12 @Amulet Coin: Pay Day, Bite [Technician|Adamant]  
@@ -67,12 +64,9 @@ Mew Lv.15 @Oran Berry: Transform [Synchronize|Hardy]
 Ditto Lv.15 @Oran Berry: Transform [Imposter|Hardy]  
 
 ## Rustboro City
-
-* Items: Quick Claw
-* Land: 20% Sandshrew, 15% Phanpy, 15% Drilbur, 10% Teddiursa, 10% Swinub, 10% Rhyhorn, 10% Geodude, 5% NidoranF, 5% NidoranM
+* Land: 20% Sandshrew, 15% Phanpy, 15% Drilbur, 10% Cubone, 10% Hippopotas, 10% Rhyhorn, 10% Geodude, 5% NidoranF, 5% NidoranM
 
 ## Rustboro Gym
-
 
 ### Youngster Josh
 Hippopotas Lv.15 @Berry Juice: Stomping Tantrum, Crunch, Take Down, Rock Tomb [Sand Force|Adamant]  
@@ -100,23 +94,22 @@ Klawf Lv.14 @Lum Berry: Rock Throw, Trailblaze, Bulldoze [Anger Shell|Hardy]
 Tinkatuff Lv.16 @Metal Coat: Play Rough, Metal Claw, Rock Tomb, Swords Dance [Pickpocket|Serious]  
 
 ## Route 116
-
 * Items: Ability Capsule (Hidden), Moon Stone
-* Land: 20% Sandshrew-Alola, 15% Meowth-Galar, 15% Cufant, 10% Zigzagoon-Galar, 10% Hatenna, 10% Tinkatink, 10% Pawniard, 5% Houndour, 5% Stunky
+* Land: 20% Sandshrew-Alola, 15% Meowth-Galar, 15% Cufant, 10% Zigzagoon-Galar, 10% Hatenna, 10% Varoom, 10% Pawniard, 5% Houndour, 5% Stunky
 
-### School Kid Jerry [Double w/ Youngster Johnson]
+### School Kid Jerry and Youngster Johnson
 Skiddo Lv.-2 @Oran Berry: Seed Bomb, Stomping Tantrum, Milk Drink [Sap Sipper|Adamant]  
 Chatot Lv.-2 @Silk Scarf: Echoed Voice, Air Cutter, Roost [Keen Eye|Modest]  
 
-### Youngster Johnson [Double w/ School Kid Jerry]
+### School Kid Jerry and Youngster Johnson
 Rattata-Alola Lv.-2 @Silk Scarf: Hyper Fang, Feint Attack, Quick Attack [Hustle|Jolly]  
 Croagunk Lv.-2 @Black Belt: Vacuum Wave, Venoshock, Fake Out [Poison Touch|Modest]  
 
-### Bug Catcher Jose [Double w/ Battle Girl Karen]
+### Bug Catcher Jose and Battle Girl Karen
 Sizzlipede Lv.0 @Charcoal: Fire Lash, X-Scissor, Fire Spin [Flame Body|Adamant]  
 Trapinch Lv.0 @Lum Berry: Crunch, Bug Bite, Rock Tomb [Arena Trap|Adamant]  
 
-### Battle Girl Karen [Double w/ Bug Catcher Jose]
+### Bug Catcher Jose and Battle Girl Karen
 Buneary Lv.0 @Black Belt: Dizzy Punch, Drain Punch, Fake Out [Run Away|Adamant]  
 Oddish Lv.0 @Black Sludge: Venoshock, Giga Drain, Toxic [Chlorophyll|Modest]  
 
@@ -132,15 +125,14 @@ Aron Lv.0 @Expert Belt: Iron Head, Rock Slide, Rock Smash, Aerial Ace [Sturdy|Ad
 Klink Lv.0 @Lum Berry: Gear Grind, Wild Charge, Shift Gear [Clear Body|Adamant]  
 
 ## Route 117
-
 * Items: Berry Juice, Sun Stone
 * Land: 20% Gossifleur, 15% Cottonee, 15% Petilil, 10% Oddish, 10% Budew, 10% Bounsweet, 10% Rowlet, 5% Sewaddle, 5% Applin
 
-### Triathlete Maria [Double w/ Triathlete Melina]
+### Triathlete Maria and Triathlete Melina
 Ponyta Lv.0 @Berry Juice: Flame Wheel, Low Kick, Morning Sun [Fiery Charge|Jolly]  
 Yanma Lv.0 @Berry Juice: Leech Life, Wing Attack, Detect [Speed Boost|Adamant]  
 
-### Triathlete Melina [Double w/ Triathlete Maria]
+### Triathlete Maria and Triathlete Melina
 Snivy Lv.0 @Berry Juice: Seed Bomb, Aqua Tail, Synthesis [Overgrow|Jolly]  
 Froakie Lv.0 @Berry Juice: Liquidation, Acrobatics, Quick Attack [Torrent|Adamant]  
 Chimchar Lv.0 @Berry Juice: Fire Punch, Drain Punch, Fake Out [Iron Fist|Jolly]  
@@ -152,8 +144,10 @@ Magby Lv.0 @Oran Berry: Fire Punch, Brick Break [Flame Body|Adamant]
 Bonsly Lv.0 @Oran Berry: Rock Slide, Earthquake [Sturdy|Adamant]  
 Munchlax Lv.0 @Oran Berry: Slam [Gluttony|Adamant]  
 
-## Petalburg Woods (Part 2)
+## Woods Hideout
+* Land: 20% Scatterbug, 15% Venipede, 15% Grubbin, 10% Fomantis, 10% Bellsprout, 10% Nymble, 10% Ekans, 5% Dwebble, 5% Foongus
 
+## Petalburg Woods (Part 2)
 
 ### Bug Maniac Anthony
 Voltorb-Hisui Lv.22 @Silk Scarf: Wild Charge, Seed Bomb, Light Screen, Explosion [Static|Adamant]  
@@ -175,7 +169,6 @@ Illumise Lv.23 @Wise Glasses: Dazzling Gleam, Struggle Bug, Water Pulse, Moonlig
 
 ## Route 104 (South)
 
-
 ### Lady Cindy
 Espeon Lv.23 @Fairy Feather: Psybeam, Draining Kiss, Swift, Morning Sun [Magic Bounce|Quirky]  
 Umbreon Lv.23 @Dark Gem: Snarl, Alluring Voice, Confuse Ray, Moonlight [Inner Focus|Serious]  
@@ -186,7 +179,6 @@ Charmeleon Lv.23 @Charcoal: Fire Pledge, Dragon Pulse, Ancient Power, Fire Spin 
 Wartortle Lv.23 @Mystic Water: Water Pledge, Ice Beam, Mud Shot, Aqua Jet [Torrent|Modest]  
 
 ## Dewford Gym
-
 
 ### Sailor Brenden
 Gallade Lv.21 @White Herb: Brick Break, Psycho Cut, Aqua Cutter, Aerial Ace [Justified|Jolly]  
@@ -229,7 +221,6 @@ Tauros-Paldea-Aqua Lv.25 @Black Belt: Double Kick, Aqua Jet, Bulldoze, Rock Tomb
 Tauros-Paldea-Blaze Lv.25 @Black Belt: Temper Flare, Double Kick, Lash Out, Reversal [Intimidate|Hardy]  
 
 ## Route 109
-
 * Items: Heart Scale (Hidden), Berry Juice (Hidden), Ability Capsule (Hidden), Eviolite
 
 ### Sailor Huey
@@ -249,11 +240,11 @@ Ponyta-Galar Lv.32 @Choice Band: Play Rough, Psycho Cut, Stomp, Flame Wheel [Pas
 Mawile Lv.32 @Choice Band: Play Rough, Fire Fang, Ice Fang, Thunder Fang [Intimidate|Adamant]  
 Wigglytuff Lv.32 @Choice Band: Play Rough, Body Slam [Competitive|Adamant]  
 
-### Ricky Tuber(M) [Double w/ Battle with Tuber(M) Chandler]
+### Ricky Tuber(M) and Chandler Tuber(M)
 Tentacruel Lv.30 @Poison Barb: Scald, Venoshock, Hex, Toxic [Liquid Ooze|Modest]  
 Golduck Lv.30 @Twisted Spoon: Waterfall, Zen Headbutt, Ice Punch, Hypnosis [Swift Swim|Adamant]  
 
-### Chandler Tuber(M) [Double w/ Tuber(M) Ricky]
+### Ricky Tuber(M) and Chandler Tuber(M)
 Seaking Lv.30 @Life Orb: Waterfall, Drill Run, Poison Jab, Scale Shot [Lightning Rod|Adamant]  
 Ludicolo Lv.30 @Wise Glasses: Bubble Beam, Magical Leaf, Aurora Beam, Fake Out [Swift Swim|Modest]  
 
@@ -265,22 +256,20 @@ Armaldo Lv.30 @Rock Gem: Rock Tomb, Bug Bite, Bulldoze, Aqua Jet [Battle Armor|A
 Simipour Lv.30 @Flying Gem: Scald, Acrobatics [Torrent|Serious]  
 
 ## Slateport City
-
 * Tutors: Burning Jealousy, Scorching Sands
 * Shop TMs: Fake Tears, Scary Face, Metal Sound, Eearie Impulse, Toxic, Defog, Haze
 * Items: Boosting Items, Moon Stone, Sun Stone, Thunder Stone, Leaf Stone, Fire Stone, Water Stone, Linking Cord, Shiny Stone, Dusk Stone, Dawn Stone, Ice Stone
 * Rod: 40% Tentacool, 40% Toxel, 20% Bruxish
 
 ## Route 110
-
 * Items: Protective Pads
-* Land: 20% Mareep, 15% NidoranF, 15% NidoranM, 10% Cottonee, 10% Cutiefly, 10% Teddiursa, 10% Swinub, 5% Pawmi, 5% Shinx
+* Land: 20% Mareep, 15% NidoranF, 15% NidoranM, 10% Cottonee, 10% Cutiefly, 10% Pawmi, 10% Shinx, 5% Sandshrew, 5% Phanpy
 
-### Pokefan Isabel [Double w/ Pokefan Kaleb]
+### Pokefan Isabel and Pokefan Kaleb
 Raichu-Alola Lv.30 @Focus Sash: Thunderbolt, Psyshock, Draining Kiss, Nuzzle [Surge Surfer|Timid]  
 Nidoqueen Lv.30 @Lum Berry: Earth Power, Sludge Bomb, Ice Beam, Thunderbolt [Poison Point|Modest]  
 
-### Pokefan Kaleb [Double w/ Pokefan Isabel]
+### Pokefan Isabel and Pokefan Kaleb
 Raichu Lv.30 @Air Balloon: Thunder Punch, Iron Tail, Body Slam, Fake Out [Static|Adamant]  
 Nidoking Lv.30 @Lum Berry: Drill Run, Poison Jab, Thunder Punch, Smart Strike [Poison Point|Adamant]  
 
@@ -290,11 +279,11 @@ Simisage Lv.30 @Grass Gem: Seed Bomb, Brick Break, Knock Off, Growth [Gluttony|A
 Charmeleon Lv.30 @Muscle Band: Fire Punch, Thunder Punch, Brick Break, Swords Dance [Blaze|Adamant]  
 Croconaw Lv.30 @Expert Belt: Waterfall, Ice Punch, Rock Slide, Dragon Dance [Torrent|Adamant]  
 
-### Youngster Jaylen [Double w/ Youngster Dillon]
+### Youngster Jaylen and Youngster Dillon
 Lumineon Lv.30 @Flying Gem: Hydro Pump, Ice Beam, Air Slash, Whirlpool [Storm Drain|Timid]  
 Flareon Lv.30 @Choice Scarf: Burning Jealousy, Scorching Sands [Flash Fire|Modest]  
 
-### Youngster Dillon [Double w/ Youngster Jaylen]
+### Youngster Jaylen and Youngster Dillon
 Sawsbuck Lv.30 @White Herb: Seed Bomb, Headbutt, Zen Headbutt, Stomping Tantrum [Leaf Rush|Jolly]  
 Sandslash Lv.30 @Soft Sand: Drill Run, Poison Jab, Rock Slide, Spiky Shield [Sand Rush|Adamant]  
 
@@ -318,7 +307,6 @@ Drakloak Lv.32 @Wise Glasses: Dragon Pulse, Shadow Ball, Fire Blast, U-turn [Cur
 Lopunny Lv.32 @Fighting Gem: Retaliate, Sky Uppercut, Acrobatics, Fake Out [Limber|Adamant]  
 
 ## Mauville Gym
-
 
 ### Bug Catcher Angelo
 Galvantula Lv.32 @Focus Sash: Discharge, X-Scissor, Throat Chop, Sticky Web [Compound Eyes|Naughty]  
@@ -359,55 +347,53 @@ Dracozolt Lv.31 @Magnet: Dragon Claw, Thunder Punch, High Horsepower, Thunder Wa
 Pawmot Lv.32 @Focus Sash: Double Shock, Drain Punch, Thunder Punch, Seed Bomb [Volt Absorb|Adamant]  
 
 ## Route 111
-
 * Items: Heavy Duty Boots, Safety Goggles
 * Land: 20% Gligar, 15% Trapinch, 15% Sandile, 10% Larvitar, 10% Nacli, 10% Drilbur, 10% Skorupi, 5% Sandshrew, 5% Dwebble
 * Rod: 40% Barboach, 30% Tynamo, 30% Tympole
 * Rock Smash: 60% Dwebble, 40% Trapinch
 
-### Camper Tyron [Double w/ Hayden]
+### Camper Tyron and Kindler Hayden
 Sandslash Lv.38 @Focus Sash: Drill Run, Rock Slide, X-Scissor, Shadow Claw [Sand Rush|Adamant]  
 Lycanroc Lv.38 @Focus Sash: Rock Slide, Stomping Tantrum, Sucker Punch, Accelerock [Sand Rush|Adamant]  
 Stoutland Lv.38 @Covert Cloak: Body Slam, Crunch, Stomping Tantrum, Reversal [Sand Rush|Adamant]  
 
-### Kindler Hayden [Double w/ Tyron]
+### Camper Tyron and Kindler Hayden
 Hippowdon Lv.40 @Focus Sash: Stomping Tantrum, Crunch, Thunder Fang, Fire Fang [Sand Stream|Adamant]  
 
-### Aroma Lady Celina [Double w/ Bianca]
+### Aroma Lady Celina and Picnicker Bianca
 Ninetales-Alola Lv.40 @Focus Sash: Moonblast, Ice Beam, Freeze-Dry, Icy Wind [Snow Warning|Timid]  
 
-### Picnicker Bianca [Double w/ Celina]
+### Aroma Lady Celina and Picnicker Bianca
 Sandslash-Alola Lv.38 @Focus Sash: Ice Punch, Iron Head, Drill Run, Ice Shard [Slush Rush|Adamant]  
 Beartic Lv.38 @Focus Sash: Ice Punch, Brick Break, Throat Chop, Heavy Slam [Slush Rush|Adamant]  
 Arctovish Lv.38 @Covert Cloak: Icicle Crash, Waterfall, Psychic Fangs, Crunch [Slush Rush|Adamant]  
 
-### Camper Travis [Double w/ Wilton]
+### Camper Travis and Cooltrainer Wilton
 Golduck Lv.38 @Focus Sash: Scald, Ice Beam, Psychic, Focus Blast [Swift Swim|Modest]  
 Mantine Lv.38 @Focus Sash: Air Slash, Surf, Ice Beam, Confuse Ray [Swift Swim|Modest]  
 Drednaw Lv.38 @Covert Cloak: Liquidation, Rock Slide, Skitter Smack, High Horsepower [Swift Swim|Adamant]  
 
-### Cooltrainer Wilton [Double w/ Travis]
+### Camper Travis and Cooltrainer Wilton
 Politoed Lv.40 @Focus Sash: Scald, Ice Beam, Earth Power, Hypnosis [Drizzle|Calm]  
 
 ## Route 112
-
 * Tutors: Stomping Tantrum, Temper Flare
-* Items: Wide Lens, Flame Orb (Given)
+* Items: Wide Lens, Flame Orb (Given), Zoom Lens
 * Land: 20% Charcadet, 15% Growlithe, 15% Houndour, 10% Salandit, 10% Sizzlipede, 10% Fletchling, 10% Cyndaquil, 5% Ponyta, 5% Litleo
 
-### Camper Larry [Double w/ Carol]
+### Camper Larry and Picnicker Carol
 Ninetales Lv.40 @Focus Sash: Flamethrower, Solar Beam, Extrasensory, Scorching Sands [Drought|Modest]  
 
-### Picnicker Carol [Double w/ Larry]
+### Camper Larry and Picnicker Carol
 Salazzle Lv.38 @Focus Sash: Flamethrower, Sludge Bomb, Hyper Voice, Fake Out [Oblivious|Serious]  
 Sawsbuck Lv.38 @Focus Sash: Solar Blade, Body Slam, Zen Headbutt, Jump Kick [Leaf Rush|Adamant]  
 Leavanny Lv.38 @Covert Cloak: Solar Blade, X-Scissor, Poison Jab, Throat Chop [Chlorophyll|Adamant]  
 
-### Hiker Brice [Double w/ Trent]
+### Hiker Brice and Hiker Trent
 Conkeldurr Lv.38 @Expert Belt: Drain Punch, Thunder Punch, Poison Jab, Mach Punch [Iron Fist|Adamant]  
 Duraludon Lv.38 @Covert Cloak: Dragon Claw, Iron Head, Stone Edge, Thunder Wave [Stalwart|Adamant]  
 
-### Hiker Trent [Double w/ Brice]
+### Hiker Brice and Hiker Trent
 Bombirdier Lv.40 @Black Glasses: Dual Wingbeat, Knock Off, Stone Edge, Roost [Rocky Payload|Jolly]  
 Donphan Lv.38 @Grass Gem: High Horsepower, Seed Bomb, Ice Spinner, Ice Shard [Sturdy|Adamant]  
 
@@ -424,13 +410,11 @@ Arboliva Lv.38 @Focus Sash: Hyper Voice, Giga Drain, Earth Power, Mirror Coat [S
 Rotom-Mow Lv.38 @White Herb: Leaf Storm, Thunderbolt, Volt Switch, Thunder Wave [Levitate|Timid]  
 
 ## Fiery Path
-
 * Items: Auspicious Armor, Malicious Armor
 * Land: 20% Torkoal, 15% Growlithe-Hisui, 15% Houndour, 10% Charcadet, 10% Salandit, 10% Cyndaquil, 10% Litwick, 5% Sizzlipede, 5% Larvesta
 * Rock Smash: 60% Sizzlipede, 40% Skorupi
 
 ## Route 111
-
 * Items: Heavy Duty Boots, Safety Goggles
 * Land: 20% Gligar, 15% Trapinch, 15% Sandile, 10% Larvitar, 10% Nacli, 10% Drilbur, 10% Skorupi, 5% Sandshrew, 5% Dwebble
 * Rod: 40% Barboach, 30% Tynamo, 30% Tympole
@@ -450,7 +434,6 @@ Krookodile Lv.40 @Dark Gem: Crunch, Stomping Tantrum, Low Sweep, Dragon Tail [In
 Dubwool Lv.40 @Sitrus Berry: Retaliate, Grassy Glide, Payback, Reversal [Fluffy|Adamant]  
 
 ## Route 113
-
 * Items: Black Sludge
 * Land: 20% Poipole, 15% Sneasel, 15% Glimmet, 10% Murkrow, 10% Zorua, 10% Nymble, 10% Skorupi, 5% Zigzagoon-Galar, 5% Toxel
 
@@ -466,18 +449,18 @@ Ampharos Lv.38 @Leftovers: Thunderbolt, Dragon Pulse, Power Gem, Thunder Wave [S
 Tauros-Paldea-Aqua Lv.38 @Liechi Berry: Close Combat, Raging Bull, Earthquake, Aqua Jet [Intimidate|Jolly]  
 Pinsir Lv.38 @Lum Berry: X-Scissor, Close Combat, Stone Edge, Swords Dance [Moxie|Adamant]  
 
-### Ninja Boy Lao [Double w/ Ninja Boy Lung]
+### Ninja Boy Lao and Ninja Boy Lung
 Grimmsnarl Lv.38 @Covert Cloak: False Surrender, Spirit Break, Light Screen, Reflect [Prankster|Serious]  
 Typhlosion-Hisui Lv.38 @Bright Powder: Burning Jealousy, Infernal Parade, Thunder Punch, Will-O-Wisp [Frisk|Serious]  
 
-### Ninja Boy Lung [Double w/ Ninja Boy Lao]
+### Ninja Boy Lao and Ninja Boy Lung
 Banette Lv.40 @Quick Claw: Shadow Claw, Gunk Shot, Will-O-Wisp, Destiny Bond [Cursed Body|Adamant]  
 Cacturne Lv.40 @Focus Band: Energy Ball, Dark Pulse, Focus Blast, Destiny Bond [Water Absorb|Modest]  
 
 ### Twins Tori and Tia [Double]
 Rapidash Lv.38 @Soft Sand: Flare Blitz, Smart Strike, High Horsepower, Morning Sun [Flame Body|Jolly]  
 Rapidash-Galar Lv.38 @Soft Sand: Play Rough, Psycho Cut, High Horsepower, Morning Sun [Pastel Veil|Jolly]  
-Weavile Lv.38 @Focus Sash: Throat Chop, Ice Punch, X-Scissor, Fake Out [Inner Focus|Adamant]  
+Weavile Lv.38 @Focus Sash: Throat Chop, Ice Punch, X-Scissor, Fake Out [Pressure|Adamant]  
 Sneasler Lv.38 @Focus Sash: Poison Jab, Brick Break, X-Scissor, Fake Out [Unburden|Adamant]  
 
 ### Bird Keeper Coby
@@ -502,7 +485,6 @@ Slowking-Galar Lv.39 @Leftovers: Sludge Bomb, Eerie Spell, Scald, Yawn [Curious 
 Hitmontop Lv.39 @Expert Belt: Close Combat, Triple Axel, Drill Run, Fake Out [Intimidate|Adamant]  
 
 ## Route 114
-
 * Tutors: Slash, X-Scissor, Psycho Cut, Night Slash, Air Slash, Dig
 * Items: Ability Capsule (Hidden), Lagging Tail
 * Land: 20% Ralts, 15% Yanma, 15% Cutiefly, 10% Clefairy, 10% Ledyba, 10% Skorupi, 10% Nymble, 5% Aipom, 5% Minccino
@@ -523,7 +505,7 @@ Bellossom Lv.39 @Focus Sash: Solar Beam, Moonblast, Weather Ball, Growth [Chloro
 
 ### Fisherman Nolan
 Overqwil Lv.38 @Sitrus Berry: Crunch, Poison Jab, Barb Barrage, Toxic Spikes [Intimidate|Jolly]  
-Alomomola Lv.38 @Assault Vest: Flip Turn, Whirlpool, Aqua Ring [Regenerator|Sassy]  
+Crawdaunt Lv.38 @White Herb: Razor Shell, Knock Off, Superpower, Aqua Jet [Adaptability|Adamant]  
 Slowking Lv.38 @Leftovers: Psychic, Scald, Chilly Reception, Slack Off [Regenerator|Relaxed]  
 Walrein(m) Lv.39 @Expert Belt: Liquidation, Avalanche, Earthquake, Attract [Ice Body|Adamant]  
 
@@ -533,22 +515,9 @@ Veluza Lv.38 @Scope Lens: Aqua Cutter, Psycho Cut, Night Slash, Slash [Sharpness
 Starmie Lv.38 @Lum Berry: Surf, Psychic, Power Gem, Confuse Ray [Analytic|Modest]  
 Dondozo Lv.39 @Leftovers: Liquidation, Earthquake, Zen Headbutt, Ice Fang [Unaware|Adamant]  
 
-### Pokemaniac Steve
-Porygon2 Lv.38 @Eviolite: Tri Attack, Ice Beam, Thunderbolt, Thunder Wave [Analytic|Modest]  
-Espathra Lv.38 @Fairy Feather: Lumina Crash, Dazzling Gleam, Energy Ball, Hypnosis [Speed Boost|Modest]  
-Clefable Lv.40 @Leftovers: Moonblast, Psychic, Fire Blast, Calm Mind [Unaware|Bold]  
-
 ### Teammates Tyra and Ivy [Double]
 Roserade Lv.42 @Focus Sash: Sludge Bomb, Energy Ball, Extrasensory, Dazzling Gleam [Poison Point|Modest]  
 Golem Lv.42 @Covert Cloak: Stone Edge, Stomping Tantrum, Hammer Arm, Fire Punch [Sturdy|Adamant]  
-
-### Hiker Lenny [Double w/ Hiker Lucas]
-Flygon Lv.40 @Focus Sash: Earthquake, Scale Shot, Crunch, Rock Slide [Levitate|Jolly]  
-
-### Hiker Lucas [Double w/ Hiker Lenny]
-Gliscor Lv.39 @Flying Gem: Earthquake, Acrobatics, X-Scissor, Night Slash [Hyper Cutter|Adamant]  
-Crobat Lv.39 @Scope Lens: Cross Poison, Dual Wingbeat, Leech Life, Steel Wing [Inner Focus|Adamant]  
-Braviary-Hisui Lv.39 @Covert Cloak: Esper Wing, Air Slash, Heat Wave, Roost [Tinted Lens|Modest]  
 
 ### Picknicker Nancy [Double]
 Electabuzz Lv.38 @Eviolite: Thunderbolt, Psychic, Charge Beam, Follow Me [Static|Bold]  
@@ -578,28 +547,45 @@ Pyroar(m) Lv.38 @Power Herb: Flamethrower, Hyper Voice, Solar Beam, Will-O-Wisp 
 Hariyama Lv.38 @Flame Orb: Brick Break, Shadow Punch, Bullet Punch, Fake Out [Guts|Adamant]  
 Nidoqueen Lv.38 @Wise Glasses: Flamethrower, Ice Beam, Thunderbolt, Surf [Sheer Force|Modest]  
 
-## Lavaridge Town
+## Meteor Falls 1F1R
+* Land: 20% Beldum, 15% Drilbur, 15% Phanpy, 10% Rhyhorn, 10% Magnemite, 10% Varoom, 10% Pawniard, 5% Clefairy, 5% Gligar
+* Rod: 40% Barboach, 30% Tynamo, 30% Tympole
 
+## Meteor Falls 1F2R
+* Land: 20% Deino, 15% Beldum, 15% Tinkatink, 10% Teddiursa, 10% Magnemite, 10% Drilbur, 10% Sneasel, 5% Jangmo-o, 5% Frigibax
+* Rod: 40% Barboach, 30% Tynamo, 30% Tympole
+
+## Meteor Falls B1F1R
+* Land: 20% Dreepy, 15% Tinkatink, 15% Teddiursa, 10% Pawniard, 10% Magnemite, 10% Gligar, 10% Phanpy, 5% Deino, 5% Beldum
+* Rod: 40% Barboach, 30% Tynamo, 30% Tympole
+
+## Meteor Falls B1F2R
+* Omniboosted Level 90 Tapu Lele with Waterfall, faint to catch
+
+## Meteor Path
+* Items: Metal Alloy (Rock Smash), Peat Block (Rock Smash), Electirizer (Rock Smash), Magmarizer (Rock Smash), Protector (Rock Smash), Razor Claw (Rock Smash), Razor Fang (Rock Smash), Black Augurite (Rock Smash)
+* Land: 20% Kangaskhan, 15% Dracozolt, 15% Arctozolt, 10% Turtonator, 10% Druddigon, 10% Lunatone, 10% Solrock, 5% Iron Jugulis, 5% Iron Thorns
+
+## Jagged Pass
+* Tutors: Take Down
+* Items: Ability Capsule (Hidden)
+* Land: 20% Tauros-Paldea-Combat, 15% Tauros-Paldea-Blaze, 15% Taruos-Paldea-Aqua, 10% Heracross, 10% Absol, 10% Kangaskhan, 10% Klawf, 5% Girafarig, 5% Farfetch'd-Galar
+
+## Lavaridge Town
 * Tutors: Alluring Voice, Psychic Noise, Power Gem, Psyshock
 * Shop TMs: Volt Switch, U-Turn, Protect
 
-## Jagged Pass
-
-* Tutors: Take Down
-* Items: Ability Capsule (Hidden)
-
-### Picknicker Diana [Double w/ Ethan]
+### Picknicker Diana and Camper Ethan
 Staraptor Lv.38 @Flying Gem: Take Down, Acrobatics, Close Combat, U-turn [Intimidate|Jolly]  
 Arcanine Lv.38 @Fire Gem: Temper Flare, Play Rough, Extreme Speed, Howl [Intimidate|Jolly]  
 Luxray Lv.38 @Electric Gem: Thunder Fang, Psychic Fangs, Crunch, Howl [Guts|Jolly|Poison]  
 
-### Camper Ethan [Double w/ Diana]
+### Picknicker Diana and Camper Ethan
 Kangaskhan Lv.38 @Lum Berry: Headbutt, Hammer Arm, Rock Tomb, Fake Out [Inner Focus|Adamant]  
 Meowstic-F Lv.38 @Wise Glasses: Psychic, Energy Ball, Future Sight, Fake Out [Mystic Charm|Adamant]  
 Tinkaton Lv.38 @Covert Cloak: Gigaton Hammer, Play Rough, Ice Hammer, Fake Out [Own Tempo|Adamant]  
 
 ## Sootopolis Gym
-
 
 ### Beauty Connie
 Feraligatr Lv.38 @Life Orb: Liquidation, Crunch, Ice Fang, Aqua Jet [Sheer Force|Adamant]  
@@ -613,49 +599,25 @@ Cinccino Lv.38 @Lum Berry: Tail Slap, Bullet Seed, Rock Blast, Triple Axel [Skil
 Virizion Lv.38 @Focus Sash: Aura Sphere, Giga Drain, Air Slash, Calm Mind [Justified|Modest]  
 Greninja Lv.39 @Loaded Dice: Water Shuriken, Night Slash, Extrasensory, U-turn [Torrent|Serious]  
 
-### Lady Daphne
+### Lady Daphne [Left]
 Silvally-Water Lv.38 @Water Memory: Multi-Attack, X-Scissor, Rock Slide, Tri Attack [Rks System|Serious]  
 Froslass Lv.38 @Life Orb: Ice Beam, Shadow Ball, Thunderbolt, Destiny Bond [Cursed Body|Timid]  
 Swanna Lv.38 @Wise Glasses: Hydro Pump, Hurricane, Blizzard, U-turn [No Guard|Timid]  
 Kingdra Lv.40 @Scope Lens: Draco Meteor, Liquidation, Breaking Swipe, Focus Energy [Sniper|Adamant]  
 
-### Pokefan Annike
+### Pokefan Annika [Right]
 Pincurchin Lv.38 @Terrain Extender: Rising Voltage, Muddy Water, Poison Jab, Thunder Wave [Electric Surge|Modest]  
 Dhelmise Lv.38 @Quick Claw: Power Whip, Poltergeist, Shadow Claw, Anchor Shot [Steelworker|Adamant]  
 Lanturn Lv.40 @Air Balloon: Surf, Rising Voltage, Ice Beam, Volt Switch [Volt Absorb|Modest]  
 Raichu-Alola Lv.40 @Focus Sash: Rising Voltage, Psychic, Surf, Alluring Voice [None|Modest]  
 
-### Lass Crissy
-Tentacruel Lv.38 @Air Balloon: Sludge Wave, Surf, Hex, Toxic Spikes [Clear Body|Timid]  
-Lucario Lv.38 @Focus Sash: Close Combat, Meteor Mash, Extreme Speed, Thunder Punch [Inner Focus|Adamant]  
-Clawitzer Lv.38 @Wise Glasses: Water Pulse, Dragon Pulse, Dark Pulse, Aura Sphere [Mega Launcher|Modest]  
-Samurott Lv.40 @Black Belt: Liquidation, Sacred Sword, X-Scissor, Aqua Jet [Torrent|Adamant]  
-
-### Beauty Tiffany
+### Beauty Tiffany [Left]
 Ninetales-Alola Lv.38 @Light Clay: Ice Beam, Moonblast, Freeze-Dry, Aurora Veil [Snow Warning|Timid]  
 Dewgong Lv.38 @Assault Vest: Blizzard, Hydro Pump, Alluring Voice, Flip Turn [Ice Body|Modest]  
 Beartic Lv.38 @Focus Sash: Icicle Crash, Liquidation, Throat Chop, Reversal [Slush Rush|Jolly]  
 Mamoswine Lv.39 @Lum Berry: High Horsepower, Icicle Crash, Knock Off, Ice Shard [Thick Fat|Adamant]  
 
-### Pokefan Bethany
-Octillery Lv.39 @Quick Claw: Hydro Pump, Fire Blast, Gunk Shot [Sniper|Serious]  
-Eelektross Lv.39 @Leftovers: Thunder Punch, Fire Punch, Brick Break, Coil [Levitate|Adamant]  
-Qwilfish Lv.39 @Bug Gem: Gunk Shot, Waterfall, Icy Wind, Fell Stinger [Intimidate|Jolly]  
-Armaldo Lv.39 @Quick Claw: X-Scissor, Rock Slide, Liquidation, Facade [Swift Swim|Adamant]  
-
-### Beauty Olivia
-Milotic Lv.38 @Leftovers: Scald, Dragon Breath, Recover, Wrap [Marvel Scale|Calm|Burn]  
-Cradily Lv.38 @Chople Berry: Giga Drain, Ancient Power, Recover, Wrap [Suction Cups|Bold]  
-Crawdaunt Lv.38 @White Herb: Razor Shell, Knock Off, Superpower, Aqua Jet [Adaptability|Adamant]  
-Slowbro-Galar Lv.39 @Quick Claw: Shell Side Arm, Psyshock, Surf, Slack Off [Quick Draw|Modest]  
-
-### Lady Brianna
-Mesprit Lv.38 @Light Clay: Future Sight, Dazzling Gleam, Light Screen, Reflect [Levitate|Hardy]  
-Stunfisk Lv.38 @Mystic Water: Thunderbolt, Earth Power, Sludge Wave, Muddy Water [Static|Modest]  
-Blastoise Lv.38 @Life Orb: Scald, Dragon Pulse, Flash Cannon, Aura Sphere [Torrent|Modest]  
-Sharpedo Lv.40 @Poison Barb: Liquidation, Crunch, Psychic Fangs, Poison Fang [Strong Jaw|Jolly]  
-
-### Beauty Bridget
+### Beauty Bridget [Right]
 Pelipper Lv.40 @Focus Sash: Hurricane, Weather Ball, Tailwind, U-turn [Drizzle|Modest]  
 Gorebyss(f) Lv.38 @Throat Spray: Sparkling Aria, Alluring Voice, Psychic Noise, Attract [Swift Swim|Timid]  
 Phione Lv.38 @Leftovers: Surf, Alluring Voice, Grass Knot, Flip Turn [Hydration|Timid]  
@@ -722,7 +684,7 @@ Mismagius Lv.53 @Expert Belt: Shadow Ball, Psychic, Dazzling Gleam, Mystical Fir
 Cobalion Lv.53 @Lum Berry: Sacred Sword, Iron Head, Megahorn, Stealth Rock [Justified|Adamant]  
 Rhyperior Lv.53 @Focus Band: Drill Run, Rock Slide, Ice Punch, Body Press [Lightning Rod|Careful]  
 Tapu Bulu Lv.53 @Kebia Berry: Horn Leech, High Horsepower, Darkest Lariat, Natures Madness [Telepathy|Careful]  
-Mamoswine Lv.53 @Assault Vest: High Horsepower, Icicle Crash, Ice Shard, Trailblaze [Oblivious|Impish]  
+Mamoswine Lv.53 @Assault Vest: High Horsepower, Icicle Crash, Ice Shard, Trailblaze [Thick Fat|Impish]  
 Kabutops Lv.53 @Focus Sash: Razor Shell, Rock Slide, X-Scissor, Rapid Spin [Sharpness|Jolly]  
 Gyarados Lv.55 @Muscle Band: Waterfall, Tera Blast, Earthquake, Dragon Dance [Intimidate|Impish|Tera Flying]  
 
@@ -734,8 +696,7 @@ Samurott Lv.55 @Assault Vest: Liquidation, Sacred Sword, Knock Off, X-Scissor [T
 Urshifu Lv.53 @Focus Sash: Wicked Blow, Close Combat, Poison Jab, Bulk Up [Unseen Fist|Careful]  
 Hydreigon Lv.55 @Pecha Berry: Belch, Dragon Pulse, Dark Pulse, Tailwind [Levitate|Timid|Tera Poison|Poison]  
 
-## Rotue 111 [Permanent Sandstorm]
-
+## Route 111 [Permanent Sandstorm]
 
 ### Picnicker Becky
 Glimmora Lv.55 @Focus Band: Sludge Wave, Power Gem, Energy Ball, Stealth Rock [Toxic Debris|Jolly]  
@@ -775,41 +736,43 @@ Sirfetch’d Lv.52 @Leek: Close Combat, Leaf Blade, Dual Wingbeat, Focus Energy 
 Hippowdon Lv.52 @Assault Vest: Earthquake, Stone Edge, Substitute, Slack Off [Sand Force|Adamant]  
 Nidoking Lv.52 @Life Orb: Earth Power, Sludge Bomb, Thunderbolt, Flamethrower [Sheer Force|Modest]  
 
-## Mirage Town
+## Mirage Tunnel
+* Items: Shed Shell
+* Land: 20% Klawf, 15% Sigilyph, 15% Emolga, 10% Turtonator, 10% Druddigon, 10% Nosepass, 10% Onix, 5% Stunfisk, 5% Falinks
 
+## Mirage Town
 * Tutors: Return, Frustration
 * Shop TMs: Acrobatics", Phantom Force", Liquidation", Icicle Crash", Drain Punch", Draining Kiss", Giga Drain"
-* Land: 20% Maractus, 15% Hippopotas, 15% Mudbray, 10% NidoranF, 10% NidoranM, 10% Starly, 10% Fletchling, 5% Roggenrola, 5% Dwebble
+* Land: 20% Maractus, 15% Trapinch, 15% Geodude, 10% Anorith, 10% Skorupi, 10% Roggenrola, 10% Aron, 5% Sandshrew, 5% Meowth-Galar
 
 ## Mirage Gym
 
-
-### Hiker Marcos [Double w/ Picknicker Daisy]
+### Hiker Marcos and Picnicker Daisy
 Granbull Lv.53 @Clear Amulet: Play Rough, Close Combat, Iron Tail, Super Fang [Intimidate|Adamant]  
 Lucario Lv.53 @Metal Coat: Flash Cannon, Aura Sphere, Dragon Pulse, Extreme Speed [Inner Focus|Adamant]  
 Arcanine Lv.53 @Charcoal: Temper Flare, Play Rough, Iron Head, Extreme Speed [Intimidate|Adamant]  
 
-### Picnicker Daisy [Double w/ Hiker Marcos]
+### Hiker Marcos and Picnicker Daisy
 Nidoqueen Lv.55 @Life Orb: Earth Power, Sludge Bomb, Flamethrower, Thunderbolt [Sheer Force|Modest]  
 Toedscruel Lv.53 @White Herb: Leaf Storm, Energy Ball, Earth Power, Sludge Bomb [Mycelium Might|Modest]  
 Jynx Lv.53 @Lum Berry: Psychic, Ice Beam, Energy Ball, Fake Out [Oblivious|Modest]  
 
-### Lass Julia [Double w/ Youngster Rhett]
+### Lass Julia and Camper Rhett
 Emboar Lv.53 @Expert Belt: Overheat, Fire Punch, Drain Punch, High Horsepower [Blaze|Brave]  
 Copperajah Lv.53 @Covert Cloak: Heavy Slam, Headlong Rush, Double-Edge, Power Whip [Heavy Metal|Adamant]  
 Revavroom Lv.53 @Air Balloon: Spin Out, Poison Jab, Zen Headbutt, Shift Gear [Filter|Jolly]  
 
-### Camper Rhett [Double w/ Lass Julia]
+### Lass Julia and Camper Rhett
 Starmie Lv.55 @Focus Sash: Scald, Psyshock, Thunderbolt, Ice Beam [Analytic|Modest]  
 Gorebyss Lv.53 @Covert Cloak: Hydro Pump, Ice Beam, Psychic, Icy Wind [Swift Swim|Modest]  
-Ludicolo Lv.53 @Mystic Water: Energy Ball, Scald, Ice Beam, Fake Out [Water Absorb|Modest]  
+Ludicolo Lv.53 @Mystic Water: Energy Ball, Scald, Ice Beam, Fake Out [Own Tempo|Modest]  
 
-### Collector Hector [Double w/ Hex Maniax Nadia]
+### Collector Hector and Hex Maniac Nadia
 Excadrill Lv.53 @Focus Sash: Drill Run, Iron Head, Stone Edge, Poison Jab [Sand Rush|Adamant]  
 Lycanroc Lv.53 @Covert Cloak: Stone Edge, Close Combat, Play Rough, Crunch [Sand Rush|Adamant]  
 Golurk Lv.53 @Punching Glove: High Horsepower, Shadow Punch, Drain Punch, Ice Punch [Iron Fist|Adamant]  
 
-### Hex Maniac Nadia [Double w/ Collector Hector]
+### Collector Hector and Hex Maniac Nadia
 Tyranitar Lv.55 @Clear Amulet: Stone Edge, Crunch, High Horsepower, Ice Punch [Sand Stream|Sassy]  
 Gholdengo Lv.53 @White Herb: Make It Rain, Flash Cannon, Shadow Ball, Thunderbolt [Good As Gold|Modest]  
 Gallade Lv.53 @Scope Lens: Sacred Sword, Psycho Cut, Night Slash, Aerial Ace [Sharpness|Jolly]  
@@ -823,21 +786,19 @@ Iron Treads Lv.55 @Muscle Band: Iron Head, Stomping Tantrum, Rock Slide, Knock O
 Great Tusk Lv.55 @White Herb: Headlong Rush, Close Combat, Stone Edge, Rapid Spin [Protosynthesis|Serious]  
 
 ## Route 108
-
 * Items: Heart Scale (Hidden), Power Herb
 
-### Sailor Cory [double w/ Cooltrainer Carolina]
+### Sailor Cory and Cooltrainer Carolina
 Farigiraf Lv.0 @Colbur Berry: Skill Swap, Thunderbolt, Expanding Force, Energy Ball [Sap Sipper|Bold]  
 Gengar Lv.-2 @Expert Belt: Hypnosis, Sludge Bomb, Shadow Ball, Focus Blast [Cursed Body|Timid]  
 Tinkaton Lv.-2 @Steel Gem: Gigaton Hammer, Play Rough, Knock Off, Swords Dance [Mold Breaker|Jolly]  
 
-### Cooltrainer Carolina [Double w/ Sailor Cory]
+### Sailor Cory and Cooltrainer Carolina
 Swampert(f) Lv.0 @Rindo Berry: Protect, High Horsepower, Liquidation, Stone Edge [Torrent|Careful]  
 Flamigo Lv.-2 @Flying Gem: Acrobatics, Close Combat, Tailwind, Throat Chop [Scrappy|Jolly]  
 Avalugg-Hisui Lv.-2 @Choice Band: Mountain Gale, Rock Slide [Sturdy|Adamant]  
 
 ## Route 118
-
 * Items: Heart Scale (Hidden), Toxic Orb
 
 ### Fisherman Barny
@@ -864,22 +825,13 @@ Baxcalibur Lv.62 @Leftovers: Dragon Claw, Ice Punch, Stomping Tantrum, Breaking 
 Ceruledge Lv.62 @Spell Tag: Bitter Blade, Shadow Claw, Dragon Claw, Shadow Sneak [Weak Armor|Adamant]  
 Gholdengo Lv.62 @White Herb: Make It Rain, Flash Cannon, Shadow Ball, Thunderbolt [Good As Gold|Modest]  
 
-## Rotue 119 [Perma Grassy Terrain and Rain]
-
+## Route 119 [Perma Grassy Terrain and Rain]
 
 ### Bug Catcher Doug
 Butterfree Lv.65 @Focus Sash: Bug Buzz, Energy Ball, Tailwind, Sleep Powder [Tinted Lens|Timid]  
 Drapion Lv.62 @Scope Lens: Night Slash, Cross Poison, X-Scissor, Fell Stinger [Sniper|Adamant]  
 Galvantula Lv.62 @Magnet: Thunderbolt, Bug Buzz, Energy Ball, Electroweb [Compound Eyes|Timid]  
 Volcarona Lv.62 @Lum Berry: Bug Buzz, Giga Drain, Air Slash, Quiver Dance [Flame Body|Timid]  
-
-### Bug Maniac Donald [Optional]
-
-### Bug Catcher Greg [Optional]
-
-### Bug Catcher Kent [Optional]
-
-### Bug Maniac Taylor [Optional]
 
 ### Fisherman Chris
 Dragonite Lv.60 @Lum Berry: Thunder, Ice Beam, Weather Ball, Extreme Speed [Multiscale|Modest]  
@@ -930,7 +882,6 @@ Greninja Lv.62 @Loaded Dice: Water Shuriken, Dark Pulse, Ice Beam, Extrasensory 
 Skeledirge Lv.62 @Utility Umbrella: Torch Song, Shadow Ball, Alluring Voice, Substitute [Blaze|Modest]  
 
 ## Weather Institute
-
 * Tutors: Fire Blast, Hydro Pump, Blizzard, Thunder, Hurricane, Weather Ball
 
 ### Guitarist Fabian
@@ -947,12 +898,10 @@ Serperior Lv.60 @Focus Band: Leaf Storm, Dragon Pulse, Knock Off, Glare [Contrar
 Greninja Lv.60 @Loaded Dice: Water Shuriken, Dark Pulse, Extrasensory, Mud Shot [Torrent|Modest]  
 
 ## Fortree City
-
 * Shop TMs: Fly, High Horsepower, Stone Edge, Supercell Slam, Gunk Shot, Light Screen, Reflect, Skill Swap, Roost
 * Omniboosted Level 70 Tapu Koko, faint to catch
 
 ## Fortree Gym
-
 
 ### Bird Keeper Humberto
 Staraptor Lv.64 @Clear Amulet: Brave Bird, Close Combat, Steel Wing, Roost [Intimidate|Adamant]  
@@ -968,12 +917,12 @@ Weezing-Galar Lv.62 @Life Orb: Strange Steam, Sludge Bomb, Heat Wave, Destiny Bo
 Scizor Lv.62 @Focus Sash: Bug Bite, Bullet Punch, Dual Wingbeat, U-turn [Technician|Adamant]  
 Bombirdier Lv.64 @Sharp Beak: Dual Wingbeat, Knock Off, Stone Edge, Hone Claws [Big Pecks|Adamant]  
 
-### Camper Flint [Double w/ Edwardo]
+### Camper Flint and Bird Keeper Edwardo
 Decidueye Lv.64 @Sharp Beak: Spirit Shackle, Leaf Blade, Dual Wingbeat, Roost [Overgrow|Adamant]  
 Medicham Lv.64 @Expert Belt: Close Combat, Zen Headbutt, Stone Edge, Fake Out [Telepathy|Adamant]  
 Gardevoir Lv.62 @Covert Cloak: Moonblast, Psychic, Hyper Voice, Thunderbolt [Telepathy|Timid]  
 
-### Bird Keeper Edwardo [Double w/ Flint]
+### Camper Flint and Bird Keeper Edwardo
 Chatot Lv.64 @Choice Scarf: Boomburst [Keen Eye|Timid]  
 Noivern Lv.62 @Silk Scarf: Dragon Pulse, Air Slash, Boomburst, Flamethrower [Infiltrator|Modest]  
 Flygon Lv.62 @Normal Gem: Earth Power, Dragon Pulse, Boomburst, Roost [Levitate|Timid]  
@@ -991,7 +940,7 @@ Archeops Lv.62 @Flying Gem: Rock Slide, Acrobatics, Dragon Claw, Substitute [Def
 Naganadel Lv.62 @Wise Glasses: Venoshock, Dragon Breath, Air Slash, Toxic [Beast Boost|Modest]  
 Yanmega Lv.62 @Scope Lens: Bug Buzz, Air Cutter, Giga Drain, U-turn [Speed Boost|Modest]  
 
-### Leader Winona
+### Leader Winona [Double]
 Zapdos-Galar Lv.64 @Sharp Beak: Thunderous Kick, Drill Peck, Stomping Tantrum, Detect [Defiant|Jolly]  
 Gliscor Lv.63 @Flying Gem: Earthquake, Acrobatics, Crabhammer, U-turn [Hyper Cutter|Adamant]  
 Articuno-Galar Lv.64 @Sharp Beak: Freezing Glare, Air Slash, Shadow Ball, Hypnosis [Competitive|Timid]  
@@ -1000,7 +949,6 @@ Corviknight Lv.63 @Expert Belt: Iron Head, Drill Peck, Body Press, Tailwind [Unn
 Salamence Lv.63 @Covert Cloak: Dragon Claw, Dual Wingbeat, Earthquake, Fire Fang [Intimidate|Jolly]  
 
 ## Route 120 [Perma Rain]
-
 
 ### Parasol Lady Angelica
 Lapras Lv.72 @Ground Gem: Surf, Freeze-Dry, Thunderbolt, Drill Run [Water Absorb|Serious]  
@@ -1039,12 +987,12 @@ Flamigo Lv.68 @Eject Pack: Close Combat, Acrobatics, Dual Wingbeat [Scrappy|Joll
 Feraligatr Lv.70 @Never Melt Ice: Liquidation, Earthquake, Crunch, Ice Punch [Torrent|Adamant]  
 Lurantis Lv.70 @Focus Sash: Leaf Storm, Superpower, Weather Ball, X-Scissor [Contrary|Rash]  
 
-### Ranger Lorenzo [Double w/ Jenna]
+### Ranger Lorenzo and Ranger Jenna
 Venusaur Lv.68 @Covert Cloak: Solar Beam, Sludge Bomb, Weather Ball, Sleep Powder [Chlorophyll|Modest]  
 Shiftry Lv.68 @Focus Sash: Leaf Blade, Foul Play, Night Slash, Fake Out [Wind Rider|Adamant]  
 Tauros-Paldea-Blaze Lv.68 @White Herb: Close Combat, Raging Bull, High Horsepower, Flame Charge [Intimidate|Jolly]  
 
-### Ranger Jenna [Double w/ Lorenzo]
+### Ranger Lorenzo and Ranger Jenna
 Ninetales Lv.70 @Wide Lens: Fire Blast, Solar Beam, Hex, Will-O-Wisp [Drought|Modest]  
 Arcanine Lv.68 @Clear Amulet: Temper Flare, Close Combat, Play Rough, Extreme Speed [Intimidate|Adamant]  
 Great Tusk Lv.68 @Covert Cloak: Headlong Rush, Close Combat, Ice Spinner, Rapid Spin [Protosynthesis|Jolly]  
@@ -1055,7 +1003,6 @@ Registeel Lv.70 @Muscle Band: Iron Head, Earthquake, Hammer Arm, Counter [Clear 
 Regice Lv.70 @Chesto Berry: Ice Beam, Thunderbolt, Rest, Sleep Talk [Clear Body|Modest]  
 
 ## Route 121 [Perma Misty Terrain]
-
 
 ### Hex Maniac Tammy [Double]
 Cresselia Lv.68 @Covert Cloak: Psychic, Moonblast, Moonlight, Trick Room [Levitate|Relaxed]  
@@ -1125,7 +1072,6 @@ Revavroom Lv.68 @Air Balloon: Spin Out, Poison Jab, High Horsepower, Swagger [Fi
 Roaring Moon Lv.68 @Flying Gem: Dragon Claw, Crunch, Acrobatics, Dragon Dance [Protosynthesis|Adamant]  
 
 ## Lilycove City
-
 * Shop TMs: Solar Beam, Solar Blade, Sky Attack, Double Edge, Triple Axel, Low Kick, Grass Knot
 * Items: Ability Capsule (Hidden), Throat Spray
 
@@ -1139,12 +1085,11 @@ Magnezone Lv.68 @Air Balloon: Thunderbolt, Body Press, Hidden Power, Metal Sound
 
 ## Route 124 [Perma Snow]
 
-
-### Swimmer Sharon [Double w/ Nolen]
+### Swimmer Sharon and Swimmer Nolen
 Arctozolt Lv.70 @Clear Amulet: Icicle Crash, Bolt Beak, Freeze-Dry, Stone Edge [Slush Rush|Hasty]  
 Jynx Lv.68 @Assault Vest: Blizzard, Psychic, Icy Wind, Fake Out [Oblivious|Timid]  
 
-### Swimmer Nolen [Double w/ Sharon]
+### Swimmer Sharon and Swimmer Nolen
 Mr. Rime Lv.70 @Salac Berry: Psyshock, Freeze-Dry, Shadow Ball, Fake Out [Ice Body|Modest]  
 Baxcalibur Lv.68 @Covert Cloak: Dragon Claw, Ice Punch, Dragon Tail, High Horsepower [Thermal Exchange|Adamant]  
 
@@ -1200,82 +1145,96 @@ Jolteon Lv.68 @Lum Berry: Discharge, Weather Ball, Alluring Voice, Calm Mind [Vo
 Cetitan Lv.69 @Sitrus Berry: Ice Spinner, High Horsepower, Ice Shard, Belly Drum [Slush Rush|Adamant]  
 
 ## Route 125
-
 * Items: Clear Amulet
 * Land: 20% Duraludon, 15% Deino, 15% Dreepy, 10% Goomy, 10% Frigibax, 10% Bagon, 10% Jangmo-o, 10% Gible
 
-### Bird Keeper Presley [Double w/ Auron]
+### Bird Keeper Presley and Expert Auron
 Rillaboom Lv.70 @Assault Vest: Fake Out, Grassy Glide, Knock Off, High Horsepower [Grassy Surge|Jolly]  
 Clawitzer Lv.68 @Choice Scarf: Terrain Pulse, Water Pulse, Dark Pulse, Aura Sphere [Mega Launcher|Modest]  
 Kingambit Lv.68 @Life Orb: Kowtow Cleave, Sucker Punch, Iron Head, Brick Break [Supreme Overlord|Adamant]  
 
-### Expert Auron [Double w/ Presley]
+### Bird Keeper Presley and Expert Auron
 Ogerpon-Cornerstone Lv.68 @Cornerstone Mask: Ivy Cudgel, U-turn, Spiky Shield, Horn Leech [Sturdy|Jolly]  
 Hawlucha(f) Lv.68 @Grassy Seed: Close Combat, Acrobatics, Encore, Tailwind [Unburden|Adamant]  
 Ceruledge Lv.68 @Focus Sash: Bitter Blade, Poltergeist, Close Combat, Will-O-Wisp [Weak Armor|Adamant]  
 
-## Mossdeep Town
+## Shoal Cave Entrance Room
+* Land: 20% Sneasel, 15% Larvitar, 15% Beldum, 10% Meowth-Galar, 10% Varoom, 10% Cetoddle, 10% Bergmite, 5% Zubat, 5% Noibat
 
+## Shoal Cave Other Rooms
+* Land: 20% Swinub, 15% Tinkatink, 15% Pawniard, 10% Ralts, 10% Hatenna, 10% Sneasler, 10% Munna, 5% Zubat, 5% Noibat
+
+## Shoal Cave Ice Room
+* Items: Eject Pack
+* Land: 20% Sneasel-Hisui, 15% Swinub, 15% Cetoddle, 10% Sandshrew-Alola, 10% Bergmite, 10% Tinkatink, 10% Pawniard, 5% Larvitar, 5% Beldum
+
+### Expert Timothy
+Kyurem Lv.0 @Loaded Dice: Icicle Spear, Earth Power, Flash Cannon, Icy Wind [Pressure|Hardy]  
+Blaziken Lv.0 @Eject Pack: Close Combat, Overheat, Blaze Kick, Protect [Speed Boost|Rash]  
+Zoroark-Hisui Lv.0 @Spell Tag: Hyper Voice, Bitter Malice, Dark Pulse, Extrasensory [Illusion|Modest]  
+Braviary-Hisui Lv.0 @Life Orb: Esper Wing, Air Slash, Heat Wave, Future Sight [Tinted Lens|Timid]  
+Cobalion Lv.0 @Lum Berry: Sacred Sword, Iron Head, Retaliate, Swords Dance [Justified|Jolly]  
+
+## Mossdeep Town
 
 ## Mossdeep Gym [Perma TrickRoom except Leader|0 Speed IVs]
 
-
-### Psychic Presont [Double w/ Maura]
+### Psychic Presont and Psychic Maura
 Hatterene Lv.68 @Fairy Gem: Expanding Force, Dazzling Gleam, Draining Kiss, Mystical Fire [Magic Bounce|Quiet]  
 Incineroar Lv.68 @Sitrus Berry: Darkest Lariat, Blaze Kick, U-turn, Fake Out [Healer|Brave]  
 Medicham Lv.70 @Room Service: Zen Headbutt, Drain Punch, Thunder Punch, Fake Out [Pure Power|Brave]  
 
-### Psychic Maura [Double w/ Preston]
+### Psychic Presont and Psychic Maura
 Indeedee-F Lv.68 @Terrain Extender: Expanding Force, Hyper Voice, Alluring Voice, Psychic Terrain [Psychic Surge|Quiet]  
 Donphan Lv.68 @Leftovers: High Horsepower, Play Rough, Ice Spinner, Protect [Sturdy|Brave]  
 Hypno Lv.70 @Life Orb: Expanding Force, Focus Blast, Dazzling Gleam, Hypnosis [Inner Focus|Quiet]  
 
-### Psychic Blake [Double w/ Samantha]
+### Psychic Blake and Psychic Samantha
 Pachirisu Lv.70 @Assault Vest: Super Fang, Nuzzle, Follow Me, Light Screen [Static|Bold]  
 Gothitelle Lv.70 @Wide Lens: Psychic, Focus Blast, Hypnosis, Fake Out [Shadow Tag|Quiet]  
 Hitmontop Lv.70 @Wide Lens: Close Combat, Triple Axel, Protect, Fake Out [Intimidate|Brave]  
 
-### Psychic Samantha [Double w/ Blake]
+### Psychic Blake and Psychic Samantha
 Farigiraf Lv.68 @Throat Spray: Hyper Voice, Psychic Noise, Energy Ball, Shadow Ball [Armor Tail|Quiet]  
 Sylveon Lv.68 @Fairy Feather: Hyper Voice, Psychic, Draining Kiss, Light Screen [Pixilate|Quiet]  
 Diggersby Lv.68 @Room Service: Body Slam, Stomping Tantrum, Hammer Arm, Zen Headbutt [Huge Power|Brave]  
 
-### Psychic Virgil [Double w/ Nate]
+### Psychic Virgil and Gentleman Nate
 Luxray Lv.68 @Iron Ball: Zing Zap, Psychic Fangs, Ice Fang, Howl [Intimidate|Brave]  
 Houndstone Lv.68 @Leftovers: Last Respects, Psychic Fangs, Play Rough, Howl [Fluffy|Brave]  
 Camerupt Lv.70 @Focus Sash: Temper Flare, Stomping Tantrum, Zen Headbutt, Howl [Magma Armor|Brave]  
 
-### Gentleman Nate [Double w/ Virgil]
+### Psychic Virgil and Gentleman Nate
 Rillaboom Lv.68 @Terrain Extender: Grassy Glide, Hammer Arm, High Horsepower, Fake Out [Grassy Surge|Brave]  
 Hariyama Lv.68 @White Herb: Close Combat, Headlong Rush, Ice Punch, Fake Out [Thick Fat|Brave]  
 Blastoise Lv.70 @Covert Cloak: Liquidation, Ice Spinner, Rock Slide, Fake Out [Torrent|Brave]  
 
-### Hex Maniac Sylvia [Double w/ Hannah]
+### Hex Maniac Sylvia and Psychic Hannah
 Pincurchin Lv.70 @Terrain Extender: Rising Voltage, Muddy Water, Reversal, Toxic Spikes [Electric Surge|Quiet]  
 Venusaur Lv.68 @Room Service: Energy Ball, Sludge Bomb, Terrain Pulse, Sleep Powder [Overgrow|Quiet]  
 Golem-Alola Lv.68 @Electric Gem: Explosion, Body Slam, Rock Slide, Fire Punch [Galvanize|Brave]  
 
-### Psychic Hannah [Double w/ Sylvia]
+### Hex Maniac Sylvia and Psychic Hannah
 Bellibolt Lv.68 @Shuca Berry: Rising Voltage, Muddy Water, Slack Off, Reflect [Electromorphosis|Quiet]  
 Lanturn Lv.68 @Leftovers: Hydro Pump, Rising Voltage, Volt Switch, Ice Beam [Volt Absorb|Quiet]  
 Torterra Lv.68 @Yache Berry: High Horsepower, Seed Bomb, Rock Slide, Giga Drain [Battle Armor|Brave]  
 
-### Hex Maniac Kathleen [Double w/ Nicholas]
+### Hex Maniac Kathleen and Psychic Nicholas
 Golurk Lv.68 @Weakness Policy: High Horsepower, Shadow Punch, Hammer Arm, Thunder Punch [Iron Fist|Sassy]  
 Heatmor Lv.68 @Weakness Policy: Burning Jealousy, Scorching Sands, Giga Drain, Drain Punch [White Smoke|Quiet]  
 Grimmsnarl Lv.70 @Fairy Feather: Throat Chop, Spirit Break, Hammer Arm, Fake Out [Prankster|Brave]  
 
-### Psychic Nicholas [Double w/ Kathleen]
+### Hex Maniac Kathleen and Psychic Nicholas
 Rhyperior Lv.68 @Covert Cloak: Drill Run, Rock Slide, Fire Punch, Surf [Lightning Rod|Adamant]  
 Druddigon Lv.68 @Covert Cloak: Dragon Claw, Poison Jab, Crunch, Surf [Sheer Force|Adamant]  
 Kangaskhan Lv.68 @Iron Ball: Body Slam, Crunch, Fake Out, Surf [Gluttony|Adamant]  
 
-### Gentleman Clifford [Double w/ Macey]
+### Gentleman Clifford and Psychic Macey
 Crawdaunt Lv.68 @Scope Lens: Razor Shell, Night Slash, X-Scissor, Protect [Adaptability|Brave]  
 Mawile Lv.68 @Life Orb: Play Rough, Iron Head, Thunder Fang, Protect [Sheer Force|Brave]  
 Sandslash Lv.70 @Bug Gem: High Horsepower, Stone Edge, X-Scissor, Protect [Sand Veil|Brave]  
 
-### Psychic Macey [Double w/ Clifford]
+### Gentleman Clifford and Psychic Macey
 Wigglytuff Lv.68 @Lum Berry: Moonblast, Hyper Voice, Hyper Beam, Sing [Competitive|Quiet]  
 Amoonguss Lv.68 @Sitrus Berry: Energy Ball, Sludge Bomb, Pollen Puff, Spore [Effect Spore|Quiet]  
 Bronzong Lv.68 @Occa Berry: Gyro Ball, Body Press, Future Sight, Hypnosis [Levitate|Brave]  
@@ -1289,7 +1248,6 @@ Iron Crown Lv.68 @Throat Spray: Psychic Noise, Tachyon Cutter, Air Slash, Future
 Iron Valiant Lv.70 @Booster Energy: Spirit Break, Brick Break, Psycho Cut, Fire Punch [Quark Drive|Jolly]  
 
 ## Route 127
-
 * Items: Eject Button
 
 ### Aidan
@@ -1304,49 +1262,47 @@ Gardevoir Lv.77 @Throat Spray: Hyper Voice, Expanding Force, Psyshock, Mystical 
 
 ## Route 129 [Perma Tailwind]
 
-
-### Swimmer Allison [Double w/ Reed]
+### Swimmer Allison and Swimmer Reed
 Dragonite Lv.75 @Leftovers: Dragon Claw, Dual Wingbeat, Aqua Tail, Thunder Punch [Multiscale|Adamant]  
 Dewgong Lv.77 @Wide Lens: Hydro Pump, Blizzard, Alluring Voice, Fake Out [Thick Fat|Modest]  
 
-### Swimmer Reed [Double w/ Allison]
+### Swimmer Allison and Swimmer Reed
 Machamp Lv.77 @Fire Gem: Dynamic Punch, High Horsepower, Fire Punch, Low Kick [No Guard|Adamant]  
 Swampert Lv.77 @Focus Sash: High Horsepower, Liquidation, Ice Punch, Stone Edge [Torrent|Adamant]  
 
-### Swimmer Tisha [Double w/ Clarence]
+### Swimmer Tisha and Swimmer Clarence
 Indeedee-F Lv.77 @Psychic Seed: Expanding Force, Hyper Voice, Dazzling Gleam, Skill Swap [Psychic Surge|Bold]  
 Iron Jugulis Lv.75 @Booster Energy: Dark Pulse, Air Slash, Fire Blast, Air Cutter [Quark Drive|Modest]  
 
-### Swimmer Clarence [Double w/ Tisha]
+### Swimmer Tisha and Swimmer Clarence
 Slaking Lv.75 @Psychic Seed: Body Slam, High Horsepower, Play Rough, Drain Punch [Truant|Adamant]  
 Iron Bundle Lv.75 @Focus Sash: Hydro Pump, Ice Beam, Freeze-Dry, Chilling Water [Quark Drive|Modest]  
 Starmie Lv.75 @Mystic Water: Psychic, Expanding Force, Hydro Pump, Ice Beam [Analytic|Modest]  
 
 ## Route 131 [Permanent Tail Wind]
 
-
-### Swimmer Kevin [Double w/ Talia]
+### Swimmer Kevin and Swimmer Talia
 Klawf Lv.75 @Weakness Policy: Rock Slide, Earthquake, Crabhammer, Knock Off [Anger Shell|Impish]  
 Metagross Lv.75 @Weakness Policy: Meteor Mash, Zen Headbutt, Earthquake, Rock Slide [Clear Body|Careful]  
 Clawitzer Lv.75 @Wise Glasses: Water Pulse, Dark Pulse, Aura Sphere, Sludge Bomb [Mega Launcher|Timid]  
 
-### Swimmer Talia [Double w/ Kevin]
+### Swimmer Kevin and Swimmer Talia
 Mantine Lv.77 @Covert Cloak: Hydro Pump, Air Slash, Ice Beam, Bulldoze [Swift Swim|Timid]  
 Gliscor Lv.77 @Focus Sash: High Horsepower, Dual Wingbeat, Acrobatics, Bulldoze [Hyper Cutter|Jolly]  
 
-### Swimmer Richard [Double w/ Kara]
+### Swimmer Richard and Swimmer Kara
 Urshifu-Rapid-Strike Lv.75 @Focus Sash: Close Combat, Surging Strikes, Ice Spinner, Poison Jab [Unseen Fist|Adamant]  
 Dracozolt Lv.75 @Expert Belt: Dragon Claw, Bolt Beak, Stone Edge, High Horsepower [Volt Absorb|Adamant]  
 
-### Swimmer Kara [Double w/ Richard]
+### Swimmer Richard and Swimmer Kara
 Farigiraf Lv.77 @Aguav Berry: Hyper Voice, Twin Beam, Light Screen, Reflect [Armor Tail|Modest]  
 Tsareena Lv.77 @Wide Lens: Power Whip, Play Rough, Triple Axel, Low Kick [Queenly Majesty|Adamant]  
 
-### Swimmer Herman [Double w/ Susie]
+### Swimmer Herman and Swimmer Susie
 Nidoking Lv.75 @Life Orb: Earth Power, Sludge Bomb, Flamethrower, Thunderbolt [Sheer Force|Modest]  
 Blastoise Lv.75 @Covert Cloak: Wave Crash, Ice Spinner, Rock Slide, Fake Out [Torrent|Adamant]  
 
-### Swimmer Susie [Double w/ Herman]
+### Swimmer Herman and Swimmer Susie
 Mimikyu Lv.77 @Spell Tag: Play Rough, Shadow Claw, Leech Life, Phantom Force [Disguise|Adamant]  
 Serperior Lv.75 @Watmel Berry: Leaf Storm, Natural Gift, Dragon Tail, Knock Off [Contrary|Quiet]  
 
@@ -1359,7 +1315,6 @@ Flygon Lv.75 @Life Orb: Earth Power, Dragon Pulse, Bug Buzz, Air Slash [Levitate
 Cloyster Lv.75 @Scope Lens: Icicle Spear, Razor Shell, Rock Blast, Smart Strike [Skill Link|Adamant]  
 
 ## Stella Island
-
 
 ### Pokemon Ranger Tyree
 Bisharp Lv.75 @Focus Sash: Iron Head, Sucker Punch, Metal Burst, Stealth Rock [Defiant|Adamant]  
@@ -1450,12 +1405,10 @@ Gholdengo Lv.75 @White Herb: Make It Rain, Flash Cannon, Shadow Ball, Nasty Plot
 Terapagos Lv.77 @Lum Berry: Tera Starstorm, Dazzling Gleam, Earth Power, Energy Ball [Tera Shift|Timid|Tera Stellar]  
 
 ## Lavaridge Town
-
 * Tutors: Alluring Voice, Psychic Noise, Power Gem, Psyshock
 * Shop TMs: Volt Switch, U-Turn, Protect
 
 ## Lavaridge Gym [Perma Magma Storm except Leader]
-
 
 ### Kindler Jeff
 Infernape Lv.77 @Focus Sash: Fire Punch, Drain Punch, Fake Out, Stealth Rock [Blaze|Adamant]  
@@ -1520,12 +1473,27 @@ Raging Bolt Lv.75 @Lum Berry: Thunderbolt, Dragon Pulse, Solar Beam, Ancient Pow
 Gouging Fire Lv.75 @Leftovers: Dragon Claw, Temper Flare, Stomping Tantrum, Burning Bulwark [Protosynthesis|Adamant]  
 Iron Moth Lv.77 @Air Balloon: Heat Wave, Fiery Dance, Bug Buzz, Energy Ball [Quark Drive|Timid]  
 
-## Victory Road
+## Mt. Chimney
+* Land: 20% Great Tusk, 15% Slither Wing, 15% Sandy Shocks, 10% Walking Wake, 10% Gouging Fire, 10% Raging Bolt, 10% Flutter Mane, 10% Roaring Moon
 
-* Items: Ability Capsule (Hidden), Leftovers, Rocky Helmet, Booster Energy, Life Orb, Mental Herb, Focus Sash, Assault Vest
+## New Mauville
+* Land: 20% Iron Treads, 15% Iron Hands, 15% Iron Moth, 10% Iron Leaves, 10% Iron Boulder, 10% Iron Crown, 10% Iron Bundle, 10% Iron Valiant
+
+## Desert Underpass
+* Land: 20% Aerodactyl, 15% Drilbur, 15% Archen, 10% Trapinch, 10% Tinkatink, 10% Anorith, 10% Skorupi, 5% Larvitar, 5% Aron
+
+## Victory Road 1F
+* Land: 20% Duraludon, 15% Drilbur, 15% Poipole, 10% Larvitar, 10% Beldum, 10% Gible, 10% Bagon, 5% Jangmo-o, 5% Frigibax
+
+## Victory Road B1F
+* Land: 20% Impidimp, 15% Deino, 15% Dreepy, 10% Larvitar, 10% Beldum, 10% Tinkatink, 10% Pawniard, 5% Jangmo-o, 5% Frigibax
+* Rock Smash: 30% Larvitar, 30% Beldum, 20% Nacli, 20% Archen
+
+## Victory Road B2F
+* Land: 20% Drilbur, 15% Tinkatink, 15% Pawniard, 10% Teddiursa, 10% Mankey, 10% Deino, 10% Dreepy, 5% Jangmo-o, 5% Frigibax
 
 ### Cooltrainer Albert [Double]
-Ninetales-Alola Lv.89 @Light Clay: Blizzard, Moonblast, Freeze-Dry, Aurora Veil [Snow Cloak|Timid]  
+Ninetales-Alola Lv.89 @Light Clay: Blizzard, Moonblast, Freeze-Dry, Aurora Veil [Snow Warning|Timid]  
 Sandslash-Alola Lv.89 @Focus Sash: Icicle Crash, Iron Head, Rock Slide, Spiky Shield [Slush Rush|Adamant]  
 Dragapult Lv.90 @Choice Band: Dragon Darts [Clear Body|Jolly]  
 Gardevoir Lv.89 @Kebia Berry: Hyper Voice, Psychic, Draining Kiss, Destiny Bond [Synchronize|Timid]  
@@ -1556,7 +1524,7 @@ Garchomp Lv.89 @Life Orb: Scale Shot, Swords Dance, Earthquake, Stone Edge [Sand
 Dracovish Lv.90 @Choice Band: Fishious Rend [Sand Rush|Adamant]  
 Excadrill Lv.89 @Steel Gem: Iron Head, Earthquake, Swords Dance, X-Scissor [Sand Rush|Jolly]  
 
-### Aroma Lady Rachel [Perma Grassy Terrain]
+### Aroma Lady Rachel [Double - Perma Grassy Terrain]
 Torkoal Lv.90 @Focus Sash: Heat Wave, Earth Power, Body Press, Stealth Rock [Drought|Modest]  
 Heliolisk Lv.90 @Throat Spray: Thunderbolt, Overdrive, Solar Beam, Weather Ball [Solar Power|Timid]  
 Venusaur Lv.89 @Life Orb: Solar Beam, Sludge Bomb, Weather Ball, Growth [Chlorophyll|Modest]  
@@ -1588,7 +1556,7 @@ Quaquaval Lv.89 @White Herb: Close Combat, Aqua Step, Acrobatics, Aqua Jet [Torr
 Roaring Moon Lv.89 @Flying Gem: Dragon Claw, Knock Off, Acrobatics, Dragon Dance [Protosynthesis|Jolly]  
 Archaludon Lv.89 @Power Herb: Electro Shot, Dragon Pulse, Flash Cannon, Thunderbolt [Sturdy|Timid]  
 
-### Cooltrainer Owen
+### Cooltrainer Owen [Perma Electric Terrain]
 Raichu-Alola Lv.90 @Light Clay: Reflect, Light Screen, Rising Voltage, Psychic [Surge Surfer|Modest]  
 Azelf Lv.89 @Electric Seed: Acrobatics, Psychic, Dazzling Gleam, Stealth Rock [Levitate|Hasty]  
 Pawmot Lv.89 @Punching Glove: Close Combat, Double Shock, Ice Punch, Thunder Punch [Iron Fist|Jolly]  
@@ -1596,7 +1564,7 @@ Starmie Lv.89 @Mystic Water: Surf, Psyshock, Ice Beam, Thunderbolt [Analytic|Mod
 Iron Moth Lv.89 @Air Balloon: Heat Wave, Energy Ball, Sludge Wave, U-turn [Quark Drive|Timid]  
 Iron Valiant Lv.89 @Clear Amulet: Close Combat, Moonblast, Thunderbolt, Liquidation [Quark Drive|Rash]  
 
-### Cooltrainer Dianne [Perma Misty Terrain]
+### Cooltrainer Dianne [Perma Psychic Terrain]
 Tapu Lele Lv.89 @Focus Sash: Psychic, Moonblast, Focus Blast, Thunderbolt [Telepathy|Timid]  
 Iron Valiant Lv.89 @Life Orb: Close Combat, Spirit Break, Shadow Sneak, Knock Off [Quark Drive|Jolly]  
 Golisopod Lv.89 @Leftovers: Leech Life, Liquidation, Swords Dance, Iron Head [Emergency Exit|Careful]  
@@ -1628,7 +1596,7 @@ Cyclizar Lv.89 @Sitrus Berry: Shed Tail, Dragon Rush, Iron Head, Rain Dance [Reg
 Marshadow Lv.89 @Eject Pack: Close Combat, Spectral Thief, Shadow Sneak, Knock Off [Technician|Jolly]  
 Greninja(m) Lv.89 @Water Gem: Hydro Pump, Grass Knot, Ice Beam, Dark Pulse [Battle Bond|Timid]  
 
-### Cooltrainer Red
+### Cooltrainer Red [Perma Psychic Terrain]
 Grimmsnarl Lv.90 @Light Clay: Foul Play, Body Press, Light Screen, Reflect [Prankster|Bold]  
 Palafin Lv.90 @Assault Vest: Liquidation, Flip Turn, Drain Punch, Ice Punch [Zero To Hero|Jolly]  
 Gliscor Lv.89 @Toxic Orb: Earthquake, Dual Wingbeat, Stealth Rock, Protect [Poison Heal|Jolly]  
@@ -1660,6 +1628,9 @@ Annihilape Lv.90 @Weakness Policy: Rage Fist, Drain Punch, Ice Punch, Acrobatics
 Darmanitan-Galar Lv.90 @Focus Band: Belly Drum, Fire Punch, Icicle Crash, Stone Edge [Zen Mode|Jolly]  
 Kingambit Lv.90 @Quick Claw: Kowtow Cleave, Iron Head, Zen Headbutt, Low Kick [Supreme Overlord|Adamant]  
 
+## Evergrande City
+* Land: 20% Gimmighoul, 15% Larvesta, 15% Poipole, 10% Impidimp, 10% Togepi, 10% Teddiursa, 10% Rookidee, 5% Jangmo-o, 5% Frigibax
+
 ### Magma Leader Maxie [Back to Back with Archie]
 Groudon Lv.89 @Wide Lens: Precipice Blades, Fire Punch, Thunder Punch, Hammer Arm [Drought|Jolly]  
 Honchkrow Lv.89 @Wise Glasses: Dark Pulse, Air Slash, Heat Wave, U-turn [Super Luck|Modest]  
@@ -1677,7 +1648,6 @@ Basculegion Lv.89 @Clear Amulet: Liquidation, Phantom Force, Psychic Fangs, Flip
 Ogerpon-Wellspring Lv.90 @Wellspring Mask: Ivy Cudgel, Horn Leech, Superpower, Spiky Shield [Water Absorb|Adamant]  
 
 ## Pokemon League
-
 
 ### Elite Four Jasmine [Double]
 Landorus-Therian Lv.89 @Focus Sash: Stomping Tantrum, Hammer Arm, Rock Slide, U-turn [Intimidate|Jolly]  
