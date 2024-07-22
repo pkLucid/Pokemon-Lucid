@@ -26,10 +26,13 @@
 
 ## kill on target
   * Move can kill: +4
-  * AI is faster and move can kill: + 2
-  * AI can kill with hit escape move (u-turn): 50/50 +2
+  * AI is faster and move can kill: + 2 (singles only)
+  * AI can kill with hit escape move (u-turn): 50/50 +2 (singles only)
   * hit switch targer (dragon tail) + 2
   * AI can kill with double target move can kill in a double + 2
+
+## In singles only
+ * +10 on prio moves if AI is slower and dead
 
 ## Damage moves scores
   * When AI chooses a move it compares all moves that can do damage against each other.

@@ -1376,7 +1376,7 @@ Alakazam Lv.75 @Focus Sash: Psychic, Dazzling Gleam, Tera Blast, Future Sight [S
 Latias Lv.75 @Spell Tag: Mist Ball, Shadow Ball, Light Screen, Reflect [Levitate|Bold]  
 Nihilego Lv.75 @Focus Sash: Power Gem, Sludge Bomb, Grass Knot, Stealth Rock [Beast Boost|Timid]  
 Decidueye Lv.76 @Expert Belt: Leaf Blade, Spirit Shackle, Dual Wingbeat, Shadow Sneak [Overgrow|Adamant]  
-Azumarill Lv.74 @Sitrus Berry: Play Rough, Waterfall, Aqua Jet, Belly Drum [Thick Fat|Adamant]  
+Azumarill Lv.74 @Sitrus Berry: Play Rough, Waterfall, Aqua Jet, Belly Drum [Huge Power|Adamant]  
 Lucario Lv.75 @Wise Glasses: Flash Cannon, Aura Sphere, Psychic, Vacuum Wave [Justified|Modest]  
 Volcarona Lv.75 @Lum Berry: Bug Buzz, Fiery Dance, Giga Drain, Quiver Dance [Flame Body|Modest|Tera Grass]  
 
