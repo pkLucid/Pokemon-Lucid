@@ -18,6 +18,7 @@
 #include "random.h"
 #include "recorded_battle.h"
 #include "util.h"
+#include "script.h"
 #include "constants/abilities.h"
 #include "constants/battle_ai.h"
 #include "constants/battle_move_effects.h"
@@ -39,6 +40,7 @@ static bool32 IsPinchBerryItemEffect(u32 holdEffect);
 // ewram
 EWRAM_DATA const u8 *gAIScriptPtr = NULL;   // Still used in contests
 EWRAM_DATA u8 sBattler_AI = 0;
+EWRAM_DATA AiScoreFunc sDynamicAiFunc = NULL;
 
 // const rom data
 static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score);
@@ -162,6 +164,9 @@ static u32 GetAiFlags(u16 trainerId)
     // Automatically includes AI_FLAG_SMART_MON_CHOICES to improve smart switching
     if (flags & AI_FLAG_SMART_SWITCHING)
         flags |= AI_FLAG_SMART_MON_CHOICES;
+
+    if (sDynamicAiFunc != NULL)
+        flags |= AI_FLAG_DYNAMIC_FUNC;
 
     return flags;
 }
@@ -386,7 +391,7 @@ static u32 Ai_SetMoveAccuracy(struct AiLogicData *aiData, u32 battlerAtk, u32 ba
 {
     u32 accuracy;
     u32 abilityAtk = aiData->abilities[battlerAtk];
-    u32 abilityDef = aiData->abilities[battlerAtk];
+    u32 abilityDef = aiData->abilities[battlerDef];
     if (abilityAtk == ABILITY_NO_GUARD || abilityDef == ABILITY_NO_GUARD || gMovesInfo[move].accuracy == 0) // Moves with accuracy 0 or no guard ability always hit.
         accuracy = 100;
     else
@@ -455,12 +460,20 @@ void SetAiLogicDataForTurn(struct AiLogicData *aiData)
     aiData->weatherHasEffect = WEATHER_HAS_EFFECT;
     // get/assume all battler data and simulate AI damage
     battlersCount = gBattlersCount;
+
     for (battlerAtk = 0; battlerAtk < battlersCount; battlerAtk++)
     {
         if (!IsBattlerAlive(battlerAtk))
             continue;
 
         SetBattlerAiData(battlerAtk, aiData);
+    }
+
+    for (battlerAtk = 0; battlerAtk < battlersCount; battlerAtk++)
+    {
+        if (!IsBattlerAlive(battlerAtk))
+            continue;
+
         SetBattlerAiMovesData(aiData, battlerAtk, battlersCount);
     }
     // Prevent double target
@@ -544,9 +557,6 @@ static u32 ChooseMoveOrAction_Singles(u32 battlerAi)
         return AI_CHOICE_FLEE;
     if (AI_THINKING_STRUCT->aiAction & AI_ACTION_WATCH)
         return AI_CHOICE_WATCH;
-
-    if (ShouldSwitch(battlerAi, FALSE))
-        return AI_CHOICE_SWITCH;
 
     numOfBestMoves = 1;
     currentMoveArray[0] = AI_THINKING_STRUCT->score[0];
@@ -686,9 +696,6 @@ static u32 ChooseMoveOrAction_Doubles(u32 battlerAi)
             }
         }
     }
-
-    if (ShouldSwitch(battlerAi, TRUE))
-        return AI_CHOICE_SWITCH;
 
     mostMovePoints = bestMovePointsForTarget[0];
     mostViableTargetsArray[0] = 0;
@@ -1433,7 +1440,7 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
         case EFFECT_HELPING_HAND:
             if (!isDoubleBattle || !IsBattlerAlive(BATTLE_PARTNER(battlerAtk)))
                 ADJUST_SCORE(FAILS_OR_BAD);
-            else if (PartnerHasSameMoveEffectWithoutTarget(BATTLE_PARTNER(battlerAtk), move, aiData->partnerMove))
+            else if (!PartnerHasSameMoveEffectWithoutTarget(BATTLE_PARTNER(battlerAtk), move, aiData->partnerMove))
                 ADJUST_SCORE(FAILS_OR_BAD);
             else if (aiData->partnerMove != MOVE_NONE && IS_MOVE_STATUS(aiData->partnerMove))
                 ADJUST_SCORE(FAILS_OR_BAD);
@@ -2105,7 +2112,7 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                 ADJUST_SCORE(FAILS_OR_BAD);
             break;
         case EFFECT_UPPER_HAND:
-            if (predictedMove == MOVE_NONE || IS_MOVE_STATUS(predictedMove) || AI_IsSlower(battlerAtk, battlerDef, move) || GetMovePriority(battlerDef, move) < 1 || GetMovePriority(battlerDef, move) > 3) // Opponent going first or not using priority move
+            if (predictedMove == MOVE_NONE || IS_MOVE_STATUS(predictedMove) || AI_IsSlower(battlerAtk, battlerDef, move) || GetMovePriority(battlerDef, predictedMove) < 1 || GetMovePriority(battlerDef, predictedMove) > 3) // Opponent going first or not using priority move
                 ADJUST_SCORE(FAILS_OR_BAD);
             break;
         case EFFECT_PLACEHOLDER:
@@ -2123,7 +2130,7 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
         // Don't use a status move if the mon is the last one in the party, has no good switchin, or is trapped
         else if (GetBattleMoveCategory(move) == DAMAGE_CATEGORY_STATUS
             && (CountUsablePartyMons(battlerAtk) < 1
-            || AI_DATA->mostSuitableMonId[battlerAtk] == PARTY_SIZE
+            || AI_DATA->monToSwitchId[battlerAtk] == PARTY_SIZE
             || IsBattlerTrapped(battlerAtk, TRUE)))
             ADJUST_SCORE(-30);
     }
@@ -2975,7 +2982,7 @@ static u32 AI_CalcEffectScore(u32 battlerAtk, u32 battlerDef, u32 move)
     case EFFECT_ION_DELUGE:
         if ((aiData->abilities[battlerAtk] == ABILITY_VOLT_ABSORB
           || aiData->abilities[battlerAtk] == ABILITY_MOTOR_DRIVE
-          || aiData->abilities[battlerAtk] == ABILITY_LIGHTNING_ROD)
+          || (B_REDIRECT_ABILITY_IMMUNITY >= GEN_5 && aiData->abilities[battlerAtk] == ABILITY_LIGHTNING_ROD))
           && gMovesInfo[predictedMove].type == TYPE_NORMAL)
             ADJUST_SCORE(GOOD_EFFECT);
         break;
@@ -3011,7 +3018,7 @@ static u32 AI_CalcEffectScore(u32 battlerAtk, u32 battlerDef, u32 move)
         if (predictedMove != MOVE_NONE
          && (aiData->abilities[battlerAtk] == ABILITY_VOLT_ABSORB
           || aiData->abilities[battlerAtk] == ABILITY_MOTOR_DRIVE
-          || aiData->abilities[battlerAtk] == ABILITY_LIGHTNING_ROD))
+          || (B_REDIRECT_ABILITY_IMMUNITY >= GEN_5 && aiData->abilities[battlerAtk] == ABILITY_LIGHTNING_ROD)))
         {
             ADJUST_SCORE(GOOD_EFFECT);
         }
@@ -3091,7 +3098,7 @@ static u32 AI_CalcFaintScore(u32 battlerAtk, u32 battlerDef, u32 move)
 {
     u32 faintScore = FAINTS_TARGET;
 
-    if (IsValidDoubleBattle(battlerAtk))
+    if (IsDoubleBattle())
     {
         if (gMovesInfo[move].target == MOVE_TARGET_BOTH)
             faintScore += BEST_DAMAGE_MOVE;
@@ -3103,9 +3110,6 @@ static u32 AI_CalcFaintScore(u32 battlerAtk, u32 battlerDef, u32 move)
 
         if (gMovesInfo[move].effect == EFFECT_HIT_ESCAPE && CountUsablePartyMons(battlerAtk) > 0 && RandomPercentage(RNG_NONE, 50))
             faintScore += GOOD_EFFECT;
-
-        if (gMovesInfo[move].effect == EFFECT_PURSUIT)
-            faintScore += BEST_DAMAGE_MOVE;
     }
 
     if (gMovesInfo[move].effect == EFFECT_HIT_SWITCH_TARGET)
@@ -3331,4 +3335,36 @@ static s32 AI_FirstBattle(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
         AI_Flee();
 
     return score;
+}
+
+
+// Dynamic AI Functions
+// For specific battle scenarios
+
+// Example - prefer attacking opposite foe in a tag battle
+s32 AI_TagBattlePreferFoe(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
+{
+    if (!(gBattleTypeFlags & BATTLE_TYPE_INGAME_PARTNER))
+    {
+        /* not a partner battle */
+        return score;
+    }
+    else if (!IsBattlerAlive(BATTLE_OPPOSITE(battlerAtk)) || !IsBattlerAlive(BATTLE_PARTNER(BATTLE_OPPOSITE(battlerAtk))))
+    {
+        /* partner is defeated so attack normally */
+        return score;
+    }
+    else if (battlerDef == BATTLE_OPPOSITE(battlerAtk))
+    {
+        /* attacking along the diagonal */
+        ADJUST_SCORE(-20);
+    }
+
+    return score;
+}
+
+void ScriptSetDynamicAiFunc(struct ScriptContext *ctx)
+{
+    AiScoreFunc func = (AiScoreFunc)ScriptReadWord(ctx);
+    sDynamicAiFunc = func;
 }
