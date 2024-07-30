@@ -37,9 +37,9 @@ Lake:
     - 10% Binacle
     - 10% Finneon
     - 10% Goldeen
-    WaterNight:
+    Water Night:
     - 100% Tadbulb
-    RodNight:
+    Rod Night:
     - 20% Clauncher
     - 20% Clamperl
     - 10% Solosis
@@ -67,12 +67,12 @@ Coast:
     -  4% Corphish
     -  4% Krabby
     -  2% Buizel
-    WaterNight:
+    Water Night:
     - 30% Natu
     - 30% Rufflet
     - 20% Murkrow
     - 20% Noibat
-    RodNight:
+    Rod Night:
     - 20% Poliwag
     - 20% Tympole
     - 10% Remoraid
@@ -102,12 +102,12 @@ Ocean:
     -  4% Qwilfish-Hisui
     -  4% Skrelp
     -  2% Tapu Fini
-    WaterNight:
+    Water Night:
     - 30% Natu
     - 30% Rufflet
     - 20% Murkrow
     - 20% Noibat
-    RodNight:
+    Rod Night:
     - 20% Poliwag
     - 20% Tympole
     - 10% Remoraid

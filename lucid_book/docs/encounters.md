@@ -1,27 +1,27 @@
-# General Encounters
-## Route 128 Loiterer
+## General Encounters
+### Route 128 Loiterer
 * Tornadus
 * Thundurus
 * Landorus
 * Enamorus
-## Fortree City
+### Fortree City
 * Tapu Koko (after Winona, Omniboosted +1)
-## Meteor Falls B1F1R
+### Meteor Falls B1F1R
 * Tapu Lele (locked behind waterfall, Omniboosted +2)
-## Stella Island
+### Stella Island
 * Ogerpon (after Phoebe, Omniboosted +2)
-## Game Corner
+### Game Corner
 * Starter of your choice (after delivering mail in Evergrande City)
-## Daycare Egg
+### Daycare Egg
 * Elekid
 * Magby
 * Mime Jr.
-## Lavaridge Egg
+### Lavaridge Egg
 * Random regular starter
-# Lake
-## Water
+## Lake
+### Water
 * 100% Shellos
-## Rod
+### Rod
 * 20% Clauncher
 * 20% Clamperl
 * 10% Solosis
@@ -30,9 +30,9 @@
 * 10% Binacle
 * 10% Finneon
 * 10% Goldeen
-## WaterNight
+### Water Night
 * 100% Tadbulb
-## RodNight
+### Rod Night
 * 20% Clauncher
 * 20% Clamperl
 * 10% Solosis
@@ -41,13 +41,13 @@
 * 10% Binacle
 * 10% Finneon
 * 10% Goldeen
-# Coast
-## Water
+## Coast
+### Water
 * 30% Fletchling
 * 30% Rowlet
 * 20% Flamingo
 * 20% Emolga
-## Rod
+### Rod
 * 20% Azurill
 * 20% Oshawott
 * 10% Croagunk
@@ -59,12 +59,12 @@
 * 4% Corphish
 * 4% Krabby
 * 2% Buizel
-## WaterNight
+### Water Night
 * 30% Natu
 * 30% Rufflet
 * 20% Murkrow
 * 20% Noibat
-## RodNight
+### Rod Night
 * 20% Poliwag
 * 20% Tympole
 * 10% Remoraid
@@ -76,12 +76,12 @@
 * 4% Qwilfish
 * 4% Veluza
 * 2% Slowpoke-Galar
-# Ocean
-## Water
+## Ocean
+### Water
 * 40% Lapras
 * 30% Fletchling
 * 30% Rowlet
-## Rod
+### Rod
 * 20% Magikarp
 * 20% Basculin
 * 10% Carvanha
@@ -93,12 +93,12 @@
 * 4% Qwilfish-Hisui
 * 4% Skrelp
 * 2% Tapu Fini
-## WaterNight
+### Water Night
 * 30% Natu
 * 30% Rufflet
 * 20% Murkrow
 * 20% Noibat
-## RodNight
+### Rod Night
 * 20% Poliwag
 * 20% Tympole
 * 10% Remoraid
@@ -110,19 +110,19 @@
 * 4% Qwilfish
 * 4% Veluza
 * 2% Slowpoke-Galar
-# Underwater (124 + 126, same encounter location)
-## Water
+## Underwater (124 + 126, same encounter location)
+### Water
 * 30% Arctovish
 * 30% Dracovish
 * 20% Omanyte
 * 20% Kabuto
-# Littleroot Town
-## Rod
+## Littleroot Town
+### Rod
 * 40% Omanyte
 * 40% Kabuto
 * 20% Chewtle
-# Route 101
-## Land
+## Route 101
+### Land
 * 20% Lillipup
 * 15% Poochyena
 * 15% Electrike
@@ -132,8 +132,8 @@
 * 10% Espurr
 * 5% Bunnelby
 * 5% Lechonk
-# Route 102
-## Land
+## Route 102
+### Land
 * 20% Timburr
 * 15% Machop
 * 15% Pawmi
@@ -143,8 +143,8 @@
 * 10% Stuffel
 * 5% Mankey
 * 5% Ralts
-# Oldale Town
-## Land
+## Oldale Town
+### Land
 * 20% Houndour
 * 15% Growlithe
 * 15% Ponyta
@@ -154,8 +154,8 @@
 * 10% Salandit
 * 5% Charcadet
 * 5% Litleo
-# Route 103
-## Land
+## Route 103
+### Land
 * 20% Emolga
 * 15% Mareep
 * 15% Shinx
@@ -165,8 +165,8 @@
 * 10% Pichu
 * 5% Tadbulb
 * 5% Toxel
-# Route 104
-## Land
+## Route 104
+### Land
 * 20% Scatterbug
 * 15% Fletchling
 * 15% Starly
@@ -176,13 +176,13 @@
 * 10% Yanma
 * 5% Bombirdier
 * 5% Flamigo
-# Petalburg City
-## Rod
+## Petalburg City
+### Rod
 * 40% Clamperl
 * 40% Psyduck
 * 20% Clauncher
-# Petalburg Woods
-## Land
+## Petalburg Woods
+### Land
 * 20% Exeggcute
 * 15% Skiddo
 * 15% Deerling
@@ -192,8 +192,8 @@
 * 10% Rowlet
 * 5% Poltchageist
 * 5% Foongus
-# Rustboro City
-## Land
+## Rustboro City
+### Land
 * 20% Sandshrew
 * 15% Phanpy
 * 15% Drilbur
@@ -203,8 +203,8 @@
 * 10% Geodude
 * 5% NidoranF
 * 5% NidoranM
-# Route 116
-## Land
+## Route 116
+### Land
 * 20% Sandshrew-Alola
 * 15% Meowth-Galar
 * 15% Cufant
@@ -214,8 +214,8 @@
 * 10% Pawniard
 * 5% Houndour
 * 5% Stunky
-# Rusturf Tunnel
-## Land
+## Rusturf Tunnel
+### Land
 * 20% Larvitar
 * 15% Roggenrola
 * 15% Geodude
@@ -225,8 +225,8 @@
 * 10% Archen
 * 5% Nosepass
 * 5% Varoom
-# Verdantuf Town
-## Land
+## Verdantuf Town
+### Land
 * 20% Torkoal
 * 15% NidoranF
 * 15% NidoranM
@@ -236,8 +236,8 @@
 * 10% Sizzlipede
 * 5% Meowth-Galar
 * 5% Dwebble
-# Route 117
-## Land
+## Route 117
+### Land
 * 20% Gossifleur
 * 15% Cottonee
 * 15% Petilil
@@ -247,8 +247,8 @@
 * 10% Rowlet
 * 5% Sewaddle
 * 5% Applin
-# Woods Hideout
-## Land
+## Woods Hideout
+### Land
 * 20% Scatterbug
 * 15% Venipede
 * 15% Grubbin
@@ -258,8 +258,8 @@
 * 10% Ekans
 * 5% Dwebble
 * 5% Foongus
-# Dewford Town
-## Land
+## Dewford Town
+### Land
 * 20% Tyrogue
 * 15% Taruos-Paldea-Aqua
 * 15% Tauros-Paldea-Blaze
@@ -269,8 +269,8 @@
 * 10% Petilil
 * 5% Pawmi
 * 5% Timburr
-# Route 107
-## Land
+## Route 107
+### Land
 * 20% Girafarig
 * 15% Flittle
 * 15% Munna
@@ -280,8 +280,8 @@
 * 10% Snubull
 * 5% Hatenna
 * 5% Ralts
-# Granite Cave 1F
-## Land
+## Granite Cave 1F
+### Land
 * 20% Rockruff (Dusk Stone for Dusk)
 * 15% Espurr
 * 15% Munna
@@ -291,8 +291,8 @@
 * 10% Sandshrew-Alola
 * 5% Zubat
 * 5% Noibat
-# Granite Cave B1F
-## Land
+## Granite Cave B1F
+### Land
 * 20% Cetoddle
 * 15% Munna
 * 15% Snom
@@ -302,18 +302,18 @@
 * 10% Bergmite
 * 5% Swinub
 * 5% Sneasel
-## Rock Smash
+### Rock Smash
 * 30% Bergmite
 * 30% Sandshrew-Alola
 * 20% Roggenrola
 * 20% Aron
-# Slateport City
-## Rod
+## Slateport City
+### Rod
 * 40% Tentacool
 * 40% Toxel
 * 20% Bruxish
-# Route 110
-## Land
+## Route 110
+### Land
 * 20% Mareep
 * 15% NidoranF
 * 15% NidoranM
@@ -323,8 +323,8 @@
 * 10% Shinx
 * 5% Sandshrew
 * 5% Phanpy
-# Route 111
-## Land
+## Route 111
+### Land
 * 20% Gligar
 * 15% Trapinch
 * 15% Sandile
@@ -334,15 +334,15 @@
 * 10% Skorupi
 * 5% Sandshrew
 * 5% Dwebble
-## Rock Smash
+### Rock Smash
 * 60% Dwebble
 * 40% Trapinch
-## Rod
+### Rod
 * 40% Barboach
 * 30% Tynamo
 * 30% Tympole
-# Route 112
-## Land
+## Route 112
+### Land
 * 20% Charcadet
 * 15% Growlithe
 * 15% Houndour
@@ -352,8 +352,8 @@
 * 10% Cyndaquil
 * 5% Ponyta
 * 5% Litleo
-# Fiery Path
-## Land
+## Fiery Path
+### Land
 * 20% Torkoal
 * 15% Growlithe-Hisui
 * 15% Houndour
@@ -363,11 +363,11 @@
 * 10% Litwick
 * 5% Sizzlipede
 * 5% Larvesta
-## Rock Smash
+### Rock Smash
 * 60% Sizzlipede
 * 40% Skorupi
-# Route 113
-## Land
+## Route 113
+### Land
 * 20% Poipole
 * 15% Sneasel
 * 15% Glimmet
@@ -377,14 +377,14 @@
 * 10% Skorupi
 * 5% Zigzagoon-Galar
 * 5% Toxel
-# Fallarbor Town
-## Rock Smash
+## Fallarbor Town
+### Rock Smash
 * 30% Tyrunt
 * 30% Amaura
 * 20% Anorith
 * 20% Dwebble
-# Route 114
-## Land
+## Route 114
+### Land
 * 20% Ralts
 * 15% Yanma
 * 15% Cutiefly
@@ -394,11 +394,11 @@
 * 10% Nymble
 * 5% Aipom
 * 5% Minccino
-## Rock Smash
+### Rock Smash
 * 60% Roggenrola
 * 40% Larvitar
-# Meteor Falls 1F1R
-## Land
+## Meteor Falls 1F1R
+### Land
 * 20% Beldum
 * 15% Drilbur
 * 15% Phanpy
@@ -408,12 +408,12 @@
 * 10% Pawniard
 * 5% Clefairy
 * 5% Gligar
-## Rod
+### Rod
 * 40% Barboach
 * 30% Tynamo
 * 30% Tympole
-# Meteor Falls 1F2R
-## Land
+## Meteor Falls 1F2R
+### Land
 * 20% Deino
 * 15% Beldum
 * 15% Tinkatink
@@ -423,12 +423,12 @@
 * 10% Sneasel
 * 5% Jangmo-o
 * 5% Frigibax
-## Rod
+### Rod
 * 40% Barboach
 * 30% Tynamo
 * 30% Tympole
-# Meteor Falls B1F1R
-## Land
+## Meteor Falls B1F1R
+### Land
 * 20% Dreepy
 * 15% Tinkatink
 * 15% Teddiursa
@@ -438,12 +438,12 @@
 * 10% Phanpy
 * 5% Deino
 * 5% Beldum
-## Rod
+### Rod
 * 40% Barboach
 * 30% Tynamo
 * 30% Tympole
-# Meteor Path
-## Land
+## Meteor Path
+### Land
 * 20% Kangaskhan
 * 15% Dracozolt
 * 15% Arctozolt
@@ -453,8 +453,8 @@
 * 10% Solrock
 * 5% Iron Jugulis
 * 5% Iron Thorns
-# Jagged Pass
-## Land
+## Jagged Pass
+### Land
 * 20% Tauros-Paldea-Combat
 * 15% Tauros-Paldea-Blaze
 * 15% Taruos-Paldea-Aqua
@@ -464,8 +464,8 @@
 * 10% Klawf
 * 5% Girafarig
 * 5% Farfetch'd-Galar
-# Sootopolis City
-## Land
+## Sootopolis City
+### Land
 * 20% Lotad
 * 15% Gossifleur
 * 15% Cottonee
@@ -475,8 +475,8 @@
 * 10% Voltrob-Hisui
 * 5% Bounsweet
 * 5% Budew
-# Cave of Origin - Entrance
-## Land
+## Cave of Origin - Entrance
+### Land
 * 20% Cubone
 * 15% Rockruff
 * 15% Tyrogue
@@ -486,8 +486,8 @@
 * 10% Sandshrew
 * 5% Zubat
 * 5% Noibat
-# Tera Island
-## Land
+## Tera Island
+### Land
 * 20% Charcadet
 * 15% Glimmet
 * 15% Nymble
@@ -497,8 +497,8 @@
 * 10% Nacli
 * 5% Pawniard
 * 5% Mankey
-# Mirage Tower 1F
-## Land
+## Mirage Tower 1F
+### Land
 * 20% Trapinch
 * 15% Meowth-Galar
 * 15% Skorupi
@@ -508,8 +508,8 @@
 * 10% Amaura
 * 5% Sandshrew
 * 5% Baltoy
-# Mirage Tower 2F
-## Land
+## Mirage Tower 2F
+### Land
 * 20% Sandile
 * 15% Meowth-Galar
 * 15% Skorupi
@@ -519,8 +519,8 @@
 * 10% Baltoy
 * 5% Rhyhorn
 * 5% Swinub
-# Mirage Tower 3F
-## Land
+## Mirage Tower 3F
+### Land
 * 20% Nacli
 * 15% Meowth-Galar
 * 15% Skorupi
@@ -530,8 +530,8 @@
 * 10% Baltoy
 * 5% Tyrunt
 * 5% Amaura
-# Mirage Tower 4F
-## Land
+## Mirage Tower 4F
+### Land
 * 20% Gligar
 * 15% Sandshrew
 * 15% Baltoy
@@ -541,11 +541,11 @@
 * 10% Noibat
 * 5% Dwebble
 * 5% Archen
-## Rock Smash
+### Rock Smash
 * 60% Anorith
 * 40% Skorupi
-# Mirage Tunnel
-## Land
+## Mirage Tunnel
+### Land
 * 20% Klawf
 * 15% Sigilyph
 * 15% Emolga
@@ -555,8 +555,8 @@
 * 10% Onix
 * 5% Stunfisk
 * 5% Falinks
-# Mirage Town
-## Land
+## Mirage Town
+### Land
 * 20% Maractus
 * 15% Trapinch
 * 15% Geodude
@@ -566,15 +566,15 @@
 * 10% Aron
 * 5% Sandshrew
 * 5% Meowth-Galar
-# Abandoned Ship
-## Surf
+## Abandoned Ship
+### Surf
 * 60% Grimer-Alola
 * 40% Toxel
-## Rod
+### Rod
 * 60% Dhelmise
 * 40% Frilish
-# Route 115
-## Land
+## Route 115
+### Land
 * 20% Ralts
 * 15% Minccino
 * 15% Aipom
@@ -584,8 +584,8 @@
 * 10% Yanma
 * 5% Glimmet
 * 5% Munna
-# Route 123
-## Land
+## Route 123
+### Land
 * 20% Sneasel
 * 15% Timburr
 * 15% Tinkatink
@@ -595,8 +595,8 @@
 * 10% Munna
 * 5% Pawmi
 * 5% Togepi
-# Route 119
-## Land
+## Route 119
+### Land
 * 20% Scyther
 * 15% Karrablast
 * 15% Glimmet
@@ -607,11 +607,11 @@
 * 5% Sewaddle
 * 5% Venipede
 * 2% Tapu Bulu (Outside normal table)
-# Route 120
-## Water
+## Route 120
+### Water
 * 60% Tympole
 * 40% Flamigo
-## Land
+### Land
 * 20% Tinkatink
 * 15% Pawniard
 * 15% Togepi
@@ -621,12 +621,12 @@
 * 10% Gligar
 * 5% Scyther
 * 5% Hawlucha
-# Scorched Slab
-## Water
+## Scorched Slab
+### Water
 * 40% Archen
 * 30% Noibat
 * 30% Zubat
-## Land
+### Land
 * 20% Larvesta
 * 15% Cyndaquil
 * 15% Litwick
@@ -636,8 +636,8 @@
 * 10% Zubat
 * 5% Sizzlipede
 * 5% Torkoal
-# Route 121
-## Land
+## Route 121
+### Land
 * 20% Mankey
 * 15% Gastly
 * 15% Ralts
@@ -647,19 +647,19 @@
 * 10% Murkrow
 * 5% Poipole
 * 5% Noibat
-## Water
+### Water
 * 30% Noibat
 * 30% Murkrow
 * 20% Bombirdier
 * 20% Flamigo
-# Route 122
-## Water
+## Route 122
+### Water
 * 30% Gastly
 * 30% Zubat
 * 20% Bombirdier
 * 20% Flamigo
-# Safari Zone - Northeast
-## Land
+## Safari Zone - Northeast
+### Land
 * 20% Eevee
 * 15% Jolteon
 * 15% Sylveon
@@ -669,8 +669,8 @@
 * 10% Umbreon
 * 5% Leafeon
 * 5% Glaceon
-# Safari Zone - North
-## Land
+## Safari Zone - North
+### Land
 * 20% Torchic
 * 15% Chimchar
 * 15% Litten
@@ -679,13 +679,13 @@
 * 10% Tepig
 * 10% Charmander
 * 10% Fuecoco
-## Rock Smash
+### Rock Smash
 * 30% Tyrunt
 * 30% Amaura
 * 20% Aron
 * 20% Nacli
-# Safari Zone - South
-## Land
+## Safari Zone - South
+### Land
 * 20% Treecko
 * 15% Grookey
 * 15% Chespin
@@ -694,8 +694,8 @@
 * 10% Snivy
 * 10% Turtwig
 * 10% Sprigatito
-# Safari Zone - Southwest
-## Land
+## Safari Zone - Southwest
+### Land
 * 20% Mudkip
 * 15% Popplio
 * 15% Squirtle
@@ -704,8 +704,8 @@
 * 10% Sobble
 * 10% Piplup
 * 10% Quaxly
-# Route 125
-## Land
+## Route 125
+### Land
 * 20% Duraludon
 * 15% Deino
 * 15% Dreepy
@@ -714,8 +714,8 @@
 * 10% Bagon
 * 10% Jangmo-o
 * 10% Gible
-# Sky Pillar
-## Land
+## Sky Pillar
+### Land
 * 20% Duraludon
 * 15% Deino
 * 15% Dreepy
@@ -724,8 +724,8 @@
 * 10% Bagon
 * 10% Jangmo-o
 * 10% Gible
-# Route 130
-## Land
+## Route 130
+### Land
 * 20% Hawlucha
 * 15% Tinkatink
 * 15% Togepi
@@ -735,8 +735,8 @@
 * 10% Pawniard
 * 5% Gossifleur
 * 5% Cottonee
-# Shoal Cave Entrance Room
-## Land
+## Shoal Cave Entrance Room
+### Land
 * 20% Sneasel
 * 15% Larvitar
 * 15% Beldum
@@ -746,8 +746,8 @@
 * 10% Bergmite
 * 5% Zubat
 * 5% Noibat
-# Shoal Cave Ice Room
-## Land
+## Shoal Cave Ice Room
+### Land
 * 20% Sneasel-Hisui
 * 15% Swinub
 * 15% Cetoddle
@@ -757,8 +757,8 @@
 * 10% Pawniard
 * 5% Larvitar
 * 5% Beldum
-# Shoal Cave Other Rooms
-## Land
+## Shoal Cave Other Rooms
+### Land
 * 20% Swinub
 * 15% Tinkatink
 * 15% Pawniard
@@ -768,8 +768,8 @@
 * 10% Munna
 * 5% Zubat
 * 5% Noibat
-# Mt. Chimney
-## Land
+## Mt. Chimney
+### Land
 * 20% Great Tusk
 * 15% Slither Wing
 * 15% Sandy Shocks
@@ -778,8 +778,8 @@
 * 10% Raging Bolt
 * 10% Flutter Mane
 * 10% Roaring Moon
-# New Mauville
-## Land
+## New Mauville
+### Land
 * 20% Iron Treads
 * 15% Iron Hands
 * 15% Iron Moth
@@ -788,8 +788,8 @@
 * 10% Iron Crown
 * 10% Iron Bundle
 * 10% Iron Valiant
-# Desert Underpass
-## Land
+## Desert Underpass
+### Land
 * 20% Aerodactyl
 * 15% Drilbur
 * 15% Archen
@@ -799,8 +799,8 @@
 * 10% Skorupi
 * 5% Larvitar
 * 5% Aron
-# Evergrande City
-## Land
+## Evergrande City
+### Land
 * 20% Gimmighoul
 * 15% Larvesta
 * 15% Poipole
@@ -810,8 +810,8 @@
 * 10% Rookidee
 * 5% Jangmo-o
 * 5% Frigibax
-# Victory Road 1F
-## Land
+## Victory Road 1F
+### Land
 * 20% Duraludon
 * 15% Drilbur
 * 15% Poipole
@@ -821,8 +821,8 @@
 * 10% Bagon
 * 5% Jangmo-o
 * 5% Frigibax
-# Victory Road B1F
-## Land
+## Victory Road B1F
+### Land
 * 20% Impidimp
 * 15% Deino
 * 15% Dreepy
@@ -832,13 +832,13 @@
 * 10% Pawniard
 * 5% Jangmo-o
 * 5% Frigibax
-## Rock Smash
+### Rock Smash
 * 30% Larvitar
 * 30% Beldum
 * 20% Nacli
 * 20% Archen
-# Victory Road B2F
-## Land
+## Victory Road B2F
+### Land
 * 20% Drilbur
 * 15% Tinkatink
 * 15% Pawniard
