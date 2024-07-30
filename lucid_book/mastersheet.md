@@ -1,1 +1,1 @@
-../../mastersheet.md
+../mastersheet.md
