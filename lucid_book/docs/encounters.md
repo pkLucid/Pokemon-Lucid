@@ -1,35 +1,23 @@
-# Route 128 Loiterer
-## Tornadus
-## Thundurus
-## Landorus
-## Enamorus
-# Fortree City
-## Tapu Koko (after Winona, Omniboosted +1)
-# Meteor Falls B1F1R
-## Land
-* 20% Dreepy
-* 15% Tinkatink
-* 15% Teddiursa
-* 10% Pawniard
-* 10% Magnemite
-* 10% Gligar
-* 10% Phanpy
-* 5% Deino
-* 5% Beldum
-## Rod
-* 40% Barboach
-* 30% Tynamo
-* 30% Tympole
-# Stella Island
-## Ogerpon (after Phoebe, Omniboosted +2)
-# Game Corner
-## Starter of your choice (after delivering mail in Evergrande City)
-# Daycare Egg
-## Elekid
-## Magby
-## Mime Jr.
-# Lavaridge Egg
-## Random regular starter
+# General Encounters
+## Route 128 Loiterer
+* Tornadus
+* Thundurus
+* Landorus
+* Enamorus
+## Fortree City
+* Tapu Koko (after Winona, Omniboosted +1)
+## Meteor Falls B1F1R
+* Tapu Lele (locked behind waterfall, Omniboosted +2)
+## Stella Island
+* Ogerpon (after Phoebe, Omniboosted +2)
+## Game Corner
+* Starter of your choice (after delivering mail in Evergrande City)
+## Daycare Egg
+* Elekid
+* Magby
+* Mime Jr.
+## Lavaridge Egg
+* Random regular starter
 # Lake
 ## Water
 * 100% Shellos
@@ -435,6 +423,21 @@
 * 10% Sneasel
 * 5% Jangmo-o
 * 5% Frigibax
+## Rod
+* 40% Barboach
+* 30% Tynamo
+* 30% Tympole
+# Meteor Falls B1F1R
+## Land
+* 20% Dreepy
+* 15% Tinkatink
+* 15% Teddiursa
+* 10% Pawniard
+* 10% Magnemite
+* 10% Gligar
+* 10% Phanpy
+* 5% Deino
+* 5% Beldum
 ## Rod
 * 40% Barboach
 * 30% Tynamo
