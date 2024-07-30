@@ -1,9 +1,7 @@
-# Credits
-
-## Decompilation Project
+### Decompilation Project
 * Pret
 
-## Expansion (RHH)
+### Expansion (RHH)
 * DizzyEgg
 * AsparagusEduardo
 * SBird
@@ -12,7 +10,7 @@
 * ghoulslash
 * And thanks to everyone else who contributes to RHH (too many to name)
 
-## General
+### General
 * Skeli (help with gen9 moves and abilities)
 * Jaizu + CitrusBolt (Pokemon Summary Screen)
 * Lunos (A bunch of small feature, to many to name)

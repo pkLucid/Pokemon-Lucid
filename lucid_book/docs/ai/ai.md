@@ -1,5 +1,3 @@
-# AI:
-
 ## Post KO Switch in
   * Palafin outspeeds current player mon: + 8
   * AI Mon faster and can faint target: + 7
