@@ -8,7 +8,7 @@
 - [Calc](./docs/calc.md)
 - [Encounters](./docs/encounters.md)
 - [AI](./docs/ai/ai.md)
-- [Changelogs](./docs/changelogs)
+- [Changelog](./docs/changelog.md)
     - [Version 1.1.1 (Latest)](./docs/v1.1.1/patch_notes.md)
     - [Version 1.1.0](./docs/past-versions/v1.1.0/patch_notes.md)
     - [Version 1.0.5](./docs/past-versions/v1.0.5/patch_notes.md)
