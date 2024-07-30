@@ -1,1 +1,1 @@
-../mastersheet.md
+{{#include ../mastersheet.md}}
