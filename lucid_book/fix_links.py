@@ -33,7 +33,7 @@ def proc_items(items):
     for item in items:
         if 'Chapter' in item:
             s = item['Chapter']['content']
-            # s = s.replace('](README.md)', '](./)')
+            s = s.replace('](mastersheet.md)', '](./)')
             # s = s.replace('](/INSTALL.md', '](INSTALL.md')
             s = s.replace('](lucid_book/', '](')
             item['Chapter']['content'] = URL_RE.sub(handle_url, s)

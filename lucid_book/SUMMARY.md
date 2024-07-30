@@ -1,4 +1,4 @@
 # Summary
 
 - [Introduction]()
-- [Mastersheet](../../mastersheet.md)
+- [Mastersheet](./mastersheet.md)
