@@ -28,5 +28,6 @@ def try_delete_file(file):
         pass
 
 if __name__ == "__main__":
+    write_file("# Encounters")
     try_delete_file(encounters)
     convert_encounters()
