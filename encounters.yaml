@@ -28,6 +28,17 @@ Lake:
     - 10% Binacle
     - 10% Finneon
     - 10% Goldeen
+    WaterNight:
+    - 100% Tadbulb
+    RodNight:
+    - 20% Clauncher
+    - 20% Clamperl
+    - 10% Solosis
+    - 10% Tynamo
+    - 10% Psyduck
+    - 10% Binacle
+    - 10% Finneon
+    - 10% Goldeen
 
 Coast:
     Water:
@@ -47,6 +58,23 @@ Coast:
     -  4% Corphish
     -  4% Krabby
     -  2% Buizel
+    WaterNight:
+    - 30% Natu
+    - 30% Rufflet
+    - 20% Murkrow
+    - 20% Noibat
+    RodNight:
+    - 20% Poliwag
+    - 20% Tympole
+    - 10% Remoraid
+    - 10% Barboach
+    - 10% Dewpider
+    - 10% Binacle
+    -  5% Clobbopus
+    -  5% Wiglett
+    -  4% Qwilfish
+    -  4% Veluza
+    -  2% Slowpoke-Galar
 
 Ocean:
     Water:
@@ -65,6 +93,23 @@ Ocean:
     -  4% Qwilfish-Hisui
     -  4% Skrelp
     -  2% Tapu Fini
+    WaterNight:
+    - 30% Natu
+    - 30% Rufflet
+    - 20% Murkrow
+    - 20% Noibat
+    RodNight:
+    - 20% Poliwag
+    - 20% Tympole
+    - 10% Remoraid
+    - 10% Barboach
+    - 10% Dondozo
+    - 10% Relicanth
+    -  5% Wailmer
+    -  5% Mantyke
+    -  4% Qwilfish
+    -  4% Veluza
+    -  2% Slowpoke-Galar
 
 Underwater (124 + 126, same encounter location):
     Water:
@@ -570,6 +615,18 @@ Abandoned Ship:
     Rod:
     - 60% Dhelmise
     - 40% Frilish
+
+Route 115:
+    Land:
+    - 20% Ralts
+    - 15% Minccino
+    - 15% Aipom
+    - 10% Pawmi
+    - 10% Tinkatink
+    - 10% Phanpy
+    - 10% Yanma
+    -  5% Glimmet
+    -  5% Munna
 
 Route 123:
     Land:
