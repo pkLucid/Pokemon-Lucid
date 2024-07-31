@@ -5,6 +5,7 @@ src = "."
 title = "pokemon-lucid"
 
 [output.html]
+default-theme = "ayu"
 git-repository-url = "https://github.com/pkLucid/Pokemon-Lucid"
 edit-url-template = "https://github.com/pkLucid/Pokemon-Lucid/edit/master/lucid_book/{path}"
 site-url = "/pokemon-lucid/"

@@ -8,7 +8,7 @@
 * MGriffin
 * Jasper
 * ghoulslash
-* And thanks to everyone else who contributes to RHH (too many to name)
+* And thanks to everyone else who contributes to RHH, thank you very much
 
 ### General
 * Skeli (help with gen9 moves and abilities)
