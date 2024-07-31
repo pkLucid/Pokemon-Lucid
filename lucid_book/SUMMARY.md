@@ -8,5 +8,6 @@
 - [Porydex](./docs/porydex.md)
 - [Calc](./docs/calc.md)
 - [Encounters](./docs/encounters.md)
+- [Item Locations](./docs/item_locations.md)
 - [AI](./docs/ai/ai.md)
 - [Changelog](./docs/changelog.md)

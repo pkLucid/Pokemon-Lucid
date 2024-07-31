@@ -8,6 +8,10 @@ Route 106:
   - Heart Scale (Hidden)
 Route 107:
   - Berry Juice (Hidden)
+  - Dragon Scale (Rock Smash)
+  - Kings Rock (Rock Smash)
+  - Prism Scale (Rock Smash)
+  - Masterpiece Teacup (Rock Smash)
 Route 108:
   - Heart Scale (Hidden)
   - Power Herb
@@ -73,10 +77,6 @@ Dewford Town:
   - Punching Glove
   - Deep Sea Tooth
   - Deep Sea Scale
-  - Dragon Scale (Rock Smash)
-  - Kings Rock (Rock Smash)
-  - Prism Scale (Rock Smash)
-  - Masterpiece Teacup (Rock Smash)
 Slateport City:
   - Boosting Items
   - Moon Stone
@@ -90,7 +90,6 @@ Slateport City:
   - Dusk Stone
   - Dawn Stone
   - Ice Stone
-
 Mauville City:
   - Electric Seed
 Fiery Path:
@@ -102,19 +101,19 @@ Jagged Pass:
   - Ability Capsule (Hidden)
 Tera Island:
   - Ability Capsule (Hidden)
-  - Heart_Scale (Hidden)
+  - Heart Scale (Hidden)
 Lilycove City:
   - Ability Capsule (Hidden)
   - Throat Spray
 Shoal Cave Ice Room:
   - Eject Pack
 Mossdeep City:
-  - Heart_Scale (Hidden)
+  - Heart Scale (Hidden)
   - Psychic Seed
 Underwater 124:
   - Ability Capsule (Hidden)
 Stellar Island:
-  - Heart_Scale (Hidden)
+  - Heart Scale (Hidden)
 Victory Road:
   - Ability Capsule (Hidden)
   - Leftovers
