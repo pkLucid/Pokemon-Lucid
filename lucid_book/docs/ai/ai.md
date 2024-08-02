@@ -75,14 +75,18 @@
   * If a move would fail if used by AI it will get a -20
   * For further information See AI_CalcMoveEffectScore
 
-## Rocks / Screens
+## Status / Speed Control / Set up
+* For the following checks order matters
+* If the move would fail the AI wont click it
+
+### Rocks / Screens
   * if AI outdamages and player has a way to remove field effect, no score increase
   * 70/30 in favor of no rocks if player has a way to remove rocks
   * If player has only 3 mons left no rocks set up
   * AI will always only set up one layer of hazards
   * In any other situation 100% (outside of kill)
 
-## Speed Control
+### Speed Control
   * If AI cant't drop speed, no increase
   * If AI faster, no increase
   * If AI is still slower (or tied) the next turn, no score increase
@@ -90,7 +94,18 @@
   * If player resists move, no score increase unless the move + best damage move kill next turn
   * In any other situation, increase score
 
-## Set up
+### Posion
+* If player holds a curing berry AI wont poison
+* If AI is faster and faints player in less then 2 hits it wont posion
+* If AI needs 3 or more hits to faint player it will poison
+* Otherwise 100% if's first turn and 50/50 in any other situation
+
+### Burn (Will-O-Wisp)
+* If player holds a curing berry or has no physical move AI wont try to burn
+* If AI is faster and the best damage move is physical AI will try to burn
+* Otherwise 100% if's first turn and 50/50 in any other situation
+
+### Set up
   * If player outspeeds and two taps, AI is not going to set up
   * If AI is faster but you one tap it, it isn't going to set up
   * If it set up the previous turn and is faster + can 2 tap it isn't going to set up
