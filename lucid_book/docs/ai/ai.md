@@ -80,11 +80,11 @@
 * If the move would fail the AI wont click it
 
 ### Rocks / Screens
-  * if AI outdamages and player has a way to remove field effect, no score increase
-  * 70/30 in favor of no rocks if player has a way to remove rocks
-  * If player has only 3 mons left no rocks set up
-  * AI will always only set up one layer of hazards
-  * In any other situation 100% (outside of kill)
+* if AI outdamages and player has a way to remove field effect, no score increase
+* 70/30 in favor of no rocks if player has a way to remove rocks
+* If player has only 3 mons left no rocks set up
+* AI will always only set up one layer of hazards
+* In any other situation 100% (outside of kill)
 
 ### Speed Control
   * If AI cant't drop speed, no increase
