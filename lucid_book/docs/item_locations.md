@@ -16,7 +16,7 @@
 
 <br/><br/>
 
-|Overworl Items                 |               |
+|Overworld Items                 |               |
 |------------------------|-----------------------|
 |Muscle Band             |Route 102              |
 |Heart Scale (Hidden)    |Route 104              |
@@ -107,4 +107,95 @@
 |Razor Fang (Rock Smash) |Meteor Path            |
 |Black Augurite (Rock Smash)|Meteor Path         |
 
-### Berries coming soon
+<br/><br/>
+
+|Berries       |         |
+|---|----------|---------|
+|31 |Oran      |Route 102|
+|31 |Oran      |Route 102|
+|31 |Oran      |Route 104|
+|31 |Oran      |Route 104|
+|31 |Cheri     |Route 104|
+|31 |Cheri     |Route 120|
+|31 |Cheri     |Route 103|
+|31 |Chesto    |Route 104|
+|31 |Chesto    |Route 103|
+|31 |Chesto    |Route 120|
+|31 |Pecha     |Route 104|
+|31 |Pecha     |Route 103|
+|31 |Pecha     |Route 120|
+|31 |Rawst     |Route 104|
+|31 |Rawst     |Route 116|
+|31 |Rawst     |Route 116|
+|31 |Rawst     |Route 120|
+|31 |Aspear    |Route 104|
+|31 |Aspear    |Route 116|
+|31 |Aspear    |Route 120|
+|31 |Leppa     |Route 104|
+|31 |Leppa     |Route 116|
+|31 |Leppa     |Route 110|
+|31 |Leppa     |Route 120|
+|31 |Persim    |Route 104|
+|31 |Persim    |Route 116|
+|31 |Persim    |Route 114|
+|31 |Persim    |Route 120|
+|10 |Sitrus    |Route 115|
+|10 |Sitrus    |Route 115|
+|10 |Sitrus    |Route 110|
+|10 |Sitrus    |Route 116|
+|10 |Sitrus    |Route 118|
+|10 |Sitrus    |Route 118|
+|10 |Sitrus    |Route 118|
+|10 |Sitrus    |Route 119|
+|10 |Sitrus    |Route 119|
+|10 |Sitrus    |Route 119|
+|10 |Sitrus    |Route 120|
+|10 |Sitrus    |Route 121|
+|10 |Sitrus    |Route 121|
+|10 |Sitrus    |Route 123|
+|10 |Sitrus    |Route 123|
+|10 |Sitrus    |Route 125|
+|10 |Sitrus    |Route 125|
+|10 |Sitrus    |Route 125|
+|10 |Lum       |Route 110|
+|10 |Lum       |Route 116|
+|10 |Lum       |Route 119|
+|10 |Lum       |Route 119|
+|10 |Lum       |Route 120|
+|10 |Lum       |Route 120|
+|10 |Lum       |Route 121|
+|10 |Lum       |Route 121|
+|2  |Rowap     |Route 112|
+|2  |Rowap     |Route 112|
+|2  |Jaboca    |Route 112|
+|2  |Jaboca    |Route 112|
+|2  |Custap    |Route 114|
+|2  |Custap    |Route 114|
+|2  |Figy      |Route 123|
+|2  |Figy      |Route 123|
+|2  |Wiki      |Route 123|
+|2  |Wiki      |Route 123|
+|2  |Mago      |Route 123|
+|2  |Mago      |Route 123|
+|2  |Aguav     |Route 123|
+|2  |Aguav     |Route 123|
+|2  |Iapapa    |Route 123|
+|2  |Iapapa    |Route 123|
+|1  |Rindo     |Route 115|
+|1  |Occa      |Route 115|
+|1  |Passho    |Route 115|
+|1  |Chilan    |Route 116|
+|1  |Charti    |Route 116|
+|1  |Babiri    |Route 116|
+|1  |Haban     |Route 119|
+|1  |Roseli    |Route 119|
+|1  |Payapa    |Route 121|
+|1  |Tanga     |Route 121|
+|1  |Kasib     |Route 121|
+|1  |Colbur    |Route 121|
+|1  |Wacan     |Route 123|
+|1  |Yache     |Route 123|
+|1  |Chople    |Route 123|
+|1  |Kebia     |Route 123|
+|1  |Shuca     |Route 123|
+|1  |Coba      |Route 123|

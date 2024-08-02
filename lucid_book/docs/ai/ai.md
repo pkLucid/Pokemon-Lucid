@@ -1,5 +1,5 @@
 ## Post KO Switch in
-  * Palafin outspeeds current player mon: + 8
+  * Palafin-Zero outspeeds current player mon: + 8
   * AI Mon faster and can faint target: + 7
   * AI Mon faints target and is not dead to player: +6
   * AI Mon faster and can faint with the same amount of hits or less the opposing mon: + 5
@@ -71,7 +71,7 @@
   * Moves with regular move effects generally get a +2/+3 if they apply. If I list some effects and don't specify a score you can assume that this is true
   * Some effects get a +1 only in some rare instances. That makes them tied with best damage move
   * Moves that target partner get a +10 if conditions apply
-  * Generally a move that faints the ai will have the highest score. Exceptions are TrickRoom and Protect.
+  * Generally a move that faints the ai will have the highest score. Exceptions are TrickRoom, Protect and Palafin-Zero with Flip Turn.
   * If a move would fail if used by AI it will get a -20
   * For further information See AI_CalcMoveEffectScore
 
