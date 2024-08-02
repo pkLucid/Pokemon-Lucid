@@ -94,16 +94,21 @@
   * If player resists move, no score increase unless the move + best damage move kill next turn
   * In any other situation, increase score
 
-### Posion
+### Poison
 * If player holds a curing berry AI wont poison
 * If AI is faster and faints player in less then 2 hits it wont posion
-* If AI needs 3 or more hits to faint player it will poison
+* If player needs 3 or more hits to faint AI it will poison
 * Otherwise 100% if's first turn and 50/50 in any other situation
 
 ### Burn (Will-O-Wisp)
 * If player holds a curing berry or has no physical move AI wont try to burn
 * If AI is faster and the best damage move is physical AI will try to burn
 * Otherwise 100% if's first turn and 50/50 in any other situation
+
+### Paralysis
+* If player holds a curing berry AI wont paralyze
+* If AI is slower it will paralyze
+* If Player needs 3 or more hits to faint AI it will paralyze
 
 ### Set up
   * If player outspeeds and two taps, AI is not going to set up
