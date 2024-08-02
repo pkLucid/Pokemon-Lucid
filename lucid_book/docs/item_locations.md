@@ -109,7 +109,7 @@
 
 <br/><br/>
 
-|Berries       |         |
+|Berries|      |         |
 |---|----------|---------|
 |31 |Oran      |Route 102|
 |31 |Oran      |Route 102|
