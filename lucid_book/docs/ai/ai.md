@@ -2,8 +2,8 @@
   * Palafin outspeeds current player mon: + 8
   * AI Mon faster and can faint target: + 7
   * AI Mon faints target and is not dead to player: +6
-  * AI Mon faster and outdamages: + 5
-  * AI Mon slower and outdamages: +4
+  * AI Mon faster and can faint with the same amount of hits or less the opposing mon: + 5
+  * AI Mon slower and can faint ai with less hits then opposing mon: +4
   * AI Mon faster: +3
   * AI is slower and dies in one hit +1
   * Anthing else is +2
