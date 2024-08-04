@@ -9,6 +9,7 @@
 * Fixed Belch and Last Resort not seen by AI while in party
 * Fixed being able to skip fisherman on 118
 * Fixed export issue with Tauros
+* Added overworld tutors to the menu. Available after talking to them. The various tutors are avilable after talking to the last single move tutor.
 * Updated Trainer and calc with various fixes and wrong abilities (Marking terrain etc.)
 * Tinkatink removed from Granite Cave
 * Poke Vial only heals pokemon that are alive
