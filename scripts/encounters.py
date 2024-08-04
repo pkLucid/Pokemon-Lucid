@@ -1,7 +1,7 @@
 import os
 import yaml
 
-encounters = "../lucid_book/docs/encounters.md"
+encounters = "../lucid_book/src/encounters.md"
 
 def write_file(line):
     with open(encounters, "a") as output:
