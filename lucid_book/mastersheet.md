@@ -1078,7 +1078,7 @@ Typhlosion Lv.70 @Fire Gem: Flamethrower, Extrasensory, Shadow Ball, Scorching S
 ### Cooltrainer Marcel [Double]
 Iron Treads Lv.68 @Misty Seed: Iron Head, Stomping Tantrum, Ice Spinner, Knock Off [Quark Drive|Jolly]  
 Emolga Lv.70 @Covert Cloak: Thunderbolt, Air Slash, Energy Ball, Volt Switch [Motor Drive|Modest]  
-Incineroar Lv.68 @Assault Vest: Blaze Kick, Darkest Lariat, Parting Shot, Fake Out [Intimidate|Adamant]  
+Incineroar Lv.68 @Assault Vest: Blaze Kick, Darkest Lariat, Leech Life, Fake Out [Intimidate|Adamant]  
 Revavroom Lv.68 @Air Balloon: Spin Out, Poison Jab, High Horsepower, Swagger [Filter|Adamant]  
 Roaring Moon Lv.68 @Flying Gem: Dragon Claw, Crunch, Acrobatics, Dragon Dance [Protosynthesis|Adamant]  
 
@@ -1192,7 +1192,7 @@ Cobalion Lv.0 @Lum Berry: Sacred Sword, Iron Head, Retaliate, Swords Dance [Just
 
 ### Psychic Presont and Psychic Maura
 Hatterene Lv.68 @Fairy Gem: Expanding Force, Dazzling Gleam, Draining Kiss, Mystical Fire [Magic Bounce|Quiet]  
-Incineroar Lv.68 @Sitrus Berry: Darkest Lariat, Blaze Kick, U-turn, Fake Out [Healer|Brave]  
+Incineroar Lv.68 @Sitrus Berry: Darkest Lariat, Blaze Kick, Leech Life, Drain Punch [Intimidate|Brave]  
 Medicham Lv.70 @Room Service: Zen Headbutt, Drain Punch, Thunder Punch, Fake Out [Pure Power|Brave]  
 
 ### Psychic Presont and Psychic Maura
@@ -1507,7 +1507,7 @@ Iron Moth Lv.77 @Air Balloon: Heat Wave, Fiery Dance, Bug Buzz, Energy Ball [Qua
 Ninetales-Alola Lv.89 @Light Clay: Blizzard, Moonblast, Freeze-Dry, Aurora Veil [Snow Warning|Timid]  
 Sandslash-Alola Lv.89 @Focus Sash: Icicle Crash, Iron Head, Rock Slide, Spiky Shield [Slush Rush|Adamant]  
 Dragapult Lv.90 @Choice Band: Dragon Darts [Clear Body|Jolly]  
-Gardevoir Lv.89 @Kebia Berry: Hyper Voice, Psychic, Draining Kiss, Destiny Bond [Synchronize|Timid]  
+Gardevoir Lv.89 @Kebia Berry: Hyper Voice, Psychic, Draining Kiss, Destiny Bond [Pixilate|Timid]  
 Lapras Lv.89 @Leftovers: Ice Beam, Liquidation, Thunderbolt, Ancient Power [Shell Armor|Quiet]  
 Armaldo Lv.89 @Assault Vest: Stone Edge, X-Scissor, Earthquake, Protect [Battle Armor|Adamant]  
 
