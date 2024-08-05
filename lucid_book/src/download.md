@@ -1,4 +1,4 @@
-### [Download latest release](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.1.1)
+### [Download latest release](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.1.2)
 
 ### Pokemon Lucid Changelog v1.1.2
 * Fixed Cotton Down speed drop protected by Covert Cloak
