@@ -5,6 +5,11 @@
  * Very rare rounding error with gems. Ai might see the 7th roll instead of 8th. Could apply to type boosting moves but not confirmed
  * Forces of Nature signature moves anim broken (visual only)
 
+### Pokemon Lucid Changelog v1.1.3
+* Fixed visual issue with follower sprites (pals got randomly messed up)
+* Fixed Revenge/Payback bug.
+* Fixed rounding issue during NumberOfHits calcs.
+
 ### Pokemon Lucid Changelog v1.1.2
 * Fixed Cotton Down speed drop protected by Covert Cloak
 * Fixed speed ties always resulting in favor of the player

@@ -1,22 +1,6 @@
-### [Download latest release](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.1.2)
+### [Download latest release](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.1.3)
 
-### Pokemon Lucid Changelog v1.1.2
-* Fixed Cotton Down speed drop protected by Covert Cloak
-* Fixed speed ties always resulting in favor of the player
-* Fixed berries missing timing on residual damage
-* Fixed "fixed damage moves" (eg SToss) damage not being reduced to 0 when immune. They still got a minus -20 decrease but very rarely they could get a +1 for best damage move which made the move selection random
-* Fixed mons having unintended moves (Slowking and Landourus) + ability (Maractus)
-* Fixed Belch and Last Resort not seen by AI while in party
-* Fixed being able to skip fisherman on 118
-* Fixed export issue with Tauros
-* Added overworld tutors to the menu. Available after talking to them. The various tutors are avilable after talking to the last single move tutor.
-* Updated Trainer and calc with various fixes and wrong abilities (Marking terrain etc.)
-* Tinkatink removed from Granite Cave
-* Poke Vial only heals pokemon that are alive
-* Improved Battle Info. Added additional window the shows 8the damage roll for AI moves
-* Couple niche AI fixes regarding positives/negatives
-* Slight change in Mirror Coat/Counter AI. See ai doc
-* New Game Plus option for different starters
-* Day and Night cycle
-* Route 115 grass encounters
-* Removed Arctofish and Dracovish from encounter table
+### Pokemon Lucid Changelog v1.1.3
+* Fixed visual issue with follower sprites (pals got randomly messed up)
+* Fixed Revenge/Payback bug.
+* Fixed rounding issue during NumberOfHits calcs.
