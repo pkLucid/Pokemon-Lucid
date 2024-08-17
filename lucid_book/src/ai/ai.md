@@ -8,6 +8,10 @@
 * AI is slower and dies in one hit +1
 * Anthing else is +2
 
+## Tera calcs (Relevant for Tera/Stella Island)
+* If AI mon has a Tera type while in party or field it will do calcs as if it already terastallized (including Tera Blast)
+* Calcs for Player mon happen only when actually terastallized (including Tera Blast)
+
 ## Speed
 * AI sees a speed tie, Quick Claw and Quick Draw as faster
 * Priority moves (includes effects that increase priority) are not seen by AI
@@ -28,7 +32,7 @@
 * AI is faster and move can kill: + 2 (singles only)
 * AI can kill with hit escape move (u-turn): 50/50 +2 (singles only)
 * hit switch targer (dragon tail) + 2
-* AI can kill with double target move can kill in a double + 2
+* AI can kill with double target move or spread move when no partner + 2
 
 ## In singles only
 * +10 on prio moves if AI is slower and dead
@@ -38,7 +42,7 @@
 * When AI sees a kill with several moves a move with a positive effect gets +1.
 
 ## Positive move effects (damage moves with 100% chance get the effect)
-* Double target moves in doubles
+* Double target moves in doubles (spread moves like Surf/EQ only when no partner)
 * Sound moves if user is holding a Throat Spray
 * Crit moves that don't always crit
 * Trapping moves
@@ -53,10 +57,11 @@
 
 ## Negative move effects (damage moves with a negative side effect)
 * Recoil
-* Two turn moves (e.g. Bounce and Solar Beam)
+* Moves that would target partner
+* Two turn moves (e.g. Bounce and Solar Beam) If move can't be used without charging (e.g. Power Herb)
 * Mind Blown, Steel Beam, Explosion type moves, Final Gambit
 * Recoil on miss
-* All moves that have a negative effect on AI unless they have contrary (e.g. Superpower)
+* All moves that have a negative effect on AI unless they have contrary or hold a white herb (e.g. Superpower)
 
 ## How the AI sees damage
 * The damage the AI sees is the 8th roll (technically it sees all previous rolls as well). and eveything is done in terms on number of hits the.
@@ -78,14 +83,26 @@
 * If AI does no damage 50/50
 * If under Encore 50/50
 
-## Status / Speed Control / Set up
+## Future Sight
+* Seen as a zero damage move but score is considered neutral unless a future attack is active
+* If AI is faster and faints to player, +3
+* If AI is slower and faints in 2 hits to player, +3
+
+## Status Moves
 * For the following checks order matters
 * If the move would fail the AI wont click it
+
+### Protect (chosen over kill if conditions apply)
+* If either mon has encore, no score increase
+* If AI is faster then both opposing mons, no score increase
+* If AI used protect last turn, no score increase
+* If it's the first turn for AI mon on the field and one opposing mon can faint it, 100% score increase
+* If not first turn and any opposing mon can faint, 50/50 score increase
 
 ### Rocks / Screens
 * if AI outdamages and player has a way to remove field effect, no score increase
 * 70/30 in favor of no rocks if player has a way to remove rocks
-* If player has only 3 mons left no rocks set up
+* If AI/player has only 3 mons left no rocks set up
 * AI will always only set up one layer of hazards
 * In any other situation 100% (outside of kill)
 
@@ -121,6 +138,7 @@
 * If it dies to secondary damage this turn AI does not set up
 * If player has opportunist / unaware it is not going to set up
 * In any other situation it sets up
+* Torch Song (Leaf Storm with Contrary) type moves are considered a set up move
 
 ### Mirror Coat / Counter
 * No icnrease if AI dies to move
