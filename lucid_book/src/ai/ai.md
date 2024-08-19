@@ -8,10 +8,6 @@
 * AI is slower and dies in one hit +1
 * Anthing else is +2
 
-## Tera calcs (Relevant for Tera/Stella Island)
-* If AI mon has a Tera type while in party or field it will do calcs as if it already terastallized (including Tera Blast)
-* Calcs for Player mon happen only when actually terastallized (including Tera Blast)
-
 ## Speed
 * AI sees a speed tie, Quick Claw and Quick Draw as faster
 * Priority moves (includes effects that increase priority) are not seen by AI
@@ -38,10 +34,10 @@
 * +10 on prio moves if AI is slower and dead
 
 ## Damage moves scores
-* When AI chooses a move it compares all moves that can do damage against each other. Moves with a bad effect will be desensitized based on numer of hits. For exmaple when Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score.
+* When AI chooses a move it compares all moves that can do damage against each other. Moves with a bad effect will be discouraged based on numer of hits. For exmaple when Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score.
 * When AI sees a kill with several moves a move with a positive effect gets +1.
 
-## Positive move effects (damage moves with 100% chance get the effect)
+## Positive move effects
 * Double target moves in doubles (spread moves like Surf/EQ only when no partner)
 * Sound moves if user is holding a Throat Spray
 * Crit moves that don't always crit
@@ -52,8 +48,9 @@
 * Pursuit
 * Switch target out moves (e.g. Dragon Tail)
 * Damage moves that set up Hazards
-* Speed Drop moves (e.g. Bulldoze)
+* Guaranteed speed drop moves (e.g. Icy Wind)
 * Self boosting moves (e.g. power up punch, leaf storm with contrary)
+* Note: If more then one move is present with a plus effect then both get the plus one
 
 ## Negative move effects (damage moves with a negative side effect)
 * Recoil
@@ -64,7 +61,7 @@
 * All moves that have a negative effect on AI unless they have contrary or hold a white herb (e.g. Superpower)
 
 ## How the AI sees damage
-* The damage the AI sees is the 8th roll (technically it sees all previous rolls as well). and eveything is done in terms on number of hits the.
+* The damage the AI sees is the 8th roll.
 * All calculations are done using the above mentioned roll
 * AI see only damage that it will actually deal. Something like Thunderbolt into Volt Absorb will be seen as 0 damage and receive a -20 score. Exceptions are Future Sight and Sucker Punch. Future Sight is always seen as 0 damage but doesn't get a decrease in score. Sucker Punch can get a decrease after the first time it has been used. (see IsDamageMoveUnusable)
 * Note: AI sees one roll lower for gems boost so the 7th (Might apply to type boosting items so just use the 7th roll to be save)
@@ -78,6 +75,10 @@
 * If a move would fail if used by AI it will get a -20
 * For further information See AI_CalcMoveEffectScore
 
+## Tera calcs (Relevant for Tera/Stella Island)
+* If AI mon has a Tera type while in party or field it will do calcs as if it already terastallized (including Tera Blast)
+* Calcs for Player mon happen only when actually terastallized (including Tera Blast)
+
 ## Mid turn switch (logic same as post ko switch in)
 * If AI has baton pass it will only switch with baton pass
 * If AI does no damage 50/50
@@ -89,17 +90,19 @@
 * If AI is slower and faints in 2 hits to player, +3
 
 ## Status Moves
+* Usually an increase of +3. It will be mentioned if it is not +3
 * For the following checks order matters
 * If the move would fail the AI wont click it
 
-### Protect (chosen over kill if conditions apply)
+### Protect (+15 if conditions apply)
 * If either mon has encore, no score increase
 * If AI is faster then both opposing mons, no score increase
 * If AI used protect last turn, no score increase
 * If it's the first turn for AI mon on the field and one opposing mon can faint it, 100% score increase
 * If not first turn and any opposing mon can faint, 50/50 score increase
+* The rules of a double battles still apply. Meaning if AI targets a player mon to kill it, it will not go for protect if the target has no move to faint the AI mon
 
-### Rocks / Screens
+### Hazards (including Stone Axe / Ceaseless Edge) / Screens
 * if AI outdamages and player has a way to remove field effect, no score increase
 * 70/30 in favor of no rocks if player has a way to remove rocks
 * If AI/player has only 3 mons left no rocks set up
@@ -130,6 +133,16 @@
 * If AI is slower it will paralyze
 * If Player needs 3 or more hits to faint AI it will paralyze
 
+### Tailwind
+* If Slower +3 (checks average in doubles)
+
+### Weakness Policy (+10)
+* If it isn't the first turn for either mon, no score increase
+* If partner is faster, has a move that would trigger the policy and need 4 or more hits to faint partner
+
+### Destiny Bond
+* If player can faint AI and AI faster
+
 ### Set up
 * If player outspeeds and two taps, AI is not going to set up
 * If AI is faster but you one tap it, it isn't going to set up
@@ -150,3 +163,4 @@
 
 ### Trap
 * If player needs 4 or more hits to faint ai trapping moves get an increase
+
