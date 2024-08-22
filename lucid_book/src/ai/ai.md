@@ -13,8 +13,6 @@
 * Priority moves (includes effects that increase priority) are not seen by AI
 
 ## Targetting in double battles if one mon sees kill
-[alt text](./src/ai/doubles.png)
-
     Ai side:        Battler 3 Battler 1
     Player side:    Battler 0 Battler 2
 
