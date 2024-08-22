@@ -35,7 +35,9 @@
 
 ## Damage moves scores
 * When AI chooses a move it compares all moves that can do damage against each other. Moves with a bad effect will be discouraged based on numer of hits. For exmaple when Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score.
-* When AI sees a kill with several moves a move with a positive effect gets +1.
+* When AI sees a kill with several moves a move with a positive effect gets +1
+* If several moves with a positive effect are present, all of them get +1
+* If a negative move is present, all non negative moves get +1 based on number of hits
 
 ## Positive move effects
 * Double target moves in doubles (spread moves like Surf/EQ only when no partner)
