@@ -13,6 +13,8 @@
 * Priority moves (includes effects that increase priority) are not seen by AI
 
 ## Targetting in double battles if one mon sees kill
+[alt text](./src/ai/doubles.png)
+
     Ai side:        Battler 3 Battler 1
     Player side:    Battler 0 Battler 2
 
@@ -60,6 +62,10 @@
 * Recoil on miss
 * All moves that have a negative effect on AI unless they have contrary or hold a white herb (e.g. Superpower)
 
+## Scale Shot (can be considered both a negative and positive depending on other moves)
+* If an other negative (positive) move is present it is considered to be a positive (negative) move
+* If neither are present, Scale Shot is considered to have no positive / negative effects
+
 ## How the AI sees damage
 * The damage the AI sees is the 8th roll.
 * All calculations are done using the above mentioned roll
@@ -85,12 +91,11 @@
 * If under Encore 50/50
 
 ## Future Sight
-* Seen as a zero damage move but score is considered neutral unless a future attack is active
-* If AI is faster and faints to player, +3
-* If AI is slower and faints in 2 hits to player, +3
+* Seen as a zero damage move (including party) but score is considered neutral unless a future attack is active
+* If AI is faster and faints to player +3
+* If AI is slower and faints in 2 hits to player +3
 
 ## Status Moves
-* Usually an increase of +3. It will be mentioned if it is not +3
 * For the following checks order matters
 * If the move would fail the AI wont click it
 
@@ -102,12 +107,23 @@
 * If not first turn and any opposing mon can faint, 50/50 score increase
 * The rules of a double battles still apply. Meaning if AI targets a player mon to kill it, it will not go for protect if the target has no move to faint the AI mon
 
-### Hazards (including Stone Axe / Ceaseless Edge) / Screens
-* if AI outdamages and player has a way to remove field effect, no score increase
-* 70/30 in favor of no rocks if player has a way to remove rocks
-* If AI/player has only 3 mons left no rocks set up
+### Hazards (including Stone Axe / Ceaseless Edge)
+* If AI outdamages and player has a way to remove hazards, no score increase
+* 70/30 in favor of no hazards if player has a way to remove rocks
+* If AI/player has only 3 mons left no score increase
 * AI will always only set up one layer of hazards
-* In any other situation 100% (outside of kill)
+* In any other situation, +3
+
+### Screens
+* If no corresponding category on player, no score increase
+* If player has a BrickBreak type move
+    1. if AI faints player faster, no score increase
+    2. Otherwise 30% to be increased by +3
+* In any other situation, +3
+
+### Follow me
+* If partner dies to any player mon, +3
+* If follow me is present on both ai mons and conditions apply for both mons, only the right side will get a +3
 
 ### Speed Control
 * If AI cant't drop speed, no increase
@@ -115,23 +131,23 @@
 * If AI is still slower (or tied) the next turn, no score increase
 * If AI outdamages player, no score increase
 * If player resists move, no score increase unless the move + best damage move kill next turn
-* In any other situation, increase score
+* In any other situation, +3
 
 ### Poison
-* If player holds a curing berry AI wont poison
-* If AI is faster and faints player in less then 2 hits it wont posion
-* If player needs 3 or more hits to faint AI it will poison
-* Otherwise 100% if's first turn and 50/50 in any other situation
+* If player holds a curing berry AI, no score increase
+* If AI is faster and faints player in less then 2 hits, no score increase
+* If player needs 3 or more hits to faint AI, +3
+* Otherwise +3, 100% if's first turn and 50/50 in any other situation
 
 ### Burn (Will-O-Wisp)
-* If player holds a curing berry or has no physical move AI wont try to burn
-* If AI is faster and the best damage move is physical AI will try to burn
-* Otherwise 100% if's first turn and 50/50 in any other situation
+* If player holds a curing berry or has no physical move, no score increase
+* If AI is faster and the best damage move is physical, +3
+* Otherwise +3, 100% if's first turn and 50/50 in any other situation
 
 ### Paralysis
-* If player holds a curing berry AI wont paralyze
-* If AI is slower it will paralyze
-* If Player needs 3 or more hits to faint AI it will paralyze
+* If player holds a curing berry, no score increase
+* If AI is slower, +3
+* If Player needs 3 or more hits to faint AI, +3
 
 ### Tailwind
 * If Slower +3 (checks average in doubles)
@@ -141,9 +157,9 @@
 * If partner is faster, has a move that would trigger the policy and need 4 or more hits to faint partner
 
 ### Destiny Bond
-* If player can faint AI and AI faster
+* If player can faint AI and AI faster, +3
 
-### Set up
+### Set up (+2/+3 mostly irrelevant difference)
 * If player outspeeds and two taps, AI is not going to set up
 * If AI is faster but you one tap it, it isn't going to set up
 * If it set up the previous turn and is faster + can 2 tap it isn't going to set up
@@ -156,11 +172,11 @@
 ### Mirror Coat / Counter
 * No icnrease if AI dies to move
 * No increase if AI has Mirror Coat (Counter) and player has no special (physical) move
-* Otherwise 50/50
+* Otherwise 50/50 to get a +3
 
-### Recover / Heal AI
+### Recover / Heal AI (+3)
 * Tries to heal if heal amount + current HP are higher then best player damage and damage equal or higher current hp
 
-### Trap
+### Trap (+2)
 * If player needs 4 or more hits to faint ai trapping moves get an increase
 
