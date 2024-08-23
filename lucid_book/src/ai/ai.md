@@ -25,7 +25,7 @@
 
 ## kill on target
 * Move can kill: +4
-* AI is faster and move can kill: + 2 (singles only)
+* AI is faster and move can kill: + 2 (singles only. Priority moves are considred as being faster in this case)
 * AI can kill with hit escape move (u-turn): 50/50 +2 (singles only)
 * hit switch targer (dragon tail) + 2
 * AI can kill with double target move or spread move when no partner + 2
