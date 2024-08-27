@@ -70,6 +70,7 @@
 * The damage the AI sees is the 8th roll.
 * All calculations are done using the above mentioned roll
 * AI see only damage that it will actually deal. Something like Thunderbolt into Volt Absorb will be seen as 0 damage and receive a -20 score. Exceptions are Future Sight and Sucker Punch. Future Sight is always seen as 0 damage but doesn't get a decrease in score. Sucker Punch can get a decrease after the first time it has been used.
+* The AI will see the damage of a 100% crit
 * Two-Turn Moves are seen as zero demage if they can't be used the same turn they charge (if weather or power herb are not present)
 * Note: AI sees one roll lower for gems boost so the 7th (Might apply to type boosting items so just use the 7th roll to be save)
 * The AI sees Tera Blast or stab increased damage as if it did Terastalize when it is possible for the mon to do it (including party)
