@@ -185,4 +185,5 @@
 
 ### Trap (+2)
 * If player needs 4 or more hits to faint ai trapping moves get an increase
+* Trapping moves that don't do damage are not included
 
