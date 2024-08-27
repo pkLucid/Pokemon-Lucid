@@ -187,3 +187,7 @@
 * If player needs 4 or more hits to faint ai trapping moves get an increase
 * Trapping moves that don't do damage are not included
 
+### Attract (+2)
+* If AI faster and faints player in 2 or less hit, no increase
+* 100% to increase score on the first turn if opposite gender, otherwise 50/50
+
