@@ -33,11 +33,40 @@
 ## In singles only
 * +10 on prio moves if AI is slower and dead
 
+## Mid turn switch (logic same as post ko switch in)
+* If AI has baton pass it will only switch with baton pass
+* If AI does no damage 50/50
+* If under Encore 50/50
+
+## How the AI sees damage
+* The damage the AI sees is the 8th roll.
+* All calculations are done using the above mentioned roll
+* AI see only damage that it will actually deal. Something like Thunderbolt into Volt Absorb will be seen as 0 damage and receive a -20 score. Exceptions are Future Sight and Sucker Punch. Future Sight is always seen as 0 damage but doesn't get a decrease in score. Sucker Punch can get a decrease after the first time it has been used.
+* The AI will see the damage of a 100% crit
+* Two-Turn Moves are seen as zero demage if they can't be used the same turn they charge (if weather or power herb are not present)
+* Note: AI sees one roll lower for gems boost so the 7th (Might apply to type boosting items so just use the 7th roll to be save)
+* The AI sees Tera Blast or stab increased damage as if it did Terastalize when it is possible for the mon to do it (including party)
+* Explosion is treated like a normal move other then that it is a negative move effect
+
+## Sturdy / Focus Sash / Disguise
+* AI is aware of those items (ability) and will include them in the number of hits calculation 
+
 ## Damage moves scores
 * When AI chooses a move it compares all moves that can do damage against each other. Moves with a bad effect will be discouraged based on numer of hits. For exmaple when Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score.
 * When AI sees a kill with several moves a move with a positive effect gets +1
 * If several moves with a positive effect are present, all of them get +1
 * If a negative move is present, all non negative moves get +1 based on number of hits
+
+## Tera calcs (Relevant for Tera/Stella Island)
+* If AI mon has a Tera type while in party or field it will do calcs as if it already terastallized (including Tera Blast)
+* Calcs for Player mon happen only when actually terastallized (including Tera Blast)
+
+## Multi hit moves (e.g. Bullet Seed)
+* Skill link will always be seen as doing the max amount of hits
+* Loaded Dice is seen as 4 hits
+* Population bomb calcs with 10 hits
+* Other moves are doing the specified number of hits (3 if it is random between 2-5)
+* Triple Axel will calc damage as 20 + 40 + 60 and always the 8th roll so the final roll will also be the 8th
 
 ## Positive move effects
 * Double target moves in doubles (spread moves like Surf/EQ only when no partner)
@@ -66,15 +95,6 @@
 * If an other negative (positive) move is present it is considered to be a positive (negative) move
 * If neither are present, Scale Shot is considered to have no positive / negative effects
 
-## How the AI sees damage
-* The damage the AI sees is the 8th roll.
-* All calculations are done using the above mentioned roll
-* AI see only damage that it will actually deal. Something like Thunderbolt into Volt Absorb will be seen as 0 damage and receive a -20 score. Exceptions are Future Sight and Sucker Punch. Future Sight is always seen as 0 damage but doesn't get a decrease in score. Sucker Punch can get a decrease after the first time it has been used.
-* The AI will see the damage of a 100% crit
-* Two-Turn Moves are seen as zero demage if they can't be used the same turn they charge (if weather or power herb are not present)
-* Note: AI sees one roll lower for gems boost so the 7th (Might apply to type boosting items so just use the 7th roll to be save)
-* The AI sees Tera Blast or stab increased damage as if it did Terastalize when it is possible for the mon to do it (including party)
-
 ## Move effects:
 * Moves with regular move effects generally get a +2/+3 if they apply. If I list some effects and don't specify a score you can assume that this is true
 * Some effects get a +1 only in some rare instances. That makes them tied with best damage move
@@ -82,20 +102,6 @@
 * Generally a move that faints the ai will have the highest score. Exceptions are TrickRoom, Protect and Palafin-Zero with Flip Turn.
 * If a move would fail if used by AI it will get a -20
 * For further information See AI_CalcMoveEffectScore
-
-## Tera calcs (Relevant for Tera/Stella Island)
-* If AI mon has a Tera type while in party or field it will do calcs as if it already terastallized (including Tera Blast)
-* Calcs for Player mon happen only when actually terastallized (including Tera Blast)
-
-## Mid turn switch (logic same as post ko switch in)
-* If AI has baton pass it will only switch with baton pass
-* If AI does no damage 50/50
-* If under Encore 50/50
-
-## Future Sight
-* Seen as a zero damage move (including party) but score is considered neutral unless a future attack is active
-* If AI is faster and faints to player +3
-* If AI is slower and faints in 2 hits to player +3
 
 ## Status Moves
 * For the following checks order matters
@@ -191,3 +197,20 @@
 * If AI faster and faints player in 2 or less hit, no increase
 * 100% to increase score on the first turn if opposite gender, otherwise 50/50
 
+### Fake Out
+* +3 if mon can be flinched
+* In doubles it will respect the targeting
+
+### Future Sight
+* Seen as a zero damage move (including party) but score is considered neutral unless a future attack is active
+* If AI is faster and faints to player +3
+* If AI is slower and faints in 2 hits to player +3
+
+### Decorate
+* +10 on the first turn of user, otherwise 30% of the time
+
+### Beat Up
+* +10 if partner has rage fist or justified and it is first turn of itself or partner 
+
+### Skill Swap
+* +10 if beneficial for partner

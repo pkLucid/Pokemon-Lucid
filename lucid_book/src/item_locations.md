@@ -1,3 +1,5 @@
+<br/><br/>
+
 |Mint Gym Leader Rewards|                                       |
 |-------------------|-------------------------------------------|
 | Rustboro City     | Impish, Lax, Serious                      |
