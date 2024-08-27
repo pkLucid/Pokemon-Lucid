@@ -1,18 +1,13 @@
-###
-|Gym Leader Rewards||
-|-------------|-------------------------------|
-|Adamant Mint | Dewford Town, Lavaridge Town  |
-|Brave Mint   | Mirage Town                   |
-|Modest Mind  | Mossdeep City, Lavaridge Town |
-|Calm Mind    | Sootopolis City               |
-|Timid Mint   | Lavaridge Town                |
-|Jolly Mint   | Fortree City, Lavaridge Town  |
-|Naive Mint   | Fortree City                  |
-|Naive Mint   | Mauville City                 |
-|Impish Mint  | Rustboro City                 |
-|Lax Mint     | Rustboro City                 |
-|Careful Mint | Sootopolis City               |
-|Serious Mint | Various Leaders, 12 in total  |
+|Mint Gym Leader Rewards|                                       |
+|-------------------|-------------------------------------------|
+| Rustboro City     | Impish, Lax, Serious                      |
+| Dewford Town      | Adamant, Serious                          |
+| Mauville City     | Naive, Serious                            |
+| Sootopolis City   | Calm, Careful, Serious                    |
+| Mirage Town       | Brave, Serious                            |
+| Fortree City      | Jolly, Naive                              |
+| Mossdeep City     | Modest, Serious                           |
+| Lavaridge Town    | Timid, Jolly, Adamant, Modest, 6x Serious |
 
 <br/><br/>
 
@@ -135,10 +130,10 @@
 |31 |Leppa     |Route 116|
 |31 |Leppa     |Route 110|
 |31 |Leppa     |Route 120|
-|31 |Persim    |Route 104|
-|31 |Persim    |Route 116|
-|31 |Persim    |Route 114|
-|31 |Persim    |Route 120|
+|31 |Prsim     |Route 104|
+|31 |Prsim     |Route 116|
+|31 |Prsim     |Route 114|
+|31 |Prsim     |Route 120|
 |10 |Sitrus    |Route 115|
 |10 |Sitrus    |Route 115|
 |10 |Sitrus    |Route 110|
