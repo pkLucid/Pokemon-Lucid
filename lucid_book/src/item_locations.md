@@ -103,6 +103,7 @@
 |Razor Claw (Rock Smash) |Meteor Path            |
 |Razor Fang (Rock Smash) |Meteor Path            |
 |Black Augurite (Rock Smash)|Meteor Path         |
+|Tart/Sweet/Syrupy Apple |Verdanturf Town        |
 
 <br/><br/>
 
