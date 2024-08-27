@@ -175,6 +175,10 @@
 * No increase if AI has Mirror Coat (Counter) and player has no special (physical) move
 * Otherwise 50/50 to get a +3
 
+### Increase crit Rate +3 (e.g. Focus Energe)
+* If either mon faints to 2 or less hits, no increase
+* Increase if Super Luck, Sniper, Scope Lens or or high crit move are present
+
 ### Recover / Heal AI (+3)
 * Tries to heal if heal amount + current HP are higher then best player damage and damage equal or higher current hp
 
