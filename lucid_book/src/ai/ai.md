@@ -41,7 +41,7 @@
 ## How the AI sees damage
 * The damage the AI sees is the 8th roll.
 * All calculations are done using the above mentioned roll
-* AI see only damage that it will actually deal. Something like Thunderbolt into Volt Absorb will be seen as 0 damage and receive a -20 score. Exceptions are Future Sight and Sucker Punch. Future Sight is always seen as 0 damage but doesn't get a decrease in score. Sucker Punch can get a decrease after the first time it has been used.
+* AI see only damage that it will actually deal. Something like Thunderbolt into Volt Absorb will be seen as 0 damage and receive a -20 score.
 * The AI will see the damage of a 100% crit
 * Two-Turn Moves are seen as zero demage if they can't be used the same turn they charge (if weather or power herb are not present)
 * Note: AI sees one roll lower for gems boost so the 7th (Might apply to type boosting items so just use the 7th roll to be save)
@@ -205,6 +205,9 @@
 * Seen as a zero damage move (including party) but score is considered neutral unless a future attack is active
 * If AI is faster and faints to player +3
 * If AI is slower and faints in 2 hits to player +3
+
+### Sucker Punch
+* After the first time AI tried to use Sucker Punch it can get a -20 score decrease 50% of the time
 
 ### Decorate
 * +10 on the first turn of user, otherwise 30% of the time
