@@ -1,3 +1,26 @@
+## Double Battle Targeting
+AI will never have both Pokemon attack the same slot if one of the AI’s Pokemon has a kill
+
+As a note, Player’s Slot 1 is their left (First mon in party), where the Opponents Slot 1 will be to the player’s right (First mon in enemy party)
+
+    AI Side:     Slot 2 Slot 1
+    Player Side: Slot 1 Slot 2
+
+
+**Scenario 1:** If AI slot 1 sees kill on both player slot 1 and 2 and AI slot 2 sees no kills, AI mons will target diagonally. Likewise the reverse is true if AI Slot 2 sees kill on both slots and slot 1 sees no kill.
+![double_target_1](double_target_1.png)
+
+**Scenario 2:** If both of AI’s pokemon see kill on both of the players Pokemon, this will be diagonal targeting. Likewise, if both of the AI’s pokemon see kill on the same target and neither see kill on the other slot, it will be diagonal targeting.
+![double_target_2](double_target_2.png)
+
+**Scenario 3:** If AI slot 1 sees kill on both player pokemon (slot 1/2) and AI slot 2 sees a kill on Player slot 1, Slots will target directly across. Likewise the reverse is true if AI Slot 2 sees kill on both slots and AI Slot 1 sees kill on only Player Slot 2 (Flip the diagram).
+
+If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1, Slots will target directly across
+![double_target_3](double_target_3.png)
+
+**Scenario 4:** If AI has only one mon left and sees kill on both slots, it will choose a target randomly with whatever move sees kill on respective slots. If it sees a kill on only one slot, it will always go for that slot.
+![double_target_4](double_target_4.png)
+
 ## Post KO Switch in
 * Palafin-Zero outspeeds current player mon: + 8
 * AI Mon faster and can faint target: + 7
@@ -8,30 +31,22 @@
 * AI is slower and dies in one hit +1
 * Anthing else is +2
 
+## Sturdy / Focus Sash / Disguise
+* AI is aware of those items (ability) and will include them in the number of hits calculation
+
 ## Speed
 * AI sees a speed tie, Quick Claw and Quick Draw as faster
-* Priority moves (includes effects that increase priority) are not seen by AI
+* Priority moves on player (includes effects that increase priority) are not seen by AI
 
-## Targetting in double battles if one mon sees kill
-    Ai side:        Battler 3 Battler 1
-    Player side:    Battler 0 Battler 2
-
-* If Battler 1 sees kill on both player mons and battler 3 sees no kills, battler 1 targets battler 0 and battler 3 targets battler 2
-* If battler 1 sees kill on both player mons and battler 3 sees kill on battler 0, battler 3 targets battler 0 and battler 1 chooses battler 2
-* If both AI mons see kill on both targets, battler 3 will choose battler 2 and battler 1 will choose battler 0
-* If battler 3 sees kill on battler 0 and battler 1 sees kill on battler 2, battler 3 targets battler 0 and battler 1 targets battler 2
-* If AI has only one mon left it chooses randomly
-* Fake out in doubles has the same AI as in singles (+3 for being fake out) and follows the same rules as other moves if the AI sees kill.
-
-## kill on target
+## Scoring on kills
 * Move can kill: +4
-* AI is faster and move can kill: + 2 (singles only. Priority moves are considred as being faster in this case)
-* AI can kill with hit escape move (u-turn): 50/50 +2 (singles only)
+* Doubles only: AI can kill with double target or spread move when no partner + 2
 * hit switch targer (dragon tail) + 2
-* AI can kill with double target move or spread move when no partner + 2
 
-## In singles only
-* +10 on prio moves if AI is slower and dead
+## Singles only
+* If AI is slower and dead +10 on prio moves
+* If AI is faster and move can kill: + 2 (Priority moves are considred as being faster in this case)
+* If AI can kill with hit escape move (u-turn): 50/50 +2 (singles only)
 
 ## Mid turn switch (logic same as post ko switch in)
 * If AI has baton pass it will only switch with baton pass
@@ -39,27 +54,24 @@
 * If under Encore 50/50
 
 ## How the AI sees damage
-* The damage the AI sees is the 8th roll.
+The damage the AI sees is always using the 8th roll of the calculator, it will always select moves and switch in using 8th roll.
 * All calculations are done using the above mentioned roll
 * AI see only damage that it will actually deal. Something like Thunderbolt into Volt Absorb will be seen as 0 damage and receive a -20 score.
 * The AI will see the damage of a 100% crit
 * Two-Turn Moves are seen as zero demage if they can't be used the same turn they charge (if weather or power herb are not present)
-* Note: AI sees one roll lower for gems boost so the 7th (Might apply to type boosting items so just use the 7th roll to be save)
-* The AI sees Tera Blast or stab increased damage as if it did Terastalize when it is possible for the mon to do it (including party)
+* **Bug**: AI might see one roll lower for gems boosts so the 7th (Might apply to type boosting items so just use the 7th roll to be save)
 * Explosion is treated like a normal move other then that it is a negative move effect
 
-## Sturdy / Focus Sash / Disguise
-* AI is aware of those items (ability) and will include them in the number of hits calculation 
+## Tera calcs (Relevant for Tera/Stella Island)
+* The AI sees Tera Blast or stab increased damage as if it did Terastalize when it is possible for the mon to do it (including party)
+* If AI mon has a Tera type while in party or field it will do calcs as if it already terastallized (including Tera Blast)
+* Calcs for Player mon happen only when actually terastallized (including Tera Blast)
 
 ## Damage moves scores
-* When AI chooses a move it compares all moves that can do damage against each other. Moves with a bad effect will be discouraged based on numer of hits. For exmaple when Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score.
+* When AI chooses a move it compares all moves that can do damage against each other and look for Postive/Negative effects. Moves with a negative effect will be discouraged based on how many hits it will take for AI to faint player mon. For exmaple when Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score
 * When AI sees a kill with several moves a move with a positive effect gets +1
 * If several moves with a positive effect are present, all of them get +1
 * If a negative move is present, all non negative moves get +1 based on number of hits
-
-## Tera calcs (Relevant for Tera/Stella Island)
-* If AI mon has a Tera type while in party or field it will do calcs as if it already terastallized (including Tera Blast)
-* Calcs for Player mon happen only when actually terastallized (including Tera Blast)
 
 ## Multi hit moves (e.g. Bullet Seed)
 * Skill link will always be seen as doing the max amount of hits
@@ -92,7 +104,8 @@
 * All moves that have a negative effect on AI unless they have contrary or hold a white herb (e.g. Superpower)
 
 ## Scale Shot (can be considered both a negative and positive depending on other moves)
-* If an other negative (positive) move is present it is considered to be a positive (negative) move
+* If a negative move is present it is considered to be a positive move
+* If a positive move is present it is considered to be a negative move
 * If neither are present, Scale Shot is considered to have no positive / negative effects
 
 ## Move effects:
@@ -101,7 +114,6 @@
 * Moves that target partner get a +10 if conditions apply
 * Generally a move that faints the ai will have the highest score. Exceptions are TrickRoom, Protect and Palafin-Zero with Flip Turn.
 * If a move would fail if used by AI it will get a -20
-* For further information See AI_CalcMoveEffectScore
 
 ## Status Moves
 * For the following checks order matters
@@ -213,7 +225,11 @@
 * +10 on the first turn of user, otherwise 30% of the time
 
 ### Beat Up
-* +10 if partner has rage fist or justified and it is first turn of itself or partner 
+* +10 if partner has rage fist or justified and it is first turn of itself or partner
 
 ### Skill Swap
 * +10 if beneficial for partner
+
+### Fake Out
+* +3 if it can flinch
+* In doubles it follows the same rules as other moves
