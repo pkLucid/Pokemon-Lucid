@@ -98,7 +98,6 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 ## Negative move effects (damage moves with a negative side effect)
 * Recoil
 * Moves that would target partner
-* Two turn moves (e.g. Bounce and Solar Beam) If move can't be used without charging (e.g. Power Herb)
 * Mind Blown, Steel Beam, Explosion type moves, Final Gambit
 * Recoil on miss
 * All moves that have a negative effect on AI unless they have contrary or hold a white herb (e.g. Superpower)

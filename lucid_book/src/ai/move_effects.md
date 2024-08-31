@@ -100,10 +100,6 @@
 * If AI faster and faints player in 2 or less hit, no increase
 * 100% to increase score on the first turn if opposite gender, otherwise 50/50
 
-### Fake Out
-* +3 if mon can be flinched
-* In doubles it will respect the targeting
-
 ### Future Sight
 * Seen as a zero damage move (including party) but score is considered neutral unless a future attack is active
 * If AI is faster and faints to player +3
