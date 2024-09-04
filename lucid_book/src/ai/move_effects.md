@@ -22,7 +22,7 @@
 * If AI outdamages and player has a way to remove hazards, no score increase
 * 70/30 in favor of no hazards if player has a way to remove rocks
 * If AI/player has only 3 mons left no score increase
-* AI will always only set up one layer of hazards
+* AI will only set one layer of hazards for each move/hazard type
 * In any other situation, +3
 
 ### Screens
@@ -34,11 +34,11 @@
 
 ### Follow me
 * If partner dies to any player mon, +3
-* If follow me is present on both ai mons and conditions apply for both mons, only the right side will get a +3
+* If follow me is present on both ai mons and conditions apply for both mons, only the right side (Slot 1) will get a +3 
 
-### Speed Control
-* If AI cant't drop speed, no increase
-* If AI faster, no increase
+### Speed Control (differes from positive move effect)
+* If AI cant't drop speed, no increase (Clear Amulet, Clear Body, etc.)
+* If AI faster, no increase 
 * If AI is still slower (or tied) the next turn, no score increase
 * If AI outdamages player, no score increase
 * If player resists move, no score increase unless the move + best damage move kill next turn
@@ -70,7 +70,7 @@
 ### Destiny Bond
 * If player can faint AI and AI faster, +3
 
-### Set up (+2/+3 mostly irrelevant difference)
+### Set up except Belly Drum (+2/+3 mostly irrelevant difference)
 * If player outspeeds and two taps, AI is not going to set up
 * If AI is faster but you one tap it, it isn't going to set up
 * If it set up the previous turn and is faster + can 2 tap it isn't going to set up
@@ -78,7 +78,10 @@
 * If it dies to secondary damage this turn AI does not set up
 * If player has opportunist / unaware it is not going to set up
 * In any other situation it sets up
-* Torch Song (Leaf Storm with Contrary) type moves are considered a set up move
+* Leaf Storm, Overheat, Draco Meteor and Superpower are set up moves with Contrary
+
+### Belly Drum check
+* No set up if AI faints regardless of speed or already increased stats, otherwise +3 
 
 ### Mirror Coat / Counter
 * No icnrease if AI dies to move

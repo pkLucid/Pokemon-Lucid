@@ -33,20 +33,25 @@ If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1
 
 ## Sturdy / Focus Sash / Disguise
 * AI is aware of those items (ability) and will include them in the number of hits calculation
+* It will correctly see multi hit moves a breaking endure type effects on a kill unless it is Dragon Darts in doubles
 
 ## Speed
 * AI sees a speed tie, Quick Claw and Quick Draw as faster
 * Priority moves on player (includes effects that increase priority) are not seen by AI
 
-## Scoring on kills
+## Scoring on kills (additive)
 * Move can kill: +4
 * Doubles only: AI can kill with double target or spread move when no partner + 2
 * hit switch targer (dragon tail) + 2
 
-## Singles only
+### Singles only
 * If AI is slower and dead +10 on prio moves
 * If AI is faster and move can kill: + 2 (Priority moves are considred as being faster in this case)
-* If AI can kill with hit escape move (u-turn): 50/50 +2 (singles only)
+* If AI can kill with hit escape move (u-turn): 50/50 +2
+
+### Doubles only
+* AI can kill with double target move +2 (e.g. Dazzling Gleam)
+* AI can kill with spread move +2 if partner is dead (e.g. Surf)
 
 ## Mid turn switch (logic same as post ko switch in)
 * If AI has baton pass it will only switch with baton pass
@@ -68,11 +73,14 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 * Calcs for Player mon happen only when actually terastallized (including Tera Blast)
 
 ## Damage moves scores
-* When AI chooses a move it compares all moves that can do damage against each other and look for Postive/Negative effects. Moves with a negative effect will be discouraged based on how many hits it will take for AI to faint player mon. For exmaple when Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score
-* When AI sees a kill with several moves a move with a positive effect gets +1
+* When AI chooses a move it compares all moves that can do damage against each other and looks for Postive/Negative effects. Moves with a negative effect will be discouraged based on how many hits it will take for AI to faint player mon.
+    * Exmaple: If Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score
+* When AI sees a kill with several moves, a move with a positive effect gets +1
 * If several moves with a positive effect are present, all of them get +1
-* If a negative move is present, all non negative moves get +1 based on number of hits
-
+    * Example: If AI sees kill with Night Slash (high crit) and Rock Tomb (rock tomb), it would select one of those randomly
+* If a negative move is present, all non negative moves get +1 based on number of hits (Phase 2 check)
+    * Example: If AI sees a 2HKO on player mon with EQ, CC and Raging Bull. Close Combat is considered a negative effect, so both EQ and Raging Bull will get a +1 score
+    
 ## Multi hit moves (e.g. Bullet Seed)
 * Skill link will always be seen as doing the max amount of hits
 * Loaded Dice is seen as 4 hits
@@ -89,6 +97,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 * Drain effects if no Liquid Ooze
 * Fell Stinger
 * Pursuit
+* Knock Off
 * Switch target out moves (e.g. Dragon Tail)
 * Damage moves that set up Hazards
 * Guaranteed speed drop moves (e.g. Icy Wind)
@@ -130,7 +139,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 * If AI outdamages and player has a way to remove hazards, no score increase
 * 70/30 in favor of no hazards if player has a way to remove rocks
 * If AI/player has only 3 mons left no score increase
-* AI will always only set up one layer of hazards
+* AI will only set one layer of hazards for each move/hazard type
 * In any other situation, +3
 
 ### Screens
@@ -142,11 +151,11 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 
 ### Follow me
 * If partner dies to any player mon, +3
-* If follow me is present on both ai mons and conditions apply for both mons, only the right side will get a +3
+* If follow me is present on both ai mons and conditions apply for both mons, only the right side (Slot 1) will get a +3 
 
-### Speed Control
-* If AI cant't drop speed, no increase
-* If AI faster, no increase
+### Speed Control (differes from positive move effect)
+* If AI cant't drop speed, no increase (Clear Amulet, Clear Body, etc.)
+* If AI faster, no increase 
 * If AI is still slower (or tied) the next turn, no score increase
 * If AI outdamages player, no score increase
 * If player resists move, no score increase unless the move + best damage move kill next turn
@@ -154,7 +163,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 
 ### Poison
 * If player holds a curing berry AI, no score increase
-* If AI is faster and faints player in less then 2 hits, no score increase
+* If AI is faster and faints player in 2 or less hits, no score increase
 * If player needs 3 or more hits to faint AI, +3
 * Otherwise +3, 100% if's first turn and 50/50 in any other situation
 
@@ -178,7 +187,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 ### Destiny Bond
 * If player can faint AI and AI faster, +3
 
-### Set up (+2/+3 mostly irrelevant difference)
+### Set up except Belly Drum (+2/+3 mostly irrelevant difference)
 * If player outspeeds and two taps, AI is not going to set up
 * If AI is faster but you one tap it, it isn't going to set up
 * If it set up the previous turn and is faster + can 2 tap it isn't going to set up
@@ -186,7 +195,10 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 * If it dies to secondary damage this turn AI does not set up
 * If player has opportunist / unaware it is not going to set up
 * In any other situation it sets up
-* Torch Song (Leaf Storm with Contrary) type moves are considered a set up move
+* Leaf Storm, Overheat, Draco Meteor and Superpower are set up moves with Contrary
+
+### Belly Drum check
+* No set up if AI faints regardless of speed or already increased stats, otherwise +3 
 
 ### Mirror Coat / Counter
 * No icnrease if AI dies to move
@@ -207,10 +219,6 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 ### Attract (+2)
 * If AI faster and faints player in 2 or less hit, no increase
 * 100% to increase score on the first turn if opposite gender, otherwise 50/50
-
-### Fake Out
-* +3 if mon can be flinched
-* In doubles it will respect the targeting
 
 ### Future Sight
 * Seen as a zero damage move (including party) but score is considered neutral unless a future attack is active

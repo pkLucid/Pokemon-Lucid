@@ -10,20 +10,25 @@
 
 ## Sturdy / Focus Sash / Disguise
 * AI is aware of those items (ability) and will include them in the number of hits calculation
+* It will correctly see multi hit moves a breaking endure type effects on a kill unless it is Dragon Darts in doubles
 
 ## Speed
 * AI sees a speed tie, Quick Claw and Quick Draw as faster
 * Priority moves on player (includes effects that increase priority) are not seen by AI
 
-## Scoring on kills
+## Scoring on kills (additive)
 * Move can kill: +4
 * Doubles only: AI can kill with double target or spread move when no partner + 2
 * hit switch targer (dragon tail) + 2
 
-## Singles only
+### Singles only
 * If AI is slower and dead +10 on prio moves
 * If AI is faster and move can kill: + 2 (Priority moves are considred as being faster in this case)
-* If AI can kill with hit escape move (u-turn): 50/50 +2 (singles only)
+* If AI can kill with hit escape move (u-turn): 50/50 +2
+
+### Doubles only
+* AI can kill with double target move +2 (e.g. Dazzling Gleam)
+* AI can kill with spread move +2 if partner is dead (e.g. Surf)
 
 ## Mid turn switch (logic same as post ko switch in)
 * If AI has baton pass it will only switch with baton pass
@@ -45,10 +50,13 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 * Calcs for Player mon happen only when actually terastallized (including Tera Blast)
 
 ## Damage moves scores
-* When AI chooses a move it compares all moves that can do damage against each other and look for Postive/Negative effects. Moves with a negative effect will be discouraged based on how many hits it will take for AI to faint player mon. For exmaple when Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score
-* When AI sees a kill with several moves a move with a positive effect gets +1
+* When AI chooses a move it compares all moves that can do damage against each other and looks for Postive/Negative effects. Moves with a negative effect will be discouraged based on how many hits it will take for AI to faint player mon.
+    * Exmaple: If Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score
+* When AI sees a kill with several moves, a move with a positive effect gets +1
 * If several moves with a positive effect are present, all of them get +1
-* If a negative move is present, all non negative moves get +1 based on number of hits
+    * Example: If AI sees kill with Night Slash (high crit) and Rock Tomb (rock tomb), it would select one of those randomly
+* If a negative move is present, all non negative moves get +1 based on number of hits (Phase 2 check)
+    * Example: If AI sees a 2HKO on player mon with EQ, CC and Raging Bull. Close Combat is considered a negative effect, so both EQ and Raging Bull will get a +1 score
 
 ## Multi hit moves (e.g. Bullet Seed)
 * Skill link will always be seen as doing the max amount of hits
@@ -66,6 +74,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 * Drain effects if no Liquid Ooze
 * Fell Stinger
 * Pursuit
+* Knock Off
 * Switch target out moves (e.g. Dragon Tail)
 * Damage moves that set up Hazards
 * Guaranteed speed drop moves (e.g. Icy Wind)
