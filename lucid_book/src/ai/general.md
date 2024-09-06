@@ -33,13 +33,14 @@
 ## Mid turn switch 
 * Never switches in Doubles
 * Never switches if player faints mon with 2 ore less hits
-* If AI has baton pass it will only switch with baton pass
-* If faster and faints player in one hit, +5
-* If faster and faints player in same or less hits, +4
-* If slower and faints player in less hits, + 3 
-* If AI faster + 2 (an oversight, will be removed in a later verision. it is the last check so will likely never apply)
 * If AI does no damage 50/50
 * If under Encore 50/50
+* Further conditions if the above apply:
+  * If AI has baton pass it will only switch with baton pass
+  * If faster and faints player in one hit, +5
+  * If faster and faints player in same or less hits, +4
+  * If slower and faints player in less hits, + 3 
+  * If AI faster + 2 (an oversight, will be removed in a later verision. it is the last check so will likely never apply)
 
 ## How the AI sees damage
 The damage the AI sees is always using the 8th roll of the calculator, it will always select moves and switch in using 8th roll.
