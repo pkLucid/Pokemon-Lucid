@@ -1,47 +1,30 @@
-### [Download latest release](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.1.4)
+### [Download latest release - v1.1.5](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.1.5)
 
-### Pokemon Lucid Changelog v1.1.4
-  * Note: It is a ups patch this time instead a bps
-  * Fixed Mimkyu not knowing that it can endure hit when disguised (Eiscue does not see it for either move category)
-  * Fixed niche boosting moves case where the AI thought it boosted when it didn't (only happened when the AI saw both a kill and had a score increase for a boosting moves)
-  * Fixed Triple Axel inaccurate damage (still off by a few rolls). (Credits to Toxic)
-  * Fixed Terrain move score
-  * Fixed Stomping Tantrum / Temper Flare not doubling bp after flinch/paralysis
-  * Fixed Moves with positive speed drop/increase effect still getting an increase while in TrickRoom
-  * Fixed Defog removing terrain. Gen <= 7 behavior.
-  * Fixed Purifying Salt not working on dynamic ghost type moves (e.g. tera blast)
-  * Fixed moves like Surf/EQ not behaving like normal double target moves when no partner (ai doc update)
-  * Fixed Tera Blast damage category during AI calcs (Added general calc tera section to AI doc)
-  * Fixed Booster Energy not increasing Speed
-  * Fixed Poltergeist not checking invulnerability (e.g. Phantom Force)
-  * Fixed Close Combat, Armor Cannon and Headlong Rush not treated as negative effects
-  * Fixed double target move score overlap. When multiply double target moves were present on a mon they all got a score increase on non kill but same NoOfHits
-  * Fixed AI thinking Good As Gold blocks moves that target user side (e.g. Stealth Rock)
-  * Fixed always crits AI calcs involving intim (only AI, not actual damage)
-  * Added option to change day/night time in helper menu under utility
-  * Animation updates (Credits expansion)
-  * A moves negative effects will be negated if it holds White Herb (added to ai doc)
-  * Focus Sash changes on Route 111:
-    * Sandslash holds Assault Vest
-    * Lycanroc holds Life Orb
-    * Sandslash*Alola holds Rowap Berry
-    * Beartic holds Muscle Band
-    * Golduck holds Wise Glasses
-    * Politoed holds Iapapa Berry
-  * First 2v1 removed on Route 112
-  * Removed optionals from Route 115
-  * Protect AI changes (see ai doc)
-  * Wide Guard pp reduced to 3
-  * Added Lyra as playable character
-  * Screech 100% Acc
-  * Added Temper Flare to Marowak tutor learnset
-  * Added X*Scissor to Heracross tutor learnset
-  * Added Teleport as Level 1 tutor to Claydol, Slowking, Meowstic
-  * Removed Encore from Samurott
-  * Bloodmoon Ursaluna Moon Stone evo at night
+#### Pokemon Lucid Changelog v1.1.5
+  * New Type Icons (Credits Lhea)
+  * Fixed priority moves not getting correct score increase if a second prio move was present (eg. Aqua Jet and First Impression) 
+  * Fixed protean calcs after the ability activated already (Protean activation is limited to one per switch)
+  * Fixed Castform not changing form if Cloud Nine mon siwtches out during weather
+  * Fixed Electromorphosis / Charge / not expiring right after electric move usage
+  * Fixed Sootopolis visual bug
+  * Fixed assurance seeing double damage in party 
+  * Fixed Scale Shot not boosting if opposing mon fainted in less then 5 hits
+  * Fixed missing berries (Payapa, Tanga, Kasib, Colbur) on 121 (works only on new save)
+  * Fixed Round messing up turnorder
+  * Fixed AI not always seeing resist berries while in party
+  * Fixed AI not seeing items/abilities if the turn was still going and mon was sent in through Eject Pack / Eject Button
+  * Fixed visual glitch with duplicate mon
+  * Tweaks to mid turn switch in (see ai doc)
+  * To avoid confusion Knock Off is a positive effect now
+  * If in TrickRoom speed control isn't considered a positive effect. A negative speed reducing effect is just neutral
+  * AI Calc for Revenge / Avalanche change: Double damage is only seen when AI slower
+  * Thunder Wave 100% acc
+  * Added Thick Club to Route 111 and Leek to Jagged Pass 
+  * Note: Moves that deal damage and increase a stat are considered just postive effects. Exceptions are Overheat, Leaf Storm, Draco Meteor and Superpower on Contrary
 
-### Known issues (Overall)
-  * Castform doesn't transform once cloud nine leaves the field
+#### Known issues (across all versions)
+  * After You doesn't work if there is only one mon left on the opposing side  
+  * If Eject Button ejects into an Intimidate mon Life Orb / Shell Bell will miss timing
   * If a mon targets it's own partner the move will be redirected if the partner faints before it
   * Rapid spin activates before Toxic Debris
   * Very rare rounding error with gems. Ai might see the 7th roll instead of 8th. Could apply to type boosting moves but not confirmed
