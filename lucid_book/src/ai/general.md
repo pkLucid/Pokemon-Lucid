@@ -30,8 +30,14 @@
 * AI can kill with double target move +2 (e.g. Dazzling Gleam)
 * AI can kill with spread move +2 if partner is dead (e.g. Surf)
 
-## Mid turn switch (logic same as post ko switch in)
+## Mid turn switch 
+* Never switches in Doubles
+* Never switches if player faints mon with 2 ore less hits
 * If AI has baton pass it will only switch with baton pass
+* If faster and faints player in one hit, +5
+* If faster and faints player in same or less hits, +4
+* If slower and faints player in less hits, + 3 
+* If AI faster + 2 (an oversight, will be removed in a later verision. it is the last check so will likely never apply)
 * If AI does no damage 50/50
 * If under Encore 50/50
 
