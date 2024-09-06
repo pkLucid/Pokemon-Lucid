@@ -61,6 +61,7 @@
 * If Player needs 3 or more hits to faint AI, +3
 
 ### Tailwind
+* No score increase in doubles if only one mon left
 * If Slower +3 (checks average in doubles)
 
 ### Weakness Policy (+10)
