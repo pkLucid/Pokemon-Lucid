@@ -53,7 +53,7 @@ If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1
 * AI can kill with double target move +2 (e.g. Dazzling Gleam)
 * AI can kill with spread move +2 if partner is dead (e.g. Surf)
 
-## Mid turn switch (Calcs done with incoming mo) 
+## Mid turn switch (Calcs are done with a possible switch in candidate) 
 * Never switches in Doubles
 * Never switches if player faints mon with 2 or less hits
 * If AI does no damage 50/50
