@@ -3,6 +3,11 @@
 ![title_screen](title_screen.png)
 
 
+The Candy issue has been fixed. Additionally Retaliate not seen by AI in party has been fixed.
+
+
+~~Please don't patch yet. There is a new bug with the super candy that brings mons overlevel cap sometimes~~
+
 ### Pokemon Lucid Changelog v1.1.6
   * New title screen (Credits Byonmil)
   * Added appropriate gen5 gym badge (Credits Byonmil)
@@ -16,9 +21,9 @@
   * Fixed Super Candy deleveling mons if they have a lower level evo while above that evo cap
   * Fixed covert cloak not seen by AI for non flinching (flinching was correctly handled previously)
   * Fixed Follow me inaccuracies (minor AI change. See ai doc for more)
+  * Fixed AI not seeing boosted Retaliate damage in party 
 
 ### Current known issues
-  * Retaliate doesn't see switch in damage
   * If Eject Button ejects into an Intimidate mon Life Orb / Shell Bell will miss timing
   * If a mon targets it's own partner the move will be redirected if the partner faints before it
   * Rapid spin activates before Toxic Debris
