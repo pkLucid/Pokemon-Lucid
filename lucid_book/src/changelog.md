@@ -23,7 +23,6 @@
   * Forces of Nature signature move anims broken (visual only)
   * Visual bug after a mon attempts to switch if Emergency Exit is triggered
 
-
 ### Pokemon Lucid Changelog v1.1.3
   * Fixed visual issue with follower sprites (pals got randomly messed up)
   * Fixed Revenge/Payback bug.
