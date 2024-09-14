@@ -34,7 +34,7 @@
 
 ### Follow me
 * If partner dies to any player mon, +3
-* If follow me is present on both ai mons and conditions apply for both mons, only the right side (Slot 1) will get a +3 
+* If both mons on the field have Follow Me only AI slot 1 (right side) will be able to choose follow me
 
 ### Speed Control (differes from positive move effect)
 * If AI cant't drop speed, no increase (Clear Amulet, Clear Body, etc.)
