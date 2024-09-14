@@ -1,5 +1,8 @@
 ### [Download latest release - v1.1.6](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.1.6)
 
+![title_screen](title_screen.png)
+
+
 ### Pokemon Lucid Changelog v1.1.6
   * New title screen (Credits Byonmil)
   * Added appropriate gen5 gym badge (Credits Byonmil)
