@@ -18,6 +18,7 @@
   * Fixed Follow me inaccuracies (minor AI change. See ai doc for more)
 
 ### Current known issues
+  * Retaliate doesn't see switch in damage
   * If Eject Button ejects into an Intimidate mon Life Orb / Shell Bell will miss timing
   * If a mon targets it's own partner the move will be redirected if the partner faints before it
   * Rapid spin activates before Toxic Debris
