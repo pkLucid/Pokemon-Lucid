@@ -2,11 +2,12 @@
 
 ![title_screen](title_screen.png)
 
+### Pokemon Lucid Changelog v1.1.6c
 
-The Candy issue has been fixed. Additionally Retaliate not seen by AI in party has been fixed.
-
-
-~~Please don't patch yet. There is a new bug with the super candy that brings mons overlevel cap sometimes~~
+  * Fixed Fake Out getting an additional +2 if AI mon is faster. Made it tie with faint score
+  * Fixed Ogerpon Masks not increasing move base power
+  * Fixed AI not seeing boosted Retaliate damage in party
+  * Fixed Super candy issue not leveling correctly
 
 ### Pokemon Lucid Changelog v1.1.6
   * New title screen (Credits Byonmil)
