@@ -1,4 +1,4 @@
-### [Download latest release - v1.1.6](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.1.6)
+### [Download latest release - v1.1.6c](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.1.6)
 
 ![title_screen](title_screen.png)
 
