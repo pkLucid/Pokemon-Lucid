@@ -1,9 +1,16 @@
-### [Download latest release - v1.1.6c](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.1.6)
+### [Download latest release - v1.1.6d](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.1.6)
 
 ![title_screen](title_screen.png)
 
-### Pokemon Lucid Changelog v1.1.6c
+### Pokemon Lucid Changelog v1.1.6d
+  * Fixed Ogerpon Masks not boosting damage
+  * Fixed Scale Shot corrupting the next move used not hitting all targets with a multi target move
+  * Picnicker Angelina (Route 114) Leafeon  adjustments:
+      * Sharpness -> Technician
+      * Leaf Blade -> Bullet Seed
+      * Grass Gem -> Loaded Dice
 
+### Pokemon Lucid Changelog v1.1.6c
   * Fixed Fake Out getting an additional +2 if AI mon is faster. Made it tie with faint score
   * Fixed Ogerpon Masks not increasing move base power
   * Fixed AI not seeing boosted Retaliate damage in party
@@ -15,14 +22,14 @@
   * Added signs on the Tera Islands
   * Hopefully finally fixed Revenge / Assurance AI dmg calc
   * Fixed After you not working if there is only one mon left on oppsoing side
-  * Fixed Berry Juice sometimes missing timing on residual dmg  
+  * Fixed Berry Juice sometimes missing timing on residual dmg
   * Fixed boosting moves that increase score by 2 stages not getting an increase in a few cases
   * Fixed wrong options in box menu
-  * Fixed Super Candy lag 
+  * Fixed Super Candy lag
   * Fixed Super Candy deleveling mons if they have a lower level evo while above that evo cap
   * Fixed covert cloak not seen by AI for non flinching (flinching was correctly handled previously)
   * Fixed Follow me inaccuracies (minor AI change. See ai doc for more)
-  * Fixed AI not seeing boosted Retaliate damage in party 
+  * Fixed AI not seeing boosted Retaliate damage in party
 
 ### Current known issues
   * If Eject Button ejects into an Intimidate mon Life Orb / Shell Bell will miss timing
