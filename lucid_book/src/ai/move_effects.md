@@ -1,4 +1,3 @@
-
 ## Move effects:
 * Moves with regular move effects generally get a +2/+3 if they apply. If I list some effects and don't specify a score you can assume that this is true
 * Some effects get a +1 only in some rare instances. That makes them tied with best damage move
@@ -19,7 +18,7 @@
 * The rules of a double battles still apply. Meaning if AI targets a player mon to kill it, it will not go for protect if the target has no move to faint the AI mon
 
 ### Hazards (including Stone Axe / Ceaseless Edge)
-* If AI outdamages and player has a way to remove hazards, no score increase
+* If AI faints player in less hits and player has a way to remove hazards, no score increase
 * 70/30 in favor of no hazards if player has a way to remove rocks
 * If AI/player has only 3 mons left no score increase
 * AI will only set one layer of hazards for each move/hazard type
