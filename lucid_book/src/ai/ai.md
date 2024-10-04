@@ -41,7 +41,6 @@ If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1
 
 ## Scoring on kills (additive)
   * Move can kill: +4
-  * Doubles only: AI can kill with double target or spread move when no partner + 2
   * hit switch targer (dragon tail) + 2
 
 ### Singles only
@@ -112,7 +111,6 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Note: If more then one move is present with a plus effect then both get the plus one
 
 ## Negative move effects (damage moves with a negative side effect)
-  * Multi Target moves if player has Wide Guard
   * Recoil
   * Moves that would target partner
   * Mind Blown, Steel Beam, Explosion type moves, Final Gambit
@@ -251,3 +249,13 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 ### Fake Out
   * +3 if it can flinch
   * In doubles it follows the same rules as other moves
+  * Does not stack with killing score (only faint score is applied)
+
+### Throat Chop
+  * +3 if player has a sound move and it is the highest dmg move
+  
+### Salt Cure
+  * +2 on first turn of AI mon, 50/50 otherwise
+  
+### Swagger
+  * +3 on on partner if can't confuse

@@ -35,10 +35,12 @@
   * 20% Clamperl
   * 10% Solosis
   * 10% Tynamo
-  * 10% Psyduck
+  * 10% Dewpider
   * 10% Binacle
   * 10% Finneon
-  * 10% Goldeen
+  *  4% Psyduck
+  *  4% Goldeen
+  *  2% Remoraid
   
 ## Coast
 ### Water
@@ -61,9 +63,10 @@
   
 ## Ocean
 ### Water
-  * 40% Lapras
-  * 30% Fletchling
-  * 30% Rowlet
+  * 30% Lapras
+  * 30% Starly
+  * 20% Fletchling
+  * 20% Rowlet
 ### Rod
   * 20% Magikarp
   * 20% Basculin
@@ -140,13 +143,13 @@
 
 ## Route 104
 ### Land
- * 20% Starly
+ * 20% Emolga
  * 15% Wingull
  * 15% Ducklett
  * 10% Rufflet
  * 10% Natu
- * 10% Doduo
- * 10% Hoothoot
+ * 10% Starly
+ * 10% Fletchling
  * 5% Bombirdier
  * 5% Flamigo
 
@@ -246,15 +249,34 @@
   * 5% Riolu
   * 5% Pancham
 
+## Dewford Arcadia
+### Land
+  * 20% Venonat
+  * 15% Hoothoot
+  * 15% Doduo
+  * 10% Spoink
+  * 10% Espurr
+  * 10% Ekans
+  * 10% Clobbopus
+  * 5% Snubull
+  * 5% Vulpix-Alola
+### Water
+  * 100% Shellos
+### Rod
+  * 40% Bruxish
+  * 30% Veluza
+  * 20% Clauncher
+  * 10% Clmaperl
+
 ## Route 107
 ### Land
-  * 20% Girafarig
-  * 15% Flittle
+  * 20% Scatterbug
+  * 15% Girafarig
   * 15% Munna
+  * 10% Flittle
   * 10% Espurr
   * 10% Ekans
   * 10% Vulpix-Alola
-  * 10% Snubull
   * 5% Hatenna
   * 5% Ralts
 
@@ -291,7 +313,9 @@
 ### Rod
   * 40% Tentacool
   * 40% Toxel
-  * 20% Bruxish
+  * 10% Psyduck
+  * 10% Clauncher
+  * 10% Bruxish
 
 ## Route 110
 ### Land
@@ -303,7 +327,7 @@
   * 10% Pawmi
   * 10% Shinx
   * 5% Growlithe
-  * 5% Cubone
+  * 5% Sizzlipede
 
 ## Altering Cave [Double Encounter]
 ### Land
@@ -469,15 +493,24 @@
   
 ## Sootopolis City
 ### Land
-* 20% Lotad
-* 15% Gossifleur
-* 15% Cottonee
-* 10% Mareep
-* 10% Shinx
-* 10% Sandshrew-Alola
-* 10% Voltrob-Hisui
-* 5% Bounsweet
-* 5% Budew
+  * 20% Lotad
+  * 15% Gossifleur
+  * 15% Cottonee
+  * 10% Mareep
+  * 10% Shinx
+  * 10% Sandshrew-Alola
+  * 10% Voltrob-Hisui
+  * 5% Bounsweet
+  * 5% Budew
+### Water
+  * 40% Emolga
+  * 30% Starly
+  * 30% Fletchling
+### Rod
+  * 40% Relicanth
+  * 40% Tatsugiri-Stretchy
+  * 8% Tatsugiri-Droopy
+  * 2% Tatsugiri-Curly
 
 ## Cave of Origin - Entrance
 ### Land
@@ -676,18 +709,39 @@
   * 30% Zubat
   * 20% Bombirdier
   * 20% Flamigo
+
+## Mt. Pyre
+### Land
+  * 20% Yamask-Galar 
+  * 15% Misdreavus
+  * 15% Shuppet 
+  * 10% Spoink
+  * 10% Espurr
+  * 10% Sableye
+  * 10% Absol
+  * 5% Duskull
+  * 5% Abra
   
 ## Safari Zone - Northeast
 ### Land
-  * 20% Eevee
-  * 15% Jolteon
-  * 15% Sylveon
-  * 10% Vaporeon
-  * 10% Flareon
-  * 10% Espeon
-  * 10% Umbreon
-  * 5% Leafeon
-  * 5% Glaceon
+  * 20% Grookey
+  * 15% Fuecoco
+  * 15% Quaxly
+  * 10% Chimchar
+  * 10% Froakie
+  * 10% Mudkip
+  * 10% Charmander
+  * 5% Litten
+  * 5% Chespin
+### Water
+  * 60% Rowlet
+  * 20% Fletchling
+  * 20% Starly 
+### Rod
+  * 40% Oshawott
+  * 20% Psyduck
+  * 20% Azurill
+  * 20% Slowpoke
   
 ## Safari Zone - North
 ### Land
@@ -700,10 +754,10 @@
   * 10% Charmander
   * 10% Fuecoco
 ### Rock Smash
-  * 30% Tyrunt
-  * 30% Amaura
+  * 30% Larvitar
+  * 30% Trapinch
   * 20% Aron
-  * 20% Nacli
+  * 20% Roggenrola
   
 ## Safari Zone - South
 ### Land
@@ -726,6 +780,15 @@
   * 10% Sobble
   * 10% Piplup
   * 10% Quaxly
+### Water
+  * 60% Rowlet
+  * 20% Fletchling
+  * 20% Starly 
+### Rod
+  * 40% Oshawott
+  * 20% Psyduck
+  * 20% Azurill
+  * 20% Slowpoke
   
 ## Route 125
 ### Land
@@ -797,6 +860,11 @@
   * 5% Zubat
   * 5% Noibat
 
+## Pacifidlog Town
+### Land
+  * 70% Wailmer
+  * 30% Dondozo
+
 ## Mt. Chimney
 ### Land
   * 20% Great Tusk
@@ -811,13 +879,13 @@
 ## New Mauville (Static does not work)
 ### Land
   * 20% Iron Treads
-  * 15% Iron Hands
-  * 15% Iron Moth
-  * 10% Iron Leaves
-  * 10% Iron Boulder
-  * 10% Iron Crown
+  * 15% Iron Crown
+  * 15% Iron Leaves
+  * 15% Iron Boulder
+  * 10% Iron Moth
   * 10% Iron Bundle
   * 10% Iron Valiant
+  * 5% Iron Hands
 
 ## Desert Underpass
 ### Land

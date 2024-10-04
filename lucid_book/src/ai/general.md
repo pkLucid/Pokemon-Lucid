@@ -89,7 +89,6 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Note: If more then one move is present with a plus effect then both get the plus one
 
 ## Negative move effects (damage moves with a negative side effect)
-  * Multi Target moves if player has Wide Guard
   * Recoil
   * Moves that would target partner
   * Two turn moves (e.g. Bounce and Solar Beam) If move can't be used without charging (e.g. Power Herb)
