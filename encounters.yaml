@@ -1,30 +1,3 @@
-General:
-    Route 128 Loiterer:
-        - Tornadus
-        - Thundurus
-        - Landorus
-        - Enamorus
-
-    Fortree City:
-    - Tapu Koko (after Winona, Omniboosted +1)
-
-    Meteor Falls B1F1R:
-    - Tapu Lele (locked behind waterfall, Omniboosted +2)
-
-    Stella Island:
-    - Ogerpon (after Phoebe, Omniboosted +2)
-
-    Game Corner:
-    - Starter of your choice (after delivering mail in Evergrande City)
-
-    Daycare Egg:
-    - Elekid
-    - Magby
-    - Mime Jr.
-
-    Lavaridge Egg:
-    - Random regular starter
-
 Lake:
     Water:
     - 100% Shellos
@@ -33,10 +6,12 @@ Lake:
     - 20% Clamperl
     - 10% Solosis
     - 10% Tynamo
-    - 10% Psyduck
+    - 10% Dewpider
     - 10% Binacle
     - 10% Finneon
-    - 10% Goldeen
+    -  4% Psyduck
+    -  4% Goldeen
+    -  2% Spheal
 
 Coast:
     Water:
@@ -51,17 +26,18 @@ Coast:
     - 10% Tirtouga
     - 10% Surskit
     - 10% Slowpoke
-    -  5% Shellder
-    -  5% Staryu
-    -  4% Corphish
-    -  4% Krabby
-    -  2% Buizel
+    - 5% Shellder
+    - 5% Staryu
+    - 4% Corphish
+    - 4% Krabby
+    - 2% Buizel
 
 Ocean:
     Water:
-    - 40% Lapras
-    - 30% Fletchling
-    - 30% Rowlet
+    - 30% Lapras
+    - 30% Starly
+    - 20% Fletchling
+    - 20% Rowlet
     Rod:
     - 20% Magikarp
     - 20% Basculin
@@ -69,13 +45,13 @@ Ocean:
     - 10% Feebas
     - 10% Chinchou
     - 10% Arrokuda
-    -  5% Dratini
-    -  5% Horsea
-    -  4% Qwilfish-Hisui
-    -  4% Skrelp
-    -  2% Tapu Fini
+    - 5% Dratini
+    - 5% Horsea
+    - 4% Qwilfish-Hisui
+    - 4% Skrelp
+    - 2% Tapu Fini
 
-Underwater (124 + 126, same encounter location):
+Underwater:
     Water:
     - 30% Frillish
     - 30% Chinchou
@@ -97,32 +73,32 @@ Route 101:
     - 10% Spoink
     - 10% Ekans
     - 10% Espurr
-    -  5% Bunnelby
-    -  5% Lechonk
+    - 5% Bunnelby
+    - 5% Lechonk
 
 Route 102:
     Land:
     - 20% Timburr
     - 15% Machop
-    - 15% Pawmi
+    - 15% Mankey
     - 10% Scraggy
     - 10% Pancham
     - 10% Makuhita
     - 10% Stuffel
-    -  5% Mankey
-    -  5% Ralts
+    - 5% Ralts
+    - 5% Riolu
 
 Oldale Town:
     Land:
     - 20% Houndour
     - 15% Growlithe
     - 15% Ponyta
-    - 10% Fletchling
+    - 10% Numel
     - 10% Cyndaquil
     - 10% Sizzlipede
     - 10% Salandit
-    -  5% Charcadet
-    -  5% Litleo
+    - 5% Charcadet
+    - 5% Litleo
 
 Route 103:
     Land:
@@ -131,28 +107,22 @@ Route 103:
     - 15% Shinx
     - 10% Electrike
     - 10% Yamper
-    - 10% Pawmi
+    - 10% Elekid
     - 10% Pichu
-    -  5% Tadbulb
-    -  5% Toxel
+    - 5% Tadbulb
+    - 5% Toxel
 
 Route 104:
     Land:
-    - 20% Scatterbug
-    - 15% Fletchling
-    - 15% Starly
+    - 20% Emolga
+    - 15% Wingull
+    - 15% Ducklett
     - 10% Rufflet
     - 10% Natu
-    - 10% Wingull
-    - 10% Yanma
-    -  5% Bombirdier
-    -  5% Flamigo
-
-Petalburg City:
-    Rod:
-    - 40% Clamperl
-    - 40% Psyduck
-    - 20% Clauncher
+    - 10% Starly
+    - 10% Fletchling
+    - 5% Bombirdier
+    - 5% Flamigo
 
 Petalburg Woods:
     Land:
@@ -163,20 +133,20 @@ Petalburg Woods:
     - 10% Budew
     - 10% Bounsweet
     - 10% Rowlet
-    -  5% Poltchageist
-    -  5% Foongus
+    - 5% Poltchageist
+    - 5% Foongus
 
 Rustboro City:
     Land:
     - 20% Sandshrew
     - 15% Phanpy
-    - 15% Drilbur
+    - 15% Hippopotas
     - 10% Cubone
-    - 10% Hippopotas
+    - 10% Numel
     - 10% Rhyhorn
     - 10% Geodude
-    -  5% NidoranF
-    -  5% NidoranM
+    - 5% NidoranF
+    - 5% NidoranM
 
 Route 116:
     Land:
@@ -187,20 +157,20 @@ Route 116:
     - 10% Hatenna
     - 10% Varoom
     - 10% Pawniard
-    -  5% Houndour
-    -  5% Stunky
+    - 5% Klink
+    - 5% Aron
 
 Rusturf Tunnel:
     Land:
     - 20% Larvitar
     - 15% Roggenrola
-    - 15% Geodude
+    - 15% Geodude-Alola
     - 10% Magnemite
     - 10% Aron
     - 10% Dwebble
     - 10% Archen
-    -  5% Nosepass
-    -  5% Varoom
+    - 5% Nosepass
+    - 5% Varoom
 
 Verdantuf Town:
     Land:
@@ -208,11 +178,11 @@ Verdantuf Town:
     - 15% NidoranF
     - 15% NidoranM
     - 10% Sandshrew
-    - 10% Phanpy
-    - 10% Houndour
-    - 10% Sizzlipede
-    -  5% Meowth-Galar
-    -  5% Dwebble
+    - 10% Bunnely
+    - 10% Rockruff
+    - 10% Dwebble
+    - 5% Cufant
+    - 5% Meowth-Galar
 
 Route 117:
     Land:
@@ -223,8 +193,10 @@ Route 117:
     - 10% Budew
     - 10% Bounsweet
     - 10% Rowlet
-    -  5% Sewaddle
-    -  5% Applin
+    - 5% Sewaddle
+    - 5% Applin
+    Special:
+    - Daycare Egg (Magba, Elekid or MimeJr.)
 
 Woods Hideout:
     Land:
@@ -235,32 +207,51 @@ Woods Hideout:
     - 10% Bellsprout
     - 10% Nymble
     - 10% Ekans
-    -  5% Dwebble
-    -  5% Foongus
+    - 5% Dwebble
+    - 5% Foongus
 
 Dewford Town:
     Land:
     - 20% Tyrogue
-    - 15% Taruos-Paldea-Aqua
-    - 15% Tauros-Paldea-Blaze
+    - 15% Heracross
+    - 15% Falinks
     - 10% Farfetch'd-Galar
     - 10% Makuhita
     - 10% Shroomish
     - 10% Petilil
-    -  5% Pawmi
-    -  5% Timburr
+    - 5% Riolu
+    - 5% Pancham
+
+Dewford Arcadia:
+    Land:
+    - 20% Venonat
+    - 15% Hoothoot
+    - 15% Doduo
+    - 10% Spoink
+    - 10% Espurr
+    - 10% Ekans
+    - 10% Clobbopus
+    - 5% Snubull
+    - 5% Vulpix-Alola
+    Water:
+    - 100% Shellos
+    Rod:
+    - 40% Bruxish
+    - 30% Veluza
+    - 20% Clauncher
+    - 10% Clmaperl
 
 Route 107:
     Land:
-    - 20% Girafarig
-    - 15% Flittle
+    - 20% Scatterbug
+    - 15% Girafarig
     - 15% Munna
+    - 10% Flittle
     - 10% Espurr
     - 10% Ekans
     - 10% Vulpix-Alola
-    - 10% Snubull
-    -  5% Hatenna
-    -  5% Ralts
+    - 5% Hatenna
+    - 5% Ralts
 
 Granite Cave 1F:
     Land:
@@ -271,8 +262,8 @@ Granite Cave 1F:
     - 10% Ralts
     - 10% Vulpix-Alola
     - 10% Sandshrew-Alola
-    -  5% Zubat
-    -  5% Noibat
+    - 5% Zubat
+    - 5% Noibat
 
 Granite Cave B1F:
     Land:
@@ -283,8 +274,8 @@ Granite Cave B1F:
     - 10% Sandshrew-Alola
     - 10% Rockruff
     - 10% Bergmite
-    -  5% Swinub
-    -  5% Sneasel
+    - 5% Swinub
+    - 5% Roggenrola
     Rock Smash:
     - 30% Bergmite
     - 30% Sandshrew-Alola
@@ -295,19 +286,37 @@ Slateport City:
     Rod:
     - 40% Tentacool
     - 40% Toxel
-    - 20% Bruxish
+    - 10% Psyduck
+    - 10% Clauncher
+    - 10% Bruxish
 
 Route 110:
     Land:
     - 20% Mareep
     - 15% NidoranF
     - 15% NidoranM
+    - 10% Oddish
     - 10% Cottonee
-    - 10% Cutiefly
     - 10% Pawmi
     - 10% Shinx
-    -  5% Sandshrew
-    -  5% Phanpy
+    - 5% Growlithe
+    - 5% Sizzlipede
+
+Altering Cave:
+    Land:
+    - 20% Maushold
+    - 15% Lechonk
+    - 15% Rattata
+    - 10% Spoink
+    - 10% Chingling
+    - 10% Poochyena
+    - 10% Skitty
+    - 5% Stantler
+    - 5% Dunsprace
+
+Mauville City:
+    Special:
+    - Starter of your choice (after delivering mail in Evergrande City)
 
 Route 111:
     Land:
@@ -318,8 +327,8 @@ Route 111:
     - 10% Nacli
     - 10% Drilbur
     - 10% Skorupi
-    -  5% Sandshrew
-    -  5% Dwebble
+    - 5% Sandshrew
+    - 5% Dwebble
     Rock Smash:
     - 60% Dwebble
     - 40% Trapinch
@@ -337,8 +346,8 @@ Route 112:
     - 10% Sizzlipede
     - 10% Fletchling
     - 10% Cyndaquil
-    -  5% Ponyta
-    -  5% Litleo
+    - 5% Ponyta
+    - 5% Litleo
 
 Fiery Path:
     Land:
@@ -349,8 +358,8 @@ Fiery Path:
     - 10% Salandit
     - 10% Cyndaquil
     - 10% Litwick
-    -  5% Sizzlipede
-    -  5% Larvesta
+    - 5% Sizzlipede
+    - 5% Larvesta
     Rock Smash:
     - 60% Sizzlipede
     - 40% Skorupi
@@ -364,8 +373,8 @@ Route 113:
     - 10% Zorua
     - 10% Nymble
     - 10% Skorupi
-    -  5% Zigzagoon-Galar
-    -  5% Toxel
+    - 5% Zigzagoon-Galar
+    - 5% Toxel
 
 Fallarbor Town:
     Rock Smash:
@@ -373,6 +382,8 @@ Fallarbor Town:
     - 30% Amaura
     - 20% Anorith
     - 20% Dwebble
+    Special:
+    - Starter Eevee Egg (Randomly Evolves into any form)
 
 Route 114:
     Land:
@@ -383,8 +394,8 @@ Route 114:
     - 10% Ledyba
     - 10% Skorupi
     - 10% Nymble
-    -  5% Aipom
-    -  5% Minccino
+    - 5% Aipom
+    - 5% Minccino
     Rock Smash:
     - 60% Roggenrola
     - 40% Larvitar
@@ -398,13 +409,12 @@ Meteor Falls 1F1R:
     - 10% Magnemite
     - 10% Varoom
     - 10% Pawniard
-    -  5% Clefairy
-    -  5% Gligar
+    - 5% Clefairy
+    - 5% Gligar
     Rod:
     - 40% Barboach
     - 30% Tynamo
     - 30% Tympole
-
 Meteor Falls 1F2R:
     Land:
     - 20% Deino
@@ -414,13 +424,12 @@ Meteor Falls 1F2R:
     - 10% Magnemite
     - 10% Drilbur
     - 10% Sneasel
-    -  5% Jangmo-o
-    -  5% Frigibax
+    - 5% Jangmo-o
+    - 5% Frigibax
     Rod:
     - 40% Barboach
     - 30% Tynamo
     - 30% Tympole
-
 Meteor Falls B1F1R:
     Land:
     - 20% Dreepy
@@ -430,24 +439,26 @@ Meteor Falls B1F1R:
     - 10% Magnemite
     - 10% Gligar
     - 10% Phanpy
-    -  5% Deino
-    -  5% Beldum
+    - 5% Deino
+    - 5% Beldum
     Rod:
     - 40% Barboach
     - 30% Tynamo
     - 30% Tympole
+    Special:
+    - Tapu Lele (locked behind waterfall, Omniboosted +2)
 
 Meteor Path:
     Land:
     - 20% Kangaskhan
-    - 15% Dracozolt
-    - 15% Arctozolt
+    - 15% Lunatone
+    - 15% Solrock
     - 10% Turtonator
     - 10% Druddigon
-    - 10% Lunatone
-    - 10% Solrock
-    -  5% Iron Jugulis
-    -  5% Iron Thorns
+    - 10% Girafarig
+    - 10% Onix
+    - 5% Iron Jugulis
+    - 5% Iron Thorns
 
 Jagged Pass:
     Land:
@@ -455,11 +466,15 @@ Jagged Pass:
     - 15% Tauros-Paldea-Blaze
     - 15% Taruos-Paldea-Aqua
     - 10% Heracross
-    - 10% Absol
-    - 10% Kangaskhan
-    - 10% Klawf
-    -  5% Girafarig
-    -  5% Farfetch'd-Galar
+    - 10% Falinks
+    - 10% Girafarig
+    - 10% Farfetch'd-Galar
+    - 5% Absol
+    - 5% Klawf
+
+Lavaridge Egg:
+    Special:
+    - Starter Egg
 
 Sootopolis City:
     Land:
@@ -470,8 +485,17 @@ Sootopolis City:
     - 10% Shinx
     - 10% Sandshrew-Alola
     - 10% Voltrob-Hisui
-    -  5% Bounsweet
-    -  5% Budew
+    - 5% Bounsweet
+    - 5% Budew
+    Water:
+    - 40% Emolga
+    - 30% Starly
+    - 30% Fletchling
+    Rod:
+    - 40% Relicanth
+    - 40% Tatsugiri-Stretchy
+    - 8% Tatsugiri-Droopy
+    - 2% Tatsugiri-Curly
 
 Cave of Origin - Entrance:
     Land:
@@ -482,8 +506,8 @@ Cave of Origin - Entrance:
     - 10% Nymble
     - 10% Espurr
     - 10% Sandshrew
-    -  5% Zubat
-    -  5% Noibat
+    - 5% Zubat
+    - 5% Noibat
 
 Tera Island:
     Land:
@@ -494,8 +518,8 @@ Tera Island:
     - 10% Varoom
     - 10% Pawmi
     - 10% Nacli
-    -  5% Pawniard
-    -  5% Mankey
+    - 5% Pawniard
+    - 5% Mankey
 
 Mirage Tower 1F:
     Land:
@@ -506,8 +530,8 @@ Mirage Tower 1F:
     - 10% Nacli
     - 10% Tyrunt
     - 10% Amaura
-    -  5% Sandshrew
-    -  5% Baltoy
+    - 5% Sandshrew
+    - 5% Baltoy
 
 Mirage Tower 2F:
     Land:
@@ -518,8 +542,8 @@ Mirage Tower 2F:
     - 10% Nacli
     - 10% Sandshrew
     - 10% Baltoy
-    -  5% Rhyhorn
-    -  5% Swinub
+    - 5% Rhyhorn
+    - 5% Swinub
 
 Mirage Tower 3F:
     Land:
@@ -530,8 +554,8 @@ Mirage Tower 3F:
     - 10% Sandile
     - 10% Sandshrew
     - 10% Baltoy
-    -  5% Tyrunt
-    -  5% Amaura
+    - 5% Tyrunt
+    - 5% Amaura
 
 Mirage Tower 4F:
     Land:
@@ -542,23 +566,23 @@ Mirage Tower 4F:
     - 10% Skorupi
     - 10% Zubat
     - 10% Noibat
-    -  5% Dwebble
-    -  5% Archen
+    - 5% Dwebble
+    - 5% Archen
     Rock Smash:
     - 60% Anorith
     - 40% Skorupi
 
-Mirage Tunnel:
+Mirage Tunnel [Double Encounter]:
     Land:
     - 20% Klawf
     - 15% Sigilyph
     - 15% Emolga
     - 10% Turtonator
     - 10% Druddigon
-    - 10% Nosepass
+    - 10% Girafarig
     - 10% Onix
-    -  5% Stunfisk
-    -  5% Falinks
+    - 5% Lunatone
+    - 5% Solrock
 
 Mirage Town:
     Land:
@@ -566,11 +590,11 @@ Mirage Town:
     - 15% Trapinch
     - 15% Geodude
     - 10% Anorith
-    - 10% Skorupi
+    - 10% Dwebble
     - 10% Roggenrola
     - 10% Aron
-    -  5% Sandshrew
-    -  5% Meowth-Galar
+    - 5% Meowth-Galar
+    - 5% Sandshrew
 
 Abandoned Ship:
     Surf:
@@ -583,14 +607,14 @@ Abandoned Ship:
 Route 115:
     Land:
     - 20% Ralts
-    - 15% Minccino
-    - 15% Aipom
+    - 15% Glimmet
+    - 15% Munna
     - 10% Pawmi
     - 10% Tinkatink
-    - 10% Phanpy
+    - 10% Cutiefly
     - 10% Yanma
-    -  5% Glimmet
-    -  5% Munna
+    - 5% Minccino
+    - 5% Aipom
 
 Route 123:
     Land:
@@ -601,8 +625,8 @@ Route 123:
     - 10% Glimmet
     - 10% Phanpy
     - 10% Munna
-    -  5% Pawmi
-    -  5% Togepi
+    - 5% Pawmi
+    - 5% Togepi
 
 Route 119:
     Land:
@@ -613,14 +637,17 @@ Route 119:
     - 10% Yanma
     - 10% Gossifleur
     - 10% Cottonee
-    -  5% Sewaddle
-    -  5% Venipede
-    -  2% Tapu Bulu (Outside normal table)
+    - 5% Sewaddle
+    - 5% Venipede
+    Special:
+    - Tapu Bulu (2% outside of the normal table)
+
+
+Fortree City:
+    Special:
+    - Tapu Koko (after Winona, +1 Omniboosted)
 
 Route 120:
-    Water:
-    - 60% Tympole
-    - 40% Flamigo
     Land:
     - 20% Tinkatink
     - 15% Pawniard
@@ -629,8 +656,11 @@ Route 120:
     - 10% Stuffel
     - 10% Sneasel
     - 10% Gligar
-    -  5% Scyther
-    -  5% Hawlucha
+    - 5% Scyther
+    - 5% Hawlucha
+    Water:
+    - 60% Tympole
+    - 40% Flamigo
 
 Scorched Slab:
     Water:
@@ -645,8 +675,8 @@ Scorched Slab:
     - 10% Charcadet
     - 10% Noibat
     - 10% Zubat
-    -  5% Sizzlipede
-    -  5% Torkoal
+    - 5% Sizzlipede
+    - 5% Torkoal
 
 Route 121:
     Land:
@@ -657,8 +687,8 @@ Route 121:
     - 10% Glimmet
     - 10% Zorua
     - 10% Murkrow
-    -  5% Poipole
-    -  5% Noibat
+    - 5% Poipole
+    - 5% Noibat
     Water:
     - 30% Noibat
     - 30% Murkrow
@@ -672,17 +702,38 @@ Route 122:
     - 20% Bombirdier
     - 20% Flamigo
 
+Mt. Pyre:
+    Land:
+    - 20% Yamask-Galar
+    - 15% Misdreavus
+    - 15% Shuppet
+    - 10% Spoink
+    - 10% Espurr
+    - 10% Sableye
+    - 10% Absol
+    - 5% Duskull
+    - 5% Abra
+
 Safari Zone - Northeast:
     Land:
-    - 20% Eevee
-    - 15% Jolteon
-    - 15% Sylveon
-    - 10% Vaporeon
-    - 10% Flareon
-    - 10% Espeon
-    - 10% Umbreon
-    -  5% Leafeon
-    -  5% Glaceon
+    - 20% Grookey
+    - 15% Fuecoco
+    - 15% Quaxly
+    - 10% Chimchar
+    - 10% Froakie
+    - 10% Mudkip
+    - 10% Charmander
+    - 5% Litten
+    - 5% Chespin
+    Water:
+    - 60% Rowlet
+    - 20% Fletchling
+    - 20% Starly
+    Rod:
+    - 40% Oshawott
+    - 20% Psyduck
+    - 20% Azurill
+    - 20% Slowpoke
 
 Safari Zone - North:
     Land:
@@ -695,10 +746,10 @@ Safari Zone - North:
     - 10% Charmander
     - 10% Fuecoco
     Rock Smash:
-    - 30% Tyrunt
-    - 30% Amaura
+    - 30% Larvitar
+    - 30% Trapinch
     - 20% Aron
-    - 20% Nacli
+    - 20% Roggenrola
 
 Safari Zone - South:
     Land:
@@ -721,6 +772,15 @@ Safari Zone - Southwest:
     - 10% Sobble
     - 10% Piplup
     - 10% Quaxly
+    Water:
+    - 60% Rowlet
+    - 20% Fletchling
+    - 20% Starly
+    Rod:
+    - 40% Oshawott
+    - 20% Psyduck
+    - 20% Azurill
+    - 20% Slowpoke
 
 Route 125:
     Land:
@@ -744,6 +804,13 @@ Sky Pillar:
     - 10% Jangmo-o
     - 10% Gible
 
+Route 128:
+    Special:
+    - Tornadus (Surf)
+    - Thundurus (Surf)
+    - Landorus (Surf)
+    - Enamorus (Surf)
+
 Route 130:
     Land:
     - 20% Hawlucha
@@ -753,8 +820,8 @@ Route 130:
     - 10% Mankey
     - 10% Rookidee
     - 10% Pawniard
-    -  5% Gossifleur
-    -  5% Cottonee
+    - 5% Gossifleur
+    - 5% Cottonee
 
 Shoal Cave Entrance Room:
     Land:
@@ -765,8 +832,8 @@ Shoal Cave Entrance Room:
     - 10% Varoom
     - 10% Cetoddle
     - 10% Bergmite
-    -  5% Zubat
-    -  5% Noibat
+    - 5% Zubat
+    - 5% Noibat
 
 Shoal Cave Ice Room:
     Land:
@@ -777,8 +844,8 @@ Shoal Cave Ice Room:
     - 10% Bergmite
     - 10% Tinkatink
     - 10% Pawniard
-    -  5% Larvitar
-    -  5% Beldum
+    - 5% Larvitar
+    - 5% Beldum
 
 Shoal Cave Other Rooms:
     Land:
@@ -789,30 +856,49 @@ Shoal Cave Other Rooms:
     - 10% Hatenna
     - 10% Sneasler
     - 10% Munna
-    -  5% Zubat
-    -  5% Noibat
+    - 5% Zubat
+    - 5% Noibat
+
+Pacifidlog Town:
+    Land:
+    - 70% Wailmer
+    - 30% Dondozo
+
+Stella Island:
+    Land:
+    - 20% Gimmighoul
+    - 15% Charcadet
+    - 15% Nymble
+    - 10% Tadbulb
+    - 10% Glimmet
+    - 10% Pawmi
+    - 10% Mankey
+    - 5% Pawniard
+    - 5% Tinkatink
+    Special:
+    - Ogerpon (after Phoebe, Omniboosted +2)
 
 Mt. Chimney:
     Land:
     - 20% Great Tusk
     - 15% Slither Wing
     - 15% Sandy Shocks
+    - 15% Roaring Moon
     - 10% Walking Wake
     - 10% Gouging Fire
     - 10% Raging Bolt
-    - 10% Flutter Mane
-    - 10% Roaring Moon
+    - 5% Flutter Mane
 
 New Mauville:
     Land:
     - 20% Iron Treads
-    - 15% Iron Hands
-    - 15% Iron Moth
-    - 10% Iron Leaves
-    - 10% Iron Boulder
-    - 10% Iron Crown
+    - 15% Iron Crown
+    - 15% Iron Leaves
+    - 15% Iron Boulder
+    - 10% Iron Moth
     - 10% Iron Bundle
     - 10% Iron Valiant
+    - 5% Iron Hands
 
 Desert Underpass:
     Land:
@@ -823,8 +909,8 @@ Desert Underpass:
     - 10% Tinkatink
     - 10% Anorith
     - 10% Skorupi
-    -  5% Larvitar
-    -  5% Aron
+    - 5% Larvitar
+    - 5% Aron
 
 Evergrande City:
     Land:
@@ -835,8 +921,8 @@ Evergrande City:
     - 10% Togepi
     - 10% Teddiursa
     - 10% Rookidee
-    -  5% Jangmo-o
-    -  5% Frigibax
+    - 5% Jangmo-o
+    - 5% Frigibax
 
 Victory Road 1F:
     Land:
@@ -847,8 +933,8 @@ Victory Road 1F:
     - 10% Beldum
     - 10% Gible
     - 10% Bagon
-    -  5% Jangmo-o
-    -  5% Frigibax
+    - 5% Jangmo-o
+    - 5% Frigibax
 
 Victory Road B1F:
     Land:
@@ -859,8 +945,8 @@ Victory Road B1F:
     - 10% Beldum
     - 10% Tinkatink
     - 10% Pawniard
-    -  5% Jangmo-o
-    -  5% Frigibax
+    - 5% Jangmo-o
+    - 5% Frigibax
     Rock Smash:
     - 30% Larvitar
     - 30% Beldum
@@ -876,5 +962,5 @@ Victory Road B2F:
     - 10% Mankey
     - 10% Deino
     - 10% Dreepy
-    -  5% Jangmo-o
-    -  5% Frigibax
+    - 5% Jangmo-o
+    - 5% Frigibax

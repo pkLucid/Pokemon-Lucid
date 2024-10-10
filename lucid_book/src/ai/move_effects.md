@@ -1,8 +1,25 @@
 ## Move effects:
-  * Moves with regular move effects generally get a +2/+3 if they apply. If I list some effects and don't specify a score you can assume that this is true
+  * Status Moves get a +3 if condtions apply.
+  * Damage Moves with secondary effects can get +2 if condtions apply (same as status) for this move effects:
+    * On player
+      * MOVE_EFFECT_PARALYSIS
+      * MOVE_EFFECT_POISON
+      * MOVE_EFFECT_STEALTH_ROCK
+      * MOVE_EFFECT_SPIKES
+      * MOVE_EFFECT_THROAT_CHOP
+      * MOVE_EFFECT_WRAP
+      * MOVE_EFFECT_FLINCH 
+      * MOVE_EFFECT_SPD_MINUS_1
+      * MOVE_EFFECT_SPD_MINUS_2
+    * Self
+      * MOVE_EFFECT_SPD_PLUS_1
+      * MOVE_EFFECT_SPD_PLUS_2
+      * MOVE_EFFECT_SPD_MINUS_1 (if Contrary)
+      * MOVE_EFFECT_SPD_MINUS_2 (if Contrary)
+      
   * Some effects get a +1 only in some rare instances. That makes them tied with best damage move
   * Moves that target partner get a +10 if conditions apply
-  * Generally a move that faints the ai will have the highest score. Exceptions are TrickRoom, Protect and Palafin-Zero with Flip Turn.
+  * Generally a move that faints the ai will have the highest score. Exceptions are TrickRoom, Protect, Tailwind on Whitney and Palafin-Zero with Flip Turn.
   * If a move would fail if used by AI it will get a -20
 
 ## Status Moves
@@ -93,7 +110,10 @@
   * Increase if Super Luck, Sniper, Scope Lens or or high crit move are present
 
 ### Recover / Heal AI (+3)
-  * Tries to heal if heal amount + current HP are higher then best player damage and damage equal or higher current hp
+  * If player does the same amount or more damage then AI max hp, no score increase
+  * If AI current HP is equal to max HP, no score increase
+  * If AI faster it, 30% of the time no score increase
+  * Score increase if heal amount + current HP are higher then best player damage and damage equal or higher current hp
 
 ### Trap (+2)
   * If player needs 4 or more hits to faint ai trapping moves get an increase
@@ -133,3 +153,16 @@
 
 ### Swagger
   * +3 on on partner if can't confuse
+
+### Substitute
+  * No score Increase if player can tage advantage of sub (ability / move not blocked by sub)
+  * If slower and after a hit Substitute would fail, no increase
+  * Otherwise 50/50 to go for a Sub
+  
+### Shed Tail
+  * No score Increase if player can tage advantage of sub (ability / move not blocked by sub)
+  * If AI has no alive mon in Party, no increase
+  * If at 50% hp, no score increase
+  * If slower and after a hit Shed Tail would fail, no increase
+  * Otherwise increase
+  

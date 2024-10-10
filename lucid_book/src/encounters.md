@@ -1,32 +1,3 @@
-## General
-
-### Route 128 Loiterer
-  * Tornadus
-  * Thundurus
-  * Landorus
-  * Enamorus
-
-### Fortree City
-  * Tapu Koko (after Winona, Omniboosted +1)
-  
-### Meteor Falls B1F1R
-  * Tapu Lele (locked behind waterfall, Omniboosted +2)
-
-### Route 119
-  * Tapu Bulu (2% outside of the normal table)
-
-### Stella Island
-  * Ogerpon (after Phoebe, Omniboosted +2)
-  
-### Game Corner
-  * Starter of your choice (after delivering mail in Evergrande City)
-  
-### Daycare Egg
-  * Starter Eevee (Randomly Evolves into any form)
-
-### Lavaridge Egg
-  * Random regular starter
-  
 ## Lake
 ### Water
   * 100% Shellos
@@ -40,8 +11,8 @@
   * 10% Finneon
   *  4% Psyduck
   *  4% Goldeen
-  *  2% Remoraid
-  
+  *  2% Spheal
+
 ## Coast
 ### Water
   * 30% Fletchling
@@ -60,7 +31,7 @@
   * 4% Corphish
   * 4% Krabby
   * 2% Buizel
-  
+
 ## Ocean
 ### Water
   * 30% Lapras
@@ -79,20 +50,20 @@
   * 4% Qwilfish-Hisui
   * 4% Skrelp
   * 2% Tapu Fini
-  
+
 ## Underwater (124 + 126, same encounter location)
 ### Water
   * 30% Frillish
   * 30% Chinchou
   * 20% Omanyte
   * 20% Kabuto
-  
+
 ## Littleroot Town
 ### Rod
   * 40% Omanyte
   * 40% Kabuto
   * 20% Chewtle
-  
+
 ## Route 101
 ### Land
   * 20% Lillipup
@@ -104,7 +75,7 @@
   * 10% Espurr
   * 5% Bunnelby
   * 5% Lechonk
-  
+
 ## Route 102
 ### Land
   * 20% Timburr
@@ -116,19 +87,19 @@
   * 10% Stuffel
   * 5% Ralts
   * 5% Riolu
-  
+
 ## Oldale Town
 ### Land
   * 20% Houndour
   * 15% Growlithe
   * 15% Ponyta
-  * 10% Fletchling
+  * 10% Numel
   * 10% Cyndaquil
   * 10% Sizzlipede
   * 10% Salandit
   * 5% Charcadet
   * 5% Litleo
-  
+
 ## Route 103
 ### Land
 * 20% Emolga
@@ -169,14 +140,14 @@
 ### Land
   * 20% Sandshrew
   * 15% Phanpy
-  * 15% Mudbray
+  * 15% Hippopotas
   * 10% Cubone
-  * 10% Hippopotas
+  * 10% Numel
   * 10% Rhyhorn
   * 10% Geodude
   * 5% NidoranF
   * 5% NidoranM
-  
+
 ## Route 116
 ### Land
   * 20% Sandshrew-Alola
@@ -224,6 +195,8 @@
   * 10% Rowlet
   * 5% Sewaddle
   * 5% Applin
+### Special
+  * Daycare Egg (Magba, Elekid or MimeJr.)
 
 ## Woods Hideout
 ### Land
@@ -302,13 +275,13 @@
   * 10% Rockruff
   * 10% Bergmite
   * 5% Swinub
-  * 5% Mime Jr.
+  * 5% Roggenrola
 ### Rock Smash
   * 30% Bergmite
   * 30% Sandshrew-Alola
   * 20% Roggenrola
   * 20% Aron
-  
+
 ## Slateport City
 ### Rod
   * 40% Tentacool
@@ -331,7 +304,7 @@
 
 ## Altering Cave [Double Encounter]
 ### Land
-  * 20% Maushold 
+  * 20% Maushold
   * 15% Lechonk
   * 15% Rattata
   * 10% Spoink
@@ -340,6 +313,10 @@
   * 10% Skitty
   * 5% Stantler
   * 5% Dunsprace
+
+## Mauville City
+### Special
+  * Starter of your choice (after delivering mail in Evergrande City)
 
 ## Route 111
 ### Land
@@ -405,6 +382,8 @@
   * 30% Amaura
   * 20% Anorith
   * 20% Dwebble
+### Special
+  * Starter Eevee Egg (Randomly Evolves into any form)
 
 ## Route 114
 ### Land
@@ -466,7 +445,9 @@
   * 40% Barboach
   * 30% Tynamo
   * 30% Tympole
-  
+### Special
+  * Tapu Lele (locked behind waterfall, Omniboosted +2)
+
 ## Meteor Path [Double Encounter]
 ### Land
   * 20% Kangaskhan
@@ -478,7 +459,7 @@
   * 10% Onix
   * 5% Iron Jugulis
   * 5% Iron Thorns
-  
+
 ## Jagged Pass [Double Encounter]
 ### Land
   * 20% Tauros-Paldea-Combat
@@ -490,7 +471,11 @@
   * 10% Farfetch'd-Galar
   * 5% Absol
   * 5% Klawf
-  
+
+## Lavaridge Egg
+### Special
+  * Starter Egg
+
 ## Sootopolis City
 ### Land
   * 20% Lotad
@@ -523,7 +508,7 @@
   * 10% Sandshrew
   * 5% Zubat
   * 5% Noibat
-  
+
 ## Tera Island
 ### Land
   * 20% Charcadet
@@ -547,7 +532,7 @@
   * 10% Amaura
   * 5% Sandshrew
   * 5% Baltoy
-  
+
 ## Mirage Tower 2F
 ### Land
   * 20% Sandile
@@ -559,7 +544,7 @@
   * 10% Baltoy
   * 5% Rhyhorn
   * 5% Swinub
-  
+
 ## Mirage Tower 3F
 ### Land
   * 20% Nacli
@@ -571,7 +556,7 @@
   * 10% Baltoy
   * 5% Tyrunt
   * 5% Amaura
-  
+
 ## Mirage Tower 4F
 ### Land
   * 20% Gligar
@@ -586,7 +571,7 @@
 ### Rock Smash
   * 60% Anorith
   * 40% Skorupi
-  
+
 ## Mirage Tunnel [Double Encounter]
 ### Land
   * 20% Klawf
@@ -598,7 +583,7 @@
   * 10% Onix
   * 5% Lunatone
   * 5% Solrock
-  
+
 ## Mirage Town
 ### Land
   * 20% Maractus
@@ -610,7 +595,7 @@
   * 10% Aron
   * 5% Meowth-Galar
   * 5% Sandshrew
-  
+
 ## Abandoned Ship
 ### Surf
  * 60% Grimer-Alola
@@ -654,7 +639,14 @@
   * 10% Cottonee
   * 5% Sewaddle
   * 5% Venipede
-  
+### Special
+  * Tapu Bulu (2% outside of the normal table)
+
+
+## Fortree City
+### Special
+  * Tapu Koko (after Winona, +1 Omniboosted)
+
 ## Route 120
 ### Land
   * 20% Tinkatink
@@ -685,7 +677,7 @@
   * 10% Zubat
   * 5% Sizzlipede
   * 5% Torkoal
-  
+
 ## Route 121
 ### Land
   * 20% Mankey
@@ -702,7 +694,7 @@
   * 30% Murkrow
   * 20% Bombirdier
   * 20% Flamigo
-  
+
 ## Route 122
 ### Water
   * 30% Gastly
@@ -712,16 +704,16 @@
 
 ## Mt. Pyre
 ### Land
-  * 20% Yamask-Galar 
+  * 20% Yamask-Galar
   * 15% Misdreavus
-  * 15% Shuppet 
+  * 15% Shuppet
   * 10% Spoink
   * 10% Espurr
   * 10% Sableye
   * 10% Absol
   * 5% Duskull
   * 5% Abra
-  
+
 ## Safari Zone - Northeast
 ### Land
   * 20% Grookey
@@ -736,13 +728,13 @@
 ### Water
   * 60% Rowlet
   * 20% Fletchling
-  * 20% Starly 
+  * 20% Starly
 ### Rod
   * 40% Oshawott
   * 20% Psyduck
   * 20% Azurill
   * 20% Slowpoke
-  
+
 ## Safari Zone - North
 ### Land
   * 20% Torchic
@@ -758,7 +750,7 @@
   * 30% Trapinch
   * 20% Aron
   * 20% Roggenrola
-  
+
 ## Safari Zone - South
 ### Land
   * 20% Treecko
@@ -769,7 +761,7 @@
   * 10% Snivy
   * 10% Turtwig
   * 10% Sprigatito
-  
+
 ## Safari Zone - Southwest
 ### Land
   * 20% Mudkip
@@ -783,13 +775,13 @@
 ### Water
   * 60% Rowlet
   * 20% Fletchling
-  * 20% Starly 
+  * 20% Starly
 ### Rod
   * 40% Oshawott
   * 20% Psyduck
   * 20% Azurill
   * 20% Slowpoke
-  
+
 ## Route 125
 ### Land
   * 20% Duraludon
@@ -800,7 +792,7 @@
   * 10% Bagon
   * 10% Jangmo-o
   * 10% Gible
-  
+
 ## Sky Pillar
 ### Land
   * 20% Duraludon
@@ -811,7 +803,14 @@
   * 10% Bagon
   * 10% Jangmo-o
   * 10% Gible
-  
+
+## Route 128
+### Special
+  * Tornadus (Surf)
+  * Thundurus (Surf)
+  * Landorus (Surf)
+  * Enamorus (Surf)
+
 ## Route 130
 ### Land
   * 20% Hawlucha
@@ -823,7 +822,7 @@
   * 10% Pawniard
   * 5% Gossifleur
   * 5% Cottonee
-  
+
 ## Shoal Cave Entrance Room
 ### Land
   * 20% Sneasel
@@ -835,7 +834,7 @@
   * 10% Bergmite
   * 5% Zubat
   * 5% Noibat
-  
+
 ## Shoal Cave Ice Room
 ### Land
   * 20% Sneasel-Hisui
@@ -847,7 +846,7 @@
   * 10% Pawniard
   * 5% Larvitar
   * 5% Beldum
-  
+
 ## Shoal Cave Other Rooms
 ### Land
   * 20% Swinub
@@ -864,6 +863,20 @@
 ### Land
   * 70% Wailmer
   * 30% Dondozo
+
+## Stella Island
+### Land
+  * 20% Gimmighoul
+  * 15% Charcadet
+  * 15% Nymble
+  * 10% Tadbulb
+  * 10% Glimmet
+  * 10% Pawmi
+  * 10% Mankey
+  * 5% Pawniard
+  * 5% Tinkatink
+### Special
+  * Ogerpon (after Phoebe, Omniboosted +2)
 
 ## Mt. Chimney
 ### Land
@@ -934,7 +947,7 @@
   * 10% Pawniard
   * 5% Jangmo-o
   * 5% Frigibax
-  
+
 ### Rock Smash
   * 30% Larvitar
   * 30% Beldum

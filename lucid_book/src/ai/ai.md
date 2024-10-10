@@ -219,7 +219,10 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Otherwise 50/50 to get a +3
 
 ### Recover / Heal AI (+3)
-  * Tries to heal if heal amount + current HP are higher then best player damage and damage equal or higher current hp
+  * If player does the same amount or more damage then AI max hp, no score increase
+  * If AI current HP is equal to max HP, no score increase
+  * If AI faster it, 30% of the time no score increase
+  * Score increase if heal amount + current HP are higher then best player damage and damage equal or higher current hp
 
 ### Trap (+2)
   * If player needs 4 or more hits to faint ai trapping moves get an increase
@@ -259,3 +262,15 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   
 ### Swagger
   * +3 on on partner if can't confuse
+
+### Substitute
+  * No score Increase if player can tage advantage of sub (ability / move not blocked by sub)
+  * If slower and after a hit Substitute would fail, no increase
+  * Otherwise 50/50 to go for a Sub
+  
+### Shed Tail
+  * No score Increase if player can tage advantage of sub (ability / move not blocked by sub)
+  * If AI has no alive mon in Party, no increase
+  * If at 50% hp, no score increase
+  * If slower and after a hit Shed Tail would fail, no increase
+  * Otherwise increase

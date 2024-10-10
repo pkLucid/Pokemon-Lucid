@@ -1,199 +1,317 @@
-<br/><br/>
+### Rewards
 
-|Mint Gym Leader Rewards|                                       |
-|-------------------|-------------------------------------------|
-| Rustboro City     | Impish, Lax, Serious                      |
-| Dewford Town      | Adamant, Serious                          |
-| Mauville City     | Naive, Serious                            |
-| Sootopolis City   | Calm, Careful, Serious                    |
-| Mirage Town       | Brave, Serious                            |
-| Fortree City      | Jolly, Naive                              |
-| Mossdeep City     | Modest, Serious                           |
-| Lavaridge Town    | Timid, Jolly, Adamant, Modest, 6x Serious |
+#### Gym Leader Rewards
+  * **Rustboro City**
+    * Heart Scale
+    * Ability Capsule
+    * Impish Mint
+    * Lax Mint
+    * Serious Mint
+  * **Dewford Town**
+    * Heart Scale
+    * Ability Capsule
+    * Adamant Mint
+    * Serious Mint
+  * **Mauville City**
+    * Heart Scale
+    * Ability Capsule
+    * Naive Mint
+    * Serious Mint
+  * **Sootopolis City**
+    * Heart Scale
+    * Ability Capsule
+    * Calm Mint
+    * Careful Mint
+    * Serious Mint
+  * **Mirage Town**
+    * 2 Heart Scale
+    * Ability Capsule
+    * Brave Mint
+    * Serious Mint
+  * **Fortree City**
+    * 2 Heart Scale
+    * Ability Capsule
+    * Jolly Mint
+    * Naive Mint
+  * **Mossdeep City**
+    * 2 Heart Scale
+    * Modest Mint
+    * Serious Mint
+  * **Lavaridge Town**
+    * 2 Heart Scale
+    * Modest Mint
+    * Adamant Mint
+    * Jolly Mint
+    * Timid Mint
+    * Serious Mint
 
-<br/><br/>
+#### NPC Items / Rock Smash
+  * **Petalburg Woods**
+    * Berry Juice
+  * **Verdanturf Town** (Apple Lady's House)
+    * Tart Apple
+    * Sweet Apple
+    * Syrupy Apple
+  * **Dewford Town** (Fisherman)
+    * Deep Sea Tooth
+    * Deep Sea Scale
+  * **Route 109**
+    * Eviolite
+  * **Slateport City** (Mart)
+    * Type Boosting Items
+    * Moon Stone
+    * Sun Stone
+    * Thunder Stone
+    * Leaf Stone
+    * Fire Stone
+    * Water Stone
+    * Linking Cord
+    * Shiny Stone
+    * Dusk Stone
+    * Dawn Stone
+    * Ice Stone
+  * **Route 107** (Rock Smash)
+    * Dragon Scale
+    * Kings Rock
+    * Prism Scale
+    * Masterpiece Teacup
+  * **Meteor Path** (Rock Smash)
+    * Metal Alloy
+    * Peat Block
+    * Electirizer
+    * Magmarizer
+    * Protector
+    * Razor Claw
+    * Razor Fang
+    * Black Augurite
 
-|Overworld Items||
-|------------------------|-----------------------|
-|Muscle Band             |Route 102              |
-|Heart Scale (Hidden)    |Route 104              |
-|Heart Scale (Hidden)    |Route 105              |
-|Heart Scale (Hidden)    |Route 106              |
-|Heart Scale (Hidden)    |Route 107              |
-|Dragon Scale (Rock Smash)|Route 107             |
-|Kings Rock (Rock Smash)  |Route 107             |
-|Prism Scale (Rock Smash) |Route 107             |
-|Masterpiece Teacup (Rock Smash) |Route 107      |
-|Heart Scale (Hidden)    |Route 108              |
-|Power Herb              |Route 108              |
-|Heart Scale (Hidden)    |Route 109              |
-|Berry Juice (Hidden)    |Route 109              |
-|Ability Capsule (Hidden)|Route 109              |
-|Eviolite 2x             |Route 109              |
-|Protective Pads         |Route 110              |
-|Heavy Duty Boots        |Route 111              |
-|Safety Goggles          |Route 111              |
-|Wide Lens               |Route 112              |
-|Flame Orb               |Route 112              |
-|Zoom Lens               |Route 112              |
-|Black Sludge            |Route 113              |
-|Ability Capsule (Hidden)|Route 116              |
-|Moon Stone              |Route 116              |
-|Berry Juice             |Route 117              |
-|Sun Stone               |Route 117              |
-|Heart Scale (Hidden)    |Route 118              |
-|Toxic Orb               |Route 118              |
-|Heart Scale             |Route 119              |
-|Grassy Seed             |Route 119              |
-|Loaded Dice             |Route 120              |
-|Heart Scale (Hidden)    |Route 121              |
-|Misty Seed              |Route 121              |
-|Ability Shield          |Route 121              |
-|Big Root                |Route 123              |
-|Iron Ball               |Route 124              |
-|Clear Amulet            |Route 125              |
-|Eject Button            |Route 127              |
-|Leader's Crest          |Route 130              |
-|Covert Cloak            |Route 132              |
-|Berry Juice (Given)     |Petalburg Woods        |
-|Escape Rope             |Rusturf Tunnel         |
-|Ice Stone (Hidden)      |Granite Cave           |
-|Punching Glove          |Dewford Town           |
-|Deep Sea Tooth          |Dewford Town           |
-|Deep Sea Scale          |Dewford Town           |
-|Boosting Items          |Slateport City         |
-|Moon Stone              |Slateport City         |
-|Sun Stone               |Slateport City         |
-|Thunder Stone           |Slateport City         |
-|Leaf Stone              |Slateport City         |
-|Fire Stone              |Slateport City         |
-|Water Stone             |Slateport City         |
-|Linking Cord            |Slateport City         |
-|Shiny Stone             |Slateport City         |
-|Dusk Stone              |Slateport City         |
-|Dawn Stone              |Slateport City         |
-|Ice Stone               |Slateport City         |
-|Electric Seed           |Mauville City          |
-|Auspicious Armor        |Fiery Path             |
-|Malicious Armor         |Fiery Path             |
-|Shed Shell              |Mirage Tunnel          |
-|Ability Capsule (Hidden)|Jagged Pass            |
-|Ability Capsule (Hidden)|Tera Island            |
-|Heart Scale (Hidden)    |Tera Island            |
-|Ability Capsule (Hidden)|Lilycove City          |
-|Throat Spray            |Lilycove City          |
-|Shoal Cave Ice Room     |Eject Pack             |
-|Heart Scale (Hidden)    |Mossdeep City          |
-|Psychic Seed            |Mossdeep City          |
-|Ability Capsule (Hidden)|Underwater 124         |
-|Heart Scale (Hidden)    |Stellar Island         |
-|Ability Capsule (Hidden)|Victory Road           |
-|Leftovers               |Victory Road           |
-|Rocky Helmet            |Victory Road           |
-|Booster Energy          |Victory Road           |
-|Life Orb                |Victory Road           |
-|Mental Herb             |Victory Road           |
-|Focus Sash              |Victory Road           |
-|Assault Vest            |Victory Road           |
-|Metal Alloy (Rock Smash)|Meteor Path            |
-|Peat Block (Rock Smash) |Meteor Path            |
-|Electirizer (Rock Smash)|Meteor Path            |
-|Magmarizer (Rock Smash) |Meteor Path            |
-|Protector (Rock Smash)  |Meteor Path            |
-|Razor Claw (Rock Smash) |Meteor Path            |
-|Razor Fang (Rock Smash) |Meteor Path            |
-|Black Augurite (Rock Smash)|Meteor Path         |
-|Tart/Sweet/Syrupy Apple |Verdanturf Town        |
+#### Overworld Items
+  * **Route 102**
+    * Muscle Band
+  * **Route 108**
+    * Power Herb (Hidden behind a 1v2 Double)
+  * **Route 110**
+    * Protective Pads
+  * **Route 111**
+    * Thick Club
+    * Heavy Duty Boots
+    * Safety Goggles
+  * **Route 112**
+    * Wide Lens
+    * Flame Orb
+    * Zoom Lens
+  * **Route 113**
+    * Black Sludge
+  * **Route 116**
+    * Moon Stone
+  * **Route 117**
+    * Berry Juice
+    * Sun Stone
+  * **Route 118**
+    * Toxic Orb
+  * **Route 119**
+    * Grassy Seed
+  * **Route 120**
+    * Loaded Dice
+  * **Route 121**
+    * Misty Seed
+    * Ability Shield
+  * **Route 123**
+    * Big Root
+  * **Route 124**
+    * Iron Ball
+  * **Route 125**
+    * Clear Amulet
+  * **Route 127**
+    * Eject Button
+  * **Route 130**
+    * Leader's Crest
+  * **Route 132**
+    * Covert Cloak
+  * **Rusturf Tunnel**
+    * Escape Rope
+  * **Granite Cave**
+    * Ice Stone (Hidden)
+  * **Dewford Town**
+    * Punching Glove
+  * **Mauville City**
+    * Electric Seed
+  * **Fiery Path**
+    * Auspicious Armor
+    * Malicious Armor
+  * **Jagged Pass**
+    * Leek
+  * **Mirage Tunnel**
+    * Shed Shell
+  * **Lilycove City**
+    * Throat Spray
+  * **Eject Pack**
+    * Shoal Cave Ice Room
+  * **Mossdeep City**
+    * Psychic Seed
+  * **Victory Road**
+    * Leftovers
+    * Rocky Helmet
+    * Booster Energy
+    * Life Orb
+    * Mental Herb
+    * Focus Sash
+    * Assault Vest
 
-<br/><br/>
+#### Berries
+  * **Route 102**
+    * Oran (62)
+  * **Route 103**
+    * Cheri (31)
+    * Chesto (31)
+    * Pecha (31)
+  * **Route 104**
+    * Oran (62)
+    * Cheri (31)
+    * Chesto (31)
+    * Rawst (31)
+    * Pecha (31)
+    * Aspear (31)
+    * Leppa (31)
+    * Persim (31)
+  * **Route 110**
+    * Leppa (31)
+    * Sitrus (10)
+    * Lum (10)
+  * **Route 112**
+    * Rowap (4)
+    * Jaboca (4)
+  * **Route 114**
+    * Persim (31)
+    * Custap (4)
+  * **Route 115**
+    * Sitrus (20)
+    * Rindo
+    * Occa
+    * Passho
+  * **Route 116**
+    * Rawst (31)
+    * Rawst (31)
+    * Aspear (31)
+    * Leppa (31)
+    * Persim (31)
+    * Sitrus (10)
+    * Lum (10)
+    * Chilan
+    * Charti
+    * Babiri
+  * **Route 118**
+    * Sitrus (30)
+  * **Route 119**
+    * Sitrus (30)
+    * Lum (20)
+    * Haban
+    * Roseli
+  * **Route 120**
+    * Cheri (31)
+    * Chesto (31)
+    * Pecha (31)
+    * Rawst (31)
+    * Aspear (31)
+    * Leppa (31)
+    * Persim (31)
+    * Sitrus (10)
+    * Lum (20)
+  * **Route 121**
+    * Sitrus (20)
+    * Lum (20)
+    * Payapa
+    * Tanga
+    * Kasib
+    * Colbur
+  * **Route 123**
+    * Sitrus (20)
+    * Figy (4)
+    * Wiki (4)
+    * Mago (4)
+    * Aguav (4)
+    * Iapapa (4)
+    * Wacan
+    * Yache
+    * Chople
+    * Kebia
+    * Shuca
+    * Coba
+  * **Route 125**
+    * Sitrus (30)
 
-|Berries|||
-|---|----------|---------|
-|31 |Oran      |Route 102|
-|31 |Oran      |Route 102|
-|31 |Oran      |Route 104|
-|31 |Oran      |Route 104|
-|31 |Cheri     |Route 104|
-|31 |Cheri     |Route 120|
-|31 |Cheri     |Route 103|
-|31 |Chesto    |Route 104|
-|31 |Chesto    |Route 103|
-|31 |Chesto    |Route 120|
-|31 |Pecha     |Route 104|
-|31 |Pecha     |Route 103|
-|31 |Pecha     |Route 120|
-|31 |Rawst     |Route 104|
-|31 |Rawst     |Route 116|
-|31 |Rawst     |Route 116|
-|31 |Rawst     |Route 120|
-|31 |Aspear    |Route 104|
-|31 |Aspear    |Route 116|
-|31 |Aspear    |Route 120|
-|31 |Leppa     |Route 104|
-|31 |Leppa     |Route 116|
-|31 |Leppa     |Route 110|
-|31 |Leppa     |Route 120|
-|31 |Prsim     |Route 104|
-|31 |Prsim     |Route 116|
-|31 |Prsim     |Route 114|
-|31 |Prsim     |Route 120|
-|10 |Sitrus    |Route 115|
-|10 |Sitrus    |Route 115|
-|10 |Sitrus    |Route 110|
-|10 |Sitrus    |Route 116|
-|10 |Sitrus    |Route 118|
-|10 |Sitrus    |Route 118|
-|10 |Sitrus    |Route 118|
-|10 |Sitrus    |Route 119|
-|10 |Sitrus    |Route 119|
-|10 |Sitrus    |Route 119|
-|10 |Sitrus    |Route 120|
-|10 |Sitrus    |Route 121|
-|10 |Sitrus    |Route 121|
-|10 |Sitrus    |Route 123|
-|10 |Sitrus    |Route 123|
-|10 |Sitrus    |Route 125|
-|10 |Sitrus    |Route 125|
-|10 |Sitrus    |Route 125|
-|10 |Lum       |Route 110|
-|10 |Lum       |Route 116|
-|10 |Lum       |Route 119|
-|10 |Lum       |Route 119|
-|10 |Lum       |Route 120|
-|10 |Lum       |Route 120|
-|10 |Lum       |Route 121|
-|10 |Lum       |Route 121|
-|2  |Rowap     |Route 112|
-|2  |Rowap     |Route 112|
-|2  |Jaboca    |Route 112|
-|2  |Jaboca    |Route 112|
-|2  |Custap    |Route 114|
-|2  |Custap    |Route 114|
-|2  |Figy      |Route 123|
-|2  |Figy      |Route 123|
-|2  |Wiki      |Route 123|
-|2  |Wiki      |Route 123|
-|2  |Mago      |Route 123|
-|2  |Mago      |Route 123|
-|2  |Aguav     |Route 123|
-|2  |Aguav     |Route 123|
-|2  |Iapapa    |Route 123|
-|2  |Iapapa    |Route 123|
-|1  |Rindo     |Route 115|
-|1  |Occa      |Route 115|
-|1  |Passho    |Route 115|
-|1  |Chilan    |Route 116|
-|1  |Charti    |Route 116|
-|1  |Babiri    |Route 116|
-|1  |Haban     |Route 119|
-|1  |Roseli    |Route 119|
-|1  |Payapa    |Route 121|
-|1  |Tanga     |Route 121|
-|1  |Kasib     |Route 121|
-|1  |Colbur    |Route 121|
-|1  |Wacan     |Route 123|
-|1  |Yache     |Route 123|
-|1  |Chople    |Route 123|
-|1  |Kebia     |Route 123|
-|1  |Shuca     |Route 123|
-|1  |Coba      |Route 123|
+#### Shop TM Packages
+  * **Rustboro City**
+    * Bullet Seed
+    * Rock Blast
+    * Scale Shot
+    * Icicle Spear
+  * **Slateport City**
+    * Fake Tears
+    * Scary Face
+    * Metal Sound
+    * Eerie Impulse
+    * TOXIC
+    * DEFOG
+    * HAZE
+  * **Mauville City**
+    * Shadow Ball
+    * Dragon Pulse
+    * Dark Pulse
+    * Flash Cannon
+    * Dazzling Gleam
+  * **Fallarbort Town**
+    * bounce
+    * Psychic Fangs
+    * Dragon Claw
+    * Water Pulse
+    * Leech Life
+    * Play Rough
+  * **Sootopolis City**
+    * Thunderbolt
+    * Flamethrower
+    * Ice Beam
+    * Energy Ball
+    * SURF
+    * PSYCHIC
+    * Sludge Bomb
+    * Earth Power
+    * Hyper Voice
+  * **Mirage Town**
+    * Acrobatics
+    * Phantom Force
+    * Liquidation
+    * Icicle Crash
+    * Drain Punch
+    * Giga Drain
+  * **Fortree City**
+    * FLY
+    * High Horsepower
+    * Stone Edge
+    * Supercell Slam
+    * Gunk Shot
+    * Light Screen
+    * REFLECT
+    * Skill Swap
+    * ROOST
+  * **Lilycove City**
+    * Solar Beam
+    * Solar Blade
+    * Sky Attack
+    * Double Edge
+    * Low Kick
+    * Grass Knot
+  * **Mossdeep City**
+    * SUPERPOWER
+    * Wave Crash
+    * Flare Blitz
+    * Wood Hammer
+    * Brave Bird
+    * Meteor Beam
+    * EARTHQUAKE
+  * **Lavaridge Town**
+    * Volt Switch
+    * U turn
+    * protect
+    * Triple Axel
+    * Draining Kiss
