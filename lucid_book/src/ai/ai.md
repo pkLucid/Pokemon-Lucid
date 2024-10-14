@@ -127,7 +127,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 * Moves with regular move effects generally get a +2/+3 if they apply. If I list some effects and don't specify a score you can assume that this is true
 * Some effects get a +1 only in some rare instances. That makes them tied with best damage move
 * Moves that target partner get a +10 if conditions apply
-* Generally a move that faints the ai will have the highest score. Exceptions are TrickRoom, Protect and Palafin-Zero with Flip Turn.
+* An AI move that faints the player will usually have the highest score. Exceptions are TrickRoom, Protect and Palafin-Zero with Flip Turn and specific Double Battle AI quirks (see move effect section).
 * If a move would fail if used by AI it will get a -20
 
 ## Status Moves
