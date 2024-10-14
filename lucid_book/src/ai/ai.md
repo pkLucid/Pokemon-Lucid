@@ -214,7 +214,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 * Otherwise 50/50 to get a +3
 
 ### Increase crit Rate +3 (e.g. Focus Energe)
-* If ai faints to player in 2 or less hits (applies to both mons in doubles), not increase. 
+* If ai faints to player in 2 or less hits (applies to both mons in doubles), no increase. 
 * Increase if Super Luck, Sniper, Scope Lens or or high crit move is present
 
 ### Recover / Heal AI (+3)
