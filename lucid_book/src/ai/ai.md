@@ -52,7 +52,7 @@ If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1
   * AI can kill with double target move +2 (e.g. Dazzling Gleam)
   * AI can kill with spread move +2 if partner is dead (e.g. Surf)
 
-## Mid turn switch (Calcs are done with a possible switch in candidate) 
+## Mid turn switch (Calcs are done with a possible switch in candidate)
   * Never switches in Doubles
   * Never switches if player faints mon with 2 or less hits
   * If AI does no damage 50/50
@@ -61,15 +61,15 @@ If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1
     * If AI has baton pass it will only switch with baton pass
     * If faster and faints player in one hit, +5
     * If faster and faints player in same or less hits, +4
-    * If slower and faints player in less hits, + 3 
+    * If slower and faints player in less hits, + 3
     * If AI faster + 2 (an oversight, will be removed in a later verision. it is the last check so will likely never apply)
 
 ## How the AI sees damage
 The damage the AI sees is always using the 8th roll of the calculator, it will always select moves and switch in using 8th roll.
   * All calculations are done using the above mentioned roll
   * AI see only damage that it will actually deal. Something like Thunderbolt into Volt Absorb will be seen as 0 damage and receive a -20 score.
-  * The AI will see the damage of a 100% crit
   * Two-Turn Moves are seen as zero demage if they can't be used the same turn they charge (if weather or power herb are not present)
+  * The AI will see the damage of a 100% crit
   * **Bug**: AI might see one roll lower for gems boosts so the 7th (Might apply to type boosting items so just use the 7th roll to be save)
   * Explosion is treated like a normal move other then that it is a negative move effect
 
@@ -86,7 +86,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
     * Example: If AI sees kill with Night Slash (high crit) and Rock Tomb (rock tomb), it would select one of those randomly
   * If a negative move is present, all non negative moves get +1 based on number of hits (Phase 2 check)
     * Example: If AI sees a 2HKO on player mon with EQ, CC and Raging Bull. Close Combat is considered a negative effect, so both EQ and Raging Bull will get a +1 score
-    
+
 ## Multi hit moves (e.g. Bullet Seed)
   * Skill link will always be seen as doing the max amount of hits
   * Loaded Dice is seen as 4 hits
@@ -126,7 +126,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Moves with regular move effects generally get a +2/+3 if they apply. If I list some effects and don't specify a score you can assume that this is true
   * Some effects get a +1 only in some rare instances. That makes them tied with best damage move
   * Moves that target partner get a +10 if conditions apply
-  * Generally a move that faints the ai will have the highest score. Exceptions are TrickRoom, Protect and Palafin-Zero with Flip Turn.
+  * An AI move that faints the player will have the highest score. Exceptions are TrickRoom, Protect, Palafin-Zero with Flip Turn and specific Double Battle AI quirks (see move effect section).
   * If a move would fail if used by AI it will get a -20
 
 ## Status Moves
@@ -162,7 +162,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 
 ### Speed Control (differes from positive move effect)
   * If AI cant't drop speed, no increase (Clear Amulet, Clear Body, etc.)
-  * If AI faster, no increase 
+  * If AI faster, no increase
   * If AI is still slower (or tied) the next turn, no score increase
   * If AI outdamages player, no score increase
   * If player resists move, no score increase unless the move + best damage move kill next turn
@@ -184,6 +184,11 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * If AI is slower, +3
   * If Player needs 3 or more hits to faint AI, +3
 
+### Tailwind
+  * No score increase in doubles if only one mon left
+  * +10 on Whitney if no Tailwind is set up
+  * If Slower +3 (checks average in doubles)
+
 ### Weakness Policy (+10)
   * If it isn't the first turn for either mon, no score increase
   * If partner is faster, has a move that would trigger the policy and need 4 or more hits to faint partner
@@ -198,9 +203,9 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * In any other situation it sets up
   * Leaf Storm, Overheat, Draco Meteor and Superpower are set up moves with Contrary
 
-### Increase crit Rate +3 (e.g. Focus Energe)
-  * If either mon faints to 2 or less hits, no increase
-  * Increase if Super Luck, Sniper, Scope Lens or or high crit move are present
+### Increase crit rate +3 (e.g. Focus Energe)
+* If ai faints to player in 2 or less hits (applies to both mons in doubles), no increase.
+* Increase if Super Luck, Sniper, Scope Lens or or high crit move is present
 
 ### Tailwind
   * No score increase in doubles if only one mon left
@@ -211,7 +216,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * If player can faint AI and AI faster, +3
 
 ### Belly Drum check
-  * No set up if AI faints regardless of speed or already increased stats, otherwise +3 
+  * No set up if AI faints regardless of speed or already increased stats, otherwise +3
 
 ### Mirror Coat / Counter
   * No icnrease if AI dies to move
@@ -219,9 +224,8 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Otherwise 50/50 to get a +3
 
 ### Recover / Heal AI (+3)
-  * If player does the same amount or more damage then AI max hp, no score increase
-  * If AI current HP is equal to max HP, no score increase
-  * If AI faster it, 30% of the time no score increase
+  * If plyaer does only 50& or less of the current hp, no score increase
+  * If AI faster, 30% of the time no score increase
   * Score increase if heal amount + current HP are higher then best player damage and damage equal or higher current hp
 
 ### Trap (+2)
@@ -231,7 +235,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 ### Attract (+2)
   * If AI faster and faints player in 2 or less hit, no increase
   * 100% to increase score on the first turn if opposite gender, otherwise 50/50
- 
+
 ### Future Sight
   * Seen as a zero damage move (including party) but score is considered neutral unless a future attack is active
   * If AI is faster and faints to player +3
@@ -256,18 +260,15 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 
 ### Throat Chop
   * +3 if player has a sound move and it is the highest dmg move
-  
+
 ### Salt Cure
   * +2 on first turn of AI mon, 50/50 otherwise
-  
-### Swagger
-  * +3 on on partner if can't confuse
 
 ### Substitute
   * No score Increase if player can tage advantage of sub (ability / move not blocked by sub)
   * If slower and after a hit Substitute would fail, no increase
   * Otherwise 50/50 to go for a Sub
-  
+
 ### Shed Tail
   * No score Increase if player can tage advantage of sub (ability / move not blocked by sub)
   * If AI has no alive mon in Party, no increase

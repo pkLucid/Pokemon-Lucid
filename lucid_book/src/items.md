@@ -1,5 +1,4 @@
-### Rewards
-
+### Items
 #### Gym Leader Rewards
   * **Rustboro City**
     * Heart Scale
@@ -43,21 +42,20 @@
     * Adamant Mint
     * Jolly Mint
     * Timid Mint
-    * Serious Mint
-
+    * 5 Serious Mint
 #### NPC Items / Rock Smash
   * **Petalburg Woods**
     * Berry Juice
-  * **Verdanturf Town** (Apple Lady's House)
+  * **Verdanturf Town**
     * Tart Apple
     * Sweet Apple
     * Syrupy Apple
-  * **Dewford Town** (Fisherman)
+  * **Dewford Town**
     * Deep Sea Tooth
     * Deep Sea Scale
   * **Route 109**
     * Eviolite
-  * **Slateport City** (Mart)
+  * **Slateport City**
     * Type Boosting Items
     * Moon Stone
     * Sun Stone
@@ -70,12 +68,12 @@
     * Dusk Stone
     * Dawn Stone
     * Ice Stone
-  * **Route 107** (Rock Smash)
+  * **Route 107**
     * Dragon Scale
     * Kings Rock
     * Prism Scale
     * Masterpiece Teacup
-  * **Meteor Path** (Rock Smash)
+  * **Meteor Path**
     * Metal Alloy
     * Peat Block
     * Electirizer
@@ -84,7 +82,7 @@
     * Razor Claw
     * Razor Fang
     * Black Augurite
-
+    * Reaper Cloth
 #### Overworld Items
   * **Route 102**
     * Muscle Band
@@ -151,86 +149,85 @@
     * Psychic Seed
   * **Victory Road**
     * Leftovers
+    * Focus Sash
     * Rocky Helmet
     * Booster Energy
     * Life Orb
     * Mental Herb
-    * Focus Sash
     * Assault Vest
-
-#### Berries
+#### Berry Trees
   * **Route 102**
-    * Oran (62)
+    * 62 Oran
   * **Route 103**
-    * Cheri (31)
-    * Chesto (31)
-    * Pecha (31)
+    * 31 Cheri
+    * 31 Chesto
+    * 31 Pecha
   * **Route 104**
-    * Oran (62)
-    * Cheri (31)
-    * Chesto (31)
-    * Rawst (31)
-    * Pecha (31)
-    * Aspear (31)
-    * Leppa (31)
-    * Persim (31)
+    * 62 Oran
+    * 31 Cheri
+    * 31 Chesto
+    * 31 Rawst
+    * 31 Pecha
+    * 31 Aspear
+    * 31 Leppa
+    * 31 Persim
   * **Route 110**
-    * Leppa (31)
-    * Sitrus (10)
-    * Lum (10)
+    * 31 Leppa
+    * 10 Sitrus
+    * 10 Lum
   * **Route 112**
-    * Rowap (4)
-    * Jaboca (4)
+    * 4 Rowap
+    * 4 Jaboca
   * **Route 114**
-    * Persim (31)
-    * Custap (4)
+    * 31 Persim
+    * 4 Custap
   * **Route 115**
-    * Sitrus (20)
+    * 20 Sitrus
     * Rindo
     * Occa
     * Passho
   * **Route 116**
-    * Rawst (31)
-    * Rawst (31)
-    * Aspear (31)
-    * Leppa (31)
-    * Persim (31)
-    * Sitrus (10)
-    * Lum (10)
+    * 31 Rawst
+    * 31 Rawst
+    * 31 Aspear
+    * 31 Leppa
+    * 31 Persim
+    * 10 Sitrus
+    * 10 Lum
     * Chilan
     * Charti
     * Babiri
   * **Route 118**
-    * Sitrus (30)
+    * 30 Sitrus
   * **Route 119**
-    * Sitrus (30)
-    * Lum (20)
-    * Haban
-    * Roseli
+    * 30 Sitrus
+    * 20 Lum
+    * Haban (locked behind Waterfall)
+    * Roseli (locked behind Waterfall)
   * **Route 120**
-    * Cheri (31)
-    * Chesto (31)
-    * Pecha (31)
-    * Rawst (31)
-    * Aspear (31)
-    * Leppa (31)
-    * Persim (31)
-    * Sitrus (10)
-    * Lum (20)
+    * 31 Cheri
+    * 31 Chesto
+    * 31 Pecha
+    * 31 Rawst
+    * 31 Aspear
+    * 31 Leppa
+    * 31 Persim
+    * 10 Sitrus
+    * 20 Lum
   * **Route 121**
-    * Sitrus (20)
-    * Lum (20)
+    * 20 Sitrus
+    * 20 Lum
     * Payapa
     * Tanga
     * Kasib
     * Colbur
   * **Route 123**
-    * Sitrus (20)
-    * Figy (4)
-    * Wiki (4)
-    * Mago (4)
-    * Aguav (4)
-    * Iapapa (4)
+    * 20 Sitrus
+    * 4 Figy
+    * 4 Wiki
+    * 4 Mago
+    * 4 Aguav
+    * 4 Iapapa
     * Wacan
     * Yache
     * Chople
@@ -238,8 +235,7 @@
     * Shuca
     * Coba
   * **Route 125**
-    * Sitrus (30)
-
+    * 30 Sitrus
 #### Shop TM Packages
   * **Rustboro City**
     * Bullet Seed
@@ -251,9 +247,9 @@
     * Scary Face
     * Metal Sound
     * Eerie Impulse
-    * TOXIC
-    * DEFOG
-    * HAZE
+    * Toxic
+    * Defog
+    * Haze
   * **Mauville City**
     * Shadow Ball
     * Dragon Pulse
@@ -272,8 +268,8 @@
     * Flamethrower
     * Ice Beam
     * Energy Ball
-    * SURF
-    * PSYCHIC
+    * Surf
+    * Psychic
     * Sludge Bomb
     * Earth Power
     * Hyper Voice
@@ -285,15 +281,15 @@
     * Drain Punch
     * Giga Drain
   * **Fortree City**
-    * FLY
+    * Fly
     * High Horsepower
     * Stone Edge
     * Supercell Slam
     * Gunk Shot
     * Light Screen
-    * REFLECT
+    * Reflect
     * Skill Swap
-    * ROOST
+    * Roost
   * **Lilycove City**
     * Solar Beam
     * Solar Blade
@@ -302,16 +298,16 @@
     * Low Kick
     * Grass Knot
   * **Mossdeep City**
-    * SUPERPOWER
+    * Superpower
     * Wave Crash
     * Flare Blitz
     * Wood Hammer
     * Brave Bird
     * Meteor Beam
-    * EARTHQUAKE
+    * Earthquake
   * **Lavaridge Town**
     * Volt Switch
-    * U turn
-    * protect
+    * U-turn
+    * Protect
     * Triple Axel
     * Draining Kiss

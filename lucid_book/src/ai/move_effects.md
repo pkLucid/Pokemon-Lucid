@@ -8,7 +8,7 @@
       * MOVE_EFFECT_SPIKES
       * MOVE_EFFECT_THROAT_CHOP
       * MOVE_EFFECT_WRAP
-      * MOVE_EFFECT_FLINCH 
+      * MOVE_EFFECT_FLINCH
       * MOVE_EFFECT_SPD_MINUS_1
       * MOVE_EFFECT_SPD_MINUS_2
     * Self
@@ -16,10 +16,10 @@
       * MOVE_EFFECT_SPD_PLUS_2
       * MOVE_EFFECT_SPD_MINUS_1 (if Contrary)
       * MOVE_EFFECT_SPD_MINUS_2 (if Contrary)
-      
+
   * Some effects get a +1 only in some rare instances. That makes them tied with best damage move
   * Moves that target partner get a +10 if conditions apply
-  * Generally a move that faints the ai will have the highest score. Exceptions are TrickRoom, Protect, Tailwind on Whitney and Palafin-Zero with Flip Turn.
+  * An AI move that faints the player will have the highest score. Exceptions are TrickRoom, Protect, Palafin-Zero with Flip Turn and specific Double Battle AI quirks (see move effect section).
   * If a move would fail if used by AI it will get a -20
 
 ## Status Moves
@@ -54,7 +54,7 @@
 
 ### Speed Control (differes from positive move effect)
   * If AI cant't drop speed, no increase (Clear Amulet, Clear Body, etc.)
-  * If AI faster, no increase 
+  * If AI faster, no increase
   * If AI is still slower (or tied) the next turn, no score increase
   * If AI outdamages player, no score increase
   * If player resists move, no score increase unless the move + best damage move kill next turn
@@ -78,6 +78,7 @@
 
 ### Tailwind
   * No score increase in doubles if only one mon left
+  * +10 on Whitney if no Tailwind is set up
   * If Slower +3 (checks average in doubles)
 
 ### Weakness Policy (+10)
@@ -98,16 +99,16 @@
   * Leaf Storm, Overheat, Draco Meteor and Superpower are set up moves with Contrary
 
 ### Belly Drum check
-  * No set up if AI faints regardless of speed or already increased stats, otherwise +3 
+  * No set up if AI faints regardless of speed or already increased stats, otherwise +3
 
 ### Mirror Coat / Counter
   * No icnrease if AI dies to move
   * No increase if AI has Mirror Coat (Counter) and player has no special (physical) move
   * Otherwise 50/50 to get a +3
 
-### Increase crit Rate +3 (e.g. Focus Energe)
-  * If either mon faints to 2 or less hits, no increase
-  * Increase if Super Luck, Sniper, Scope Lens or or high crit move are present
+### Increase crit rate +3 (e.g. Focus Energe)
+* If ai faints to player in 2 or less hits (applies to both mons in doubles), no increase.
+* Increase if Super Luck, Sniper, Scope Lens or or high crit move is present
 
 ### Recover / Heal AI (+3)
   * If player does the same amount or more damage then AI max hp, no score increase
@@ -147,22 +148,18 @@
 
 ### Throat Chop
   * +3 if player has a sound move and it is the highest dmg move
-  
+
 ### Salt Cure
   * +2 on first turn of AI mon, 50/50 otherwise
-
-### Swagger
-  * +3 on on partner if can't confuse
 
 ### Substitute
   * No score Increase if player can tage advantage of sub (ability / move not blocked by sub)
   * If slower and after a hit Substitute would fail, no increase
   * Otherwise 50/50 to go for a Sub
-  
+
 ### Shed Tail
   * No score Increase if player can tage advantage of sub (ability / move not blocked by sub)
   * If AI has no alive mon in Party, no increase
   * If at 50% hp, no score increase
   * If slower and after a hit Shed Tail would fail, no increase
   * Otherwise increase
-  

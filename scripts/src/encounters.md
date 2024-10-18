@@ -1,4 +1,3 @@
-### Encounters
 #### Lake
   * Water
     * 100% Shellos
@@ -64,13 +63,13 @@
   * Land
     * 20% Lillipup
     * 15% Poochyena
-    * 15% Snubull
+    * 15% Electrike
     * 10% Chingling
-    * 10% Snorunt
     * 10% Spoink
+    * 10% Ekans
     * 10% Espurr
     * 5% Bunnelby
-    * 5% Ekans
+    * 5% Lechonk
 #### Route 102
   * Land
     * 20% Timburr
@@ -111,8 +110,8 @@
     * 15% Ducklett
     * 10% Rufflet
     * 10% Natu
-    * 10% Starly
     * 10% Scatterbug
+    * 10% Grubbin
     * 5% Bombirdier
     * 5% Flamigo
 #### Petalburg Woods
@@ -159,7 +158,7 @@
     * 10% Archen
     * 5% Nosepass
     * 5% Varoom
-#### Verdanturf Town
+#### Verdantuf Town
   * Land
     * 20% Torkoal
     * 15% NidoranF
@@ -182,7 +181,7 @@
     * 5% Sewaddle
     * 5% Applin
   * Special
-    * Daycare Egg (Magby, Elekid or MimeJr.)
+    * Daycare Egg (Magba, Elekid or MimeJr.)
 #### Woods Hideout
   * Land
     * 20% Scatterbug
@@ -207,28 +206,22 @@
     * 5% Pancham
 #### Dewford Arcadia
   * Land
-    * 20% Venonat
+    * 20% Starly
     * 15% Hoothoot
     * 15% Doduo
-    * 10% Snorunt
-    * 10% Clobbopus
     * 10% Spoink
+    * 10% Espurr
     * 10% Ekans
-    * 5% Chingling
-    * 5% Buneary
+    * 10% Clobbopus
+    * 5% Snubull
+    * 5% Electrike
   * Water
     * 100% Shellos
   * Rod
-    * 20% Bruxish
-    * 20% Binacle
-    * 10% Remoraid
-    * 10% Finneon
-    * 10% Clauncher
-    * 10% Clamperl
-    * 5% Buizel
-    * 5% Goldeen
-    * 4% Solosis
-    * 2% Poliwag
+    * 40% Bruxish
+    * 30% Veluza
+    * 20% Clauncher
+    * 10% Clmaperl
 #### Route 107
   * Land
     * 20% Scatterbug
@@ -261,7 +254,7 @@
     * 10% Rockruff
     * 10% Bergmite
     * 5% Swinub
-    * 5% Snorunt
+    * 5% Roggenrola
   * Rock Smash
     * 30% Bergmite
     * 30% Sandshrew-Alola
@@ -270,7 +263,7 @@
 #### Slateport City
   * Rod
     * 40% Tentacool
-    * 30% Toxel
+    * 40% Toxel
     * 10% Psyduck
     * 10% Clauncher
     * 10% Bruxish
@@ -298,7 +291,7 @@
     * 5% Dunsprace
 #### Mauville City
   * Special
-    * Game Corner Starter of your choice (after delivering mail in Evergrande City)
+    * Starter of your choice (after delivering mail in Evergrande City)
 #### Route 111
   * Land
     * 20% Gligar
@@ -444,7 +437,7 @@
     * 10% Farfetch'd-Galar
     * 5% Absol
     * 5% Klawf
-#### Lavaridge Town
+#### Lavaridge Egg
   * Special
     * Starter Egg
 #### Sootopolis City
