@@ -19,7 +19,6 @@ items = "src/items.yaml"
 tutors = "src/tutors.yaml"
 
 nothing_here = [
-    "Mossdeep City [Gym - Perma TrickRoom except Leader]",
     "Route 129 [Perma Tailwind]",
     "Route 131 [Perma Tail Wind]",
     "Pokemon League",
@@ -108,7 +107,7 @@ def handle_location(line):
 
     if full_location not in nothing_here:
         html_items_encounters("</div>")
-        
+
     write_file("")
     if full_location not in nothing_here:
         markdown_items_encounters("")
@@ -260,36 +259,36 @@ def general_information():
         write_file("#### Lake")
         html_items_encounters(f'<div class="resources">')
         html_items_encounters("<h1>Lake</h1>")
-        
+
         write_file(f'* Rod: {", ".join(data["Lake"]["Rod"])}')
         html_items_encounters(f'<p><b>Rod:</b> {", ".join(data["Lake"]["Rod"])}</p>')
-        
+
         write_file(f'* Water: {", ".join(data["Lake"]["Water"])}')
         html_items_encounters(f'<p><b>Water:</b> {", ".join(data["Lake"]["Water"])}</p>')
-        
+
         write_file("")
 
         write_file("#### Coast")
         html_items_encounters("<h1>Coast</h1>")
-        
+
         write_file(f'* Rod: {", ".join(data["Coast"]["Rod"])}')
         html_items_encounters(f'<p><b>Rod:</b> {", ".join(data["Coast"]["Rod"])}</p>')
-        
+
         write_file(f'* Water: {", ".join(data["Coast"]["Water"])}')
         html_items_encounters(f'<p><b>Water:</b> {", ".join(data["Coast"]["Water"])}</p>')
-        
+
         write_file("")
 
         write_file("#### Ocean")
         html_items_encounters("<h1>Ocean</h1>")
-        
+
         write_file(f'* Rod: {", ".join(data["Ocean"]["Rod"])}')
         html_items_encounters(f'<p><b>Rod:</b> {", ".join(data["Ocean"]["Rod"])}</p>')
-        
+
         write_file(f'* Water: {", ".join(data["Ocean"]["Water"])}')
         html_items_encounters(f'<p><b>Water:</b> {", ".join(data["Ocean"]["Water"])}</p>')
-        
-        write_file("")    
+
+        write_file("")
         html_items_encounters(f'</div>')
 
 if __name__ == "__main__":

@@ -567,13 +567,13 @@
     * 40% Frilish
 #### Route 115
   * Land
-    * 20% Ralts
+    * 20% Cutiefly
     * 15% Glimmet
     * 15% Munna
     * 10% Pawmi
+    * 10% Magnemite
     * 10% Tinkatink
-    * 10% Cutiefly
-    * 10% Yanma
+    * 10% Ralts
     * 5% Minccino
     * 5% Aipom
 #### Route 123

@@ -38,6 +38,7 @@
 ## Fallarbor Town
 * Rock Smash: 30% Tyrunt, 30% Amaura, 20% Anorith, 20% Dwebble
 * Special: Starter Eevee Egg (Randomly Evolves into any form)
+* Overworld Tutor: Mega Punch, Mega Kick
 
 ## Route 117
 * Land: 20% Gossifleur, 15% Cottonee, 15% Petilil, 10% Oddish, 10% Budew, 10% Bounsweet, 10% Rowlet, 5% Sewaddle, 5% Applin
@@ -58,6 +59,7 @@
 * NPC Items / Rock Smash: Deep Sea Tooth, Deep Sea Scale
 * Overworld Items: Punching Glove
 * Gym Leader Tutor Prize: Fire Punch, Ice Punch, Thunder Punch, Brick Break
+* Overworld Tutor: Trailblaze, Flame Charge, Pounce, Chilling Water
 
 ## Route 109
 * NPC Items / Rock Smash: Eviolite
@@ -66,6 +68,7 @@
 * Rod: 40% Tentacool, 30% Toxel, 10% Psyduck, 10% Clauncher, 10% Bruxish
 * Shop TM Packages: Fake Tears, Scary Face, Metal Sound, Eerie Impulse, Toxic, Defog, Haze
 * NPC Items / Rock Smash: Type Boosting Items, Moon Stone, Sun Stone, Thunder Stone, Leaf Stone, Fire Stone, Water Stone, Linking Cord, Shiny Stone, Dusk Stone, Dawn Stone, Ice Stone
+* Overworld Tutor: Burning Jealousy, Scorching Sands, Thief
 
 ## Route 110
 * Land: 20% Mareep, 15% NidoranF, 15% NidoranM, 10% Petilil, 10% Cottonee, 10% Pawmi, 10% Shinx, 5% Growlithe, 5% Sizzlipede
@@ -93,6 +96,7 @@
 * Land: 20% Charcadet, 15% Growlithe, 15% Houndour, 10% Salandit, 10% Sizzlipede, 10% Fletchling, 10% Cyndaquil, 5% Ponyta, 5% Litleo
 * Overworld Items: Wide Lens, Flame Orb, Zoom Lens
 * Berry Trees: 4 Rowap, 4 Jaboca
+* Overworld Tutor: Stomping Tantrum, Temper Flare
 
 ## Fiery Path
 * Land: 20% Torkoal, 15% Growlithe-Hisui, 15% Houndour, 10% Charcadet, 10% Salandit, 10% Cyndaquil, 10% Litwick, 5% Sizzlipede, 5% Larvesta
@@ -113,12 +117,13 @@
 ## Verdanturf Town
 * Land: 20% Torkoal, 15% NidoranF, 15% NidoranM, 10% Sandshrew, 10% Bunnely, 10% Rockruff, 10% Dwebble, 5% Cufant, 5% Meowth-Galar
 * NPC Items / Rock Smash: Tart Apple, Sweet Apple, Syrupy Apple
+* Overworld Tutor: Covet
 
 ## Route 114
 * Land: 20% Ralts, 15% Yanma, 15% Cutiefly, 10% Clefairy, 10% Ledyba, 10% Skorupi, 10% Nymble, 5% Aipom, 5% Minccino
 * Rock Smash: 60% Roggenrola, 40% Larvitar
 * Berry Trees: 31 Persim, 4 Custap
-* Overworld Tutor: Dig
+* Overworld Tutor: Slash, X-Scissor, Psycho Cut, Night Slash, Air Slash, Dig
 
 ## Meteor Falls 1F1R
 * Land: 20% Beldum, 15% Drilbur, 15% Phanpy, 10% Rhyhorn, 10% Magnemite, 10% Varoom, 10% Pawniard, 5% Clefairy, 5% Gligar
@@ -147,6 +152,7 @@
 * Gym Leader Rewards: 2 Heart Scale, Modest Mint, Adamant Mint, Jolly Mint, Timid Mint, 5 Serious Mint
 * Shop TM Packages: Volt Switch, U-turn, Protect, Triple Axel, Draining Kiss
 * Gym Leader Tutor Prize: Close Combat, Leaf Storm, Draco Meteor, Overheat
+* Overworld Tutor: Alluring Voice, Psychic Noise, Power Gem, Psyshock
 
 ## Cave of Origin
 * Land: 20% Cubone, 15% Rockruff, 15% Tyrogue, 10% Spritzee, 10% Nymble, 10% Espurr, 10% Sandshrew, 5% Zubat, 5% Noibat
@@ -193,6 +199,7 @@
 * Gym Leader Rewards: 2 Heart Scale, Ability Capsule, Brave Mint, Serious Mint
 * Shop TM Packages: Acrobatics, Phantom Force, Liquidation, Icicle Crash, Drain Punch, Giga Drain
 * Gym Leader Tutor Prize: Shock Wave, Aerial Ace, Magical Leaf, Aura Sphere, Smart Strike
+* Overworld Tutor: Return, Frustration
 
 ## Route 108
 * Overworld Items: Power Herb (Hidden behind a 1v2 Double)
@@ -261,6 +268,13 @@
 ## Shoal Cave Ice Room
 * Land: 20% Sneasel-Hisui, 15% Swinub, 15% Cetoddle, 10% Sandshrew-Alola, 10% Bergmite, 10% Tinkatink, 10% Pawniard, 5% Larvitar, 5% Beldum
 
+## Mossdeep City [Gym - Perma TrickRoom except Leader]
+* Gym Leader Rewards: 2 Heart Scale, Modest Mint, Serious Mint
+* Shop TM Packages: Superpower, Wave Crash, Flare Blitz, Wood Hammer, Brave Bird, Meteor Beam, Earthquake
+* Overworld Items: Psychic Seed
+* Gym Leader Tutor Prize: Expanding Force, Risising Voltage, Supercell Slam, Upper Hand
+* Overworld Tutor: Trick, Rock Slide
+
 ## Route 127
 * Overworld Items: Eject Button
 
@@ -287,6 +301,7 @@
 * Gym Leader Rewards: 2 Heart Scale, Modest Mint, Adamant Mint, Jolly Mint, Timid Mint, 5 Serious Mint
 * Shop TM Packages: Volt Switch, U-turn, Protect, Triple Axel, Draining Kiss
 * Gym Leader Tutor Prize: Close Combat, Leaf Storm, Draco Meteor, Overheat
+* Overworld Tutor: Alluring Voice, Psychic Noise, Power Gem, Psyshock
 
 ## Mt. Chimney
 * Land: 20% Great Tusk, 15% Slither Wing, 15% Sandy Shocks, 15% Roaring Moon, 10% Walking Wake, 10% Gouging Fire, 10% Raging Bolt, 5% Flutter Mane
