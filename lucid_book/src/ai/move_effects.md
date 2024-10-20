@@ -32,7 +32,6 @@
   * If AI used protect last turn, no score increase
   * If it's the first turn for AI mon on the field and one opposing mon can faint it, 100% score increase
   * If not first turn and any opposing mon can faint, 50/50 score increase
-  * The rules of a double battles still apply. Meaning if AI targets a player mon to kill it, it will not go for protect if the target has no move to faint the AI mon
 
 ### Hazards (including Stone Axe / Ceaseless Edge)
   * If AI faints player in less hits and player has a way to remove hazards, no score increase
