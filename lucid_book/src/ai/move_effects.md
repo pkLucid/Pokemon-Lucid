@@ -105,7 +105,7 @@
   * No increase if AI has Mirror Coat (Counter) and player has no special (physical) move
   * Otherwise 50/50 to get a +3
 
-### Increase crit rate +3 (e.g. Focus Energe)
+### Increase crit rate +3 (e.g. Focus Energy)
 * If ai faints to player in 2 or less hits (applies to both mons in doubles), no increase.
 * Increase if Super Luck, Sniper, Scope Lens or or high crit move is present
 

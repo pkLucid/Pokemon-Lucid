@@ -22,7 +22,7 @@
 
 ## Route 104 [North]
 * Land: 20% Emolga, 15% Wingull, 15% Ducklett, 10% Rufflet, 10% Natu, 10% Starly, 10% Scatterbug, 5% Bombirdier, 5% Flamigo
-* Berry Trees: 62 Oran, 31 Cheri, 31 Chesto, 31 Rawst, 31 Pecha, 31 Aspear, 31 Leppa, 31 Persim
+* Berry Trees: Random Berries (Natural Gift usage), 32 Cheri, 32 Chesto, 32 Pecha, 32 Rawst, 32 Aspear, 32 Leppa, 32 Persim
 
 ## Rustboro City
 * Land: 20% Sandshrew, 15% Phanpy, 15% Hippopotas, 10% Cubone, 10% Numel, 10% Rhyhorn, 10% Geodude, 5% NidoranF, 5% NidoranM

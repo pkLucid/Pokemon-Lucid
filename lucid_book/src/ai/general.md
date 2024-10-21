@@ -46,8 +46,9 @@
 The damage the AI sees is always using the 8th roll of the calculator, it will always select moves and switch in using 8th roll.
   * All calculations are done using the above mentioned roll
   * AI see only damage that it will actually deal. Something like Thunderbolt into Volt Absorb will be seen as 0 damage and receive a -20 score.
-  * The AI will see the damage of a 100% crit
   * Two-Turn Moves are seen as zero demage if they can't be used the same turn they charge (if weather or power herb are not present)
+    * Two-Turn moves that are semi-invulnerable during charge are exluded from this check (e.g. Fly)
+  * The AI will see the damage of a 100% crit
   * **Bug**: AI might see one roll lower for gems boosts so the 7th (Might apply to type boosting items so just use the 7th roll to be save)
   * Explosion is treated like a normal move other then that it is a negative move effect
 
@@ -86,7 +87,9 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Damage moves that set up Hazards
   * Guaranteed speed drop moves (e.g. Icy Wind)
   * Self boosting moves (e.g. power up punch, leaf storm with contrary)
-  * Note: If more then one move is present with a plus effect then both get the plus one
+  * Note: 
+    * If more then one move is present with a plus effect then both get the plus one
+    * Eevee moves aren't positive / negative effects
 
 ## Negative move effects (damage moves with a negative side effect)
   * Recoil

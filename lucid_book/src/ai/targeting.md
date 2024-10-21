@@ -1,5 +1,8 @@
 ## Double Battle Targeting
 AI will generally never have both Pokemon attack the same slot if one of the AI’s Pokemon has a kill. Exceptions are [moves](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/src/data/moves_info.h) that target the user, opponents field or all mons.
+### Note   
+Moves that target the user or the field are no longer affected by double targeting which means both player mons are looked at
+  * Affects protect, hazards, trick room, tailwind, screens, boosting moves
 
 As a note, Player’s Slot 1 is their left (First mon in party), where the Opponents Slot 1 will be to the player’s right (First mon in enemy party)
 
@@ -20,3 +23,4 @@ If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1
 
 **Scenario 4:** If AI has only one mon left and sees kill on both slots, it will choose a target randomly with whatever move sees kill on respective slots. If it sees a kill on only one slot, it will always go for that slot.
 ![double_target_4](double_target_4.png)
+

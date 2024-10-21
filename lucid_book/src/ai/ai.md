@@ -1,5 +1,8 @@
 ## Double Battle Targeting
 AI will generally never have both Pokemon attack the same slot if one of the AI’s Pokemon has a kill. Exceptions are [moves](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/src/data/moves_info.h) that target the user, opponents field or all mons.
+### Note   
+Moves that target the user or the field are no longer affected by double targeting which means both player mons are looked at
+  * Affects protect, hazards, trick room, tailwind, screens, boosting moves
 
 As a note, Player’s Slot 1 is their left (First mon in party), where the Opponents Slot 1 will be to the player’s right (First mon in enemy party)
 
@@ -69,6 +72,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * All calculations are done using the above mentioned roll
   * AI see only damage that it will actually deal. Something like Thunderbolt into Volt Absorb will be seen as 0 damage and receive a -20 score.
   * Two-Turn Moves are seen as zero demage if they can't be used the same turn they charge (if weather or power herb are not present)
+    * Two-Turn moves that are invulnerable during charge are exluded from this check
   * The AI will see the damage of a 100% crit
   * **Bug**: AI might see one roll lower for gems boosts so the 7th (Might apply to type boosting items so just use the 7th roll to be save)
   * Explosion is treated like a normal move other then that it is a negative move effect
@@ -79,6 +83,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Calcs for Player mon happen only when actually terastallized (including Tera Blast)
 
 ## Damage moves scores
+Scores in this section are not additive
   * When AI chooses a move it compares all moves that can do damage against each other and looks for Postive/Negative effects. Moves with a negative effect will be discouraged based on how many hits it will take for AI to faint player mon.
     * Exmaple: If Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score
   * When AI sees a kill with several moves, a move with a positive effect gets +1
@@ -86,6 +91,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
     * Example: If AI sees kill with Night Slash (high crit) and Rock Tomb (rock tomb), it would select one of those randomly
   * If a negative move is present, all non negative moves get +1 based on number of hits (Phase 2 check)
     * Example: If AI sees a 2HKO on player mon with EQ, CC and Raging Bull. Close Combat is considered a negative effect, so both EQ and Raging Bull will get a +1 score
+  * If nothing above applies the highest damage move gets +1 (on a tie all get +1)
 
 ## Multi hit moves (e.g. Bullet Seed)
   * Skill link will always be seen as doing the max amount of hits
@@ -108,7 +114,9 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Damage moves that set up Hazards
   * Guaranteed speed drop moves (e.g. Icy Wind)
   * Self boosting moves (e.g. power up punch, leaf storm with contrary)
-  * Note: If more then one move is present with a plus effect then both get the plus one
+  * Note: 
+    * If more then one move is present with a plus effect then both get the plus one
+    * Eevee moves aren't positive / negative effects
 
 ## Negative move effects (damage moves with a negative side effect)
   * Recoil
@@ -202,7 +210,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * In any other situation it sets up
   * Leaf Storm, Overheat, Draco Meteor and Superpower are set up moves with Contrary
 
-### Increase crit rate +3 (e.g. Focus Energe)
+### Increase crit rate +3 (e.g. Focus Energy)
 * If ai faints to player in 2 or less hits (applies to both mons in doubles), no increase.
 * Increase if Super Luck, Sniper, Scope Lens or or high crit move is present
 
