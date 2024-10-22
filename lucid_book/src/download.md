@@ -1,4 +1,4 @@
-### [Download latest release - v1.2](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.2.0)
+### [Download latest release - v1.2b](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.2.0)
 
 ### Pokemon Lucid Changelog v1.2b
 
