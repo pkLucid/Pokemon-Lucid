@@ -1,3 +1,14 @@
+### Pokemon Lucid Changelog v1.2b
+
+## Fixes 
+  * Sneasel replaced Close Combat with Sky Uppercut
+  * Venonat Evolves at level 21
+  * Fixes Trick Tutor having Thief instead of Trick
+  * Fixed Ogerpons abilities
+  * Fixed Collision in Dewford Arcadia
+  * Fix Ability on doc for Hydrapple
+  * A couple minor team fixes
+
 ### Pokemon Lucid Changelog v1.2
 Important: The Google Drive trainer sheet is replaced by a [trainer sheet](https://pklucid.github.io/Pokemon-Lucid-Pokedex/src/roxanne_split.html) inside the porydex
 

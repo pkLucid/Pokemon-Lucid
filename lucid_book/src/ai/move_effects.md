@@ -22,8 +22,8 @@
   * An AI move that faints the player will have the highest score. Exceptions are TrickRoom, Protect, Palafin-Zero with Flip Turn and specific Double Battle AI quirks (see move effect section).
   * If a move would fail if used by AI it will get a -20
 
-## Status Moves
-  * For the following checks order matters
+## Status Moves 
+  * For the following checks order matters (from top to bottom)
   * If the move would fail the AI wont click it
 
 ### Protect (+15 if conditions apply)
@@ -152,12 +152,12 @@
   * +2 on first turn of AI mon, 50/50 otherwise
 
 ### Substitute
-  * No score Increase if player can tage advantage of sub (ability / move not blocked by sub)
+  * No score Increase if player can take advantage of sub (ability / move not blocked by sub)
   * If slower and after a hit Substitute would fail, no increase
   * Otherwise 50/50 to go for a Sub
 
 ### Shed Tail
-  * No score Increase if player can tage advantage of sub (ability / move not blocked by sub)
+  * No score Increase if player can take advantage of sub (ability / move not blocked by sub)
   * If AI has no alive mon in Party, no increase
   * If at 50% hp, no score increase
   * If slower and after a hit Shed Tail would fail, no increase
