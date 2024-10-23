@@ -109,7 +109,7 @@ Scores in this section are not additive
   * Drain effects if no Liquid Ooze
   * Fell Stinger
   * Pursuit
-  * Knock Off
+  * Knock Off regardless if user has an item or not
   * Switch target out moves (e.g. Dragon Tail)
   * Damage moves that set up Hazards
   * Guaranteed speed drop moves (e.g. Icy Wind)
@@ -200,7 +200,7 @@ Scores in this section are not additive
   * If it isn't the first turn for either mon, no score increase
   * If partner is faster, has a move that would trigger the policy and need 4 or more hits to faint partner
 
-### Set up except Belly Drum (+2/+3 mostly irrelevant difference)
+### Set up except Belly Drum (+3)
   * If player outspeeds and two taps, AI is not going to set up
   * If AI is faster but you one tap it, it isn't going to set up
   * If it set up the previous turn and is faster + can 2 tap it isn't going to set up

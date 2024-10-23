@@ -87,7 +87,7 @@
 ### Destiny Bond
   * If player can faint AI and AI faster, +3
 
-### Set up except Belly Drum (+2/+3 mostly irrelevant difference)
+### Set up except Belly Drum (+3)
   * If player outspeeds and two taps, AI is not going to set up
   * If AI is faster but you one tap it, it isn't going to set up
   * If it set up the previous turn and is faster + can 2 tap it isn't going to set up

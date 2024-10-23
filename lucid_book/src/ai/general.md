@@ -82,7 +82,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Drain effects if no Liquid Ooze
   * Fell Stinger
   * Pursuit
-  * Knock Off
+  * Knock Off regardless if user has an item or not
   * Switch target out moves (e.g. Dragon Tail)
   * Damage moves that set up Hazards
   * Guaranteed speed drop moves (e.g. Icy Wind)

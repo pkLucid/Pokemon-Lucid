@@ -14,3 +14,4 @@
     - [General](./src/ai/general.md)
     - [Doubles Targeting](./src/ai/targeting.md)
     - [Move Effects](./src/ai/move_effects.md)
+    - [Positive / Negative Effect](./src/ai/positives_negatives.md)
