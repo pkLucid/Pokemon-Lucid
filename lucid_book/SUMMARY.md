@@ -10,6 +10,7 @@
 - [Encounters](./src/encounters.md)
 - [Item Locations](./src/items.md)
 - [Known Issues](./src/known_issues.md)
+- [Mon Changes](./src/species_changes.md)
 - [AI](./src/ai/ai.md)
     - [General](./src/ai/general.md)
     - [Doubles Targeting](./src/ai/targeting.md)
