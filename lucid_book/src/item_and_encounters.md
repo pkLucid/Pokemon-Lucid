@@ -30,7 +30,7 @@
 * Shop TM Packages: Bullet Seed, Rock Blast, Scale Shot, Icicle Spear
 * Gym Leader Tutor Prize: Fire Fang, Ice Fang, Thunder Fang
 
-## Route 116
+## Route 116 [Optionals guarding 116, 117 and Verdanturf Encounters]
 * Land: 20% Sandshrew-Alola, 15% Meowth-Galar, 15% Cufant, 10% Zigzagoon-Galar, 10% Hatenna, 10% Varoom, 10% Pawniard, 5% Klink, 5% Aron
 * Overworld Items: Moon Stone
 * Berry Trees: 31 Rawst, 31 Rawst, 31 Aspear, 31 Leppa, 31 Persim, 10 Sitrus, 10 Lum, Chilan, Charti, Babiri
@@ -47,6 +47,19 @@
 
 ## Woods Hideout
 * Land: 20% Scatterbug, 15% Venipede, 15% Grubbin, 10% Fomantis, 10% Bellsprout, 10% Nymble, 10% Ekans, 5% Dwebble, 5% Foongus
+
+## Route 106
+
+## Route 107
+* Land: 20% Scatterbug, 15% Girafarig, 15% Munna, 10% Flittle, 10% Espurr, 10% Ekans, 10% Vulpix-Alola, 5% Hatenna, 5% Ralts
+* NPC Items / Rock Smash: Dragon Scale, Kings Rock, Prism Scale, Masterpiece Teacup
+
+## Granite Cave 1F
+* Land: 20% Rockruff (Dusk Stone for Dusk), 15% Espurr, 15% Munna, 10% Hatenna, 10% Ralts, 10% Vulpix-Alola, 10% Sandshrew-Alola, 5% Zubat, 5% Noibat
+
+## Granite Cave B1F
+* Land: 20% Cetoddle, 15% Munna, 15% Snom, 10% Vulpix-Alola, 10% Sandshrew-Alola, 10% Rockruff, 10% Bergmite, 5% Swinub, 5% Snorunt
+* Rock Smash: 30% Bergmite, 30% Sandshrew-Alola, 20% Roggenrola, 20% Aron
 
 ## Dewford Arcadia
 * Land: 20% Venonat, 15% Hoothoot, 15% Doduo, 10% Snorunt, 10% Clobbopus, 10% Spoink, 10% Ekans, 5% Chingling, 5% Buneary

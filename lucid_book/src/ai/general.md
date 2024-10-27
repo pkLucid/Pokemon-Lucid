@@ -15,6 +15,7 @@
 ## Speed
   * AI sees a speed tie, Quick Claw and Quick Draw as faster
   * Priority moves on player (includes effects that increase priority) are not seen by AI
+  * AI takes lagging tail into account
 
 ## Scoring on kills (additive)
   * Move can kill: +4
@@ -94,10 +95,10 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 ## Negative move effects (damage moves with a negative side effect)
   * Recoil
   * Moves that would target partner
-  * Two turn moves (e.g. Bounce and Solar Beam) If move can't be used without charging (e.g. Power Herb)
   * Mind Blown, Steel Beam, Explosion type moves, Final Gambit
   * Recoil on miss
   * All moves that have a negative effect on AI unless they have contrary or hold a white herb (e.g. Superpower)
+  * Note: Moves that would drop speed on AI are considered neutral in Trick Room
 
 ## Scale Shot (can be considered both a negative and positive depending on other moves)
   * If a negative move is present it is considered to be a positive move

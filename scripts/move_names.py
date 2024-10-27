@@ -240,6 +240,7 @@ names = {
     "MOVE_HIDDEN_POWER_FIRE": "Hidden Power Fire",
     "MOVE_HIDDEN_POWER_GRASS": "Hidden Power Grass",
     "MOVE_HIDDEN_POWER_ICE": "Hidden Power Ice",
+    "MOVE_HIDDEN_POWER_FIGHTING": "Hidden Power Fighting",
     "MOVE_CROSS_CHOP": "Cross Chop",
     "MOVE_TWISTER": "Twister",
     "MOVE_RAIN_DANCE": "Rain Dance",
