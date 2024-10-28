@@ -3743,7 +3743,7 @@ static const struct TrainerMon sParty_Gaben[] = {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .species = SPECIES_CHANDELURE,
     .heldItem = ITEM_AIR_BALLOON,
-    .ability = ABILITY_FLASH_FIRE,
+    .ability = ABILITY_FLAME_BODY,
     .nature = NATURE_TIMID,
     .teraType = TYPE_STEEL,
     .moves = {MOVE_ENERGY_BALL, MOVE_FLAMETHROWER, MOVE_PSYCHIC, MOVE_SHADOW_BALL},
@@ -6032,7 +6032,7 @@ static const struct TrainerMon sParty_Tammy[] = {
     },
 };
 
-// Name: Jessica
+// Name: Beauty Jessica [Double]
 static const struct TrainerMon sParty_Jessica1[] = {
     {
     .lvl = 70,
@@ -6072,7 +6072,7 @@ static const struct TrainerMon sParty_Jessica1[] = {
     },
 };
 
-// Name: Kyra
+// Name: Triathlete Kyra [Double]
 static const struct TrainerMon sParty_Kyra[] = {
     {
     .lvl = 68,
@@ -6388,7 +6388,7 @@ static const struct TrainerMon sParty_Vanessa[] = {
     },
 };
 
-// Name: Gentleman Walter
+// Name: Gentleman Walter [Double]
 static const struct TrainerMon sParty_Walter1[] = {
     {
     .lvl = 68,

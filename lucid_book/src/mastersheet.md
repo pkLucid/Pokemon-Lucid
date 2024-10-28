@@ -1171,13 +1171,13 @@
 **Aromatisse** Lv.70 @Misty Seed: Moonblast, Psychic, Energy Ball, Draining Kiss [Healer|Quiet]  
 **Banette** Lv.70 @Muscle Band: Poltergeist, Shadow Claw, Gunk Shot, Protect [Cursed Body|Brave]  
 
-#### *Jessica*
+#### *Beauty Jessica [Double]*
 **Indeedee** Lv.70 @Terrain Extender: Psychic, Tera Blast, Light Screen, Reflect [Psychic Surge|Modest]  
 **Slaking** Lv.68 @Lum Berry: Body Slam, Drain Punch, Play Rough, Knock Off [Truant|Jolly]  
 **Weezing-Galar** Lv.70 @Focus Sash: Strange Steam, Sludge Bomb, Fire Blast, Dark Pulse [Neutralizing Gas|Modest]  
 **Sneasler** Lv.68 @Psychic Seed: Sky Uppercut, Dire Claw, Acrobatics, Throat Chop [Unburden|Adamant]  
 
-#### *Kyra*
+#### *Triathlete Kyra [Double]*
 **Urshifu-Rapid-Strike** Lv.68 @Focus Sash: Close Combat, Surging Strikes, Ice Spinner, Poison Jab [Unseen Fist|Adamant]  
 **Farigiraf** Lv.70 @Aguav Berry: Hyper Voice, Twin Beam, Light Screen, Reflect [Armor Tail|Modest]  
 **Cinderace** Lv.68 @Misty Seed: Blaze Kick, Acrobatics, Headbutt, Reversal [Blaze|Adamant]  
@@ -1223,7 +1223,7 @@
 **Gothitelle** Lv.70 @Life Orb: Future Sight, Psychic, Energy Ball, Dark Pulse [Shadow Tag|Modest]  
 **Infernape** Lv.None @Air Balloon: Fire Punch, Drain Punch, Thunder Punch, Bulk Up [Iron Fist|Jolly]  
 
-#### *Gentleman Walter*
+#### *Gentleman Walter [Double]*
 **Farigiraf** Lv.68 @Silk Scarf: Twin Beam, Round, Foul Play, Future Sight [Armor Tail|Modest]  
 **Zoroark** Lv.68 @Black Glasses: Round, Flamethrower, Extrasensory, Night Shade [Eclipsate|Timid]  
 **Jolteon** Lv.68 @Air Balloon: Thunderbolt, Round, Alluring Voice, Shadow Ball [Quick Feet|Modest]  
