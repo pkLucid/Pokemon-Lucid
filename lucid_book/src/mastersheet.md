@@ -759,7 +759,7 @@
 **Scolipede** Lv.53 @Clear Amulet: X-Scissor, Poison Jab, Stomping Tantrum, Rock Slide [Speed Boost|Adamant]  
 **Hydrapple** Lv.53 @Quick Claw: Body Press, Energy Ball, Fickle Beam, Earth Power [Supersweet Syrup|Bold]  
 **Diancie** Lv.53 @Babiri Berry: Diamond Storm, Body Press, Play Rough, Rock Polish [Clear Body|Impish]  
-**Chandelure** Lv.55 @Air Balloon: Energy Ball, Flamethrower, Psychic, Shadow Ball [Flash Fire|Timid|Tera Steel]  
+**Chandelure** Lv.55 @Air Balloon: Energy Ball, Flamethrower, Psychic, Shadow Ball [Flame Body|Timid|Tera Steel]  
 
 #### *Collector Damon*
 **Cyclizar** Lv.55 @Sitrus Berry: Shed Tail, Dragon Pulse, Hyper Voice, U-turn [Shed Skin|Jolly]  

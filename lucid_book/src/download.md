@@ -1,4 +1,8 @@
-### [Download latest release - v1.2.1](https://github.com/pkLucid/Pokemon-Lucid/releases/tag/Version%2F1.2.1)
+### Pokemon Lucid Version 1.2.1 
+
+<a href="./v1.2.1/pokemon_lucid_v1.2.1.bps" target="_blank">Download Patch</a>
+
+<a href="./v1.2.1/pokemon_lucid_v1.2.1.lua" target="_blank">Lua Script (Right Click Download)</a>
 
 * Note
   * The round issue with gems affects all modifiers. See known issues tab for more info
