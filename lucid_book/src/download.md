@@ -1,4 +1,4 @@
-### Pokemon Lucid Version 1.2.1 
+## Pokemon Lucid Version 1.2.1 
 
 <a href="./v1.2.1/pokemon_lucid_v1.2.1.bps" target="_blank">Download Patch</a>
 

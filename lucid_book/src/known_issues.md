@@ -1,4 +1,6 @@
 ### Known Issues
+  * Sticky Web AI is inconsistent
+  * Lady Ruby might not trigger even on new saves
   * If Eject Button ejects into an Intimidate mon Life Orb / Shell Bell will miss timing
   * Rapid spin activates before Toxic Debris
   * Visual bug after a mon attempts to switch if Emergency Exit is triggered
