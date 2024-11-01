@@ -121,7 +121,6 @@ Scores in this section are not additive
 
 ## Negative move effects (damage moves with a negative side effect)
   * Recoil
-  * Moves that would target partner
   * Mind Blown, Steel Beam, Explosion type moves, Final Gambit
   * Recoil on miss
   * All moves that have a negative effect on AI unless they have contrary or hold a white herb (e.g. Superpower)
