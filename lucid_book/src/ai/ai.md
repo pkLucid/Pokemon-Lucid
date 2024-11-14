@@ -325,4 +325,4 @@ Scores in this section are not additive
 
 * Round 
   * If both mons have no kills, score increased by 3
-  
+  * If partner didn't choose Round, no score increase
