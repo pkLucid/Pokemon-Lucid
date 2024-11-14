@@ -22,9 +22,49 @@
   * An AI move that faints the player will have the highest score. Exceptions are TrickRoom, Protect, Palafin-Zero with Flip Turn and specific Double Battle AI quirks (see move effect section).
   * If a move would fail if used by AI it will get a -20
 
-## Status Moves 
+## Status Moves
   * For the following checks order matters (from top to bottom)
   * If the move would fail the AI wont click it
+
+### Speed Control
+* Status moves (e.g. Scary Face)
+  * If AI cant't drop stats (speed), no increase
+  * If AI faster, no increase
+  * If AI is still slower (or tied) the next turn, no score increase
+  * In any other situation, +3
+
+* Self boosting speed moves (e.g. Flame Charge)
+  * If AI faster, no increase
+  * If AI is still slower (or tied) the next turn, no score increase
+  * If AI faints player in less hits, no score increase
+  * If player resists move, no score increase unless the move + best damage move kill next turn
+  * In any other situation, +2
+
+* Speed drop moves (e.g. Rock Tomb)
+  * If AI cant't drop stats (speed), no increase
+  * If AI faster, no increase
+  * If AI is still slower (or tied) the next turn, no score increase
+  * If player resists move, no score increase unless the move + best damage move kill next turn
+  * In any other situation, +2
+
+### Damage moves with a 100% chance effect 
+* Effect Paralyze (e.g. Nuzzle)
+  * No score increase if player can cure status (berry)
+  * +2 if AI slower then player
+  * +2 if player needs 3 or more hits to faint
+* Effect Poison (+2)
+  * Except score same as Toxic
+* Throat Chop (+2)
+  * If AI faster and the best damage move from Player is a sound move
+* Effect Wrap (Fire Spin, Whirlpool, ...)
+  * No score increase if player has Rapid Spin
+  * No score increase if player faints AI in 2 or less hits
+  * No score increase if player already trapped
+  * No score increase if player faints from secondary damage this turn
+* Effect Flinch (+2)
+  * No score increase if can't flinch
+  * No score increase if slower
+  * Score increase if player can faint AI
 
 * Protect Doubles (+15 if conditions apply)
   * If either mon has encore, no score increase
@@ -43,7 +83,7 @@
   * 70/30 in favor of no hazards if player has a way to remove rocks
   * If AI/player has only 3 mons left no score increase
   * AI will only set one layer of hazards for each move/hazard type
-  * In any other situation, +3
+  * In any other situation, +3 (+2 for Stone Axe / Ceaseless Edge)
 
 * Screens
   * If no corresponding category on player, no score increase
@@ -55,14 +95,6 @@
 * Follow me
   * If partner dies to any player mon, +3
   * If both mons on the field have Follow Me only AI slot 1 (right side) will be able to choose follow me
-
-* Speed Control (differes from positive move effect)
-  * If AI cant't drop speed, no increase (Clear Amulet, Clear Body, etc.)
-  * If AI faster, no increase
-  * If AI is still slower (or tied) the next turn, no score increase
-  * If AI outdamages player, no score increase
-  * If player resists move, no score increase unless the move + best damage move kill next turn
-  * In any other situation, +3
 
 * Poison
   * If player holds a curing berry AI, no score increase
@@ -89,7 +121,7 @@
   * If it isn't the first turn for either mon, no score increase
   * If partner is faster, has a move that would trigger the policy and need 4 or more hits to faint partner
 
-* Set up except Belly Drum (+3)
+* Set up except Belly Drum and Speed Control Status moves (+3)
   * If player outspeeds and two taps, AI is not going to set up
   * If AI is faster but you one tap it, it isn't going to set up
   * If it set up the previous turn and is faster + can 2 tap it isn't going to set up
@@ -137,8 +169,8 @@
   * If AI is faster and faints to player +3
   * If AI is slower and faints in 2 hits to player +3
 
-* Sucker Punch
-  * After the first time AI tried to use Sucker Punch it can get a -20 score decrease 50% of the time
+* Sucker Punch / Thunderclap
+  * After first usage score will be decreased by 20 50% of the time
 
 * Decorate
   * +10 on the first turn of user, otherwise 30% of the time
@@ -161,12 +193,12 @@
   * +2 on first turn of AI mon, 50/50 otherwise
 
 * Substitute
-  * No score Increase if player can take advantage of sub (ability / move not blocked by sub)
+  * No score Increase if player can take advantage of sub (ability / sound moves that can go through substitute)
   * If slower and after a hit Substitute would fail, no increase
   * Otherwise 50/50 to go for a Sub
 
 * Shed Tail
-  * No score Increase if player can take advantage of sub (ability / move not blocked by sub)
+  * No score Increase if player can take advantage of sub (ability / sound moves that can go through substitute)
   * If AI has no alive mon in Party, no increase
   * If at 50% hp, no score increase
   * If slower and after a hit Shed Tail would fail, no increase
@@ -174,3 +206,7 @@
 
 * Fickle Beam
   * The AI does not see the random increase in base power
+
+* Round 
+  * If both mons have no kills, score increased by 3
+  
