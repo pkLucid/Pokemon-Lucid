@@ -1,4 +1,5 @@
 ### Known Issues
+  * Pokemon that learn non-vanilla moves via level up can't learn them via tutors/tms
   * Sticky Web AI is inconsistent
   * Lady Ruby might not trigger even on new saves
   * If Eject Button ejects into an Intimidate mon Life Orb / Shell Bell will miss timing
