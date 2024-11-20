@@ -1,4 +1,4 @@
-# Documentation for Pokemon Lucid
+# Pokemon Lucid
 [Documentation](https://pklucid.github.io/Pokemon-Lucid/src/introduction.html) and [Download](https://pklucid.github.io/Pokemon-Lucid/src/download.html)
 
 ## Credits
