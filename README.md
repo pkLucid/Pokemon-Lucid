@@ -1,8 +1,8 @@
 # Documentation for Pokemon Lucid
-
-[Based on Pokemon Expansion](https://github.com/rh-hideout/pokeemerald-expansion)
+[Documentation](https://pklucid.github.io/Pokemon-Lucid/src/introduction.html) and [Download](https://pklucid.github.io/Pokemon-Lucid/src/download.html)
 
 ## Credits
+[Based on Pokemon Expansion](https://github.com/rh-hideout/pokeemerald-expansion)
 
 ### Decompilation Project
 * Pret
