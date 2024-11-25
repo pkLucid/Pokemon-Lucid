@@ -1,6 +1,6 @@
 ### Known Issues
   * AI
-    * AI might not see players -ate (eg Pixilate). This doesn't seem consistent 
+    * AI might not see players -ate (eg Pixilate) abilities. This doesn't seem consistent 
     * AI might not see that player can damage a substitute with a sound move
     * AI doesn't see that speed reducing status (not damaging status) moves are blocked by covert cloak  
     * Sticky Web AI is inconsistent
