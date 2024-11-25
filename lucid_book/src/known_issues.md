@@ -1,4 +1,8 @@
 ### Known Issues
+  * AI might not see players -ate (eg Pixilate). This doesn't seem consistent 
+  * AI might not see that player can damage a substitute with a sound move
+  * AI doesn't see that speed reducing status (not damaging status) moves are blocked by covert cloak  
+  * Charge seems to be inconsistent
   * Pokemon that learn non-vanilla moves via level up can't learn them via tutors/tms
   * Sticky Web AI is inconsistent
   * Lady Ruby might not trigger even on new saves
