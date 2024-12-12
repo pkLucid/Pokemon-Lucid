@@ -75,7 +75,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Two-Turn Moves are seen as zero demage if they can't be used the same turn they charge (if weather or power herb are not present)
     * Two-Turn moves that are invulnerable during charge are exluded from this check
   * The AI will see the damage of a 100% crit
-  * **Bug**: AI might see one roll lower for gems boosts so the 7th (Might apply to type boosting items so just use the 7th roll to be save)
+  * **Bug**: AI might see one roll lower for gems boosts so the 7th (Might apply to type boosting items so just use the 7th roll to be safe)
   * Explosion is treated like a normal move other then that it is a negative move effect
 
 ## Tera calcs (Relevant for Tera/Stella Island)
