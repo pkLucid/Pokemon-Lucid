@@ -192,12 +192,12 @@
 * Salt Cure
   * +2 on first turn of AI mon, 50/50 otherwise
 
-* Substitute
+* Substitute (+3)
   * No score Increase if player can take advantage of sub (ability / sound moves that can go through substitute)
   * If slower and after a hit Substitute would fail, no increase
   * Otherwise 50/50 to go for a Sub
 
-* Shed Tail
+* Shed Tail (+3)
   * No score Increase if player can take advantage of sub (ability / sound moves that can go through substitute)
   * If AI has no alive mon in Party, no increase
   * If at 50% hp, no score increase
