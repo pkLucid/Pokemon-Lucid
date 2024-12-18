@@ -53,7 +53,7 @@
   * +2 if AI slower then player
   * +2 if player needs 3 or more hits to faint
 * Effect Poison (+2)
-  * Except score same as Toxic
+  * Besides score same as Toxic
 * Throat Chop (+2)
   * If AI faster and the best damage move from Player is a sound move
 * Effect Wrap (Fire Spin, Whirlpool, ...)
@@ -112,10 +112,11 @@
   * If AI is slower, +3
   * If Player needs 3 or more hits to faint AI, +3
 
-* Tailwind
-  * No score increase in doubles if only one mon left
-  * +10 on Whitney if no Tailwind is set up
-  * If Slower +3 (checks average in doubles)
+* Sleep (+3)
+  * If move would fail or player has Yawn status set, no score increase
+  * If player can cure steel or has a beneficial move (sleep talk, snore), no score increase
+  * 100% score increase if first turn or AI benefits from sleep status
+  * 50/50 otherwise
 
 * Weakness Policy (+10)
   * If it isn't the first turn for either mon, no score increase
@@ -134,6 +135,9 @@
 * Increase crit rate +3 (e.g. Focus Energy)
   * If ai faints to player in 2 or less hits (applies to both mons in doubles), no increase.
   * Increase if Super Luck, Sniper, Scope Lens or or high crit move is present
+
+* Sunny Day 
+  * +3 if user benefits from sun
 
 * Tailwind
   * No score increase in doubles if only one mon left
