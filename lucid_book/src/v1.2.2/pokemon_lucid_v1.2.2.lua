@@ -2645,7 +2645,7 @@ local speciesStructSize=256
 local partyCount=0x0201a101 -- gPlayerPartyCount
 local partyloc=0x0201a104 -- gPlayerParty
 local storageLoc=0x02010654 -- gPokemonStorage
-local speciesInfo=0x08d7eb08 -- gSpeciesInfo
+local speciesInfo=0x08d7f548 -- gSpeciesInfo
 
 function getCurve(n)
 	return emu:read8(speciesInfo+(speciesStructSize*n)+21)
@@ -2877,7 +2877,7 @@ function getAbility(mon)
 	current = abilities[emu:read16(speciesInfo+(speciesStructSize*mon.species)+24+(mon.altAbility*2))]
     if (mons[mon.species] == "Tapu Koko") then
         current = "Telepathy"
-        
+
 	elseif (mons[mon.species] == "Togedemaru") then
         current = "Iron Barbs"
 
