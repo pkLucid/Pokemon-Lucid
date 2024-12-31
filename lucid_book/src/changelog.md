@@ -1,8 +1,29 @@
 ## Changelog
 
+### Pokemon Lucid Version 1.2.1
+
+* General
+  * Moved give option in item menu
+  * Added clarification for fickle beam in AI doc
+  * Yamask Galar evolves with a Dusk Stone (wrong in dex)
+  * Lady Ruby might not trigger on old saves (not an issue on new saves)
+  * 2 Stella Island fights and 2 Tailwind fights had minor adjustments
+
+* Fixes
+  * Fixed a bunch of tile issues
+  * Fixed a bunch of Typos
+  * Fixed Damp reducing damage AI calcs of electric types
+  * Fixed Salt Cure still doing damage against Magic Guard
+  * Fixed Tranistor modifier
+  * Fixed left guy issue on 121 (they are now 2 individual trainers)
+  * Fixed Thunderclap battle info UI bug
+  * Fixed Coil not applying score
+  * Fixed Flannery gym soft lock
+  * Fixed Encore target mutation in 2v1 (attack was switched to encore user)
+
 ### Pokemon Lucid Changelog v1.2b
 
-* Fixes 
+* Fixes
   * Sneasel replaced Close Combat with Sky Uppercut
   * Venonat Evolves at level 21
   * Fixes Trick Tutor having Thief instead of Trick
