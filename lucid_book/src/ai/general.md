@@ -31,7 +31,7 @@
   * AI can kill with double target move +2 (e.g. Dazzling Gleam)
   * AI can kill with spread move +2 if partner is dead (e.g. Surf)
 
-## Mid turn switch (Calcs are done with a possible switch in candidate) 
+## Mid turn switch (Calcs are done with a possible switch in candidate)
   * Never switches in Doubles
   * Never switches if player faints mon with 2 or less hits
   * If AI does no damage 50/50
@@ -40,7 +40,7 @@
     * If AI has baton pass it will only switch with baton pass
     * If faster and faints player in one hit, +5
     * If faster and faints player in same or less hits, +4
-    * If slower and faints player in less hits, + 3 
+    * If slower and faints player in less hits, + 3
     * If AI faster + 2 (an oversight, will be removed in a later verision. it is the last check so will likely never apply)
 
 ## How the AI sees damage
@@ -88,7 +88,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Damage moves that set up Hazards
   * Guaranteed speed drop moves (e.g. Icy Wind)
   * Self boosting moves (e.g. power up punch, leaf storm with contrary)
-  * Note: 
+  * Note:
     * If more then one move is present with a plus effect then both get the plus one
     * Eevee moves aren't positive / negative effects
 
@@ -98,6 +98,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Recoil on miss
   * All moves that have a negative effect on AI unless they have contrary or hold a white herb (e.g. Superpower)
   * Note: Moves that would drop speed on AI are considered neutral in Trick Room
+  * Note2: A recharge (eg hyper beam) effect is not considered negative
 
 ## Scale Shot (can be considered both a negative and positive depending on other moves)
   * If a negative move is present it is considered to be a positive move

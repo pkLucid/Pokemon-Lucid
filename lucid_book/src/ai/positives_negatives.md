@@ -12,7 +12,7 @@
   * Damage moves that set up Hazards
   * Guaranteed speed drop moves (e.g. Icy Wind)
   * Self boosting moves (e.g. power up punch, leaf storm with contrary)
-  * Note: 
+  * Note:
     * If more then one move is present with a plus effect then both get the plus one
     * Eevee moves aren't positive / negative effects
 
@@ -22,6 +22,7 @@
   * Recoil on miss
   * All moves that have a negative effect on AI unless they have contrary or hold a white herb (e.g. Superpower)
   * Note: Moves that would drop speed on AI are considered neutral in Trick Room
+  * Note2: A recharge (eg hyper beam) effect is not considered negative
 
 ## Scale Shot (can be considered both a negative and positive depending on other moves)
   * If a negative move is present it is considered to be a positive move

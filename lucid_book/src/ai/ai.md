@@ -1,6 +1,6 @@
 ## Double Battle Targeting
 AI will generally never have both Pokemon attack the same slot if one of the AI’s Pokemon has a kill. Exceptions are [moves](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/src/data/moves_info.h) that target the user, opponents field or all mons.
-### Note   
+### Note
 Moves that target the user or the field are no longer affected by double targeting which means both player mons are looked at
   * Affects protect, hazards, trick room, tailwind, screens, boosting moves
 
@@ -42,7 +42,7 @@ If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1
   * AI sees a speed tie, Quick Claw and Quick Draw as faster
   * Priority moves on player (includes effects that increase priority) are not seen by AI
   * AI takes lagging tail into account
-  
+
 ## Scoring on kills (additive)
   * Move can kill: +4
   * hit switch targer (dragon tail) + 2
@@ -115,7 +115,7 @@ Scores in this section are not additive
   * Damage moves that set up Hazards
   * Guaranteed speed drop moves (e.g. Icy Wind)
   * Self boosting moves (e.g. power up punch, leaf storm with contrary)
-  * Note: 
+  * Note:
     * If more then one move is present with a plus effect then both get the plus one
     * Eevee moves aren't positive / negative effects
 
@@ -125,6 +125,7 @@ Scores in this section are not additive
   * Recoil on miss
   * All moves that have a negative effect on AI unless they have contrary or hold a white herb (e.g. Superpower)
   * Note: Moves that would drop speed on AI are considered neutral in Trick Room
+  * Note2: A recharge (eg hyper beam) effect is not considered negative
 
 ## Scale Shot (can be considered both a negative and positive depending on other moves)
   * If a negative move is present it is considered to be a positive move
@@ -163,7 +164,7 @@ Scores in this section are not additive
   * If player resists move, no score increase unless the move + best damage move kill next turn
   * In any other situation, +2
 
-### Damage moves with a 100% chance effect 
+### Damage moves with a 100% chance effect
 * Effect Paralyze (e.g. Nuzzle)
   * No score increase if player can cure status (berry)
   * +2 if AI slower then player
@@ -233,7 +234,7 @@ Scores in this section are not additive
   * If player can cure steel or has a beneficial move (sleep talk, snore), no score increase
   * 100% score increase if first turn or AI benefits from sleep status
   * 50/50 otherwise
-  
+
 * Weakness Policy (+10)
   * If it isn't the first turn for either mon, no score increase
   * If partner is faster, has a move that would trigger the policy and need 4 or more hits to faint partner
@@ -252,9 +253,9 @@ Scores in this section are not additive
   * If ai faints to player in 2 or less hits (applies to both mons in doubles), no increase.
   * Increase if Super Luck, Sniper, Scope Lens or or high crit move is present
 
-* Sunny Day 
+* Sunny Day
   * +3 if user benefits from sun
-  
+
 * Tailwind
   * No score increase in doubles if only one mon left
   * If Slower +3 (checks average in doubles)
@@ -327,6 +328,6 @@ Scores in this section are not additive
 * Fickle Beam
   * The AI does not see the random increase in base power
 
-* Round 
+* Round
   * If both mons have no kills, score increased by 3
   * If partner didn't choose Round, no score increase
