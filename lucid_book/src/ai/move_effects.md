@@ -47,7 +47,7 @@
   * If player resists move, no score increase unless the move + best damage move kill next turn
   * In any other situation, +2
 
-### Damage moves with a 100% chance effect 
+### Damage moves with a 100% chance effect
 * Effect Paralyze (e.g. Nuzzle)
   * No score increase if player can cure status (berry)
   * +2 if AI slower then player
@@ -118,6 +118,13 @@
   * 100% score increase if first turn or AI benefits from sleep status
   * 50/50 otherwise
 
+* Confusion (+3 / +2 on 1.2.2)
+  * If AI can't confuse player due to an item or ability, no score increase
+  * If AI faster and faints player in 2 or less hits, no score increse
+  * If player Paralyzed or infatuated, 100% of the time score increase
+  * If first turn for user, 100% of the time score increase
+  * Otherwise 50/50 score increase
+
 * Weakness Policy (+10)
   * If it isn't the first turn for either mon, no score increase
   * If partner is faster, has a move that would trigger the policy and need 4 or more hits to faint partner
@@ -136,7 +143,7 @@
   * If ai faints to player in 2 or less hits (applies to both mons in doubles), no increase.
   * Increase if Super Luck, Sniper, Scope Lens or or high crit move is present
 
-* Sunny Day 
+* Sunny Day
   * +3 if user benefits from sun
 
 * Tailwind
@@ -211,6 +218,5 @@
 * Fickle Beam
   * The AI does not see the random increase in base power
 
-* Round 
+* Round
   * If both mons have no kills, score increased by 3
-  

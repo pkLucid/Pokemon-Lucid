@@ -235,6 +235,13 @@ Scores in this section are not additive
   * 100% score increase if first turn or AI benefits from sleep status
   * 50/50 otherwise
 
+* Confusion (+3 / +2 on 1.2.2)
+  * If AI can't confuse player due to an item or ability, no score increase
+  * If AI faster and faints player in 2 or less hits, no score increse
+  * If player Paralyzed or infatuated, 100% of the time score increase
+  * If first turn for user, 100% of the time score increase
+  * Otherwise 50/50 score increase
+
 * Weakness Policy (+10)
   * If it isn't the first turn for either mon, no score increase
   * If partner is faster, has a move that would trigger the policy and need 4 or more hits to faint partner
