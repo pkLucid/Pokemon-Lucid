@@ -32,6 +32,7 @@
   * AI can kill with spread move +2 if partner is dead (e.g. Surf)
 
 ## Mid turn switch (Calcs are done with a possible switch in candidate)
+  * Never switches if current mon on the field is under half of max HP
   * Never switches in Doubles
   * Never switches if player faints mon with 2 or less hits
   * If AI does no damage 50/50
