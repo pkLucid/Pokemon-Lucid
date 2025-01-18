@@ -152,7 +152,8 @@
   * +15 on Whitney it Tailwind is not set up yet
 
 * Destiny Bond
-  * If player can faint AI and AI faster, +3
+  * If Destiny Bond was used last turn, no score increase (it fails in gen7+ on consecutive usage)
+  * If player can faint AI and AI faster, +3 50% of the time
 
 * Belly Drum check
   * No set up if AI faints regardless of speed or already increased stats, otherwise +3
@@ -162,10 +163,30 @@
   * No increase if AI has Mirror Coat (Counter) and player has no special (physical) move
   * Otherwise 50/50 to get a +3
 
-* Recover / Heal AI (+3)
-  * If plyaer does only 50& or less of the current hp, no score increase
-  * If AI faster, 30% of the time no score increase
-  * Score increase if heal amount + current HP are higher then best player damage and damage equal or higher current hp
+* Recovery moves, includes Rest (+3)
+  * If AI heal blocked, no score increase
+  * If at 90% or more hp, no score increase unless slower and target is damaged by residual damage
+  * If player faints ai from full, no score increase
+  * If player does equal or more damage then current hp and heal amount, no score increase
+  * Randomaly 10% of the time, no score increase
+  * 3 Branches
+    * If player does 1/4 or less of max hp
+      1. Score increase if ai is slower and has 50% or less health
+      2. Score increase if 40% or less health
+      3. If AI faster no score increase, ignore rest
+      4. Otherwise check rest outside of the branch
+    * If player does 1/3 or less of max hp
+      1. Score increase if ai is slower and has 70% or less health
+      2. Score increase if 40% or less health
+      3. If AI faster no score increase, ignore rest
+      4. Otherwise check rest outside of the branch
+    * If player does 1/2 or less of max hp
+      1. Score increase if ai is slower and has 80% or less health
+      2. Score increase if 50% or less health
+      4. Otherwise check rest outside of the branch
+  * If ai has rest, no score increase (remember (applies for everything in the doc) if a point above is true, then nothing from this point is checked anymore)
+  * If player is damaged by residual damage, score increase
+  * otherwise no score increase
 
 * Trap (+2)
   * If player needs 4 or more hits to faint ai trapping moves get an increase
@@ -177,6 +198,7 @@
 
 * Future Sight
   * Seen as a zero damage move (including party) but score is considered neutral unless a future attack is active
+  * Score applies against dark types only 50% of the time.
   * If AI is faster and faints to player +3
   * If AI is slower and faints in 2 hits to player +3
 
@@ -220,3 +242,17 @@
 
 * Round
   * If both mons have no kills, score increased by 3
+  * If partner didn't choose Round, no score increase
+
+* Absorb (+3)
+  * If target has Liquid Ooze, no score increase
+  * If user is at max, no score increase
+  * If faster and is able to survive hit with absorbed damage, score increase
+  * If same Number Of Hits as best damage move, score increase 50% of the time
+
+* Salt Cure (+3)
+  * If already salt cured, no score increase
+  * If player needs 3 or more hits to faint ai
+    * Increase score if a healing move is present
+    * Otherwise, increase 50% of the time
+

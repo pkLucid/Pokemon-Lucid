@@ -45,7 +45,12 @@ If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1
 
 ## Scoring on kills (additive)
   * Move can kill: +4
+  * Doubles only: AI can kill with double target or spread move when no partner + 2
   * hit switch targer (dragon tail) + 2
+
+## Critical hit kill (does not stack with kill)
+  * Critical hit Increase for moves with a high crit ratio (applies to moves only, and not 100% critical hits)
+  * The damage will be calculated for both a critical hit and a non critical hit. If no other move can kill the target but the critical move can, score will be increased by 2 50% of the time
 
 ### Singles only
   * If AI is slower and dead +10 on prio moves
@@ -55,6 +60,7 @@ If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1
 ### Doubles only
   * AI can kill with double target move +2 (e.g. Dazzling Gleam)
   * AI can kill with spread move +2 if partner is dead (e.g. Surf)
+  * Unless, the player previously used Guard then the damage for AI calcs will be zeroed out 20% of the time as long as there is a wide guard user on the players side. Applies until the end of battle
 
 ## Mid turn switch (Calcs are done with a possible switch in candidate)
   * Never switches in Doubles
@@ -77,6 +83,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * The AI will see the damage of a 100% crit
   * **Bug**: AI might see one roll lower for gems boosts so the 7th (Might apply to type boosting items so just use the 7th roll to be safe)
   * Explosion is treated like a normal move other then that it is a negative move effect
+  * Dragon Darts will be correctly in doubles depending on hits
 
 ## Tera calcs (Relevant for Tera/Stella Island)
   * The AI sees Tera Blast or stab increased damage as if it did Terastalize when it is possible for the mon to do it (including party)
@@ -90,8 +97,7 @@ Scores in this section are not additive
   * When AI sees a kill with several moves, a move with a positive effect gets +1
   * If several moves with a positive effect are present, all of them get +1
     * Example: If AI sees kill with Night Slash (high crit) and Rock Tomb (rock tomb), it would select one of those randomly
-  * If a negative move is present, all non negative moves get +1 based on number of hits (Phase 2 check)
-    * Example: If AI sees a 2HKO on player mon with EQ, CC and Raging Bull. Close Combat is considered a negative effect, so both EQ and Raging Bull will get a +1 score
+  * If a negative move is present, the next best dmg move will get a score increase
   * If nothing above applies the highest damage move gets +1 (on a tie all get +1)
 
 ## Multi hit moves (e.g. Bullet Seed)
@@ -269,7 +275,8 @@ Scores in this section are not additive
   * +15 on Whitney it Tailwind is not set up yet
 
 * Destiny Bond
-  * If player can faint AI and AI faster, +3
+  * If Destiny Bond was used last turn, no score increase (it fails in gen7+ on consecutive usage)
+  * If player can faint AI and AI faster, +3 50% of the time
 
 * Belly Drum check
   * No set up if AI faints regardless of speed or already increased stats, otherwise +3
@@ -279,10 +286,30 @@ Scores in this section are not additive
   * No increase if AI has Mirror Coat (Counter) and player has no special (physical) move
   * Otherwise 50/50 to get a +3
 
-* Recover / Heal AI (+3)
-  * If plyaer does only 50& or less of the current hp, no score increase
-  * If AI faster, 30% of the time no score increase
-  * Score increase if heal amount + current HP are higher then best player damage and damage equal or higher current hp
+* Recovery moves, includes Rest (+3)
+  * If AI heal blocked, no score increase
+  * If at 90% or more hp, no score increase unless slower and target is damaged by residual damage
+  * If player faints ai from full, no score increase
+  * If player does equal or more damage then current hp and heal amount, no score increase
+  * Randomaly 10% of the time, no score increase
+  * 3 Branches
+    * If player does 1/4 or less of max hp
+      1. Score increase if ai is slower and has 50% or less health
+      2. Score increase if 40% or less health
+      3. If AI faster no score increase, ignore rest
+      4. Otherwise check rest outside of the branch
+    * If player does 1/3 or less of max hp
+      1. Score increase if ai is slower and has 70% or less health
+      2. Score increase if 40% or less health
+      3. If AI faster no score increase, ignore rest
+      4. Otherwise check rest outside of the branch
+    * If player does 1/2 or less of max hp
+      1. Score increase if ai is slower and has 80% or less health
+      2. Score increase if 50% or less health
+      4. Otherwise check rest outside of the branch
+  * If ai has rest, no score increase (remember (applies for everything in the doc) if a point above is true, then nothing from this point is checked anymore)
+  * If player is damaged by residual damage, score increase
+  * otherwise no score increase
 
 * Trap (+2)
   * If player needs 4 or more hits to faint ai trapping moves get an increase
@@ -294,6 +321,7 @@ Scores in this section are not additive
 
 * Future Sight
   * Seen as a zero damage move (including party) but score is considered neutral unless a future attack is active
+  * Score applies against dark types only 50% of the time.
   * If AI is faster and faints to player +3
   * If AI is slower and faints in 2 hits to player +3
 
@@ -338,3 +366,15 @@ Scores in this section are not additive
 * Round
   * If both mons have no kills, score increased by 3
   * If partner didn't choose Round, no score increase
+
+* Absorb (+3)
+  * If target has Liquid Ooze, no score increase
+  * If user is at max, no score increase
+  * If faster and is able to survive hit with absorbed damage, score increase
+  * Otherwise, if same Number Of Hits as best damage move, score increase 50% of the time
+
+* Salt Cure (+3)
+  * If already salt cured, no score increase
+  * If player needs 3 or more hits to faint ai
+    * Increase score if a healing move is present
+    * Otherwise, increase 50% of the time

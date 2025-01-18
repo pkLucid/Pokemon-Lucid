@@ -22,6 +22,10 @@
   * Doubles only: AI can kill with double target or spread move when no partner + 2
   * hit switch targer (dragon tail) + 2
 
+## Critical hit kill (does not stack with kill)
+  * Critical hit Increase for moves with a high crit ratio (applies to moves only, and not 100% critical hits)
+  * The damage will be calculated for both a critical hit and a non critical hit. If no other move can kill the target but the critical move can, score will be increased by 2 50% of the time
+
 ### Singles only
   * If AI is slower and dead +10 on prio moves
   * If AI is faster and move can kill: + 2 (Priority moves are considred as being faster in this case)
@@ -30,6 +34,7 @@
 ### Doubles only
   * AI can kill with double target move +2 (e.g. Dazzling Gleam)
   * AI can kill with spread move +2 if partner is dead (e.g. Surf)
+  * Unless, the player previously used Guard then the damage for AI calcs will be zeroed out 20% of the time as long as there is a wide guard user on the players side. Applies until the end of battle
 
 ## Mid turn switch (Calcs are done with a possible switch in candidate)
   * Never switches if current mon on the field is under half of max HP
@@ -65,8 +70,8 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * When AI sees a kill with several moves, a move with a positive effect gets +1
   * If several moves with a positive effect are present, all of them get +1
     * Example: If AI sees kill with Night Slash (high crit) and Rock Tomb (rock tomb), it would select one of those randomly
-  * If a negative move is present, all non negative moves get +1 based on number of hits (Phase 2 check)
-    * Example: If AI sees a 2HKO on player mon with EQ, CC and Raging Bull. Close Combat is considered a negative effect, so both EQ and Raging Bull will get a +1 score
+  * If a negative move is present, the next best dmg move will get a score increase
+  * If nothing above applies the highest damage move gets +1 (on a tie all get +1)
 
 ## Multi hit moves (e.g. Bullet Seed)
   * Skill link will always be seen as doing the max amount of hits
