@@ -1,10 +1,8 @@
 ## Positive move effects
   * Double target moves in doubles (spread moves like Surf/EQ only when no partner)
   * Sound moves if user is holding a Throat Spray
-  * Crit moves that don't always crit
   * Trapping moves
   * Brick Break type effects if screens are on players side
-  * Drain effects if no Liquid Ooze
   * Fell Stinger
   * Pursuit
   * Knock Off regardless if user has an item or not

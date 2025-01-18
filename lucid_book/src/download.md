@@ -1,5 +1,5 @@
 ## Pokemon Lucid v1.2.3
-For players who don't want to update, here are the old [dex](https://lucid-dex-1-2-2.vercel.app/) and [calc](https://lucid-calc-v1-2-2.vercel.app/).
+For players who don't want to update, here are the old [dex](https://lucid-dex-1-2-2.vercel.app/) and [calc](https://lucid-calc-v1-2-2.vercel.app/) for 1.2.2.
 
 ### Download
 <a href="./v1.2.3/pokemon_lucid_v1.2.3.bps" target="_blank">Download Patch</a>
