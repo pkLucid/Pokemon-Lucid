@@ -286,7 +286,7 @@ Scores in this section are not additive
 
 * Recovery moves, includes Rest (+3)
   * If AI heal blocked, no score increase
-  * If at 90% or more hp, no score increase unless slower and target is damaged by residual damage
+  * If at 90% or more hp, no score increase
   * If player faints ai from full, no score increase
   * If player does equal or more damage then current hp and heal amount, no score increase
   * Randomaly 10% of the time, no score increase
@@ -306,7 +306,7 @@ Scores in this section are not additive
       2. Score increase if 50% or less health
       4. Otherwise check rest outside of the branch
   * If ai has rest, no score increase (remember (applies for everything in the doc) if a point above is true, then nothing from this point is checked anymore)
-  * If player is damaged by residual damage, score increase
+  * If player is damaged by residual damage and at 80% or lower hp, score increase
   * otherwise no score increase
 
 * Trap (+2)
