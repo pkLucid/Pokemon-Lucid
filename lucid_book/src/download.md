@@ -1,9 +1,12 @@
-## Pokemon Lucid v1.2.4
+## [Rerelease of v1.2.4]
+The release from yesterday caused a regression from fixing Protean. Mons got their typing back when they previously lost it (eg Double Shock). Please re-download both the patch and lua. I kept the old version nummber
 
 ### Download
 <a href="./v1.2.4/pokemon_lucid_v1.2.4.bps" target="_blank">Download Patch</a>
 
 <a href="./v1.2.4/pokemon_lucid_v1.2.4.lua" target="_blank">Lua Script (Right Click Download)</a>
+
+## Pokemon Lucid v1.2.4
 
 ### Changelog
  * Bugfixes
