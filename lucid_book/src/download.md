@@ -1,4 +1,4 @@
-## [Rerelease of v1.2.4]
+## Rerelease of v1.2.4
 The release from yesterday caused a regression from fixing Protean. Mons got their typing back when they previously lost it (eg Double Shock). Please re-download both the patch and lua. I kept the old version nummber
 
 ### Download
