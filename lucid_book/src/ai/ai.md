@@ -289,7 +289,7 @@ Scores in this section are not additive
   * If at 90% or more hp, no score increase
   * If player faints ai from full, no score increase
   * If player does equal or more damage then current hp and heal amount, no score increase
-  * Randomaly 10% of the time, no score increase
+  * Randomly 10% of the time, no score increase
   * 3 Branches
     * If player does 1/4 or less of max hp
       1. Score increase if ai is slower and has 50% or less health
