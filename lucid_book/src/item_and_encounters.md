@@ -35,10 +35,10 @@
 * Overworld Items: Moon Stone
 * Berry Trees: 31 Rawst, 31 Rawst, 31 Aspear, 31 Leppa, 31 Persim, 10 Sitrus, 10 Lum, Chilan, Charti, Babiri
 
-## Fallarbor Town
-* Rock Smash: 30% Tyrunt, 30% Amaura, 20% Anorith, 20% Dwebble
-* Special: Starter Eevee Egg (Randomly Evolves into any form)
-* Overworld Tutor: Mega Punch, Mega Kick
+## Verdanturf Town
+* Land: 20% Torkoal, 15% NidoranF, 15% NidoranM, 10% Sandshrew, 10% Bunnely, 10% Rockruff, 10% Dwebble, 5% Cufant, 5% Meowth-Galar
+* NPC Items / Rock Smash: Tart Apple, Sweet Apple, Syrupy Apple
+* Overworld Tutor: Covet
 
 ## Route 117
 * Land: 20% Gossifleur, 15% Cottonee, 15% Petilil, 10% Oddish, 10% Budew, 10% Bounsweet, 10% Rowlet, 5% Sewaddle, 5% Applin
@@ -127,10 +127,11 @@
 * Land: 20% Poipole, 15% Sneasel, 15% Glimmet, 10% Murkrow, 10% Zorua, 10% Nymble, 10% Skorupi, 5% Zigzagoon-Galar, 5% Toxel
 * Overworld Items: Black Sludge
 
-## Verdanturf Town
-* Land: 20% Torkoal, 15% NidoranF, 15% NidoranM, 10% Sandshrew, 10% Bunnely, 10% Rockruff, 10% Dwebble, 5% Cufant, 5% Meowth-Galar
-* NPC Items / Rock Smash: Tart Apple, Sweet Apple, Syrupy Apple
-* Overworld Tutor: Covet
+## Fallarbor Town
+* Rock Smash: 30% Tyrunt, 30% Amaura, 20% Anorith, 20% Dwebble
+* Special: Starter Eevee Egg (Randomly Evolves into any form)
+* Shop TM Packages: Bounce, Psychic Fangs, Dragon Claw, Water Pulse, Leech Life, Play Rough
+* Overworld Tutor: Mega Punch, Mega Kick
 
 ## Route 114
 * Land: 20% Ralts, 15% Yanma, 15% Cutiefly, 10% Clefairy, 10% Ledyba, 10% Skorupi, 10% Nymble, 5% Aipom, 5% Minccino
@@ -214,8 +215,9 @@
 * Gym Leader Tutor Prize: Shock Wave, Aerial Ace, Magical Leaf, Aura Sphere, Smart Strike
 * Overworld Tutor: Return, Frustration
 
-## Route 108
-* Overworld Items: Power Herb (Hidden behind a 1v2 Double)
+## Route 115
+* Land: 20% Cutiefly, 15% Glimmet, 15% Munna, 10% Pawmi, 10% Magnemite, 10% Tinkatink, 10% Ralts, 5% Minccino, 5% Aipom
+* Berry Trees: 20 Sitrus, Rindo, Occa, Passho
 
 ## Route 118
 * Overworld Items: Toxic Orb

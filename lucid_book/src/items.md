@@ -256,8 +256,8 @@
     * Dark Pulse
     * Flash Cannon
     * Dazzling Gleam
-  * **Fallarbort Town**
-    * bounce
+  * **Fallarbor Town**
+    * Bounce
     * Psychic Fangs
     * Dragon Claw
     * Water Pulse
