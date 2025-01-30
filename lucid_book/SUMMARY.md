@@ -1,19 +1,28 @@
 # Summary
 
+# Pokemon Lucid
 - [Introduction](./src/introduction.md)
+- [Credits](./src/credits.md)
+
+# Patch details
 - [Download](./src/download.md)
 - [Changelog](./src/changelog.md)
-- [Credits](./src/credits.md)
-- [Mastersheet](./src/mastersheet.md)
+- [Known Issues](./src/known_issues.md)
+
+# Documentation
 - [Porydex / Trainer Sheet](./src/porydex.md)
 - [Calc](./src/calc.md)
-- [Encounters](./src/encounters.md)
+- [Mastersheet](./src/mastersheet.md)
 - [Item Locations](./src/items.md)
-- [Known Issues](./src/known_issues.md)
-- [Mechanic Changes](./src/mechanic_changes.md)
-- [Mon Changes](./src/species_changes.md)
-- [AI](./src/ai/ai.md)
-    - [General](./src/ai/general.md)
-    - [Doubles Targeting](./src/ai/targeting.md)
-    - [Move Effects](./src/ai/move_effects.md)
-    - [Positive / Negative Effect](./src/ai/positives_negatives.md)
+- [Encounters](./src/encounters.md)
+
+# Changes (Based on Gen9)
+- [Game Mechanics](./src/mechanic_changes.md)
+- [Pokemon](./src/species_changes.md)
+
+# AI Behavior
+- [All](./src/ai/ai.md)
+- [General](./src/ai/general.md)
+- [Double Targeting](./src/ai/targeting.md)
+- [Move Effects](./src/ai/move_effects.md)
+- [Positive / Negative Effect](./src/ai/positives_negatives.md)
