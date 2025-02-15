@@ -16,6 +16,7 @@
   * Add full hp Absorb check
   * Fix hasMoveEffect on field to prevent mutation
   * Fix intim mutation
+    * When Eject Pack was activated by intimidate and a mon with Protosynthesis + Booster Energy switched in, the Protosynthesis mon started intimidating opposing mons and potentially froze the game.
 
 * Misc
   * Pokemon caught by default have their friendship maxed out
