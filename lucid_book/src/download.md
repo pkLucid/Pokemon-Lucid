@@ -12,9 +12,9 @@
   * Fix Tera Shell not respecting immunity (activated but no damage is dealt)
   * Fixes spread move healing in doubles (applies to Parabolic Charge)
   * Fixed ai not seeing correct amount of Toxic Spikes in doubles
-  * Fix hasMoveEffect on field to prevent mutation
-  * Fixes Dragon Tail
+  * Fixes Dragon Tail missing dmg timing vs Iron Barbs / Rocky Helmet
   * Add full hp Absorb check
+  * Fix hasMoveEffect on field to prevent mutation
   * Fix intim mutation
 
 * Misc
