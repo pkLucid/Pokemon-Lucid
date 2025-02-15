@@ -13,7 +13,7 @@
   * Fixes spread move healing in doubles (applies to Parabolic Charge)
   * Fixed ai not seeing correct amount of Toxic Spikes in doubles
   * Fixes Dragon Tail missing dmg timing vs Iron Barbs / Rocky Helmet
-  * Add full hp Absorb check
+  * Full HP check for recovery moves
   * Fix hasMoveEffect on field to prevent mutation
   * Fix intim mutation
     * When Eject Pack was activated by intimidate and a mon with Protosynthesis + Booster Energy switched in, the Protosynthesis mon started intimidating opposing mons and potentially froze the game.
