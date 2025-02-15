@@ -1151,13 +1151,13 @@
 **Regieleki** Lv.70 @Air Balloon: Discharge, Extreme Speed, Hidden Power Ice, Acrobatics [Transistor|Quiet]  
 
 #### *Brian and Bazzo*
-**Togekiss** Lv.70 @Power Herb: Hyper Voice, Fire Blast, Solar Beam, Follow Me [Aerilate|Bold]  
-**Breloom** Lv.70 @Kings Rock: Spore, Protect, Mach Punch, Bullet Seed [Technician|Adamant]  
-**Snorlax** Lv.70 @Chople Berry: Last Resort, Reflect [Thick Fat|Impish]  
+**Slowbro** Lv.68 @Leftovers: Psychic, Scald, Fire Blast, Future Sight [Own Tempo|Calm]  
+**Breloom** Lv.68 @Kings Rock: Spore, Rock Tomb, Mach Punch, Bullet Seed [Technician|Adamant]  
+**Snorlax** Lv.68 @Mental Herb: Last Resort, Reflect [Thick Fat|Impish]  
 
 #### *Brian and Bazzo*
-**Rhyperior** Lv.70 @Focus Sash: Rock Wrecker, Earthquake, Supercell Slam, Reversal [Lightning Rod|Careful]  
-**Raichu-Alola** Lv.70 @Colbur Berry: Fake Out, Thunder, Volt Switch, Expanding Force [Surge Surfer|Naive]  
+**Rhyperior** Lv.68 @Covert Cloak: Rock Wrecker, Earthquake, Hammer Arm, Fire Punch [Lightning Rod|Careful]  
+**Raichu-Alola** Lv.68 @Electric Gem: Fake Out, Thunder, Volt Switch, Psychic [Surge Surfer|Naive]  
 **Feraligatr** Lv.70 @Assault Vest: Liquidation, Ice Punch, Psychic Fangs, Superpower [Sheer Force|Adamant]  
 
 ### Mt. Pyre
@@ -1531,7 +1531,7 @@
 #### *Pokemon Ranger Tyree*
 **Bisharp** Lv.75 @Focus Sash: Iron Head, Sucker Punch, Metal Burst, Stealth Rock [Defiant|Adamant]  
 **Gardevoir** Lv.73 @Focus Band: Hyper Voice, Psychic, Draining Kiss, Calm Mind [Pixilate|Timid]  
-**Chandelure** Lv.75 @Choice Scarf: Heat Wave, Energy Ball [Infiltrator|Modest]  
+**Chandelure** Lv.75 @Choice Scarf: Heat Wave, Energy Ball [Flame Body|Modest]  
 **Ludicolo** Lv.75 @Big Root: Surf, Giga Drain, Ice Beam, Leech Seed [Swift Swim|Modest]  
 **Flygon** Lv.73 @Yache Berry: Draco Meteor, Dragon Darts, Earthquake, First Impression [Levitate|Serious]  
 **Cetitan** Lv.73 @Assault Vest: Icicle Crash, High Horsepower, Knock Off, Ice Shard [Thick Fat|Adamant|Tera Ice]  
