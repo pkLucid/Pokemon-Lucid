@@ -1,6 +1,6 @@
 # Pokemon Lucid
 
-Version 1.2.4 out now!
+Version 1.2.5 out now!
 
 <br>
 <br>

@@ -1,5 +1,14 @@
 ## Changelog
 
+### Pokemon Lucid v1.2.4
+* Bugfixes
+  * Fixes SecondBestDamage on negative move effects. A regression from 1.2.3 caused by phase2 check change. Should be all correct now.
+  * Fixes AI prio move kills when slower
+  * Fix Protean / Fake Out interaction. When Protean mon was unable to move, the typing was silently changed
+  * Fixes Recovery on full when player took residual damage
+    * Never recovers when at 90% or more hp
+    * Recovers on residual when other conditions aren't met at 80% or less hp
+
 ### Pokemon Lucid v1.2.3
 * Bugfixes
   * Fixes Rock Smash rocks not breakable in Granite Cave
