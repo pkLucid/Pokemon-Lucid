@@ -1,4 +1,5 @@
 ## Pokemon Lucid v1.2.5
+Note: re-release of 1.2.5. A minor ananlytic bug was found after release. This fixes it. The bug only happened in doubles. If you update please update the lua script as well
 
 ### Download
 <a href="./v1.2.5/pokemon_lucid_v1.2.5.bps" target="_blank">Download Patch</a>
