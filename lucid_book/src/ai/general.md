@@ -69,7 +69,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
     * Exmaple: If Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score
   * When AI sees a kill with several moves, a move with a positive effect gets +1
   * If several moves with a positive effect are present, all of them get +1
-    * Example: If AI sees kill with Night Slash (high crit) and Rock Tomb (rock tomb), it would select one of those randomly
+    * Example: If AI sees kill with Knock Off and Rock Tomb, it would select one of those randomly
   * If a negative move is present, the next best dmg move will get a score increase
   * If nothing above applies the highest damage move gets +1 (on a tie all get +1)
 
