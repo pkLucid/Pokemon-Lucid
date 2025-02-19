@@ -30,7 +30,7 @@
 * Status moves (e.g. Scary Face)
   * If AI cant't drop stats (speed), no increase
   * If AI faster, no increase
-  * If AI is still slower (or tied) the next turn, no score increase
+  * If AI is still slower the next turn, no score increase
   * In any other situation, +3
 
 * Self boosting speed moves (e.g. Flame Charge)
