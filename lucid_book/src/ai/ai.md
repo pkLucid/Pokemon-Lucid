@@ -331,7 +331,10 @@ Scores in this section are not additive
   * +10 on the first turn of user, otherwise 30% of the time
 
 * Beat Up
-  * +10 if partner has rage fist or justified and it is first turn of itself or partner
+  * +10 if partner has rage fist or justified and if it's the first turn for battler or partner on the field
+
+* Justified
+  * + 10 if move dark type and if it's the first turn for battler or partner on the field
 
 * Skill Swap
   * +10 if beneficial for partner
