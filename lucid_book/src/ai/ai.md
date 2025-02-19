@@ -380,3 +380,6 @@ Scores in this section are not additive
   * If player needs 3 or more hits to faint ai
     * Increase score if a healing move is present
     * Otherwise, increase 50% of the time
+
+* Trick Room (+10)
+  * If no trick room is set up, score increase
