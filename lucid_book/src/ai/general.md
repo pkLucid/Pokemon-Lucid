@@ -6,7 +6,7 @@
   * AI Mon slower and can faint Player with less hits than opposing mon: +4
   * AI Mon faster: +3
   * AI is slower and dies in one hit +1
-  * Anthing else is +2
+  * Anything else is +2
 
 ## Sturdy / Focus Sash / Disguise
   * AI is aware of those items (ability) and will include them in the number of hits calculation
