@@ -156,7 +156,7 @@ Scores in this section are not additive
 
 * Self boosting speed moves (e.g. Flame Charge)
   * If AI faster, no increase
-  * If AI is still slower (or tied) the next turn, no score increase
+  * If AI is still slower the next turn, no score increase
   * If AI faints player in less hits, no score increase
   * If player resists move, no score increase unless the move + best damage move kill next turn
   * In any other situation, +2
@@ -164,7 +164,7 @@ Scores in this section are not additive
 * Speed drop moves (e.g. Rock Tomb)
   * If AI cant't drop stats (speed), no increase
   * If AI faster, no increase
-  * If AI is still slower (or tied) the next turn, no score increase
+  * If AI is still slower the next turn, no score increase
   * If player resists move, no score increase unless the move + best damage move kill next turn
   * In any other situation, +2
 
