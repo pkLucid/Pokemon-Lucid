@@ -46,6 +46,7 @@ If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1
 ## Scoring on kills (additive)
   * Move can kill: +4
   * Doubles only: AI can kill with double target or spread move when no partner + 2
+    * Unless, the player previously used Guard then the damage for AI calcs will be zeroed out 20% of the time as long as there is a wide guard user on the players side. Applies until the end of battle
   * hit switch targer (dragon tail) + 2
 
 ## Critical hit kill (does not stack with kill)
