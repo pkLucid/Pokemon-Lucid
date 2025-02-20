@@ -159,7 +159,7 @@
   * No set up if AI faints regardless of speed or already increased stats, otherwise +3
 
 * Mirror Coat / Counter
-  * No icnrease if AI dies to move
+  * No increase if AI dies to move
   * No increase if AI has Mirror Coat (Counter) and player has no special (physical) move
   * Otherwise 50/50 to get a +3
 
