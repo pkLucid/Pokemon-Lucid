@@ -130,13 +130,13 @@
   * If partner is faster, has a move that would trigger the policy and need 4 or more hits to faint partner
 
 * Set up except Belly Drum and Speed Control Status moves (+3)
-  * If player outspeeds and two taps, AI is not going to set up
-  * If AI is faster but you one tap it, it isn't going to set up
-  * If it set up a previous turn and is faster + can 2 tap it isn't going to set up
-  * If it can kill the player it isn't going to set up
-  * If it dies to secondary damage this turn AI does not set up
-  * If player has opportunist / unaware it is not going to set up
-  * In any other situation it sets up
+  * If player outspeeds and two shots AI, no score increase
+  * If AI is faster but target one shots it, no score increase
+  * If AI set up a previous turn, is faster and can 2-shot target, no score increase
+  * If AI can kill target, no score increase
+  * If AI dies to secondary damage this turn, no score increase
+  * If player has opportunist / unaware, no score increase
+  * In any other situation, score increase
   * Leaf Storm, Overheat, Draco Meteor and Superpower are set up moves with Contrary
 
 * Increase crit rate +3 (e.g. Focus Energy)
