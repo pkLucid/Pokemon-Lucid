@@ -2,5 +2,6 @@
   * Battle Engine
     * If Eject Button ejects into an Intimidate (applies to all abilites that trigger immediately) mon Life Orb / Shell Bell will miss timing
     * In a 1v2 Multi Battle when the right opponent side has no mons left and 2 mons die at the same time, the left side will sent out a bad egg which can potentially freeze the game
+    * Negative Prioirty will be treated as priority for dazzling abilities (e.g Avalanche)
   * Battle AI
     * Hone Claws is a fake move. The ai never considers it.

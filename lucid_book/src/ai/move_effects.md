@@ -130,8 +130,8 @@
   * If partner is faster, has a move that would trigger the policy and need 4 or more hits to faint partner
 
 * Set up except Belly Drum and Speed Control Status moves (+3)
-  * If player outspeeds and two shots AI, no score increase
-  * If AI is faster but target one shots it, no score increase
+  * If player outspeeds and 2-shots AI, no score increase
+  * If AI is faster but target 1-shots it, no score increase
   * If AI set up a previous turn, is faster and can 2-shot target, no score increase
   * If AI can kill target, no score increase
   * If AI dies to secondary damage this turn, no score increase
