@@ -5,3 +5,5 @@
     * Negative Prioirty will be treated as priority for dazzling abilities (e.g Avalanche)
   * Battle AI
     * Hone Claws is a fake move. The ai never considers it.
+  * Trainer Mon
+    Ursaluna from Santiago has Bulletproof instead of Guts
