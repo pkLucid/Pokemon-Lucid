@@ -1,7 +1,18 @@
-## Changelog
+## Pokemon Lucid Changelog
 Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) and [calc](https://lucid-calc-v1-2-2.vercel.app/) for 1.2.2.
 
-### Pokemon Lucid v1.2.
+### v1.2.6
+* Bugfixes
+  * Fixed Melmetals weight
+  * Fixed Brick Break/Psychic Fangs/Raging Bull breaking screens if target is immune
+  * Fixed Spread Moves criting Battle Armor mons in doubles. Could only happen if the BA mon was in slot 2
+  * Fixed hazards using the original types when a mon was terastallized
+  * Fixed negative priority moves being affected by dazzling abilities
+
+* Note
+  * Santiago Ursaluna still has bulletproof isntead of guts which is not going to be changed
+
+### v1.2.5
 * Bugfixes
   * Fixed Chandelure ability (now flash fire for real)
   * Fixed Dazzling activating from out of party
@@ -20,7 +31,7 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
   * Bazzo and Brian by Bazzo
 
 
-### Pokemon Lucid v1.2.4
+### v1.2.4
 * Bugfixes
   * Fixes SecondBestDamage on negative move effects. A regression from 1.2.3 caused by phase2 check change. Should be all correct now.
   * Fixes AI prio move kills when slower
@@ -29,7 +40,7 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
     * Never recovers when at 90% or more hp
     * Recovers on residual when other conditions aren't met at 80% or less hp
 
-### Pokemon Lucid v1.2.3
+### v1.2.3
 * Bugfixes
   * Fixes Rock Smash rocks not breakable in Granite Cave
   * Fixes Red Card / Eject Pack interaction. Red Card activates before Eject Pack and Eject Pack will miss timing
@@ -106,12 +117,12 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
   * Black Belt Takoa changes (fix for sticky web)
   * Jasmine: Greninja: Serioous -> Hasty, Sneasler: Adamant -> Jolly, Naganadel: Item: Covert Cloak -> Shuca Berry, Move: Venoshock -> Protect
 
-### Pokemon Lucid Changelog v1.2.2
+### v1.2.2
 * Fixes
   * Potential soft lock in the E4 building. Cause is uknwon and so far only 2 reports. Fixed it by resetting flags once the player enters the building. If you are already there, about to do the E4, please leave and re-enter just in case.
   * Fixes positive effect inconsitency for Brick Break (it was considered positive effect when AI had screens on field) and Absorb (Wasn't a positive effect if AI had Liquid Ooze, not player)
 
-### Pokemon Lucid Version 1.2.1
+### 1.2.1
 * General
   * Moved give option in item menu
   * Added clarification for fickle beam in AI doc
@@ -131,7 +142,7 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
   * Fixed Flannery gym soft lock
   * Fixed Encore target mutation in 2v1 (attack was switched to encore user)
 
-### Pokemon Lucid Changelog v1.2b
+### v1.2b
 
 * Fixes
   * Sneasel replaced Close Combat with Sky Uppercut
@@ -142,7 +153,7 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
   * Fix Ability on doc for Hydrapple
   * A couple minor team fixes
 
-### Pokemon Lucid Changelog v1.2
+### v1.2
 
 * FIXES
   * Fixed moves that were directed at partner being redirected to opposing field if partner died before move was used (correct behavior: move fails)
@@ -187,7 +198,7 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
   * Recover AI changes (see ai doc)
   * Text Speed is now set to mid on new game
 
-### Pokemon Lucid Changelog v1.1.6d
+### v1.1.6d
   * Fixed Ogerpon Masks not boosting damage
   * Fixed Scale Shot corrupting the next move used not hitting all targets with a multi target move
   * Picnicker Angelina (Route 114) Leafeon  adjustments:
@@ -195,14 +206,14 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
       * Leaf Blade -> Bullet Seed
       * Grass Gem -> Loaded Dice
 
-### Pokemon Lucid Changelog v1.1.6c
+### v1.1.6c
 
   * Fixed Fake Out getting an additional +2 if AI mon is faster. Made it tie with faint score
   * Fixed Ogerpon Masks not increasing move base power
   * Fixed AI not seeing boosted Retaliate damage in party
   * Fixed Super candy issue not leveling correctly
 
-### Pokemon Lucid Changelog v1.1.6
+### v1.1.6
   * New title screen (Credits Byonmil)
   * Added appropriate gen5 gym badge (Credits Byonmil)
   * Added signs on the Tera Islands
@@ -217,7 +228,7 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
   * Fixed Follow me inaccuracies (minor AI change. See ai doc for more)
   * Fixed AI not seeing boosted Retaliate damage in party
 
-### Pokemon Lucid Changelog v1.1.3
+### v1.1.3
   * Fixed visual issue with follower sprites (pals got randomly messed up)
   * Fixed Revenge/Payback bug.
   * Fixed rounding issue during NumberOfHits calcs.
@@ -227,7 +238,7 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
   * Very rare rounding error with gems. Ai might see the 7th roll instead of 8th. Could apply to type boosting moves but not confirmed
   * Forces of Nature signature moves anim broken (visual only)
 
-### Pokemon Lucid Changelog v1.1.2
+### v1.1.2
 * Fixed Cotton Down speed drop protected by Covert Cloak
 * Fixed speed ties always resulting in favor of the player
 * Fixed berries missing timing on residual damage
@@ -247,7 +258,7 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
 * Route 115 grass encounters
 * Removed Arctofish and Dracovish from encounter table
 
-### Pokemon Lucid Changelog v1.1.1
+### v1.1.1
 * Fixes lua script export for mint natures
 * Fixes Grass Pelt not seen by AI issue
 * Fixes Magma Storm edge case issue that caused opposing mon to lose hp
@@ -266,10 +277,10 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
 * Added Zoom Lens on Route 112
 * Weather is not displyed each round anymore. Instead there is a notify message in the battle interface
 
-### Pokemon Lucid Version 1.0.5 Patch Notes (Emergency Patch)
+### v1.0.5
 * AI didn't see weather abilties in party
 
-### Pokemon Lucid Version 1.0.4 Patch Notes
+### v1.0.4
 * Fixed player back sprite issues
 * Fixed Dive, Surf and Fly sprite issues
 * Fixed Magma Storm Eject Pack issue
@@ -283,7 +294,7 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
 * Note: Silver Wind is considered a wind move in expansion
 * Togedeamru and Tapu Koko abilities are now hardcoded into the lua script since they weren't exported. Not sure why it happened with those 2
 
-### Pokemon Lucid Version 1.0.3 Patch Notes
+### v1.0.3
 * Optional heal option after battle
 * Fix AI wrongly simulated damage roll
 * Fix AI sending out mons to die if it didn't have any options left that were considered good
@@ -292,7 +303,7 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
 * Fix dazzling abilities in doubles
 * Fix Shield Dust not seen by secondary stat drop moves
 
-### Pokemon Lucid Version 1.0.2 Patch Notes
+### v1.0.2
 * AI not seeing items and abilities for party mons
 * Tirtouga Learnset
 * U-turn 50/50 when ai faints target only + Palafin 100% otherwise normal damage move
@@ -303,7 +314,7 @@ Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) an
 * All tutors in the overworld have a mon next to them
 * temporary itemfinder in players house
 
-### Pokemon Lucid Version 1.0.1
+### v1.0.1
 * Option to change battle speed
 * Player character names default to their official names
 * Item finder added to Birch
