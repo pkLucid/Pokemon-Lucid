@@ -2,9 +2,9 @@
 Patch must be applied to a fresh copy of pokemon emerald. The new lua script has to be downloaded alogside the patch.
 
 ### Download
-<a href="./v1.2.5/pokemon_lucid_v1.2.6.bps" target="_blank">Download Patch</a>
+<a href="./v1.2.6/pokemon_lucid_v1.2.6.bps" target="_blank">Download Patch</a>
 
-<a href="./v1.2.5/pokemon_lucid_v1.2.6.lua" target="_blank">Lua Script (Right Click Download)</a>
+<a href="./v1.2.6/pokemon_lucid_v1.2.6.lua" target="_blank">Lua Script (Right Click Download)</a>
 
 ### Changelog
 * Bugfixes
