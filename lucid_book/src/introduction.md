@@ -4,7 +4,7 @@ Pokemon Lucid is a difficulty hack based on Emerald powered by pokeemerald-expan
 
 ### [UPDATES]
 #### 03-20-25 - DOCUMENTATION
-Some mon in the docs had the wrong ability. They always had the first ability but the docs didn't reflect that. This has been correct.
+Some mons in the docs had the wrong ability. It was always the first one but docs didn't reflect that. This has been correct.
 
 * Mons that potentially had the wrong ability
   * Nidoqueen: Poison Point -> Acid Coat
