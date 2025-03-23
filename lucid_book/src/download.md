@@ -1,3 +1,29 @@
+## Pokemon Lucid v1.2.7 - Scaled Randomizer Release
+
+Patch must be applied to a fresh copy of pokemon emerald. The new lua script has to be downloaded alogside the patch.
+
+### Download
+<a href="./v1.2.7/pokemon_lucid_v1.2.7.bps" target="_blank">Download Patch</a>
+
+<a href="./v1.2.7/pokemon_lucid_v1.2.7.lua" target="_blank">Lua Script (Right Click Download)</a>
+
+### Patch notes
+Credits: Glow helped a lot with learnsets, tables and ability ideas
+
+* Scaled Randomized: Randomazation is based on base stat total with few exceptions.
+  * 0 Badges: 0 - 290
+  * 2 Badges: 300 - 390
+  * 4 Badges: 400 - 490
+  * 6 Badges: 500 - 550
+  * 8 Badges: 500 - 550 (Legendary mons are not included)
+  * Legendary mons are replaced with other Legendaries / Rotom
+  * The starter has it's own table
+  * Happiny, Honedge and Nincada (except Ninjask) lines are not available
+
+### Note
+* You can check the encounters you can get on a given route in the encounter table in-game
+* Dex will be updated soon
+
 ## Pokemon Lucid v1.2.6
 Patch must be applied to a fresh copy of pokemon emerald. The new lua script has to be downloaded alogside the patch.
 
