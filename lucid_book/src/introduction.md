@@ -3,7 +3,10 @@
 Pokemon Lucid is a difficulty hack based on Emerald powered by pokeemerald-expansion.
 
 ### UPDATES
-#### 03-20-25 - DOCUMENTATION ISSUES
+#### 23-20-25 - Scaled Randomizer release
+More info in the download side bar link
+
+#### 03-20-25 - Fixed documentation issue
 Some mons in the docs had the wrong ability. It was always the first one but docs didn't reflect that. This has been corrected.
 
 * Mons that potentially had the wrong ability
