@@ -1597,7 +1597,7 @@ mons = {
 "Ribombee",
 "Rockruff",
 "Lycanroc",
-"Wishiwashi-Solo",
+"Wishiwashi",
 "Mareanie",
 "Toxapex",
 "Mudbray",
