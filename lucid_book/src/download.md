@@ -17,8 +17,9 @@ Credits: Glow helped a lot with learnsets, tables and ability ideas
   * 6 Badges: 500 - 550
   * 8 Badges: 500 - 550 (Legendary mons are not included)
   * Legendary mons are replaced with other Legendaries / Rotom
-  * The starter has it's own table
+  * The starter has it's own table and they don't have 3 ivs
   * Happiny, Honedge and Nincada (except Ninjask) lines are not available
+  * Randomazation is based on trainer ID so reset the game if you want a new pool
 
 ### Note
 * You can check the encounters you can get on a given route in the encounter table in-game
