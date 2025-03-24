@@ -3,6 +3,10 @@
 Pokemon Lucid is a difficulty hack based on Emerald powered by pokeemerald-expansion.
 
 ### UPDATES
+
+#### 24-20-25 - Scaled Randomzir update
+The threshold for 0-1 badges has been increased from 290 to 305. The version number for the patch hasn't been changed and to links for the patch and lua have been updated.
+
 #### 23-20-25 - Scaled Randomizer release
 More info in the download side bar link
 

@@ -3,6 +3,8 @@
 Patch must be applied to a fresh copy of pokemon emerald. The new lua script has to be downloaded alogside the patch.
 
 ### Download
+Updated version to increase threshold for 0-1 badges. Version number wasn't changed.
+
 <a href="./v1.2.7/pokemon_lucid_v1.2.7.bps" target="_blank">Download Patch</a>
 
 <a href="./v1.2.7/pokemon_lucid_v1.2.7.lua" target="_blank">Lua Script (Right Click Download)</a>
@@ -10,16 +12,17 @@ Patch must be applied to a fresh copy of pokemon emerald. The new lua script has
 ### Patch notes
 Credits: Glow helped a lot with learnsets, tables and ability ideas
 
-* Scaled Randomized: Randomazation is based on base stat total with few exceptions.
-  * 0 Badges: 0 - 290
-  * 2 Badges: 300 - 390
-  * 4 Badges: 400 - 490
-  * 6 Badges: 500 - 550
+* Scaled Randomized: Randomazation is based on base stat total with few exceptions (threshold are inclusive).
+  * 0 Badges: 0 - 305
+  * 2 Badges: 305 - 390
+  * 4 Badges: 390 - 490
+  * 6 Badges: 490 - 550
   * 8 Badges: 500 - 550 (Legendary mons are not included)
   * Legendary mons are replaced with other Legendaries / Rotom
   * The starter has it's own table and they don't have 3 ivs
   * Happiny, Honedge and Nincada (except Ninjask) lines are not available
   * Randomazation is based on trainer ID so reset the game if you want a new pool
+  * Eggs aren't randomized
 
 ### Note
 * You can check the encounters you can get on a given route in the encounter table in-game
