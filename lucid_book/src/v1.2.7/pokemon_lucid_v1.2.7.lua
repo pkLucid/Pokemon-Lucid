@@ -2606,6 +2606,11 @@ abilities = {
 "Striker",
 "Acid Coat",
 "Eclipsate",
+"Verdant Guard",
+"Chatting",
+"Lethal Venom",
+"Ultra Boost",
+"Hypnotic Lag",
 }
 
 nature = {"Hardy","Lonely","Brave","Adamant","Naughty",
