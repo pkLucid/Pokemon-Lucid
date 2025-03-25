@@ -4,6 +4,10 @@ Pokemon Lucid is a difficulty hack based on Emerald powered by pokeemerald-expan
 
 ### UPDATES
 
+#### 25-20-25 New known bug have been added
+Mirror Coat and Counter don't work in double battles
+Well Baked Body has no ai, so ai will spam fire moves (randomizer)
+
 #### 24-20-25 - Scaled Randomzir update
 The threshold for 0-1 badges has been increased from 290 to 305. The version number for the patch hasn't been changed. Links for the patch and lua have been updated.
 
