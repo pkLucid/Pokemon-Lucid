@@ -7,8 +7,8 @@ Can be skipped since none are present in the previous patches (non randomizer pa
 
 ### Changelog
 * Bugfixes
-    * Fixes Well Baked Body didn't have any ai
-    * Fixes Recoil drastically increased recoil damage (was only in issue in the randomier patch)
+    * Fixes Well Baked Body not having any ai checks
+    * Fixes Recoil drastically incrasing recoil damage
 
 ## Pokemon Lucid v1.2.7 - Scaled Randomizer Release
 
