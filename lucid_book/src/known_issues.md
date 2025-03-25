@@ -7,7 +7,6 @@
 
   * Battle AI
     * Hone Claws is a fake move. The ai never considers it.
-    * Well Baked Body has no ai, so ai will spam fire moves (randomizer)
 
   * Trainer Mon
     Ursaluna from Santiago has Bulletproof instead of Guts

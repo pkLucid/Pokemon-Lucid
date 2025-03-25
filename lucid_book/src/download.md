@@ -1,3 +1,15 @@
+## Pokemon Lucid v1.2.7b - Bugfixes for randomizer
+Bugfixes only for the randomizer. If you didn't update, you can skip those.
+
+<a href="./v1.2.7/pokemon_lucid_v1.2.7.bps" target="_blank">Download Patch</a>
+
+<a href="./v1.2.7/pokemon_lucid_v1.2.7.lua" target="_blank">Lua Script (Right Click Download)</a>
+
+### Changelog
+* Bugfixes
+    * Fixes Well Baked Body didn't have any ai
+    * Fixes Recoil drastically increased recoil damage (was only in issue in the randomier patch)
+
 ## Pokemon Lucid v1.2.7 - Scaled Randomizer Release
 
 Patch must be applied to a fresh copy of pokemon emerald. The new lua script has to be downloaded alogside the patch.

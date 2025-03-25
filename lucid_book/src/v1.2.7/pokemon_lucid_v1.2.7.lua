@@ -2650,7 +2650,7 @@ local speciesStructSize=256
 local partyCount=0x0203610d -- gPlayerPartyCount
 local partyloc=0x02036110 -- gPlayerParty
 local storageLoc=0x0201065c -- gPokemonStorage
-local speciesInfo=0x08da20a0 -- gSpeciesInfo
+local speciesInfo=0x08da2400 -- gSpeciesInfo
 
 function getCurve(n)
 	return emu:read8(speciesInfo+(speciesStructSize*n)+21)
