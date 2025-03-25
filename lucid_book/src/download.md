@@ -1,5 +1,5 @@
 ## Pokemon Lucid v1.2.7b - Bugfixes for randomizer
-Bugfixes only for the randomizer. If you didn't update, you can skip those.
+Can be skipped since none are present in the previous patches (non randomizer patches). Patch must be applied to a fresh copy of pokemon emerald. The new lua script has to be downloaded alogside the patch.
 
 <a href="./v1.2.7/pokemon_lucid_v1.2.7.bps" target="_blank">Download Patch</a>
 
