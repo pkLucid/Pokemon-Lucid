@@ -4,7 +4,7 @@ Pokemon Lucid is a difficulty hack based on Emerald powered by pokeemerald-expan
 
 ### UPDATES
 
-#### 25-20-25 New known bug have been added
+#### 25-20-25 New known bugs have been added
 Mirror Coat and Counter don't work in double battles
 Well Baked Body has no ai, so ai will spam fire moves (randomizer)
 
