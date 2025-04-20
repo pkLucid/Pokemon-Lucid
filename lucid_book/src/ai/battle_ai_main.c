@@ -293,9 +293,7 @@ void Ai_InitPartyStruct(void)
 
 void Ai_UpdateSwitchInData(u32 battler)
 {
-    u32 i;
     u32 side = GetBattlerSide(battler);
-    struct AiPartyMon *aiMon = &AI_PARTY->mons[side][gBattlerPartyIndexes[battler]];
     struct AiLogicData *aiData = AI_DATA;
 
     ClearBattlerMoveHistory(battler);
@@ -360,9 +358,6 @@ static void SetBattlerAiMovesData(struct AiLogicData *aiData, u32 battlerAtk, u3
         if (battlerAtk == battlerDef || !IsBattlerAlive(battlerDef))
             continue;
 
-        if (AI_WhoStrikesFirst(battlerAtk, battlerDef) == AI_IS_FASTER) // Attacker strikes first
-            aiData->aiIsFaster[battlerAtk] |= 1u << battlerDef;
-
         for (u32 moveIndex = 0; moveIndex < MAX_MON_MOVES; moveIndex++)
         {
             struct SimulatedDamage dmg = {0};
@@ -403,6 +398,15 @@ void SetAiLogicDataForTurn(struct AiLogicData *aiData)
             continue;
 
         SetBattlerAiData(battlerAtk, aiData);
+    }
+
+    for (battlerAtk = 0; battlerAtk < battlersCount; battlerAtk++)
+    {
+        for (u32 battlerDef = 0; battlerDef < battlersCount; battlerDef++)
+        {
+            if (AI_WhoStrikesFirst(battlerAtk, battlerDef) == AI_IS_FASTER) // Attacker strikes first
+                aiData->aiIsFaster[battlerAtk] |= 1u << battlerDef;
+        }
     }
 
     for (battlerAtk = 0; battlerAtk < battlersCount; battlerAtk++)
@@ -775,7 +779,7 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
         //     if (!IsBattleMoveStatus(move) && (moveType == TYPE_DARK || moveType == TYPE_GHOST || moveType == TYPE_BUG))
         //         RETURN_SCORE(FAILS_OR_BAD);
         case ABILITY_AROMA_VEIL:
-            if (IsAromaVeilProtectedEffect(move))
+            if (IsAromaVeilProtectedMove(move))
                 RETURN_SCORE(FAILS_OR_BAD);
             break;
         case ABILITY_FLOWER_VEIL:
@@ -862,7 +866,7 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
     weather = AI_GetWeather(aiData);
     if (weather & B_WEATHER_PRIMAL_ANY)
     {
-        switch (moveEffect)
+        switch (move)
         {
             case MOVE_SUNNY_DAY:
             case MOVE_RAIN_DANCE:
@@ -1822,7 +1826,7 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                 ADJUST_SCORE(FAILS_OR_BAD);
             break;
         case EFFECT_TRICK_ROOM:
-            if (PartnerMoveEffectIs(BATTLE_PARTNER(battlerAtk), aiData->partnerMove, EFFECT_TRICK_ROOM))
+            if (PartnerMoveIs(BATTLE_PARTNER(battlerAtk), aiData->partnerMove, MOVE_TRICK_ROOM))
             {
                 ADJUST_SCORE(FAILS_OR_BAD);
             }
@@ -2009,7 +2013,7 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
             if (IsDoubleBattle() && !IsBattlerAlive(BATTLE_PARTNER(battlerAtk)))
                 ADJUST_SCORE(FAILS_OR_BAD);
             if (gSideTimers[GetBattlerSide(battlerAtk)].tailwindTimer != 0
-              || PartnerMoveEffectIs(BATTLE_PARTNER(battlerAtk), aiData->partnerMove, EFFECT_TAILWIND)
+              || PartnerMoveIs(BATTLE_PARTNER(battlerAtk), aiData->partnerMove, MOVE_TAILWIND)
               || (gFieldStatuses & STATUS_FIELD_TRICK_ROOM && gFieldTimers.trickRoomTimer > 1)) // Trick Room active and not ending this turn
                 ADJUST_SCORE(FAILS_OR_BAD);
             break;
@@ -2064,8 +2068,9 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
             break;
         case EFFECT_TAKE_HEART:
             if ((!(gBattleMons[battlerAtk].status1 & STATUS1_ANY)
-             || PartnerMoveEffectIs(BATTLE_PARTNER(battlerAtk), aiData->partnerMove, EFFECT_JUNGLE_HEALING)
-             || PartnerMoveEffectIs(BATTLE_PARTNER(battlerAtk), aiData->partnerMove, EFFECT_HEAL_BELL))
+             || PartnerMoveIs(BATTLE_PARTNER(battlerAtk), aiData->partnerMove, MOVE_JUNGLE_HEALING)
+             || PartnerMoveIs(BATTLE_PARTNER(battlerAtk), aiData->partnerMove, MOVE_HEAL_BELL)
+             || PartnerMoveIs(BATTLE_PARTNER(battlerAtk), aiData->partnerMove, MOVE_AROMATHERAPY))
              && !BattlerStatCanRise(battlerAtk, aiData->abilities[battlerAtk], STAT_SPATK)
              && !BattlerStatCanRise(battlerAtk, aiData->abilities[battlerAtk], STAT_SPDEF))
                 ADJUST_SCORE(FAILS_OR_BAD);
@@ -2264,11 +2269,6 @@ static s32 AI_CompareDamagingMoves(u32 battlerAtk, u32 battlerDef, u32 currId)
             }
         }
 
-        if (currId == 0)
-        {
-        DebugPrintf("expected %d", AI_DATA->simulatedDmg[battlerAtk][battlerDef][currId].expected);
-        DebugPrintf("GetBestDmgFromBattler(battlerAtk, battlerDef) %d", GetBestDmgFromBattler(battlerAtk, battlerDef));
-        }
         if (!multipleBestMoves && GetBestDmgFromBattler(battlerAtk, battlerDef) == AI_DATA->simulatedDmg[battlerAtk][battlerDef][currId].expected)
         {
             ADJUST_SCORE(BEST_DAMAGE_MOVE);
@@ -2284,26 +2284,19 @@ static s32 AI_CompareDamagingMoves(u32 battlerAtk, u32 battlerDef, u32 currId)
 
             if (leastHits >= 2)
             {
-                if (viableMoveScores[currId] == bestViableMoveScore)
+                u32 bestDmg = 0;
+
+                for (i = 0; i < MAX_MON_MOVES; i++)
                 {
-                    for (i = 0; i < MAX_MON_MOVES; i++)
-                    {
-                        if (viableMoveScores[i] == bestViableMoveScore)
-                        {
-                            if (GetBestDmgFromBattler(battlerAtk, battlerDef) == AI_DATA->simulatedDmg[battlerAtk][battlerDef][i].expected)
-                            {
-                                if (i == currId)
-                                {
-                                    ADJUST_SCORE(BEST_DAMAGE_MOVE);
-                                    return score;
-                                }
-                            }
-                        }
-                    }
-                    if (GetSecondBestDmgMoveFromBattler(battlerAtk, battlerDef) == moves[currId])
-                        ADJUST_SCORE(BEST_DAMAGE_MOVE);
+                    if (viableMoveScores[i] != bestViableMoveScore)
+                        continue;
+
+                    if (bestDmg <= AI_DATA->simulatedDmg[battlerAtk][battlerDef][i].expected)
+                        bestDmg = AI_DATA->simulatedDmg[battlerAtk][battlerDef][i].expected;
                 }
 
+                if (bestDmg == AI_DATA->simulatedDmg[battlerAtk][battlerDef][currId].expected)
+                    ADJUST_SCORE(BEST_DAMAGE_MOVE);
             }
             else if (viableMoveScores[currId] == bestViableMoveScore)
             {
@@ -3403,8 +3396,6 @@ s32 AI_TagBattlePreferFoe(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
 
 void ScriptSetDynamicAiFunc(struct ScriptContext *ctx)
 {
-    Script_RequestEffects(SCREFF_V1);
-
     AiScoreFunc func = (AiScoreFunc)ScriptReadWord(ctx);
     sDynamicAiFunc = func;
 }

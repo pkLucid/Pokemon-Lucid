@@ -31,6 +31,19 @@ bool32 AI_IsFaster(u32 battlerAtk, u32 battlerDef)
     return AI_DATA->aiIsFaster[battlerAtk] & 1u << battlerDef;
 }
 
+static bool32 HasOpposingSideMoveEffect(u32 battler, u32 move)
+{
+    bool32 sideHasMoveEffect = FALSE;
+
+    if (HasMoveEffect(battler, move))
+        sideHasMoveEffect = TRUE;
+
+    if (IsDoubleBattle() && HasMoveEffect(BATTLE_PARTNER(battler), move))
+        sideHasMoveEffect = TRUE;
+
+    return sideHasMoveEffect;
+}
+
 void RecordMoveUsageForAICalcs(u32 battler, u32 move)
 {
     gBattleStruct->lastUsedMoveByBattler[battler] = move;
@@ -378,17 +391,28 @@ bool32 IsBattlerTrapped(u32 battlerAtk, u32 battlerDef)
 {
     u32 holdEffect = AI_DATA->holdEffects[battlerDef];
     u32 abilityAtk = AI_DATA->abilities[battlerAtk];
+    u32 abilityDef = AI_DATA->abilities[battlerDef];
 
-    return (IS_BATTLER_OF_TYPE(battlerDef, TYPE_GHOST));
-    return (holdEffect == HOLD_EFFECT_SHED_SHELL);
-    return (AI_DATA->abilities[battlerDef] == ABILITY_RUN_AWAY);
-    return (holdEffect == HOLD_EFFECT_CAN_ALWAYS_RUN);
-    return (gBattleMons[battlerDef].status2 & (STATUS2_ESCAPE_PREVENTION | STATUS2_WRAPPED));
-    return (gStatuses3[battlerDef] & (STATUS3_ROOTED | STATUS3_SKY_DROPPED));
-    return (gFieldStatuses & STATUS_FIELD_FAIRY_LOCK);
-    return (abilityAtk == ABILITY_SHADOW_TAG && GetBattlerAbility(battlerDef) != ABILITY_SHADOW_TAG);
-    return (abilityAtk == ABILITY_ARENA_TRAP && IsBattlerGrounded(battlerDef));
-    return (abilityAtk == ABILITY_MAGNET_PULL && IS_BATTLER_OF_TYPE(battlerDef, TYPE_STEEL));
+    if (IS_BATTLER_OF_TYPE(battlerDef, TYPE_GHOST));
+        return FALSE;
+    if (holdEffect == HOLD_EFFECT_SHED_SHELL);
+        return FALSE;
+    if (abilityDef == ABILITY_RUN_AWAY);
+        return FALSE;
+    if (holdEffect == HOLD_EFFECT_CAN_ALWAYS_RUN);
+        return FALSE;
+    if (gBattleMons[battlerDef].status2 & (STATUS2_ESCAPE_PREVENTION | STATUS2_WRAPPED));
+        return TRUE;
+    if (gStatuses3[battlerDef] & (STATUS3_ROOTED | STATUS3_SKY_DROPPED));
+        return TRUE;
+    if (gFieldStatuses & STATUS_FIELD_FAIRY_LOCK);
+        return TRUE;
+    if (abilityAtk == ABILITY_SHADOW_TAG && abilityDef != ABILITY_SHADOW_TAG);
+        return TRUE;
+    if (abilityAtk == ABILITY_ARENA_TRAP && IsBattlerGrounded(battlerDef));
+        return TRUE;
+    if (abilityAtk == ABILITY_MAGNET_PULL && IS_BATTLER_OF_TYPE(battlerDef, TYPE_STEEL));
+        return TRUE;
 
     return FALSE;
 }
@@ -535,7 +559,7 @@ static inline bool32 IsDamageMoveUnusable(u32 battlerAtk, u32 battlerDef, u32 mo
     if (battlerDef == BATTLE_PARTNER(battlerAtk))
         battlerDefAbility = aiData->abilities[battlerDef];
 
-    if (gBattleStruct->battlerState[battlerDef].commandingDondozo)
+    if (gBattleStruct->commandingDondozo & (1u << battlerDef))
         return TRUE;
 
     switch (battlerDefAbility)
@@ -562,6 +586,7 @@ static inline bool32 IsDamageMoveUnusable(u32 battlerAtk, u32 battlerDef, u32 mo
         if (moveType == TYPE_WATER)
             return TRUE;
         break;
+    case ABILITY_WELL_BAKED_BODY:
     case ABILITY_FLASH_FIRE:
         if (moveType == TYPE_FIRE)
             return TRUE;
@@ -866,7 +891,13 @@ struct SimulatedDamage AI_CalcDamage(u32 move, u32 battlerAtk, u32 battlerDef, u
         ProteanTryChangeType(battlerAtk, aiData->abilities[battlerAtk], move, moveType);
         fixedBasePower = SetFixedMoveBasePower(battlerAtk, move);
 
-        critChance = CalcCritChanceStageArgs(battlerAtk, battlerDef, move, FALSE, aiData->abilities[battlerAtk], aiData->abilities[battlerDef], aiData->holdEffects[battlerAtk]);
+        critChance = CalcCritChanceStage(battlerAtk,
+                                         battlerDef,
+                                         move,
+                                         aiData->abilities[battlerAtk],
+                                         aiData->abilities[battlerDef],
+                                         aiData->holdEffects[battlerAtk]);
+
         if (critChance >= 3 || critChance == -2)
             damageCalcData.isCrit = TRUE;
 
@@ -1279,19 +1310,14 @@ bool32 CanBattlerFaintTargetWithHelpingHand(u32 battler, u32 battlerTarget)
     return CanBattlerFaintTargetWithMod(battler, battlerTarget, TRUE);
 }
 
-static inline bool32 IsCommanderActive(u32 battler)
-{
-    return gBattleStruct->battlerState[battler].commandingDondozo
-        || gBattleStruct->battlerState[BATTLE_PARTNER(battler)].commandingDondozo;
-}
-
+#define COMMANDER_ACTIVE (gBattleStruct->commandingDondozo & (1u << battlerTarget) || gBattleStruct->commandingDondozo & (1u << BATTLE_PARTNER(battlerTarget)))
 bool32 CanBattlerFaintTargetWithMod(u32 battler, u32 battlerTarget, bool32 helpingHandBoost)
 {
     u32 dmg;
     u32 unusable = AI_DATA->moveLimitations[battler];
     u16 *moves = GetMovesArray(battler);
 
-    if (GetBattlerSide(battlerTarget) == B_SIDE_PLAYER && IsCommanderActive(battlerTarget))
+    if (GetBattlerSide(battlerTarget) == B_SIDE_PLAYER && COMMANDER_ACTIVE)
         return FALSE;
 
     for (u32 i = 0; i < MAX_MON_MOVES; i++)
@@ -1533,16 +1559,16 @@ u32 AI_GetWeather(struct AiLogicData *aiData)
     return gBattleWeather;
 }
 
-bool32 IsAromaVeilProtectedEffect(u32 moveEffect)
+bool32 IsAromaVeilProtectedMove(u32 move)
 {
-    switch (moveEffect)
+    switch (move)
     {
-    case EFFECT_DISABLE:
-    case EFFECT_ATTRACT:
-    case EFFECT_ENCORE:
-    case EFFECT_TORMENT:
-    case EFFECT_TAUNT:
-    case EFFECT_HEAL_BLOCK:
+    case MOVE_DISABLE:
+    case MOVE_ATTRACT:
+    case MOVE_ENCORE:
+    case MOVE_TORMENT:
+    case MOVE_TAUNT:
+    case MOVE_HEAL_BLOCK:
         return TRUE;
     default:
         return FALSE;
@@ -1594,11 +1620,10 @@ bool32 IsHazardMoveEffect(u32 moveEffect)
 
 bool32 IsMoveRedirectionPrevented(u32 move, u32 atkAbility)
 {
-    u32 effect = GetMoveEffect(move);
-    if (effect == EFFECT_SKY_DROP
-     || effect == EFFECT_SNIPE_SHOT
-     || atkAbility == ABILITY_PROPELLER_TAIL
-     || atkAbility == ABILITY_STALWART)
+    if (move == MOVE_SKY_DROP
+      || move == MOVE_SNIPE_SHOT
+      || atkAbility == ABILITY_PROPELLER_TAIL
+      || atkAbility == ABILITY_STALWART)
         return TRUE;
     return FALSE;
 }
@@ -1607,7 +1632,7 @@ bool32 IsSemiInvulnerable(u32 battlerDef, u32 move)
 {
     if (gStatuses3[battlerDef] & STATUS3_PHANTOM_FORCE)
         return TRUE;
-    else if (gBattleStruct->battlerState[battlerDef].commandingDondozo)
+    else if (gBattleStruct->commandingDondozo & (1u << battlerDef))
         return TRUE;
     else if (!MoveDamagesAirborne(move) && gStatuses3[battlerDef] & STATUS3_ON_AIR)
         return TRUE;
@@ -1774,7 +1799,7 @@ void ShouldUseProtect(u32 battlerAtk, u32 battlerDef, u32 move, s32 *score)
     }
     else
     {
-        if (HasMoveEffect(battlerDef, EFFECT_ENCORE) || HasMoveEffect(BATTLE_PARTNER(battlerDef), EFFECT_ENCORE))
+        if (HasMoveEffect(battlerDef, EFFECT_ENCORE) || (IsDoubleBattle() && HasMoveEffect(BATTLE_PARTNER(battlerDef), EFFECT_ENCORE)))
             return;
         if (AI_IsFaster(battlerAtk, battlerDef) && AI_IsFaster(battlerAtk, BATTLE_PARTNER(battlerDef)))
             return;
@@ -1927,9 +1952,9 @@ static u32 AI_GetBattlerTotalSpeedStatArgs(u32 battler, u32 ability, u32 holdEff
     {
         if (AI_DATA->holdEffects[battler] == HOLD_EFFECT_BOOSTER_ENERGY && (ability == ABILITY_PROTOSYNTHESIS || ability == ABILITY_QUARK_DRIVE))
             speed = (speed * 150) / 100;
-        else if (ability == ABILITY_PROTOSYNTHESIS && (gBattleWeather & B_WEATHER_SUN || gDisableStructs[battler].boosterEnergyActivates))
+        else if (ability == ABILITY_PROTOSYNTHESIS && (gBattleWeather & B_WEATHER_SUN || gBattleStruct->boosterEnergyActivates & (1u << battler)))
             speed = (speed * 150) / 100;
-        else if (ability == ABILITY_QUARK_DRIVE && (gFieldStatuses & STATUS_FIELD_ELECTRIC_TERRAIN || gDisableStructs[battler].boosterEnergyActivates))
+        else if (ability == ABILITY_QUARK_DRIVE && (gFieldStatuses & STATUS_FIELD_ELECTRIC_TERRAIN || gBattleStruct->boosterEnergyActivates & (1u << battler)))
             speed = (speed * 150) / 100;
     }
 
@@ -1958,7 +1983,7 @@ static u32 AI_GetBattlerTotalSpeedStatArgs(u32 battler, u32 ability, u32 holdEff
     // various effects
     if (gSideStatuses[GetBattlerSide(battler)] & SIDE_STATUS_TAILWIND)
         speed *= 2;
-    if (gDisableStructs[battler].unbrudenActive)
+    if (gBattleResources->flags->flags[battler] & RESOURCE_FLAG_UNBURDEN)
         speed *= 2;
 
     // paralysis drop
@@ -2620,6 +2645,7 @@ static u32 GetTrapDamage(u32 battlerId)
 
 static u32 GetPoisonDamage(u32 battlerId)
 {
+    u32 status1Temp = gBattleMons[battlerId].status1;
     u32 damage = 0;
 
     if (AI_DATA->abilities[battlerId] == ABILITY_POISON_HEAL)
@@ -2636,9 +2662,9 @@ static u32 GetPoisonDamage(u32 battlerId)
         damage = gBattleMons[battlerId].maxHP / 16;
         if (damage == 0)
             damage = 1;
-        if ((gBattleMons[battlerId].status1 & STATUS1_TOXIC_COUNTER) != STATUS1_TOXIC_TURN(15)) // not 16 turns
-            gBattleMons[battlerId].status1 += STATUS1_TOXIC_TURN(1);
-        damage *= (gBattleMons[battlerId].status1 & STATUS1_TOXIC_COUNTER) >> 8;
+        if ((status1Temp & STATUS1_TOXIC_COUNTER) != STATUS1_TOXIC_TURN(15)) // not 16 turns
+        status1Temp += STATUS1_TOXIC_TURN(1);
+        damage *= (status1Temp & STATUS1_TOXIC_COUNTER) >> 8;
     }
     return damage;
 }
@@ -3052,7 +3078,7 @@ static u32 FindMoveUsedXTurnsAgo(u32 battlerId, u32 x)
 bool32 IsWakeupTurn(u32 battler)
 {
     // Check if rest was used 2 turns ago
-    if ((gBattleMons[battler].status1 & STATUS1_SLEEP) == 1 && GetMoveEffect(FindMoveUsedXTurnsAgo(battler, 2)) == EFFECT_REST)
+    if ((gBattleMons[battler].status1 & STATUS1_SLEEP) == 1 && FindMoveUsedXTurnsAgo(battler, 2) == MOVE_REST)
         return TRUE;
     else // no way to know
         return FALSE;
@@ -3326,18 +3352,6 @@ bool32 PartnerMoveEffectIsTerrain(u32 battlerAtkPartner, u32 partnerMove)
       || partnerEffect == EFFECT_MISTY_TERRAIN
       || partnerEffect == EFFECT_ELECTRIC_TERRAIN
       || partnerEffect == EFFECT_PSYCHIC_TERRAIN))
-        return TRUE;
-
-    return FALSE;
-}
-
-//PARTNER_MOVE_EFFECT_IS
-bool32 PartnerMoveEffectIs(u32 battlerAtkPartner, u32 partnerMove, u32 effectCheck)
-{
-    if (!IsDoubleBattle())
-        return FALSE;
-
-    if (partnerMove != MOVE_NONE && GetMoveEffect(partnerMove) == effectCheck)
         return TRUE;
 
     return FALSE;
@@ -3908,28 +3922,27 @@ bool32 AI_ShouldSetUpHazards(u32 battlerAtk, u32 battlerDef, u32 moveEffect)
     switch (moveEffect)
     {
     case EFFECT_STICKY_WEB:
-        if (gSideTimers[battlerDef].stickyWebAmount > 0)
+        if (gSideTimers[GetBattlerSide(battlerDef)].stickyWebAmount > 0)
             return FALSE;
         break;
     case EFFECT_TOXIC_SPIKES:
-        if (gSideTimers[battlerDef].toxicSpikesAmount > 0)
+        if (gSideTimers[GetBattlerSide(battlerDef)].toxicSpikesAmount > 0)
             return FALSE;
         break;
     case EFFECT_SPIKES:
-        if (gSideTimers[battlerDef].spikesAmount > 0)
+        if (gSideTimers[GetBattlerSide(battlerDef)].spikesAmount > 0)
             return FALSE;
         break;
     case EFFECT_STEALTH_ROCK:
-        if (gSideTimers[battlerDef].stealthRockAmount > 0)
+        if (gSideTimers[GetBattlerSide(battlerDef)].stealthRockAmount > 0)
             return FALSE;
         break;
     default:
         break;
     }
 
-    u32 partnerDef = BATTLE_PARTNER(battlerDef);
-    if (HasMoveEffect(battlerDef, EFFECT_RAPID_SPIN) || HasMoveEffect(battlerDef, EFFECT_DEFOG)
-     || HasMoveEffect(partnerDef, EFFECT_RAPID_SPIN) || HasMoveEffect(partnerDef, EFFECT_DEFOG))
+    if (HasOpposingSideMoveEffect(battlerDef, EFFECT_RAPID_SPIN)
+     || HasOpposingSideMoveEffect(battlerDef, EFFECT_DEFOG))
     {
         if (AI_FaintsTargetFaster(battlerAtk, battlerDef))
             return FALSE;
@@ -4170,7 +4183,10 @@ static inline bool32 ShouldDrainHPToWithstandHit(u32 battlerAtk, u32 battlerDef,
 {
     s32 bestDamageFromPlayer = GetBestDmgFromBattler(battlerDef, battlerAtk);
     u32 recoverHp = max(1, (bestDamageFromPlayer * gMovesInfo[move].argument.absorbPercentage / 100));
-    recoverHp = GetDrainedBigRootHp(gBattlerAttacker, recoverHp) * -1;
+    recoverHp = GetDrainedBigRootHp(battlerAtk, recoverHp) * -1;
+
+    if (bestDamageFromPlayer >= GetNonDynamaxMaxHP(battlerAtk))
+        return FALSE;
 
     if (bestDamageFromPlayer >= gBattleMons[battlerAtk].hp
      && gBattleMons[battlerAtk].hp + recoverHp > bestDamageFromPlayer)
