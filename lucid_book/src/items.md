@@ -187,13 +187,10 @@
     * Occa
     * Passho
   * **Route 116**
-    * 31 Rawst
-    * 31 Rawst
     * 31 Aspear
     * 31 Leppa
     * 31 Persim
-    * 10 Sitrus
-    * 10 Lum
+  * **Route 117**
     * Chilan
     * Charti
     * Babiri
@@ -205,13 +202,13 @@
     * Haban (locked behind Waterfall)
     * Roseli (locked behind Waterfall)
   * **Route 120**
+    * 31 Aspear
+    * 31 Leppa
+    * 31 Persim
     * 31 Cheri
     * 31 Chesto
     * 31 Pecha
     * 31 Rawst
-    * 31 Aspear
-    * 31 Leppa
-    * 31 Persim
     * 10 Sitrus
     * 20 Lum
   * **Route 121**

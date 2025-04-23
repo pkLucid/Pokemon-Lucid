@@ -1899,22 +1899,11 @@
 **Ogerpon-Wellspring** Lv.90 @Wellspring Mask: Ivy Cudgel, Horn Leech, Superpower, Spiky Shield [Water Absorb|Adamant]  
 
 ### Pokemon League
-
-#### *Elite Four Jasmine [Double]*
-**Landorus-Therian** Lv.89 @Focus Sash: Stomping Tantrum, Hammer Arm, Rock Slide, U-turn [Intimidate|Jolly]  
-**Sandy Shocks** Lv.90 @Booster Energy: Earth Power, Thunderbolt, Flash Cannon, Tri Attack [Protosynthesis|Timid]  
-**Tapu Lele** Lv.89 @Covert Cloak: Moonblast, Psychic, Energy Ball, Draining Kiss [Telepathy|Timid]  
-**Metagross** Lv.89 @Air Balloon: Meteor Mash, Psychic Fangs, Ice Punch, Trailblaze [Clear Body|Adamant]  
-**Rotom-Wash** Lv.90 @Sitrus Berry: Hydro Pump, Thunderbolt, Signal Beam, Electroweb [Levitate|Modest]  
-**Melmetal** Lv.90 @White Herb: Double Iron Bash, Thunder Punch, Superpower, Protect [Iron Fist|Careful]  
-
-#### *Elite Four Whitney [Double - Tailwind always +15 score]*
-**Ursaluna-Bloodmoon** Lv.89 @Lum Berry: Blood Moon, Earth Power, Moonblast, Moonlight [Minds Eye|Timid]  
-**Tornadus** Lv.89 @Mental Herb: Air Slash, Extrasensory, Knock Off, Tailwind [Prankster|Timid]  
-**Sylveon** Lv.90 @Kebia Berry: Hyper Voice, Psychic, Mystical Fire, Protect [Pixilate|Timid]  
-**Iron Hands** Lv.89 @Punching Glove: Drain Punch, Thunder Punch, Ice Punch, Fake Out [Quark Drive|Jolly]  
-**Roserade** Lv.89 @Power Herb: Solar Beam, Energy Ball, Sludge Bomb, Extrasensory [Poison Point|Timid]  
-**Terapagos-Terastal** Lv.90 @Leftovers: Tera Starstorm, Earth Power, Aura Sphere, Dark Pulse [Tera Shell|Bold]  
+* Order from left to right
+    1. Door Janine
+    2. Door Misty
+    3. Door Jasmine
+    4. Door Whitney
 
 #### *Elite Four Janine [Double]*
 **Greninja** Lv.89 @Loaded Dice: Water Shuriken, Dark Pulse, Gunk Shot, Ice Beam [Torrent|Hasty]  
@@ -1931,6 +1920,22 @@
 **Manaphy** Lv.89 @Mystic Water: Scald, Energy Ball, Ice Beam, Protect [Hydration|Timid]  
 **Starmie** Lv.90 @Life Orb: Psychic, Scald, Thunderbolt, Rapid Spin [Analytic|Timid]  
 **Togekiss** Lv.90 @Fairy Feather: Hyper Voice, Dazzling Gleam, Fire Blast, Tri Attack [Aerilate|Modest]  
+
+#### *Elite Four Jasmine [Double]*
+**Landorus-Therian** Lv.89 @Focus Sash: Stomping Tantrum, Hammer Arm, Rock Slide, U-turn [Intimidate|Jolly]  
+**Sandy Shocks** Lv.90 @Booster Energy: Earth Power, Thunderbolt, Flash Cannon, Tri Attack [Protosynthesis|Timid]  
+**Tapu Lele** Lv.89 @Covert Cloak: Moonblast, Psychic, Energy Ball, Draining Kiss [Telepathy|Timid]  
+**Metagross** Lv.89 @Air Balloon: Meteor Mash, Psychic Fangs, Ice Punch, Trailblaze [Clear Body|Adamant]  
+**Rotom-Wash** Lv.90 @Sitrus Berry: Hydro Pump, Thunderbolt, Signal Beam, Electroweb [Levitate|Modest]  
+**Melmetal** Lv.90 @White Herb: Double Iron Bash, Thunder Punch, Superpower, Protect [Iron Fist|Careful]  
+
+#### *Elite Four Whitney [Double - Tailwind always +15 score]*
+**Ursaluna-Bloodmoon** Lv.89 @Lum Berry: Blood Moon, Earth Power, Moonblast, Moonlight [Minds Eye|Timid]  
+**Tornadus** Lv.89 @Mental Herb: Air Slash, Extrasensory, Knock Off, Tailwind [Prankster|Timid]  
+**Sylveon** Lv.90 @Kebia Berry: Hyper Voice, Psychic, Mystical Fire, Protect [Pixilate|Timid]  
+**Iron Hands** Lv.89 @Punching Glove: Drain Punch, Thunder Punch, Ice Punch, Fake Out [Quark Drive|Jolly]  
+**Roserade** Lv.89 @Power Herb: Solar Beam, Energy Ball, Sludge Bomb, Extrasensory [Poison Point|Timid]  
+**Terapagos-Terastal** Lv.90 @Leftovers: Tera Starstorm, Earth Power, Aura Sphere, Dark Pulse [Tera Shell|Bold]  
 
 #### *Champion May*
 **Koraidon** Lv.89 @Haban Berry: Collision Course, Dragon Claw, Flare Blitz, Iron Head [Orichalcum Pulse|Jolly]  

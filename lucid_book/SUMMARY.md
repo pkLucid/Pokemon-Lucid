@@ -15,7 +15,7 @@
 - [Mastersheet](./src/mastersheet.md)
 - [Item Locations](./src/items.md)
 - [Encounters](./src/encounters.md)
-- [Level Caps](./src/level_caps.md)
+- [Level Caps / E4 Order](./src/level_caps.md)
 
 # Changes (Based on Gen9)
 - [Game Mechanics](./src/mechanic_changes.md)
