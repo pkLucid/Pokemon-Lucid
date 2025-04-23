@@ -10,7 +10,7 @@
  * Elite Four: 90
 
 ### Elite Four
-* Door order from left to right
+* Door order from left to right (challengeable in any order)
     1. Janine
     2. Misty
     3. Jasmine
