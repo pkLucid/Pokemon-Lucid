@@ -1899,11 +1899,11 @@
 **Ogerpon-Wellspring** Lv.90 @Wellspring Mask: Ivy Cudgel, Horn Leech, Superpower, Spiky Shield [Water Absorb|Adamant]  
 
 ### Pokemon League
-* Order from left to right
-    1. Door Janine
-    2. Door Misty
-    3. Door Jasmine
-    4. Door Whitney
+* Door order from left to right (challengeable in any order)
+    1. Janine
+    2. Misty
+    3. Jasmine
+    4. Whitney
 
 #### *Elite Four Janine [Double]*
 **Greninja** Lv.89 @Loaded Dice: Water Shuriken, Dark Pulse, Gunk Shot, Ice Beam [Torrent|Hasty]  
