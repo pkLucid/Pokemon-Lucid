@@ -1,4 +1,4 @@
-## Level Caps by splits
+### Level Caps by splits
  * Roxanne: 16
  * Brawly: 25
  * Wattson: 32
@@ -9,9 +9,9 @@
  * Flannery: 77
  * Elite Four: 90
 
-## Elite Four
-* Order from left to right
-    1. Door Janine
-    2. Door Misty
-    3. Door Jasmine
-    4. Door Whitney
+### Elite Four
+* Door order from left to right
+    1. Janine
+    2. Misty
+    3. Jasmine
+    4. Whitney
