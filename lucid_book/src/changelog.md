@@ -1,6 +1,23 @@
 ## Pokemon Lucid Changelog
 Documentation for 1.2.2 and lower: [dex](https://lucid-dex-1-2-2.vercel.app/) and [calc](https://lucid-calc-v1-2-2.vercel.app/) for 1.2.2.
 
+### v1.2.7 - Scaled Randomizer Release
+* Scaled Randomized: Randomazation is based on base stat total with few exceptions (threshold are inclusive).
+  * 0 Badges: 0 - 305
+  * 2 Badges: 305 - 390
+  * 4 Badges: 390 - 490
+  * 6 Badges: 490 - 550
+  * 8 Badges: 500 - 550 (Legendary mons are not included)
+  * Legendary mons are replaced with other Legendaries / Rotom
+  * The starter has it's own table and they don't have 3 ivs
+  * Happiny, Honedge and Nincada (except Ninjask) lines are not available
+  * Randomazation is based on trainer ID so reset the game if you want a new pool
+  * Eggs aren't randomized
+
+* Bugfixes
+    * Fixes Well Baked Body not having any ai checks
+    * Fixes Recoil drastically incrasing recoil damage
+
 ### v1.2.6
 * Bugfixes
   * Fixed Melmetals weight
