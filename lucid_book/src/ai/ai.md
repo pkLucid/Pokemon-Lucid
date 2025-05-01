@@ -347,9 +347,6 @@ Scores in this section are not additive
 * Throat Chop
   * +3 if player has a sound move and it is the highest dmg move
 
-* Salt Cure
-  * +2 on first turn of AI mon, 50/50 otherwise
-
 * Substitute (+3)
   * No score Increase if player can take advantage of sub (ability / sound moves that can go through substitute)
   * If slower and after a hit Substitute would fail, no increase
