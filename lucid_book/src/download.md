@@ -9,14 +9,14 @@
 * Fixes Life Orb / Shell Bell missing timing when an ability activated after the mon was switching in due to an Eject item
 * Fixes AI Absorb check using player mons best move as base for recovery instead of absorb move itself.
 * Fixes Inconsistencies in Speed Control logic between Status and Attacking Speed control moves.
-  * It should behave according to the `Speed Control` section but an additional part has been added to it mainly because the functions where split internally
+  * It should behave according to the `Speed Control` section but an additional part has been added to it mainly because the functions were split internally
 * Fixes White Herb message occasionally displaying the wrong battler
 * Fixes Jaboca and Rowap berry not triggering when mon fainted
 * Fixes Dragon Darts ignoring Follow Me / Rage Powder
 * Fixes Stomping Tantrum not doubling power if failed due to freeze or sleep
 * Fixes Bug Bite not ignoring Unnerve
 * Fixes Leech Seed recovery amount that is increased by Big Root
-* Fixes Commander activations on dead partner
+* Fixes Commander activation on dead partner
 * Fixes Mirror Armor into Obstruct crash.
 * Fixes Imposter not transforming into the correct opposing mon in double battles
 * Fixes Thermal Exchange not blocking Will-o-Wisp
