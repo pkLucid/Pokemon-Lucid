@@ -2457,10 +2457,11 @@ static u32 AI_CalcEffectScore(u32 battlerAtk, u32 battlerDef, u32 move)
     case EFFECT_DEFENSE_DOWN_2:
         break;
     case EFFECT_SPEED_DOWN:
+        if (ShouldLowerSpeedWithStatus(battlerAtk, battlerDef, move, -1))
+            ADJUST_SCORE(BEST_EFFECT);
+        break;
     case EFFECT_SPEED_DOWN_2:
-        if (!AI_IsFaster(battlerAtk, battlerDef)
-         && ShouldLowerSpeed(battlerAtk, battlerDef, move)
-         && gBattleMons[battlerDef].statStages[STAT_SPEED] > DEFAULT_STAT_STAGE - 2)
+        if (ShouldLowerSpeedWithStatus(battlerAtk, battlerDef, move, -2))
             ADJUST_SCORE(BEST_EFFECT);
         break;
     // TODO
@@ -3163,11 +3164,11 @@ static s32 AI_CalcSetUpEffectScore(u32 battlerAtk, u32 battlerDef, u32 move)
         tempScore += IncreaseStatUpScore(battlerAtk, battlerDef, STAT_CHANGE_DEF_2, FALSE);
         break;
     case EFFECT_SPEED_UP:
-        if (ShouldIncreaseSpeed(battlerAtk, battlerDef, move, 1))
+        if (ShouldIncreaseSpeedWithStatusMove(battlerAtk, battlerDef, move, 1))
             tempScore += BEST_EFFECT;
         break;
     case EFFECT_SPEED_UP_2:
-        if (ShouldIncreaseSpeed(battlerAtk, battlerDef, move, 2))
+        if (ShouldIncreaseSpeedWithStatusMove(battlerAtk, battlerDef, move, 2))
             tempScore += BEST_EFFECT;
         break;
     case EFFECT_SPECIAL_ATTACK_UP:

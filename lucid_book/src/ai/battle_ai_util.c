@@ -28,7 +28,10 @@ static bool32 AI_IsTwoTurnMove(u32 battler, u32 move);
 
 bool32 AI_IsFaster(u32 battlerAtk, u32 battlerDef)
 {
-    return AI_DATA->aiIsFaster[battlerAtk] & 1u << battlerDef;
+    if (gBattleStruct->switchInCalcsInProgress)
+        return AI_WhoStrikesFirst(battlerAtk, battlerDef) == AI_IS_FASTER;
+    else
+        return AI_DATA->aiIsFaster[battlerAtk] & 1u << battlerDef;
 }
 
 static bool32 HasOpposingSideMoveEffect(u32 battler, u32 move)
@@ -565,7 +568,7 @@ static inline bool32 IsDamageMoveUnusable(u32 battlerAtk, u32 battlerDef, u32 mo
     switch (battlerDefAbility)
     {
     case ABILITY_DAMP:
-        if (gMovesInfo[move].effect == EFFECT_EXPLOSION || gMovesInfo[move].effect == EFFECT_EXPLOSION)
+        if (gMovesInfo[move].effect == EFFECT_EXPLOSION || gMovesInfo[move].effect == EFFECT_MIND_BLOWN)
             return TRUE;
         break;
     case ABILITY_LIGHTNING_ROD:
@@ -2038,7 +2041,7 @@ s32 AI_WhoStrikesFirst(u32 battlerAI, u32 battler)
     return AI_IS_SLOWER;
 }
 
-bool32 ShouldLowerSpeed(u32 battlerAtk, u32 battlerDef, u32 move)
+bool32 ShouldLowerSpeed(u32 battlerAtk, u32 battlerDef, u32 move, s32 statDecreaseBy)
 {
     if (!ShouldLowerStat(battlerDef, AI_DATA->abilities[battlerDef], STAT_SPEED))
         return FALSE;
@@ -2046,8 +2049,14 @@ bool32 ShouldLowerSpeed(u32 battlerAtk, u32 battlerDef, u32 move)
     if (AI_IsFaster(battlerAtk, battlerDef))
         return FALSE;
 
-    u32 speedBattlerAtk = AI_GetBattlerTotalSpeedStatArgs(battlerAtk, AI_DATA->abilities[battlerAtk], AI_DATA->holdEffects[battlerAtk], 0);
-    u32 speedBattlerDef = AI_GetBattlerTotalSpeedStatArgs(battlerDef, AI_DATA->abilities[battlerDef], AI_DATA->holdEffects[battlerDef], -1);
+    u32 speedBattlerAtk = AI_GetBattlerTotalSpeedStatArgs(battlerAtk,
+                                                          AI_DATA->abilities[battlerAtk],
+                                                          AI_DATA->holdEffects[battlerAtk],
+                                                          0);
+    u32 speedBattlerDef = AI_GetBattlerTotalSpeedStatArgs(battlerDef,
+                                                          AI_DATA->abilities[battlerDef],
+                                                          AI_DATA->holdEffects[battlerDef],
+                                                          statDecreaseBy);
 
     // Target still faster after speed Drop
     if (speedBattlerDef > speedBattlerAtk)
@@ -2059,6 +2068,32 @@ bool32 ShouldLowerSpeed(u32 battlerAtk, u32 battlerDef, u32 move)
     if (AI_DATA->effectiveness[battlerAtk][battlerDef][AI_THINKING_STRUCT->movesetIndex] < AI_EFFECTIVENESS_x1)
         return FALSE;
 
+    if (AI_FaintsTargetFaster(battlerAtk, battlerDef))
+        return FALSE;
+
+    return TRUE;
+}
+
+bool32 ShouldLowerSpeedWithStatus(u32 battlerAtk, u32 battlerDef, u32 move, s32 statDecreaseBy)
+{
+    if (!ShouldLowerStat(battlerDef, AI_DATA->abilities[battlerDef], STAT_SPEED))
+        return FALSE;
+
+    if (AI_IsFaster(battlerAtk, battlerDef))
+        return FALSE;
+
+    u32 speedBattlerAtk = AI_GetBattlerTotalSpeedStatArgs(battlerAtk,
+                                                          AI_DATA->abilities[battlerAtk],
+                                                          AI_DATA->holdEffects[battlerAtk],
+                                                          0);
+    u32 speedBattlerDef = AI_GetBattlerTotalSpeedStatArgs(battlerDef,
+                                                          AI_DATA->abilities[battlerDef],
+                                                          AI_DATA->holdEffects[battlerDef],
+                                                          statDecreaseBy);
+
+    // Target still faster after speed Drop
+    if (speedBattlerDef > speedBattlerAtk)
+        return FALSE;
 
     return TRUE;
 }
@@ -2068,8 +2103,14 @@ bool32 ShouldIncreaseSpeed(u32 battlerAtk, u32 battlerDef, u32 move, u32 statInc
     if (AI_IsFaster(battlerAtk, battlerDef))
         return FALSE;
 
-    u32 speedBattlerAtk = AI_GetBattlerTotalSpeedStatArgs(battlerAtk, AI_DATA->abilities[battlerAtk], AI_DATA->holdEffects[battlerAtk], statIncreaseBy);
-    u32 speedBattlerDef = AI_GetBattlerTotalSpeedStatArgs(battlerDef, AI_DATA->abilities[battlerDef], AI_DATA->holdEffects[battlerDef], 0);
+    u32 speedBattlerAtk = AI_GetBattlerTotalSpeedStatArgs(battlerAtk,
+                                                          AI_DATA->abilities[battlerAtk],
+                                                          AI_DATA->holdEffects[battlerAtk],
+                                                          statIncreaseBy);
+    u32 speedBattlerDef = AI_GetBattlerTotalSpeedStatArgs(battlerDef,
+                                                          AI_DATA->abilities[battlerDef],
+                                                          AI_DATA->holdEffects[battlerDef],
+                                                          0);
 
     // Target still faster after speed Drop
     if (speedBattlerDef > speedBattlerAtk)
@@ -2078,7 +2119,25 @@ bool32 ShouldIncreaseSpeed(u32 battlerAtk, u32 battlerDef, u32 move, u32 statInc
     if (CanBattlerFaintTargetWithIndexMoveAndBestDamageMove(battlerAtk, battlerDef))
         return TRUE;
 
+    if (AI_DATA->effectiveness[battlerAtk][battlerDef][AI_THINKING_STRUCT->movesetIndex] < AI_EFFECTIVENESS_x1)
+        return FALSE;
+
     if (AI_FaintsTargetFaster(battlerAtk, battlerDef))
+        return FALSE;
+
+    return TRUE;
+}
+
+bool32 ShouldIncreaseSpeedWithStatusMove(u32 battlerAtk, u32 battlerDef, u32 move, u32 statIncreaseBy)
+{
+    if (AI_IsFaster(battlerAtk, battlerDef))
+        return FALSE;
+
+    u32 speedBattlerAtk = AI_GetBattlerTotalSpeedStatArgs(battlerAtk, AI_DATA->abilities[battlerAtk], AI_DATA->holdEffects[battlerAtk], statIncreaseBy);
+    u32 speedBattlerDef = AI_GetBattlerTotalSpeedStatArgs(battlerDef, AI_DATA->abilities[battlerDef], AI_DATA->holdEffects[battlerDef], 0);
+
+    // Target still faster after speed Drop
+    if (speedBattlerDef > speedBattlerAtk)
         return FALSE;
 
     return TRUE;
@@ -4054,18 +4113,24 @@ bool32 AI_IsSecondaryMoveEffectBeneficial(u32 battlerAtk, u32 battlerDef, u32 mo
             {
                 switch (gMovesInfo[move].additionalEffects[i].moveEffect)
                 {
-                default: break;
-                case MOVE_EFFECT_SPD_PLUS_1: return ShouldIncreaseSpeed(battlerAtk, battlerDef, move, 1);
-                case MOVE_EFFECT_SPD_PLUS_2: return ShouldIncreaseSpeed(battlerAtk, battlerDef, move, 2);
+                default:
+                    break;
+                case MOVE_EFFECT_SPD_PLUS_1:
+                    return ShouldIncreaseSpeed(battlerAtk, battlerDef, move, 1);
+                case MOVE_EFFECT_SPD_PLUS_2:
+                    return ShouldIncreaseSpeed(battlerAtk, battlerDef, move, 2);
                 }
             }
             else
             {
                 switch (gMovesInfo[move].additionalEffects[i].moveEffect)
                 {
-                default: break;
-                case MOVE_EFFECT_SPD_MINUS_1: return ShouldIncreaseSpeed(battlerAtk, battlerDef, move, 1);
-                case MOVE_EFFECT_SPD_MINUS_2: return ShouldIncreaseSpeed(battlerAtk, battlerDef, move, 2);
+                default:
+                    break;
+                case MOVE_EFFECT_SPD_MINUS_1:
+                    return ShouldIncreaseSpeed(battlerAtk, battlerDef, move, 1);
+                case MOVE_EFFECT_SPD_MINUS_2:
+                    return ShouldIncreaseSpeed(battlerAtk, battlerDef, move, 2);
                 }
             }
         }
@@ -4073,19 +4138,28 @@ bool32 AI_IsSecondaryMoveEffectBeneficial(u32 battlerAtk, u32 battlerDef, u32 mo
         {
             switch (gMovesInfo[move].additionalEffects[i].moveEffect)
             {
-            default: break;
+            default:
+                break;
             case MOVE_EFFECT_SPD_MINUS_1:
+                return ShouldLowerSpeed(battlerAtk, battlerDef, move, -1) && !BattlerPreventsSecondaryEffect(battlerDef);
             case MOVE_EFFECT_SPD_MINUS_2:
-                return ShouldLowerSpeed(battlerAtk, battlerDef, move) && !BattlerPreventsSecondaryEffect(battlerDef);
-
-            case MOVE_EFFECT_PARALYSIS:    return AI_ShouldParalyze(battlerAtk, battlerDef, move) && !BattlerPreventsSecondaryEffect(battlerDef);
-            case MOVE_EFFECT_POISON:       return AI_ShouldPoison(battlerAtk, battlerDef) && !BattlerPreventsSecondaryEffect(battlerDef);
-            case MOVE_EFFECT_STEALTH_ROCK: return AI_ShouldSetUpHazards(battlerAtk, battlerDef, EFFECT_STEALTH_ROCK);
-            case MOVE_EFFECT_SPIKES:       return AI_ShouldSetUpHazards(battlerAtk, battlerDef, EFFECT_SPIKES);
-            case MOVE_EFFECT_THROAT_CHOP:  return (gMovesInfo[GetBestDmgMoveFromBattler(battlerDef, battlerAtk)].soundMove && AI_IsFaster(battlerAtk, battlerDef));
-            case MOVE_EFFECT_WRAP:         return (!HasMoveEffect(battlerDef, EFFECT_RAPID_SPIN) && NoOfHitsToFaintBattler(battlerDef, battlerAtk) >= 3 && ShouldTrap(battlerAtk, battlerDef));
-            case MOVE_EFFECT_FLINCH:       return ShouldTryToFlinch(battlerAtk, battlerDef, aiData->abilities[battlerAtk], aiData->abilities[battlerDef], move) && gMovesInfo[move].effect != EFFECT_FIRST_TURN_ONLY;
-            case MOVE_EFFECT_SALT_CURE:    return ShouldTrySaltCure(battlerAtk, battlerDef);
+                return ShouldLowerSpeed(battlerAtk, battlerDef, move, -2) && !BattlerPreventsSecondaryEffect(battlerDef);
+            case MOVE_EFFECT_PARALYSIS:
+                return AI_ShouldParalyze(battlerAtk, battlerDef, move) && !BattlerPreventsSecondaryEffect(battlerDef);
+            case MOVE_EFFECT_POISON:
+                return AI_ShouldPoison(battlerAtk, battlerDef) && !BattlerPreventsSecondaryEffect(battlerDef);
+            case MOVE_EFFECT_STEALTH_ROCK:
+                return AI_ShouldSetUpHazards(battlerAtk, battlerDef, EFFECT_STEALTH_ROCK);
+            case MOVE_EFFECT_SPIKES:
+                return AI_ShouldSetUpHazards(battlerAtk, battlerDef, EFFECT_SPIKES);
+            case MOVE_EFFECT_THROAT_CHOP:
+                return (gMovesInfo[GetBestDmgMoveFromBattler(battlerDef, battlerAtk)].soundMove && AI_IsFaster(battlerAtk, battlerDef));
+            case MOVE_EFFECT_WRAP:
+                return (!HasMoveEffect(battlerDef, EFFECT_RAPID_SPIN) && NoOfHitsToFaintBattler(battlerDef, battlerAtk) >= 3 && ShouldTrap(battlerAtk, battlerDef));
+            case MOVE_EFFECT_FLINCH:
+                return ShouldTryToFlinch(battlerAtk, battlerDef, aiData->abilities[battlerAtk], aiData->abilities[battlerDef], move) && gMovesInfo[move].effect != EFFECT_FIRST_TURN_ONLY;
+            case MOVE_EFFECT_SALT_CURE:
+                return ShouldTrySaltCure(battlerAtk, battlerDef);
             }
         }
     }
@@ -4182,14 +4256,18 @@ bool32 AI_ShouldUseRound(u32 battler)
 static inline bool32 ShouldDrainHPToWithstandHit(u32 battlerAtk, u32 battlerDef, u32 move)
 {
     s32 bestDamageFromPlayer = GetBestDmgFromBattler(battlerDef, battlerAtk);
-    u32 recoverHp = max(1, (bestDamageFromPlayer * gMovesInfo[move].argument.absorbPercentage / 100));
+    s32 abosrbMoveDmg = AI_DATA->simulatedDmg[battlerAtk][battlerDef][AI_THINKING_STRUCT->movesetIndex].expected;
+    u32 recoverHp = max(1, (abosrbMoveDmg * gMovesInfo[move].argument.absorbPercentage / 100));
+    u32 currHp = gBattleMons[battlerAtk].hp;
     recoverHp = GetDrainedBigRootHp(battlerAtk, recoverHp) * -1;
 
-    if (bestDamageFromPlayer >= GetNonDynamaxMaxHP(battlerAtk))
+    // DebugPrintf("abosrbMoveDmg: %d", abosrbMoveDmg);
+    // DebugPrintf("bestDamageFromPlayer: %d", bestDamageFromPlayer);
+
+    if (bestDamageFromPlayer >= GetNonDynamaxMaxHP(battlerAtk) + recoverHp)
         return FALSE;
 
-    if (bestDamageFromPlayer >= gBattleMons[battlerAtk].hp
-     && gBattleMons[battlerAtk].hp + recoverHp > bestDamageFromPlayer)
+    if (bestDamageFromPlayer >= currHp && currHp + recoverHp > bestDamageFromPlayer)
         return TRUE;
 
     return FALSE;
@@ -4197,6 +4275,8 @@ static inline bool32 ShouldDrainHPToWithstandHit(u32 battlerAtk, u32 battlerDef,
 
 bool32 AI_ShouldAbsorb(u32 battlerAtk, u32 battlerDef, u32 move)
 {
+    ShouldDrainHPToWithstandHit(battlerAtk, battlerDef, move);
+
     if (AI_DATA->abilities[battlerDef] == ABILITY_LIQUID_OOZE)
         return FALSE;
 

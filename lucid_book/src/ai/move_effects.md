@@ -27,17 +27,22 @@
   * If the move would fail the AI wont click it
 
 ### Speed Control
-* Status moves (e.g. Scary Face)
+* Status moves that decrease score (e.g. Scary Face)
   * If AI cant't drop stats (speed), no increase
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
   * In any other situation, +3
 
-* Self boosting speed moves (e.g. Flame Charge)
+* Status moves that increase score (only speed, e.g. Agility)
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
-  * If AI faints player in less hits, no score increase
+  * In any other situation, +3
+
+* Self boosting attack speed moves (e.g. Flame Charge)
+  * If AI faster, no increase
+  * If AI is still slower the next turn, no score increase
   * If player resists move, no score increase unless the move + best damage move kill next turn
+  * If AI faints player in less hits, no score increase
   * In any other situation, +2
 
 * Speed drop moves (e.g. Rock Tomb)
@@ -45,6 +50,7 @@
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
   * If player resists move, no score increase unless the move + best damage move kill next turn
+  * If AI faints player in less hits, no score increase
   * In any other situation, +2
 
 ### Damage moves with a 100% chance effect
