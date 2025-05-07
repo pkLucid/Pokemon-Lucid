@@ -2,7 +2,7 @@
 AI will generally never have both Pokemon attack the same slot if one of the AI’s Pokemon has a kill. Exceptions are [moves](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/src/data/moves_info.h) that target the user, opponents field or all mons.
 ### Note
 Moves that target the user or the field are no longer affected by double targeting which means both player mons are looked at
-  * Affects protect, hazards, trick room, tailwind, screens, boosting moves
+  * Affects Protect, Hazards (Stelth Rock, Toxic Spikes, Spikes, Sticky Web), Trick Room, Tailwind, Screens, boosting moves
 
 As a note, Player’s Slot 1 is their left (First mon in party), where the Opponents Slot 1 will be to the player’s right (First mon in enemy party)
 
@@ -45,9 +45,7 @@ If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1
 
 ## Scoring on kills (additive)
   * Move can kill: +4
-  * Doubles only: AI can kill with double target or spread move when no partner + 2
-    * Unless, the player previously used Guard then the damage for AI calcs will be zeroed out 20% of the time as long as there is a wide guard user on the players side. Applies until the end of battle
-  * hit switch targer (dragon tail) + 2
+  * Dragon Tail, Circle Throw + 2
 
 ## Critical hit kill (does not stack with kill)
   * Critical hit Increase for moves with a high crit ratio (applies to moves only, and not 100% critical hits)
@@ -59,9 +57,8 @@ If AI Slot 1 sees kill on Player Slot 2 and AI Slot 2 sees kill on Player Slot 1
   * If AI can kill with hit escape move (u-turn): 50/50 +2
 
 ### Doubles only
-  * AI can kill with double target move +2 (e.g. Dazzling Gleam)
-  * AI can kill with spread move +2 if partner is dead (e.g. Surf)
-  * Unless, the player previously used Guard then the damage for AI calcs will be zeroed out 20% of the time as long as there is a wide guard user on the players side. Applies until the end of battle
+  * If the player previously used Wide Guard (any side, any mon) the damage for AI calcs will be set to zero 20% of the time (meaning it can't be considered as an attacking move)
+  * +2 if AI can kill with double target move (e.g. Hyper Voice) /  Applies to Spread target moves that hit all mons (e.g. Surf) only when there is no partner on field
 
 ## Mid turn switch (Calcs are done with a possible switch in candidate)
   * Never switches in Doubles
@@ -117,7 +114,7 @@ Scores in this section are not additive
   * Pursuit
   * Knock Off regardless if user has an item or not
   * Switch target out moves (e.g. Dragon Tail)
-  * Damage moves that set up Hazards
+  * Damage moves that set up Hazards (Stone Axe / Ceaseless Edge)
   * Guaranteed speed drop moves (e.g. Icy Wind)
   * Self boosting moves (e.g. power up punch, leaf storm with contrary)
   * Note:
@@ -149,17 +146,22 @@ Scores in this section are not additive
   * If the move would fail the AI wont click it
 
 ### Speed Control
-* Status moves (e.g. Scary Face)
+* Status moves that decrease score (e.g. Scary Face)
   * If AI cant't drop stats (speed), no increase
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
   * In any other situation, +3
 
-* Self boosting speed moves (e.g. Flame Charge)
+* Status moves that increase score (only speed, e.g. Agility)
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
-  * If AI faints player in less hits, no score increase
+  * In any other situation, +3
+
+* Self boosting attack speed moves (e.g. Flame Charge)
+  * If AI faster, no increase
+  * If AI is still slower the next turn, no score increase
   * If player resists move, no score increase unless the move + best damage move kill next turn
+  * If AI faints player in less hits, no score increase
   * In any other situation, +2
 
 * Speed drop moves (e.g. Rock Tomb)
@@ -167,6 +169,7 @@ Scores in this section are not additive
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
   * If player resists move, no score increase unless the move + best damage move kill next turn
+  * If AI faints player in less hits, no score increase
   * In any other situation, +2
 
 ### Damage moves with a 100% chance effect
@@ -199,7 +202,7 @@ Scores in this section are not additive
   * If AI used protect last turn, no score increase
   * 50/50 to increase score
 
-* Hazards (including Stone Axe / Ceaseless Edge)
+* Hazards (Stelth Rock, Toxic Spikes, Spikes, Sticky Web, Stone Axe, Ceaseless Edge)
   * If AI faints player in less hits and player has a way to remove hazards, no score increase
   * If AI outdamages and player has a way to remove hazards, no score increase
   * 70/30 in favor of no hazards if player has a way to remove rocks
@@ -207,7 +210,7 @@ Scores in this section are not additive
   * AI will only set one layer of hazards for each move/hazard type
   * In any other situation, +3 (+2 for Stone Axe / Ceaseless Edge)
 
-* Screens
+* Screens (Light Screen, Reflect, Aurora Veil)
   * If no corresponding category on player, no score increase
   * If player has a BrickBreak type move
     1. if AI faints player faster, no score increase
@@ -218,7 +221,7 @@ Scores in this section are not additive
   * If partner dies to any player mon, +3
   * If both mons on the field have Follow Me only AI slot 1 (right side) will be able to choose follow me
 
-* Poison
+* Poison (Toxic)
   * If player holds a curing berry AI, no score increase
   * If AI is faster and faints player in 2 or less hits, no score increase
   * If player needs 3 or more hits to faint AI, +3
@@ -229,18 +232,18 @@ Scores in this section are not additive
   * If AI is faster and the best damage move is physical, +3
   * Otherwise +3, 100% if's first turn and 50/50 in any other situation
 
-* Paralysis
+* Paralysis (Nuzzle, Thunder Wave)
   * If player holds a curing berry, no score increase
   * If AI is slower, +3
   * If Player needs 3 or more hits to faint AI, +3
 
-* Sleep (+3)
+* Sleep (Hypnosis, Yawn, Sleep Powder, Sing, Spore, Lovely Kiss)
   * If move would fail or player has Yawn status set, no score increase
   * If player can cure steel or has a beneficial move (sleep talk, snore), no score increase
-  * 100% score increase if first turn or AI benefits from sleep status
-  * 50/50 otherwise
+  * 100% + 3 if first turn or AI benefits from sleep status
+  * 50/50 otherwise, +3
 
-* Confusion (+3 / +2 on 1.2.2)
+* Confusion (Supersonic, Confuse Ray, Sweet Kiss, Teeter Dance / +3)
   * If AI can't confuse player due to an item or ability, no score increase
   * If AI faster and faints player in 2 or less hits, no score increse
   * If player Paralyzed or infatuated, 100% of the time score increase
@@ -261,7 +264,7 @@ Scores in this section are not additive
   * In any other situation it sets up
   * Leaf Storm, Overheat, Draco Meteor and Superpower are set up moves with Contrary
 
-* Increase crit rate +3 (e.g. Focus Energy)
+* Increase crit rate +3 (Focus Energy)
   * If ai faints to player in 2 or less hits (applies to both mons in doubles), no increase.
   * Increase if Super Luck, Sniper, Scope Lens or or high crit move is present
 

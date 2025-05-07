@@ -19,9 +19,10 @@
 
 ## Scoring on kills (additive)
   * Move can kill: +4
-  * Doubles only: AI can kill with double target or spread move when no partner + 2
-    * Unless, the player previously used Guard then the damage for AI calcs will be zeroed out 20% of the time as long as there is a wide guard user on the players side. Applies until the end of battle
-  * hit switch targer (dragon tail) + 2
+  * Dragon Tail, Circle Throw + 2
+  * Doubles only:
+    * If the player previously used Wide Guard (any side, any mon) the damage for AI calcs will be set to zero 20% of the time (meaning it can't be considered as an attacking move)
+    * +2 if AI can kill with double target move (e.g. Hyper Voice) /  Applies to Spread target moves that hit all mons (e.g. Surf) only when there is no partner on field
 
 ## Critical hit kill (does not stack with kill)
   * Critical hit Increase for moves with a high crit ratio (applies to moves only, and not 100% critical hits)
@@ -33,9 +34,8 @@
   * If AI can kill with hit escape move (u-turn): 50/50 +2
 
 ### Doubles only
-  * AI can kill with double target move +2 (e.g. Dazzling Gleam)
-  * AI can kill with spread move +2 if partner is dead (e.g. Surf)
-  * Unless, the player previously used Guard then the damage for AI calcs will be zeroed out 20% of the time as long as there is a wide guard user on the players side. Applies until the end of battle
+  * If the player previously used Wide Guard (any side, any mon) the damage for AI calcs will be set to zero 20% of the time (meaning it can't be considered as an attacking move)
+  * +2 if AI can kill with double target move (e.g. Hyper Voice) /  Applies to Spread target moves that hit all mons (e.g. Surf) only when there is no partner on field
 
 ## Mid turn switch (Calcs are done with a possible switch in candidate)
   * Never switches if current mon on the field is under half of max HP

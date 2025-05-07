@@ -83,7 +83,7 @@
   * If AI used protect last turn, no score increase
   * 50/50 to increase score
 
-* Hazards (including Stone Axe / Ceaseless Edge)
+* Hazards (Stelth Rock, Toxic Spikes, Spikes, Sticky Web, Stone Axe, Ceaseless Edge)
   * If AI faints player in less hits and player has a way to remove hazards, no score increase
   * If AI outdamages and player has a way to remove hazards, no score increase
   * 70/30 in favor of no hazards if player has a way to remove rocks
@@ -91,7 +91,7 @@
   * AI will only set one layer of hazards for each move/hazard type
   * In any other situation, +3 (+2 for Stone Axe / Ceaseless Edge)
 
-* Screens
+* Screens (Light Screen, Reflect, Aurora Veil)
   * If no corresponding category on player, no score increase
   * If player has a BrickBreak type move
     1. if AI faints player faster, no score increase
@@ -102,7 +102,7 @@
   * If partner dies to any player mon, +3
   * If both mons on the field have Follow Me only AI slot 1 (right side) will be able to choose follow me
 
-* Poison
+* Poison (Toxic)
   * If player holds a curing berry AI, no score increase
   * If AI is faster and faints player in 2 or less hits, no score increase
   * If player needs 3 or more hits to faint AI, +3
@@ -113,18 +113,18 @@
   * If AI is faster and the best damage move is physical, +3
   * Otherwise +3, 100% if's first turn and 50/50 in any other situation
 
-* Paralysis
+* Paralysis (Nuzzle, Thunder Wave)
   * If player holds a curing berry, no score increase
   * If AI is slower, +3
   * If Player needs 3 or more hits to faint AI, +3
 
-* Sleep (+3)
+* Sleep (Hypnosis, Yawn, Sleep Powder, Sing, Spore, Lovely Kiss)
   * If move would fail or player has Yawn status set, no score increase
   * If player can cure steel or has a beneficial move (sleep talk, snore), no score increase
-  * 100% score increase if first turn or AI benefits from sleep status
-  * 50/50 otherwise
+  * 100% + 3 if first turn or AI benefits from sleep status
+  * 50/50 otherwise, +3
 
-* Confusion (+3 / +2 on 1.2.2)
+* Confusion (Supersonic, Confuse Ray, Sweet Kiss, Teeter Dance / +3)
   * If AI can't confuse player due to an item or ability, no score increase
   * If AI faster and faints player in 2 or less hits, no score increse
   * If player Paralyzed or infatuated, 100% of the time score increase
@@ -145,7 +145,7 @@
   * In any other situation, score increase
   * Leaf Storm, Overheat, Draco Meteor and Superpower are set up moves with Contrary
 
-* Increase crit rate +3 (e.g. Focus Energy)
+* Increase crit rate +3 (Focus Energy)
   * If ai faints to player in 2 or less hits (applies to both mons in doubles), no increase.
   * Increase if Super Luck, Sniper, Scope Lens or or high crit move is present
 
