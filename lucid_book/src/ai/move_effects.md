@@ -27,25 +27,29 @@
   * If the move would fail the AI wont click it
 
 ### Speed Control
-* Status moves that decrease score (e.g. Scary Face)
+* Status moves that decrese target speed
+  * Affected Moves: Scary Face, String Shot, Cotton Spore
   * If AI cant't drop stats (speed), no increase
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
   * In any other situation, +3
 
-* Status moves that increase score (only speed, e.g. Agility)
+* Status moves that increase self speed
+  * Affected Moves: Agility, Rock Polish
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
   * In any other situation, +3
 
-* Self boosting attack speed moves (e.g. Flame Charge)
+* Self boosting attack speed moves
+  * Affected Moves: Flame Charge, Trailblaze, Rapid Spin, Aqua Step, Esper Wing, Aura Wheel
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
   * If player resists move, no score increase unless the move + best damage move kill next turn
   * If AI faints player in less hits, no score increase
   * In any other situation, +2
 
-* Speed drop moves (e.g. Rock Tomb)
+* Speed drop moves
+  * Affected Moves: Rock Tomb, Mud Shot, Low Sweep, Bulldoze, Electroweb, Dum Beating, Pounce, Icy Wind
   * If AI cant't drop stats (speed), no increase
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
@@ -83,7 +87,8 @@
   * If AI used protect last turn, no score increase
   * 50/50 to increase score
 
-* Hazards (Stelth Rock, Toxic Spikes, Spikes, Sticky Web, Stone Axe, Ceaseless Edge)
+* Hazards
+  * Affected moves: Stelth Rock, Toxic Spikes, Spikes, Sticky Web, Stone Axe, Ceaseless Edge
   * If AI faints player in less hits and player has a way to remove hazards, no score increase
   * If AI outdamages and player has a way to remove hazards, no score increase
   * 70/30 in favor of no hazards if player has a way to remove rocks
@@ -118,13 +123,15 @@
   * If AI is slower, +3
   * If Player needs 3 or more hits to faint AI, +3
 
-* Sleep (Hypnosis, Yawn, Sleep Powder, Sing, Spore, Lovely Kiss)
+* Sleep
+  * Affected moves: Hypnosis, Yawn, Sleep Powder, Sing, Spore, Lovely Kiss
   * If move would fail or player has Yawn status set, no score increase
   * If player can cure steel or has a beneficial move (sleep talk, snore), no score increase
   * 100% + 3 if first turn or AI benefits from sleep status
   * 50/50 otherwise, +3
 
-* Confusion (Supersonic, Confuse Ray, Sweet Kiss, Teeter Dance / +3)
+* Confusion +3
+  * Affected moves: Supersonic, Confuse Ray, Sweet Kiss, Teeter Dance
   * If AI can't confuse player due to an item or ability, no score increase
   * If AI faster and faints player in 2 or less hits, no score increse
   * If player Paralyzed or infatuated, 100% of the time score increase
@@ -169,7 +176,8 @@
   * No increase if AI has Mirror Coat (Counter) and player has no special (physical) move
   * Otherwise 50/50 to get a +3
 
-* Recovery moves, includes Rest (+3)
+* Recovery moves (+3)
+  * Affected moves: Recover, Milk Drink, Moonlight, Morning Sun, Shore Up, Slack Off, Soft-Boiled, Synthesis, Roost, Rest
   * If AI heal blocked, no score increase
   * If at 90% or more hp, no score increase unless slower and target is damaged by residual damage
   * If player faints ai from full, no score increase
