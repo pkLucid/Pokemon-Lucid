@@ -1,7 +1,6 @@
 ### Current known issues
 
   * Battle Engine
-    * In doubles if a spread move was used that hits all mons (e.g. surf), a partner that has endured will still be hit. Opposing field still behaves correctly, so endure works. Only an endure bug, protect works fine
     * If both attacker and target have Eject Pack and Eject Button
       * In Lucid the activation is based on speed
       * In vanilla Eject Button always activates before Eject Pack

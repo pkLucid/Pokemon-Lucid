@@ -1,10 +1,16 @@
-## Pokemon Lucid - v1.2.8
+## Pokemon Lucid - v1.2.9
+Apology for the B2B release. I accidently messed up a Life Orb condition. Also fixed the Endure bug that was recently discovered
 
-<a href="./v1.2.8/pokemon_lucid_v1.2.8.bps" target="_blank">Download Patch</a>
+<a href="./v1.2.9/pokemon_lucid_v1.2.9.bps" target="_blank">Download Patch</a>
 
-<a href="./v1.2.8/pokemon_lucid_v1.2.8.lua" target="_blank">Lua Script (Right Click Download)</a>
+<a href="./v1.2.9/pokemon_lucid_v1.2.9.lua" target="_blank">Lua Script (Right Click Download)</a>
 
-## Fixes
+### Fixes
+* Fixes Life Orb not causing any damage and activating on Status moves
+* Fixes partner battler Endure bug in doubles with spread moves like surf
+  * Endure didn't protect the mon
+
+### Version 1.2.8 fixes
 * Fixes recoil moves causing attacker to faint if target was healed with a berry
 * Fixes Revenge damage considaration bug when mon was in party
 * Fixes Life Orb / Shell Bell missing timing when an ability activated after the mon was switching in due to an Eject item
