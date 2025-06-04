@@ -89,8 +89,6 @@
     * Muscle Band
   * **Route 107**
     * Berry Juice
-  * **Route 108**
-    * Power Herb (Locked behind 1v2 double)
   * **Route 110**
     * Protective Pads
   * **Route 111**
