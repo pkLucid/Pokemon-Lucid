@@ -42,7 +42,7 @@
     * Adamant Mint
     * Jolly Mint
     * Timid Mint
-    * 5 Serious Mint
+    * 5 (6?) Serious Mint
 #### NPC Items / Rock Smash
   * **Petalburg Woods**
     * Berry Juice
@@ -152,8 +152,8 @@
   * **Lilycove City**
     * Shell Bell
     * Focus Band
-  * **Eject Pack**
-    * Shoal Cave Ice Room
+  * **Shoal Cave Ice Room**
+    * Eject Pack
   * **Mossdeep City**
     * Psychic Seed
   * **Victory Road**
