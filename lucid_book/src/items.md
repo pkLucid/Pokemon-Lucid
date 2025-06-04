@@ -49,13 +49,14 @@
   * **Verdanturf Town**
     * Tart Apple
     * Sweet Apple
-    * Syrupy Apple
+    * Syrup Apple (Post Wattson)
   * **Dewford Town**
     * Deep Sea Tooth
     * Deep Sea Scale
   * **Route 109**
     * Eviolite
   * **Slateport City**
+    * Blunder Policy (NPC gift)
     * Type Boosting Items
     * Moon Stone
     * Sun Stone
@@ -63,12 +64,12 @@
     * Leaf Stone
     * Fire Stone
     * Water Stone
-    * Linking Cord
-    * Shiny Stone
-    * Dusk Stone
-    * Dawn Stone
-    * Ice Stone
-  * **Route 107**
+    * Linking Cord (Post Wattson)
+    * Shiny Stone (Post Wattson)
+    * Dusk Stone (Post Wattson)
+    * Dawn Stone (Post Wattson)
+    * Ice Stone (Post Wattson)
+  * **Route 106**
     * Dragon Scale
     * Kings Rock
     * Prism Scale
@@ -86,8 +87,10 @@
 #### Overworld Items
   * **Route 102**
     * Muscle Band
+  * **Route 107**
+    * Berry Juice
   * **Route 108**
-    * Power Herb (Hidden behind a 1v2 Double)
+    * Power Herb (Locked behind 1v2 double)
   * **Route 110**
     * Protective Pads
   * **Route 111**
@@ -100,6 +103,11 @@
     * Zoom Lens
   * **Route 113**
     * Black Sludge
+  * **Route 114**
+    * Lagging Tail
+  * **Route 115**
+    * Wise Glasses
+    * Power Herb (Locked behind 1v2 double)
   * **Route 116**
     * Moon Stone
   * **Route 117**
@@ -143,6 +151,9 @@
     * Shed Shell
   * **Lilycove City**
     * Throat Spray
+  * **Lilycove City**
+    * Shell Bell
+    * Focus Band
   * **Eject Pack**
     * Shoal Cave Ice Room
   * **Mossdeep City**
