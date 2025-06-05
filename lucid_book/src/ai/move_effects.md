@@ -68,7 +68,7 @@
   * If AI faster and the best damage move from Player is a sound move
 * Effect Wrap (Fire Spin, Whirlpool, ...)
   * No score increase if player has Rapid Spin
-  * No score increase if player faints AI in 2 or less hits
+  * No score increase if player faints AI in 3 or less hits
   * No score increase if player already trapped
   * No score increase if player faints from secondary damage this turn
 * Effect Flinch (+2)

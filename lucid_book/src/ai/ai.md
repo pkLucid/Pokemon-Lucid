@@ -77,11 +77,11 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * All calculations are done using the above mentioned roll
   * AI see only damage that it will actually deal. Something like Thunderbolt into Volt Absorb will be seen as 0 damage and receive a -20 score.
   * Two-Turn Moves are seen as zero demage if they can't be used the same turn they charge (if weather or power herb are not present)
-    * Two-Turn moves that are invulnerable during charge are exluded from this check
+    * Two-Turn moves that are semi-invulnerable during charge are exluded from this check (e.g. Fly)
   * The AI will see the damage of a 100% crit
-  * **Bug**: AI might see one roll lower for gems boosts so the 7th (Might apply to type boosting items so just use the 7th roll to be safe)
   * Explosion is treated like a normal move other then that it is a negative move effect
-  * Dragon Darts will be correctly in doubles depending on hits
+  * **Additional note**: if AI sees that it can faint the target the move will only get the increase for faint score + possible positive increase.
+    * E.g. Fake Out won't get the additional +3 if it sees kill on target. Potentially leading to a tie with other moves
 
 ## Tera calcs (Relevant for Tera/Stella Island)
   * The AI sees Tera Blast or stab increased damage as if it did Terastalize when it is possible for the mon to do it (including party)
@@ -89,9 +89,8 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Calcs for Player mon happen only when actually terastallized (including Tera Blast)
 
 ## Damage moves scores
-Scores in this section are not additive
   * When AI chooses a move it compares all moves that can do damage against each other and looks for Postive/Negative effects. Moves with a negative effect will be discouraged based on how many hits it will take for AI to faint player mon.
-    * Exmaple: If Overheat and Flamethrower have the same number of hits to faint AI Flamethrower gets a plus one score
+    * Exmaple: If Overheat and Flamethrower have the same number of hits to faint AI, Flamethrower gets a plus one score
   * When AI sees a kill with several moves, a move with a positive effect gets +1
   * If several moves with a positive effect are present, all of them get +1
     * Example: If AI sees kill with Knock Off and Rock Tomb, it would select one of those randomly
@@ -187,7 +186,7 @@ Scores in this section are not additive
   * If AI faster and the best damage move from Player is a sound move
 * Effect Wrap (Fire Spin, Whirlpool, ...)
   * No score increase if player has Rapid Spin
-  * No score increase if player faints AI in 2 or less hits
+  * No score increase if player faints AI in 3 or less hits
   * No score increase if player already trapped
   * No score increase if player faints from secondary damage this turn
 * Effect Flinch (+2)

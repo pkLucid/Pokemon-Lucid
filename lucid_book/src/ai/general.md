@@ -57,8 +57,9 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Two-Turn Moves are seen as zero demage if they can't be used the same turn they charge (if weather or power herb are not present)
     * Two-Turn moves that are semi-invulnerable during charge are exluded from this check (e.g. Fly)
   * The AI will see the damage of a 100% crit
-  * **Bug**: AI might see one roll lower for gems boosts so the 7th (Might apply to type boosting items so just use the 7th roll to be safe)
   * Explosion is treated like a normal move other then that it is a negative move effect
+  * **Additional note**: if AI sees that it can faint the target the move will only get the increase for faint score + possible positive increase.
+    * E.g. Fake Out won't get the additional +3 if it sees kill on target. Potentially leading to a tie with other moves
 
 ## Tera calcs (Relevant for Tera/Stella Island)
   * The AI sees Tera Blast or stab increased damage as if it did Terastalize when it is possible for the mon to do it (including party)
