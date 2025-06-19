@@ -29,3 +29,15 @@
     * Valid eggs are all eggs with an egg group except Ditto (Manaphy and Phinone can be generated)
   * Unlimited Heart Scales
   * Pokemon signature items clerk + Silvally and Arceus items outside the house given by the kids
+
+#### New Animations (Credits: Linathan)
+* All Tera Blast types
+* Tachyon Cutter
+* Salt Cure
+* Glaive Rush
+* Triple Dive
+* Collosion Course
+* Electro Drift
+* Psyblade
+* Mighty Cleave
+* Supercell Slam
