@@ -1,10 +1,13 @@
-## Pokemon Lucid - v1.2.10
+## Pokemon Lucid - v1.2.11
 
-<a href="./v1.2.10/pokemon_lucid_v1.2.10.bps" target="_blank">Download Patch</a>
+<a href="./v1.2.11/pokemon_lucid_v1.2.11.bps" target="_blank">Download Patch</a>
 
-<a href="./v1.2.10/pokemon_lucid_v1.2.10.lua" target="_blank">Lua Script (Right Click Download)</a>
+<a href="./v1.2.11/pokemon_lucid_v1.2.11.lua" target="_blank">Lua Script (Right Click Download)</a>
 
 ### Patch Notes
+- Fixes Future Sight calculation with mon in the front instead of the back (this was a regression again from a previous release, sorry)
+
+### v1.2.10 Patch Notes
 
 #### Fixes
 * Fixes freeze in 2v1 battles when right side trainer had no mons to switch in, while left side trainer was about to switch in a new mon
