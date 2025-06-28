@@ -1,0 +1,35 @@
+body {
+  background: #f8f8fa;
+  font-family: system-ui, sans-serif;
+  color: #222;
+  margin: 2em;
+}
+
+#rom-patcher-container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.07);
+  padding: 2em;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input[type="file"], button {
+  display: block;
+  margin: 1em 0;
+  font-size: 1em;
+}
+
+button {
+  background: #307CFC;
+  color: #fff;
+  border: none;
+  padding: 0.75em 1.5em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background .2s;
+}
+
+button:hover {
+  background: #0056b3;
+}
