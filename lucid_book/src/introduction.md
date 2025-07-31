@@ -4,7 +4,6 @@
 Welcome to Pokemon Lucid, a difficulty hack built on top of Emerald using the pokeemerald-expansion project.
 
 ## Useful links
-  * <a href="https://pklucid.github.io/Pokemon-Lucid/" target="_blank">General</a>
   * <a href="./src/download.html" target="_blank">Download</a>
   * <a href="https://lucid-dex.vercel.app" target="_blank">Pokedex</a>
   * <a href="https://pklucid.github.io/Pokemon-Lucid-Calc/" target="_blank">Showdown Calc</a>
