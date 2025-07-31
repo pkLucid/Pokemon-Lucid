@@ -1,5 +1,5 @@
 # Pokemon Lucid
-[Downdload v1.2.12 (Rom Patcher option available)](https://pklucid.github.io/Pokemon-Lucid/src/download.html)
+[Downdload v1.2.12](https://pklucid.github.io/Pokemon-Lucid/src/download.html)
 
 Welcome to Pokemon Lucid, a difficulty hack built on top of Emerald using the pokeemerald-expansion project.
 
