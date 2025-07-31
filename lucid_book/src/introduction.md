@@ -3,11 +3,7 @@
 
 Welcome to Pokemon Lucid, a difficulty hack built on top of Emerald using the pokeemerald-expansion project.
 
-## Useful links
-  * <a href="./src/download.html" target="_blank">Download</a>
-  * <a href="https://lucid-dex.vercel.app" target="_blank">Pokedex</a>
-  * <a href="https://pklucid.github.io/Pokemon-Lucid-Calc/" target="_blank">Showdown Calc</a>
-  * <a href="https://lucid-dex.vercel.app/src/roxanne_split.html" target="_blank">Trainer Sheet</a>
+![lucid img collection](./src/img_collection.png)
 
 ## Features
   * Pokemon from Gen1-9
@@ -41,3 +37,9 @@ The project has 2 modes, a **Normal Mode** and a **Casual Mode**. Both modes hav
 ## Randomizer Options
   * Scaled Randomizer: The quality of encounters scales with progress made
   * Normal Randomizer: Regular randomizer where anything can be encountered
+
+## Useful links
+  * <a href="./src/download.html" target="_blank">Download</a>
+  * <a href="https://lucid-dex.vercel.app" target="_blank">Pokedex</a>
+  * <a href="https://pklucid.github.io/Pokemon-Lucid-Calc/" target="_blank">Showdown Calc</a>
+  * <a href="https://lucid-dex.vercel.app/src/roxanne_split.html" target="_blank">Trainer Sheet</a>
