@@ -11,10 +11,10 @@
 * Bug fixes
   * Fixes Eject Button / Eject Pack interaction when stat is dropped on Eject Button
   * Fixes Mirror Coat / Counter inconsistencies (There was on issue where damage was stored incorrectly depending on position)
-  * Fixes Rage Fist incrementing counter twice on on drain moves
+  * Fixes Rage Fist incrementing counter twice on drain moves
   * Fixes Fly (semi invulnerable move) triggering life orb.
 
 * Casual Mode
   * Option to toggle battle types (regular / all double / single battle)
   * Poke Vial now revives fainted pokemon
-  * Fixes Tera Gimmick not being accessible outside of tera islands if you chosen as main Gimmick
+  * Fixes Tera Gimmick not being accessible outside of tera islands if you've chosen as main Gimmick
