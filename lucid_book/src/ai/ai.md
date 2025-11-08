@@ -377,10 +377,11 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * If partner didn't choose Round, no score increase
 
 * Absorb (+3)
+If it's the best dmg move the +1 still applies regardless
   * If target has Liquid Ooze, no score increase
   * If user is at max, no score increase
   * If faster and is able to survive hit with absorbed damage, score increase
-  * Otherwise, if same Number Of Hits as best damage move, score increase 50% of the time
+  * Otherwise, if same Number Of Hits as best damage move, score increase 50% of the time (1+3 if absorb move already best dmg move)
 
 * Salt Cure (+3)
   * If already salt cured, no score increase

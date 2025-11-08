@@ -1,5 +1,17 @@
 ## Pokemon Lucid Changelog
 
+### v1.2.13
+* Bug fixes
+  * Fixes Eject Button / Eject Pack interaction when stat is dropped on Eject Button
+  * Fixes Mirror Coat / Counter inconsistencies (There was on issue where damage was stored incorrectly depending on position)
+  * Fixes Rage Fist incrementing counter twice on drain moves
+  * Fixes Fly (semi invulnerable move) triggering life orb.
+
+* Casual Mode
+  * Option to toggle battle types (regular / all double / single battle)
+  * Poke Vial now revives fainted pokemon
+  * Fixes Tera Gimmick not being accessible outside of tera islands if you've chosen as main Gimmick
+
 ### v1.2.12
 * Bugfixes
   * Fixes Wandering Spirit activation preventing Eject Button if the copied ability was triggered

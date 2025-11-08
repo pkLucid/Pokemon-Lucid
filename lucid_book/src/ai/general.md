@@ -88,7 +88,6 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Crit moves that don't always crit
   * Trapping moves
   * Brick Break type effects if screens are on players side
-  * Drain effects if no Liquid Ooze
   * Fell Stinger
   * Pursuit
   * Knock Off regardless if user has an item or not
