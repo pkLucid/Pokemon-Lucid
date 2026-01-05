@@ -10,7 +10,7 @@ git-repository-url = "https://github.com/pkLucid/Pokemon-Lucid"
 edit-url-template = "https://github.com/pkLucid/Pokemon-Lucid/edit/master/lucid_book/{path}"
 site-url = "/pokemon-lucid/"
 no-section-label = true
-output.html.sidebar-header-nav = false
+sidebar-header-nav = false
 
 [preprocessor.fix_links]
 command = "python3 fix_links.py"
