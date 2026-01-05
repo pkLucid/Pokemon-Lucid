@@ -1716,7 +1716,7 @@ mons = {
 "Obstagoon",
 "Perrserker",
 "Cursola",
-"Sirfetchâ€™d",
+"Sirfetch’d",
 "Mr. Rime",
 "Runerigus",
 "Milcery",
