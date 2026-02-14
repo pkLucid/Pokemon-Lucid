@@ -162,8 +162,9 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Affected Moves: Flame Charge, Trailblaze, Rapid Spin, Aqua Step, Esper Wing, Aura Wheel
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
-  * If player resists move, no score increase unless the move + best damage move kill next turn
+  * If AI faints player in less hits, no score increase unless the move + best damage move kill next turn
   * If AI faints player in less hits, no score increase
+  * If player resists move, no score increase
   * In any other situation, +2
 
 * Speed drop moves
@@ -171,8 +172,9 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * If AI cant't drop stats (speed), no increase
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
-  * If player resists move, no score increase unless the move + best damage move kill next turn
+  * If AI faints player in less hits, no score increase unless the move + best damage move kill next turn
   * If AI faints player in less hits, no score increase
+  * If player resists move, no score increase
   * In any other situation, +2
 
 ### Damage moves with a 100% chance effect
