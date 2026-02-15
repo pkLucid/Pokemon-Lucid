@@ -44,8 +44,9 @@
   * Affected Moves: Flame Charge, Trailblaze, Rapid Spin, Aqua Step, Esper Wing, Aura Wheel
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
-  * If player resists move, no score increase unless the move + best damage move kill next turn
+  * If AI faints player in less hits, no score increase unless the move + best damage move kill next turn
   * If AI faints player in less hits, no score increase
+  * If player resists move, no score increase
   * In any other situation, +2
 
 * Speed drop moves
@@ -53,8 +54,9 @@
   * If AI cant't drop stats (speed), no increase
   * If AI faster, no increase
   * If AI is still slower the next turn, no score increase
-  * If player resists move, no score increase unless the move + best damage move kill next turn
+  * If AI faints player in less hits, no score increase unless the move + best damage move kill next turn
   * If AI faints player in less hits, no score increase
+  * If player resists move, no score increase
   * In any other situation, +2
 
 ### Damage moves with a 100% chance effect
@@ -89,6 +91,7 @@
 
 * Hazards
   * Affected moves: Stelth Rock, Toxic Spikes, Spikes, Sticky Web, Stone Axe, Ceaseless Edge
+  * If player can remove Hazards, no score increase (In Doubles the ai checks both players mons)
   * If AI faints player in less hits and player has a way to remove hazards, no score increase
   * If AI outdamages and player has a way to remove hazards, no score increase
   * 70/30 in favor of no hazards if player has a way to remove rocks
@@ -98,7 +101,7 @@
 
 * Screens (Light Screen, Reflect, Aurora Veil)
   * If no corresponding category on player, no score increase
-  * If player has a BrickBreak type move
+  * If player has a BrickBreak type move or Defog
     1. if AI faints player faster, no score increase
     2. Otherwise 30% to be increased by +3
   * In any other situation, +3
@@ -118,7 +121,7 @@
   * If AI is faster and the best damage move is physical, +3
   * Otherwise +3, 100% if's first turn and 50/50 in any other situation
 
-* Paralysis (Nuzzle, Thunder Wave)
+* Paralysis (Thunder Wave)
   * If player holds a curing berry, no score increase
   * If AI is slower, +3
   * If Player needs 3 or more hits to faint AI, +3
@@ -179,7 +182,7 @@
 * Recovery moves (+3)
   * Affected moves: Recover, Milk Drink, Moonlight, Morning Sun, Shore Up, Slack Off, Soft-Boiled, Synthesis, Roost, Rest
   * If AI heal blocked, no score increase
-  * If at 90% or more hp, no score increase unless slower and target is damaged by residual damage
+  * If at 90% or more hp, no score increase
   * If player faints ai from full, no score increase
   * If player does equal or more damage then current hp and heal amount, no score increase
   * Randomly 10% of the time, no score increase
@@ -199,7 +202,7 @@
       2. Score increase if 50% or less health
       4. Otherwise check rest outside of the branch
   * If ai has rest, no score increase (remember (applies for everything in the doc) if a point above is true, then nothing from this point is checked anymore)
-  * If player is damaged by residual damage, score increase
+  * If player is damaged by residual damage and at 80% or lower hp, score increase
   * otherwise no score increase
 
 * Trap (+2)

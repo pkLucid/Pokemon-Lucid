@@ -209,6 +209,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 
 * Hazards
   * Affected moves: Stelth Rock, Toxic Spikes, Spikes, Sticky Web, Stone Axe, Ceaseless Edge
+  * If player can remove Hazards, no score increase (In Doubles the ai checks both players mons)
   * If AI faints player in less hits and player has a way to remove hazards, no score increase
   * If AI outdamages and player has a way to remove hazards, no score increase
   * 70/30 in favor of no hazards if player has a way to remove rocks
@@ -218,7 +219,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
 
 * Screens (Light Screen, Reflect, Aurora Veil)
   * If no corresponding category on player, no score increase
-  * If player has a BrickBreak type move
+  * If player has a BrickBreak type move or Defog
     1. if AI faints player faster, no score increase
     2. Otherwise 30% to be increased by +3
   * In any other situation, +3
@@ -238,7 +239,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * If AI is faster and the best damage move is physical, +3
   * Otherwise +3, 100% if's first turn and 50/50 in any other situation
 
-* Paralysis (Nuzzle, Thunder Wave)
+* Paralysis (Thunder Wave)
   * If player holds a curing berry, no score increase
   * If AI is slower, +3
   * If Player needs 3 or more hits to faint AI, +3
