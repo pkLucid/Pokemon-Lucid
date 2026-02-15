@@ -205,9 +205,9 @@
   * If player is damaged by residual damage and at 80% or lower hp, score increase
   * otherwise no score increase
 
-* Trap (+2)
+* Non Damage Traps (+2)
+  * Affected Moves: Mean Lock, Fairy Lock
   * If player needs 4 or more hits to faint ai trapping moves get an increase
-  * Trapping moves that don't do damage are not included
 
 * Attract (+2)
   * If AI faster and faints player in 2 or less hit, no increase

@@ -111,7 +111,7 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * Brick Break type effects if screens are on players side
   * Fell Stinger
   * Pursuit
-  * Knock Off regardless if user has an item or not
+  * Knock Off regardless if user has an item or not (-10 if user has sticky hold, no matter how much damage it does)
   * Switch target out moves (e.g. Dragon Tail)
   * Damage moves that set up Hazards (Stone Axe / Ceaseless Edge)
   * Guaranteed speed drop moves (e.g. Icy Wind)
@@ -323,9 +323,9 @@ The damage the AI sees is always using the 8th roll of the calculator, it will a
   * If player is damaged by residual damage and at 80% or lower hp, score increase
   * otherwise no score increase
 
-* Trap (+2)
+* Non Damage Traps (+2)
+  * Affected Moves: Mean Lock, Fairy Lock
   * If player needs 4 or more hits to faint ai trapping moves get an increase
-  * Trapping moves that don't do damage are not included
 
 * Attract (+2)
   * If AI faster and faints player in 2 or less hit, no increase
@@ -394,3 +394,6 @@ If it's the best dmg move the +1 still applies regardless
 
 * Trick Room (+10)
   * If no trick room is set up, score increase
+
+* Sticky Hold (if player has sticky hold)
+  * Trick, Knock Off and Corrosive Gas get -10 decrease

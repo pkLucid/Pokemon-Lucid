@@ -5,7 +5,7 @@
   * Brick Break type effects if screens are on players side
   * Fell Stinger
   * Pursuit
-  * Knock Off regardless if user has an item or not
+  * Knock Off regardless if user has an item or not (-10 if user has sticky hold, no matter how much damage it does)
   * Switch target out moves (e.g. Dragon Tail)
   * Damage moves that set up Hazards
   * Guaranteed speed drop moves (e.g. Icy Wind)
